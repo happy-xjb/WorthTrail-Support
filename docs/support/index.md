@@ -1,12 +1,12 @@
 ---
 layout: page
-title: PortfolioHub Support
+title: WorthTrail Support
 permalink: /support/
 ---
 
-# PortfolioHub Support
+# WorthTrail Support
 
-For help, bug reports, privacy questions, or feature requests, open an issue in the [PortfolioHub support tracker](https://github.com/happy-xjb/PortfolioHub-Support/issues).
+For help, bug reports, privacy questions, or feature requests, open an issue in the [WorthTrail support tracker](https://github.com/happy-xjb/WorthTrail-Support/issues).
 
 Please do not include account numbers, exact portfolio values, passwords, API keys, or other sensitive financial information.
 
@@ -16,7 +16,7 @@ Please do not include account numbers, exact portfolio values, passwords, API ke
 - Custom assets can be used when a public quote is unavailable.
 - Create snapshots from the Assets tab to populate history and the returns calendar.
 - Restore a Pro purchase from the Pro screen in Settings.
-- PortfolioHub has no user account. Local data is removed when the app is deleted; iCloud-synced data can be managed in iCloud settings.
+- WorthTrail has no user account. Local data is removed when the app is deleted; iCloud-synced data can be managed in iCloud settings.
 
 ## 多语言支持
 
