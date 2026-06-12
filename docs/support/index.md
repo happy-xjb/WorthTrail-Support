@@ -14,7 +14,7 @@ Please do not include account numbers, exact portfolio values, passwords, API ke
 
 - Market prices depend on the data sources enabled under **Settings > Data Sources & Status**. The status check uses the same quote endpoint as live refreshes. A provider such as Yahoo Finance may be unavailable or restricted on some networks.
 - Custom assets can be used when a public quote is unavailable.
-- Create snapshots from the Assets tab to populate history and the Change Calendar.
+- Create snapshots from the Assets tab to populate history and the P&L Calendar.
 - Edit an asset to record a position increase or decrease, with an optional execution price and custom time. These records keep historical quantities accurate and are included in encrypted local backups and the latest private iCloud backup.
 - Tap the eye beside Net Worth to hide amounts in the app.
 - Add WorthTrail from the iOS Home Screen widget gallery. The privacy widget shows only percentage change and a trend line.
