@@ -12,11 +12,23 @@ Please do not include account numbers, exact portfolio values, passwords, API ke
 
 ## Quick Help
 
-- Market prices depend on the data sources enabled in Settings.
+- Market prices depend on the data sources enabled under **Settings > Data Sources & Status**. The status check uses the same quote endpoint as live refreshes. A provider such as Yahoo Finance may be unavailable or restricted on some networks.
 - Custom assets can be used when a public quote is unavailable.
-- Create snapshots from the Assets tab to populate history and the returns calendar.
+- Create snapshots from the Assets tab to populate history and the asset changes calendar.
+- Use the Transactions tab to record buys, sells, deposits, withdrawals, dividends, fees, borrowing, and repayments. Time-weighted return (TWR) removes recorded external cash flows from investment performance.
+- Tap the eye beside Net Worth to hide amounts in the app.
+- Add WorthTrail from the iOS Home Screen widget gallery. The privacy widget shows only percentage change and a trend line.
+- Password-protected local backups can be exported and restored from Settings.
 - Restore a Pro purchase from the Pro screen in Settings.
 - WorthTrail has no user account. Local data is removed when the app is deleted; iCloud-synced data can be managed in iCloud settings.
+
+## 支持与反馈
+
+- 行情数据源与检测状态位于“设置 > 数据源与状态”。检测会调用真实取价接口；Yahoo Finance 等服务可能在部分网络中不可访问。
+- 在“交易”页记录买卖、入金出金、分红费用和借款还款，TWR 会排除已记录的外部资金流。
+- 点击首页“净资产”右侧的小眼睛可隐藏金额。
+- 在 iOS 主屏幕的小组件库中搜索 WorthTrail；隐私小组件只显示百分比与趋势曲线。
+- 提交问题时请说明 App 版本、设备系统、使用的数据源和复现步骤，但不要附上真实金额、账号、密码或 API Key。
 
 ## 多语言支持
 
