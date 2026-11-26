@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorthTrail FAQ &amp; Product Facts — No-Bank-Login Net Worth Tracker</title>
+  <meta name="description" content="Answers to common questions about WorthTrail: privacy without bank login, multi-currency assets, pricing and lifetime purchase, dividends, FIRE, data sources, and Mac MCP.">
+  <link rel="canonical" href="https://worthtrail.app/faq/">
+  <link rel="alternate" hreflang="en" href="https://worthtrail.app/faq/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/faq/">
+  <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/faq/">
+  <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Does WorthTrail require connecting a bank or brokerage account?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. WorthTrail never asks for bank or brokerage credentials and does not integrate with Plaid or third-party account aggregators. You record your holdings and balances directly, while public market prices and exchange rates refresh automatically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where is my portfolio data stored?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All data is stored locally on your device using Apple SwiftData. If you turn on iCloud sync, your data syncs exclusively through your personal Apple CloudKit private database. WorthTrail does not operate a server that stores or reads your portfolio."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does WorthTrail pricing work? Is there a one-time lifetime purchase?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Every feature in WorthTrail is free for up to 10 items (assets, cash accounts, and liabilities combined). WorthTrail Pro unlocks unlimited assets only and is available as $0.99/month, $5.99/year, or a $12.99 one-time Lifetime purchase in the US (with Apple-equalized pricing across 175 storefronts)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What asset types and currencies does WorthTrail support?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "WorthTrail tracks stocks, ETFs, mutual funds, cryptocurrencies, options, fixed-term deposits (CDs/GICs/term deposits), bank wealth products, cash, custom assets such as property or gold, and liabilities such as mortgages and loans. Multi-currency holdings convert automatically into your base currency."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does WorthTrail track dividends, FIRE progress, and rebalancing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. WorthTrail includes a dividend calendar with tax-adjusted passive income, dividend growth and concentration views, a FIRE planner (target, passive income coverage, projected date, and plan-to-age sustainability), recurring investment (DCA) plans, stock split adjustments, and a target allocation rebalancing calculator."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the Mac MCP server work with AI agents?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "WorthTrail on Mac includes an optional local Streamable HTTP MCP server at http://127.0.0.1:47821/mcp protected by a Keychain Bearer token. Compatible clients like Claude Code, Claude Desktop, and Codex can query net worth, holdings, performance, dividends, and FIRE metrics. Write tools are off by default and require a two-step preview and confirmation code."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which platforms are supported?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "WorthTrail is available for iPhone, iPad, and Mac via the Apple App Store. There is currently no Android or web app."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/">
+        <img src="/assets/icon-192.png" alt="WorthTrail icon" width="28" height="28">
+        <span>WorthTrail</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="/">Overview</a>
+        <a href="/faq/" aria-current="page">FAQ</a>
+        <a href="/vs/">Compare</a>
+        <a href="/mcp/">Mac MCP</a>
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy</a>
+        <a class="lang-switch" href="/zh/faq/">简体中文</a>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary>Menu</summary>
+        <div class="mobile-menu-panel">
+          <a href="/">Overview</a>
+          <a href="/faq/" aria-current="page">FAQ &amp; Facts</a>
+          <a href="/vs/">Compare Alternatives</a>
+          <a href="/mcp/">Mac MCP Server</a>
+          <a href="/support/">Support</a>
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="/zh/faq/">切换至简体中文</a>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Download on the App Store</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-compact">
+      <p class="eyebrow">Facts &amp; Answers</p>
+      <h1>Frequently Asked Questions</h1>
+      <p class="lead">Straightforward answers about WorthTrail’s privacy model, asset coverage, pricing, and Mac MCP server.</p>
+    </div>
+  </div>
+
+  <main class="container-narrow">
+    <section class="section-compact">
+      <div class="faq-item">
+        <h3>Does WorthTrail require connecting a bank or brokerage account?</h3>
+        <p><strong>No.</strong> WorthTrail is intentionally built without bank login or Plaid. You record your positions, cash, deposits, and liabilities directly, while public market quotes and foreign exchange rates update automatically.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Where is my portfolio data stored?</h3>
+        <p>Your data is stored locally on your device using Apple SwiftData. Optional multi-device sync uses your personal Apple iCloud (CloudKit) private database. The developer does not run a server that collects or sees your portfolio, and the app contains no ads or third-party analytics SDKs.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How does pricing work? Is there a one-time purchase?</h3>
+        <p><strong>Yes.</strong> The free tier includes <strong>all features</strong> for up to <strong>10 items</strong> (assets, cash accounts, and liabilities combined). WorthTrail Pro removes the 10-item cap only: US$0.99/month, US$5.99/year, or <strong>US$12.99 one-time Lifetime</strong> (equalized across 175 App Store storefronts, e.g., ¥8/month, ¥38/year, ¥88 Lifetime in mainland China).</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What asset types and markets are supported?</h3>
+        <p>WorthTrail tracks global stocks (US, HK, CN A-shares, TW, and international exchanges), ETFs, mutual funds, cryptocurrencies, options, fixed-term deposits (CDs, GICs, term deposits), supported bank wealth products, cash, custom manually valued assets (real estate, gold, private equity, bonds), and liabilities (mortgages, loans, credit cards). All currencies convert into your chosen base currency.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Which market data providers does WorthTrail use?</h3>
+        <p>You can enable, disable, and reorder data sources in <strong>Settings &gt; Data Sources &amp; Status</strong>, including Yahoo Finance, Webull, Binance, OKX, Sina Finance, TWSE, ExchangeRate-API, and supported bank wealth product feeds. Only the necessary symbol and currency queries are sent to the providers you enable.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Does WorthTrail support dividends, FIRE, and rebalancing?</h3>
+        <p><strong>Yes.</strong> WorthTrail includes a dividend calendar with ex-date booking and tax-adjusted passive income, dividend growth and concentration analytics, a customizable FIRE dashboard (target, passive income coverage, projected date, and plan-to-age sustainability), recurring investment (DCA) plans, stock split adjustments, and a target allocation rebalancing calculator.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How does the Mac local MCP server work?</h3>
+        <p>On Mac, WorthTrail includes an optional local Streamable HTTP MCP server (<code>http://127.0.0.1:47821/mcp</code>) secured with a Keychain Bearer token. You can connect Claude Code, Claude Desktop, or Codex to query net worth, holdings, returns, dividends, and FIRE metrics. Write actions are disabled by default and always require a two-step preview and confirmation code. See the <a href="/mcp/">Mac MCP guide</a>.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I export my data or back it up locally?</h3>
+        <p><strong>Yes.</strong> You can export password-encrypted local backups (and restore them anytime), as well as Excel (<code>.xlsx</code>) workbooks and PDF reports for archiving or external analysis.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Which platforms are supported?</h3>
+        <p>WorthTrail is available on iPhone, iPad, and Mac via the <a href="https://apps.apple.com/app/id6777620163" rel="noopener">Apple App Store</a>. It is localized in 45+ languages. Android and web versions are not currently available.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="/">Overview</a>
+        <a href="/vs/">Compare</a>
+        <a href="/mcp/">Mac MCP</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/support/">Support</a>
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </div>
+      <p class="disclaimer">WorthTrail is for personal asset recording and analysis only and does not provide investment advice.</p>
+    </div>
+  </footer>
+</body>
+</html>

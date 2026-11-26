@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorthTrail 常见问题与产品说明 — 无需绑定银行的净资产记录工具</title>
+  <meta name="description" content="关于 WorthTrail 的常见问题：无需绑定银行卡如何记录资产、本地与 iCloud 隐私安全、免费版与 ¥88 永久买断定价、支持哪些股票基金和定存、股息与 FIRE 计算以及 Mac MCP 服务。">
+  <link rel="canonical" href="https://worthtrail.app/zh/faq/">
+  <link rel="alternate" hreflang="en" href="https://worthtrail.app/faq/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/faq/">
+  <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/faq/">
+  <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "inLanguage": "zh-Hans",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "WorthTrail 需要绑定银行卡或券商账号吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "不需要。WorthTrail 坚持零银行登录与零第三方聚合（不接 Plaid），用户直接记录持仓、存款与负债，公开市场行情和汇率会自动刷新。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "我的资产数据存在哪里？开发者能看到吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "所有数据默认通过 Apple SwiftData 存储在你的本机。开启 iCloud 同步后，数据仅保存在你个人的 Apple CloudKit 私有数据库中。开发者不运营接收用户资产数据的服务器，App 内也无广告和第三方分析 SDK。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "WorthTrail 怎么收费？支持买断吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "支持永久买断。免费版即可使用全部功能，上限为 10 项（资产、现金与负债合计）。WorthTrail Pro 仅解除数量限制，中国大陆参考价为 ¥8/月、¥38/年、¥88 永久买断（美区 $0.99/月、$5.99/年、$12.99 永久买断）。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "支持哪些资产类型、市场和币种？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "支持美股、港股、A股、台股及全球股票、ETF、基金、加密货币、期权、定期存款与大额存单、部分银行理财产品、现金、房产/黄金/债券等自定义资产，以及房贷、消费贷和信用卡等负债，支持多币种自动换算为主币种。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "支持股息分红、定投、再平衡和 FIRE 测算吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "全部支持。包含股息日历与税后被动收入统计、定投计划、目标配置与再平衡测算、股票拆合自动调整，以及可自定义年支出、提取率与规划年龄的 FIRE 进度与资产可持续年限估算。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mac 版的本地 MCP 服务有什么用？安全吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mac 版内置本地 Streamable HTTP MCP 服务（http://127.0.0.1:47821/mcp），可接入 Claude Code、Claude Desktop、Codex 等 AI 助手查询净资产、持仓、收益、分红与 FIRE 进度。该功能默认关闭，通过 Keychain 中的 Bearer Token 鉴权，读写权限分离，写入需经过预览与确认码两步校验。"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/zh/">
+        <img src="/assets/icon-192.png" alt="WorthTrail 图标" width="28" height="28">
+        <span>WorthTrail</span>
+      </a>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="/zh/">概览</a>
+        <a href="/zh/faq/" aria-current="page">常见问题</a>
+        <a href="/vs/">对比评测</a>
+        <a href="/mcp/">Mac MCP</a>
+        <a href="/support/">支持</a>
+        <a href="/privacy/">隐私政策</a>
+        <a class="lang-switch" href="/faq/">English</a>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary>菜单</summary>
+        <div class="mobile-menu-panel">
+          <a href="/zh/">概览</a>
+          <a href="/zh/faq/" aria-current="page">常见问题</a>
+          <a href="/vs/">产品对比</a>
+          <a href="/mcp/">Mac MCP 服务</a>
+          <a href="/support/">支持与反馈</a>
+          <a href="/privacy/">隐私政策</a>
+          <a href="/faq/">Switch to English</a>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">前往 App Store 下载</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-compact">
+      <p class="eyebrow">产品说明与答疑</p>
+      <h1>常见问题（FAQ）</h1>
+      <p class="lead">关于隐私架构、资产覆盖、收费方式、股息与 FIRE 计算以及 Mac MCP 服务的直接解答。</p>
+    </div>
+  </div>
+
+  <main class="container-narrow">
+    <section class="section-compact">
+      <div class="faq-item">
+        <h3>WorthTrail 需要绑定银行卡或券商账号吗？</h3>
+        <p><strong>不需要。</strong>WorthTrail 专门为不想授权银行或券商登录凭证的用户设计。你可以直接记录持仓、现金、定存和负债，公开市场的股价、币价和汇率会自动更新。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>我的资产数据存在哪里？开发者能看到吗？</h3>
+        <p>所有数据默认使用 Apple SwiftData 保存在你的设备本地。开启 iCloud 同步后，同步数据仅存在你个人的 Apple CloudKit 私有数据库中。开发者不运营接收你资产数据的服务器，App 内没有任何广告或第三方分析 SDK。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>怎么收费？支持一次性买断吗？</h3>
+        <p><strong>支持买断。</strong>免费版开放<strong>全部功能</strong>，可记录最多 <strong>10 项</strong>（资产、现金与负债合计）。Pro 仅解除 10 项数量限制：中国大陆参考价为 ¥8/月、¥38/年、<strong>¥88 永久买断</strong>（美区 $0.99/月、$5.99/年、$12.99 永久买断），具体以 App Store 实际显示为准。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>支持哪些资产类型、市场和币种？</h3>
+        <p>支持美股、港股、A股、台股及全球股票、ETF、基金、加密货币、期权、定期存款与大额存单、支持的部分银行理财产品、现金、房产/黄金/债券等自定义资产，以及房贷、消费贷、信用卡等负债。所有外币资产会自动按汇率折算为你设定的主币种。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>行情数据来自哪里？</h3>
+        <p>你可以在 App 的<strong>设置 &gt; 数据源与状态</strong>中自由开启、关闭和排序数据源，包括 Yahoo Finance、新浪财经、微牛、Binance、OKX、TWSE、ExchangeRate-API 及支持的部分银行理财数据源。查询行情时仅会向你启用的数据源发送必要的代码与币种请求。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>支持股息分红、定投、再平衡和 FIRE 测算吗？</h3>
+        <p><strong>全部支持。</strong>包括股息分红日历、税后被动收入与集中度分析、定投计划、目标配置与再平衡测算、股票拆合自动调整，以及可自定义年支出、提取率和规划年龄的 FIRE 进度与资产够用多久估算。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Mac 版的本地 MCP 服务有什么用？安全吗？</h3>
+        <p>Mac 版内置本地 Streamable HTTP MCP 服务（<code>http://127.0.0.1:47821/mcp</code>），支持 Claude Code、Claude Desktop、Codex 等客户端用自然语言查询净资产、持仓、阶段收益、分红与 FIRE 进度。该服务默认关闭，采用 Keychain 存储的 Bearer Token 鉴权，读写权限分离，任何写入都必须先返回预览与确认码、经你同意后才会执行。详情见 <a href="/mcp/">Mac MCP 技术指南</a>。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>支持导出和备份吗？</h3>
+        <p><strong>支持。</strong>你可以导出带密码加密的本地备份文件并随时恢复，也可以导出 Excel（<code>.xlsx</code>）工作簿和 PDF 报告，方便归档或进一步分析。</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>支持哪些设备和系统？</h3>
+        <p>支持 iPhone、iPad 与 Mac，可在 <a href="https://apps.apple.com/app/id6777620163" rel="noopener">Apple App Store</a> 下载，内置 45+ 种语言。目前暂不提供 Android 或网页版。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="/zh/">概览</a>
+        <a href="/vs/">产品对比</a>
+        <a href="/mcp/">Mac MCP</a>
+        <a href="/privacy/">隐私政策</a>
+        <a href="/support/">支持与反馈</a>
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </div>
+      <p class="disclaimer">WorthTrail 仅用于个人资产记录与分析，不提供投资建议。</p>
+    </div>
+  </footer>
+</body>
+</html>

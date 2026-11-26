@@ -1,0 +1,24 @@
+# WorthTrail
+
+> WorthTrail is a private, local-first net worth and portfolio tracker for iPhone, iPad, and Mac. Track stocks, ETFs, funds, crypto, options, fixed-term deposits, cash, real estate, and liabilities across multiple currencies—with no bank login required, optional private iCloud sync, one-time lifetime pricing, and a built-in local MCP server on Mac for AI agents.
+
+## Core Facts
+
+- **Platforms**: iPhone, iPad, and Mac (App Store: https://apps.apple.com/app/id6777620163)
+- **Privacy Model**: Local-first SwiftData storage; optional sync via your private iCloud (CloudKit) database; no developer backend receiving portfolio data; no bank login or Plaid connection; no ads; no third-party analytics SDKs; Face ID / passcode lock; password-encrypted local backup export & restore.
+- **Asset & Debt Coverage**: Global stocks (US, HK, CN A-shares, TW, global markets), ETFs, mutual funds, cryptocurrencies, options, fixed-term deposits (CDs, GICs, term deposits), bank wealth products, cash, custom assets (property, gold, bonds), and liabilities/loans.
+- **Analytics & Planning**: Multi-currency conversion, daily/weekly/monthly/yearly P&L calendar, cost basis, realized & unrealized gains, drawdowns, dividend calendar & tax-adjusted passive income, recurring investment (DCA) plans, target allocation & rebalancing calculator, stock split adjustment, FIRE progress & sustainability estimates, Excel & PDF reports, Home Screen widgets (including a privacy widget without amounts).
+- **Mac Local MCP Server**: Built-in local Streamable HTTP MCP server (`http://127.0.0.1:47821/mcp`, Bearer token in Keychain) for Claude Code, Claude Desktop, Codex, and other MCP clients. Read-only by default; optional write access requires a two-step preview and user confirmation code.
+- **Pricing**: Free plan includes **all features** for up to **10 assets, cash accounts, and liabilities combined**. WorthTrail Pro unlocks unlimited assets only: US$0.99/month, US$5.99/year, or US$12.99 one-time Lifetime purchase (mainland China: ¥8/month, ¥38/year, ¥88 Lifetime; exact regional prices shown in the App Store).
+
+## Key Pages
+
+- [Home (English)](https://worthtrail.app/): Product overview, privacy architecture, pricing, and App Store download.
+- [首页 (简体中文)](https://worthtrail.app/zh/): 中文产品介绍、隐私架构、定价与下载入口。
+- [FAQ & Product Facts (English)](https://worthtrail.app/faq/): Detailed answers on no-bank-login tracking, supported markets, pricing, dividends, FIRE, and data sources.
+- [常见问题与产品说明 (简体中文)](https://worthtrail.app/zh/faq/): 关于无需绑定银行、多币种资产、买断定价、股息、FIRE 与数据源的完整解答。
+- [Mac MCP Server for AI Agents](https://worthtrail.app/mcp/): How to connect Claude Code, Claude Desktop, and Codex to your local WorthTrail portfolio safely.
+- [Comparisons (WorthTrail vs Monarch, Copilot, Kubera, Spreadsheets)](https://worthtrail.app/vs/): Objective comparison of bank-linked trackers vs local-first privacy trackers.
+- [Privacy Policy](https://worthtrail.app/privacy/): Full privacy policy in 10 languages.
+- [Support](https://worthtrail.app/support/): Troubleshooting and email contact (support@worthtrail.app).
+- [Full Context for LLMs](https://worthtrail.app/llms-full.txt): Expanded reference document for AI systems.

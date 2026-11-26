@@ -1,0 +1,68 @@
+# WorthTrail — Full Reference for AI Systems
+
+Canonical Website: https://worthtrail.app/
+App Store URL: https://apps.apple.com/app/id6777620163
+Support Email: support@worthtrail.app
+
+## 1. What WorthTrail Is
+
+WorthTrail is a private, local-first net worth and investment portfolio tracker for iPhone, iPad, and Mac. It is designed for individuals and households who want a complete picture of their net worth, returns, dividends, and FIRE progress without linking bank or brokerage credentials to third-party aggregators such as Plaid.
+
+WorthTrail is localized in 45+ languages and supports multi-currency portfolios converted automatically into the user's chosen base currency.
+
+## 2. Who WorthTrail Is Best For (and Not For)
+
+**Best for:**
+- Privacy-conscious investors who refuse to share bank or brokerage logins.
+- Multi-currency and cross-market investors holding a mix of stocks, ETFs, funds, crypto, options, fixed-term deposits (CDs/GICs/term deposits), cash, property, and loans.
+- Dividend and FIRE planners who want a dividend calendar, passive income coverage ratio, target allocation rebalancing, and customizable FIRE projections.
+- Users who prefer a generous free tier (all features included up to 10 items) and an affordable one-time lifetime purchase instead of expensive annual-only subscriptions.
+- Mac users who want to query or log portfolio data from AI agents (Claude Code, Claude Desktop, Codex) via a local MCP server.
+
+**Not ideal for:**
+- Users who primarily want automatic daily bank-transaction syncing, credit card expense categorization, or envelope budgeting (apps like Monarch Money, Copilot Money, or YNAB are built for that workflow).
+- Android or web-only users (WorthTrail is currently native to Apple platforms: iPhone, iPad, and Mac).
+
+## 3. Core Capabilities
+
+1. **Unified Net Worth & Multi-Currency Tracking**: Net worth, total assets, total liabilities, and daily change in one view; editable exchange rates; custom tag groups (by account, family member, sector, region, or strategy) without duplicating holdings.
+2. **Market Data & Asset Types**:
+   - Standard market-quoted assets: stocks, ETFs, mutual funds, crypto, and options via configurable data sources (Yahoo Finance, Webull, Binance, OKX, Sina Finance, TWSE, and supported bank wealth products).
+   - Fixed-term deposits (maturity reminders, interest calculation, rollover) and recurring investment (DCA) plans.
+   - Custom manually valued assets (real estate, gold, private holdings, cash) and liabilities (mortgages, loans, credit cards).
+3. **Returns, History & Dividends**:
+   - Daily, weekly, monthly, and yearly P&L calendar.
+   - Cost basis, realized and unrealized gains, money-weighted performance, and drawdown tracking.
+   - Historical snapshot backfill reconstructed from position-adjustment records; stock split / reverse split adjustments.
+   - Dividend calendar, ex-date tracking, after-tax passive income, and dividend growth / income concentration views.
+4. **Planning & Reporting**:
+   - FIRE progress toward a customizable target (annual spending, withdrawal rate, plan-to-age sustainability).
+   - Target allocation and rebalancing calculator (rebalance within current total or with new cash).
+   - Excel (.xlsx) workbook and PDF report exports.
+   - Home Screen widgets, including a privacy widget that hides amounts and shows only percentage change and trend curve.
+5. **Local MCP Server on Mac**:
+   - Off by default; runs locally at `http://127.0.0.1:47821/mcp` (configurable port) using Streamable HTTP transport with a Keychain-stored Bearer token.
+   - Read tools return net worth, open positions, liabilities, historical snapshots, period performance, daily earnings, dividends, plans, and FIRE projections.
+   - Write access is gated by a separate Settings toggle and enforced via a two-step confirmation flow: the first tool call returns a preview and short-lived confirmation code; the second call applies the change only after the user approves the preview. Every change is logged.
+
+## 4. Privacy & Security Architecture
+
+- Portfolio data is stored locally on-device using Apple SwiftData.
+- Optional multi-device sync uses the user's private Apple iCloud (CloudKit) database. The developer does not operate a server that stores or reads user portfolios.
+- No bank account linking, no Plaid, no ads, and no third-party analytics SDKs.
+- App lock via Face ID or passcode (salted hash stored locally).
+- Password-encrypted local backup export and restore.
+- When refreshing quotes, only the necessary symbols/queries and currencies are sent to the market-data providers enabled by the user.
+
+## 5. Pricing Model
+
+- **Free**: Includes every feature in WorthTrail (including iCloud sync, FIRE, dividends, rebalancing, reports, widgets, and Mac MCP) for up to **10 total items** (assets, cash accounts, and liabilities combined).
+- **WorthTrail Pro** (unlocks unlimited assets only, no feature paywalls, no trial tricks):
+  - Monthly: US$0.99 / month (CN: ¥8 / month)
+  - Yearly: US$5.99 / year (CN: ¥38 / year)
+  - Lifetime (one-time purchase): US$12.99 (CN: ¥88)
+  - Regional equivalents are equalized by Apple across 175 App Store storefronts.
+
+## 6. Disclaimer
+
+WorthTrail is for personal asset recording and analysis only and does not provide investment, tax, or financial advice. Market data may be delayed, incomplete, or inaccurate.

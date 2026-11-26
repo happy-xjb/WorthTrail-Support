@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorthTrail Mac MCP Server — Connect Claude &amp; AI Agents to Your Local Portfolio</title>
+  <meta name="description" content="WorthTrail on Mac includes a local Streamable HTTP MCP server for Claude Code, Claude Desktop, and Codex. Query net worth, holdings, returns, dividends, and FIRE locally with two-step write confirmation.">
+  <link rel="canonical" href="https://worthtrail.app/mcp/">
+  <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "WorthTrail Mac Local MCP Server for AI Agents",
+    "description": "Connect Claude Code, Claude Desktop, Codex, or other Streamable HTTP MCP clients to your local WorthTrail portfolio on Mac without cloud servers or bank logins.",
+    "url": "https://worthtrail.app/mcp/",
+    "author": {
+      "@type": "Organization",
+      "name": "WorthTrail",
+      "url": "https://worthtrail.app/"
+    },
+    "about": {
+      "@type": "SoftwareApplication",
+      "name": "WorthTrail",
+      "operatingSystem": "macOS"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/">
+        <img src="/assets/icon-192.png" alt="WorthTrail icon" width="28" height="28">
+        <span>WorthTrail</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="/">Overview</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/vs/">Compare</a>
+        <a href="/mcp/" aria-current="page">Mac MCP</a>
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy</a>
+        <a class="lang-switch" href="/zh/">简体中文</a>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary>Menu</summary>
+        <div class="mobile-menu-panel">
+          <a href="/">Overview</a>
+          <a href="/faq/">FAQ &amp; Facts</a>
+          <a href="/vs/">Compare Alternatives</a>
+          <a href="/mcp/" aria-current="page">Mac MCP Server</a>
+          <a href="/support/">Support</a>
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="/zh/">切换至简体中文</a>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Download on the App Store</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Model Context Protocol · macOS · Localhost Only</p>
+        <h1>Ask AI about your net worth—without uploading it to a cloud server.</h1>
+        <p class="lead">
+          <strong>WorthTrail for Mac</strong> includes a built-in local <strong>MCP (Model Context Protocol)</strong> server over Streamable HTTP.
+          Connect <strong>Claude Code</strong>, <strong>Claude Desktop</strong>, <strong>Codex</strong>, or any compatible MCP client to query your portfolio and optionally log changes with explicit preview approval.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Get WorthTrail on Mac</a>
+          <a class="btn btn-secondary" href="/faq/">Read FAQ</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="device-frame" style="max-width: 268px;">
+          <img src="/assets/screens/en-ai.jpg" alt="WorthTrail Agent Access MCP settings screen" loading="eager">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container-narrow">
+    <section class="section-compact">
+      <h2>Connection Specifications</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Transport</strong></td>
+              <td>Streamable HTTP (local loopback only)</td>
+            </tr>
+            <tr>
+              <td><strong>Default Endpoint</strong></td>
+              <td><code>http://127.0.0.1:47821/mcp</code> (port configurable in Settings, 1024–65535)</td>
+            </tr>
+            <tr>
+              <td><strong>Authentication</strong></td>
+              <td><code>Authorization: Bearer &lt;token&gt;</code> (stored in macOS Keychain; resettable anytime)</td>
+            </tr>
+            <tr>
+              <td><strong>Availability</strong></td>
+              <td>Runs only while WorthTrail is open on Mac and Agent Access is switched on</td>
+            </tr>
+            <tr>
+              <td><strong>Pricing</strong></td>
+              <td>Included in the free plan (no paywall on MCP; same 10-item free limit applies to adding new assets)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>How to Connect</h2>
+      <p>Open <strong>WorthTrail on Mac &rarr; Settings &rarr; Agent Access</strong>, turn on local agent access, and copy your personal setup prompt or Bearer token.</p>
+
+      <h3>Claude Code</h3>
+      <pre><code>claude mcp add --transport http --scope user worthtrail http://127.0.0.1:47821/mcp \
+  --header "Authorization: Bearer YOUR_TOKEN"</code></pre>
+
+      <h3>Claude Desktop (<code>~/.claude.json</code>)</h3>
+      <pre><code>{
+  "mcpServers": {
+    "worthtrail": {
+      "type": "http",
+      "url": "http://127.0.0.1:47821/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN"
+      }
+    }
+  }
+}</code></pre>
+
+      <h3>Codex (<code>~/.codex/config.toml</code>)</h3>
+      <pre><code>[mcp_servers.worthtrail]
+url = "http://127.0.0.1:47821/mcp"
+http_headers = { "Authorization" = "Bearer YOUR_TOKEN" }</code></pre>
+    </section>
+
+    <section>
+      <h2>What AI Agents Can Query &amp; Do</h2>
+      <div class="grid-2">
+        <div class="fact-block">
+          <h3>Read Tools (Enabled when Agent Access is on)</h3>
+          <ul>
+            <li>Current net worth, total assets, liabilities, cost basis, and daily change (<code>get_net_worth</code>)</li>
+            <li>Open positions by category or currency, including stocks, ETFs, crypto, options, deposits, and custom assets (<code>list_positions</code>, <code>list_liabilities</code>)</li>
+            <li>Historical snapshots and daily holding breakdowns (<code>get_snapshots</code>, <code>get_snapshot_detail</code>)</li>
+            <li>Period investment performance, money-weighted return curves, and daily earnings by holding (<code>get_performance</code>, <code>get_daily_earnings</code>)</li>
+            <li>Dividends, recurring plans, transaction history, and FIRE projections</li>
+          </ul>
+        </div>
+        <div class="fact-block">
+          <h3>Write Tools (Separate opt-in switch)</h3>
+          <ul>
+            <li>Disabled by default—enabling read access never enables writes automatically.</li>
+            <li><strong>Two-step confirmation:</strong> The first tool call returns a human-readable preview and a short-lived confirmation code. The change is applied only when you approve the preview and the agent submits the second call with that code.</li>
+            <li>Supports recording trades, position adjustments, assets, liabilities, plans, and undo actions—with a built-in change log in Settings.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Example Questions You Can Ask</h2>
+      <ul>
+        <li><em>“What is my current net worth in USD, and how much did my portfolio change this month?”</em></li>
+        <li><em>“Which holdings contributed the most to my P&amp;L over the past 90 days?”</em></li>
+        <li><em>“How much annual dividend and deposit interest income am I projected to receive, and what share of my FIRE spending does it cover?”</em></li>
+        <li><em>“Preview adding 10 shares of AAPL at $225 executed today, and wait for my approval before recording it.”</em></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Security Model</h2>
+      <ul>
+        <li><strong>Localhost-only binding:</strong> Listens on <code>127.0.0.1</code> only—not exposed to your LAN or the internet.</li>
+        <li><strong>App lock respected:</strong> Requests are blocked when WorthTrail is locked.</li>
+        <li><strong>Prompt-injection hygiene:</strong> Tool instructions explicitly tell agents to treat user-entered names, symbols, tags, and notes strictly as data, never as instructions.</li>
+        <li><strong>Instant revocation:</strong> Turn off the switch, change the port, or reset the Keychain token at any time to disconnect all clients immediately.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="/">Overview</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/vs/">Compare</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/support/">Support</a>
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </div>
+      <p class="disclaimer">WorthTrail is for personal asset recording and analysis only and does not provide investment advice.</p>
+    </div>
+  </footer>
+</body>
+</html>
