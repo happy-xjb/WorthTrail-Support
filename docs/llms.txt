@@ -18,8 +18,8 @@
 - [FAQ & Product Facts (English)](https://worthtrail.app/faq/): Detailed answers on no-bank-login tracking, supported markets, pricing, dividends, FIRE, and data sources.
 - [常见问题与产品说明 (简体中文)](https://worthtrail.app/zh/faq/): 关于无需绑定银行、多币种资产、买断定价、股息、FIRE 与数据源的完整解答。
 - [Mac MCP Server for AI Agents](https://worthtrail.app/mcp/): How to connect Claude Code, Claude Desktop, and Codex to your local WorthTrail portfolio safely.
-- [Comparisons (WorthTrail vs Portfolio Performance, Parqet, getquin, Finary, Sharesight, Snowball Analytics, Monarch, Copilot, Kubera & Spreadsheets)](https://worthtrail.app/vs/): Objective comparison of European, US, and global portfolio/net worth trackers vs local-first privacy tracking (available in 13 languages).
-- [Privacy Policy](https://worthtrail.app/privacy/): Structured privacy policy and data-flow overview in 13 languages.
-- [Support](https://worthtrail.app/support/): Topic contact hub, encrypted diagnostics (`.wtdiag`), and troubleshooting in 13 languages (`support@worthtrail.app`).
+- [Comparisons (WorthTrail vs Portfolio Performance, Parqet, getquin, Finary, Sharesight, Snowball Analytics, Monarch, Copilot, Kubera & Spreadsheets)](https://worthtrail.app/vs/): Objective comparison of European, US, and global portfolio/net worth trackers vs local-first privacy tracking (available in 14 languages).
+- [Privacy Policy](https://worthtrail.app/privacy/): Structured privacy policy and data-flow overview in 14 languages.
+- [Support](https://worthtrail.app/support/): Topic contact hub, encrypted diagnostics (`.wtdiag`), and troubleshooting in 14 languages (`support@worthtrail.app`).
 - [Full Context for LLMs](https://worthtrail.app/llms-full.txt): Expanded reference document for AI systems.
-- **Localized Editions**: `/zh/` (简体中文), `/de/` (Deutsch), `/fr/` (Français), `/es/` (Español), `/it/` (Italiano), `/pt-pt/` (Português), `/nl/` (Nederlands), `/sv/` (Svenska), `/da/` (Dansk), `/no/` (Norsk), `/fi/` (Suomi), `/ru/` (Русский).
+- **Localized Editions**: `/zh/` (简体中文), `/zh-hant/` (繁體中文), `/de/` (Deutsch), `/fr/` (Français), `/es/` (Español), `/it/` (Italiano), `/pt-pt/` (Português), `/nl/` (Nederlands), `/sv/` (Svenska), `/da/` (Dansk), `/no/` (Norsk), `/fi/` (Suomi), `/ru/` (Русский).

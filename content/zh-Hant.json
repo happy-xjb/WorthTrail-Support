@@ -1,0 +1,507 @@
+{
+  "nav": {
+    "brand_alt": "WorthTrail 圖示",
+    "aria_label": "主導覽",
+    "overview": "概覽",
+    "faq": "常見問題",
+    "faq_long": "常見問題",
+    "compare": "產品比較",
+    "compare_long": "比較替代方案",
+    "mcp": "Mac MCP",
+    "mcp_long": "Mac MCP 服務",
+    "support": "支援",
+    "privacy": "隱私權",
+    "privacy_long": "隱私權政策",
+    "language_label": "語言",
+    "menu": "選單",
+    "download_cta": "前往 App Store 下載"
+  },
+  "footer": {
+    "disclaimer": "WorthTrail 僅供個人資產記錄與分析使用，不提供任何投資建議。市場資料可能存在延遲、不完整或不準確之情形，請以您的實際帳戶及官方對帳單為準。"
+  },
+  "home": {
+    "title": "WorthTrail — 隱私優先的多幣別淨資產與投資組合工具（無需連結銀行）",
+    "meta_description": "WorthTrail 是一款專為 iPhone、iPad 與 Mac 打造的隱私優先淨資產與持倉管理工具。無需連結銀行帳號，統一追蹤美股、台股、港股、ETF、基金、加密貨幣、定期存款、房產與負債；免費版 10 項全功能開放，支援一次性買斷，Mac 版內建本機 MCP 服務。",
+    "og_title": "WorthTrail — 無需連結銀行的淨資產與持倉記錄工具",
+    "og_description": "統一管理股票、ETF、基金、加密貨幣、定期存款、房產與負債；本機儲存與私人 iCloud 同步，支援一次性買斷與 Mac 本機 MCP 服務。",
+    "offer_currency": "USD",
+    "offer_prices": ["0.99", "5.99", "12.99"],
+    "offers": [
+      "免費版（10 項資產/現金/負債，全功能開放）",
+      "WorthTrail Pro 月訂（無限資產）",
+      "WorthTrail Pro 年訂（無限資產）",
+      "WorthTrail Pro 永久買斷（一次性付費，無限資產）"
+    ],
+    "hero_eyebrow": "私密淨資產帳本 · iPhone · iPad · Mac",
+    "hero_h1": "將全部資產與負債，安放於靜謐私密的一處。",
+    "hero_lead_html": "<strong>WorthTrail</strong> 是一款本機優先的淨資產與投資組合追蹤工具。無需授權任何銀行或券商登入憑證，即可統一管理美股、台股、港股、A股、ETF、基金、加密貨幣、期權、定期存款、房產與負債，自動依多幣別換算為主幣別。",
+    "cta_primary": "前往 App Store 下載",
+    "cta_secondary": "查看產品比較",
+    "hero_trust": [
+      "無需連結銀行或 Plaid",
+      "免費版 10 項全功能開放",
+      "支援 US$12.99 永久買斷"
+    ],
+    "hero_img_alt": "WorthTrail 繁體中文概覽畫面，顯示淨資產、總資產、負債與今日變動",
+    "kpis": [
+      {"val": "零銀行登入", "lbl": "資料僅存本機與私人 iCloud", "nums": false},
+      {"val": "45+ 語言", "lbl": "多幣別與跨市場自動換算", "nums": true},
+      {"val": "$12.99 買斷", "lbl": "免費 10 項全功能，不設功能鎖", "nums": true},
+      {"val": "Mac MCP", "lbl": "本機安全串接 Claude / Codex", "nums": false}
+    ],
+    "screens_eyebrow": "真實介面一覽",
+    "screens_h2": "克制清晰的排版，讓每筆資產與損益一目了然。",
+    "screens_lead": "原生 Apple 體驗，無廣告、無彈窗干擾，直覺掌握跨市場持倉與長期淨值走勢。",
+    "screens": [
+      {
+        "alt": "WorthTrail 損益日曆畫面，依日、月、年統計損益表現",
+        "title": "損益表現與損益日曆",
+        "desc": "將日、週、月、年損益攤在同一張日曆上，看清持倉成本、已實現與未實現損益及回撤。"
+      },
+      {
+        "alt": "WorthTrail 股利日曆與被動收入分析畫面",
+        "title": "股利與被動收入",
+        "desc": "追蹤除息入帳、稅後股利與定存利息，直觀評估被動收入對支出的覆蓋率。"
+      },
+      {
+        "alt": "WorthTrail 資產構成與再平衡試算畫面",
+        "title": "資產構成與再平衡",
+        "desc": "依帳戶、家庭成員、產業或區域多維標記，並即時試算目標配置再平衡。"
+      },
+      {
+        "alt": "WorthTrail Mac 本機 MCP 服務與 AI 代理存取設定畫面",
+        "title": "Mac 本機 AI 代理（MCP）",
+        "desc": "在本機安全串接 Claude 與 Codex，自然語言查帳，寫入須經預覽確認。"
+      }
+    ],
+    "pillars_eyebrow": "產品架構",
+    "pillars_h2": "為長期財富管理而生，而非嘈雜的日常消費流水帳。",
+    "pillars_lead": "把分散在各家券商、銀行定存、加密錢包與不動產中的部位整合為可驗證的清晰帳本，完全由你掌控。",
+    "pillars": [
+      {
+        "num": "01 / 隱私架構",
+        "title": "本機 SwiftData + 私人 iCloud",
+        "desc": "所有持倉、快照與備註預設儲存在你的裝置上，開啟同步後僅存入個人 Apple CloudKit 私有資料庫。開發者不營運儲存你資料的伺服器，零廣告、零第三方分析 SDK。"
+      },
+      {
+        "num": "02 / 全資產覆蓋",
+        "title": "全球市場與定期存款",
+        "desc": "支援美股、台股、港股、A股及全球股市、ETF、基金、加密貨幣、期權、定期存款、現金、房產黃金及各類負債，可自由配置報價資料來源。"
+      },
+      {
+        "num": "03 / 長期規劃",
+        "title": "FIRE、定投計劃與再平衡",
+        "desc": "提供可自訂年支出、提領率與規劃年齡的 FIRE 進度與資產續航估算、股利追蹤、定投計劃、股票分割調整，以及 Excel 與 PDF 報表匯出。"
+      }
+    ],
+    "mcp_eyebrow": "Model Context Protocol · macOS",
+    "mcp_h2": "Mac 版內建本機 MCP 服務，讓 AI 安全讀懂你的資產。",
+    "mcp_lead_html": "Mac 版 WorthTrail 內建可選的本機 <strong>Streamable HTTP MCP 服務</strong>（<code>http://127.0.0.1:47821/mcp</code>），以 macOS 鑰匙圈儲存的 Bearer Token 驗證。連線 <strong>Claude Code</strong>、<strong>Claude Desktop</strong> 或 <strong>Codex</strong> 後，即可直接詢問淨資產、持倉、損益、股利與 FIRE 進度，無需將投資組合上傳至第三方雲端。",
+    "mcp_callout_html": "<strong>預設安全設計：</strong>預設關閉、僅監聽本機迴路位址；讀寫權限分離，任何寫入都必須先回傳預覽與確認碼，經你同意後才會執行。",
+    "mcp_link": "閱讀 Mac MCP 連線指南",
+    "mcp_img_alt": "WorthTrail Agent 存取 MCP 設定畫面",
+    "pricing_eyebrow": "透明克制的定價",
+    "pricing_h2": "所有功能皆免費開放，僅於超過 10 項時需升級 Pro。",
+    "pricing_lead": "包含 iCloud 同步、股利、FIRE、再平衡、報表匯出、小工具與 Mac MCP 在內的全數功能皆免費提供。WorthTrail Pro 僅解除 10 項數量上限。",
+    "plans": [
+      {
+        "tag": "免費版",
+        "price": "$0",
+        "unit": "",
+        "desc": "最多記錄 10 項（資產、現金帳戶與負債合計）。全功能開放，無試用陷阱。"
+      },
+      {
+        "tag": "Pro 訂閱",
+        "price": "$5.99",
+        "unit": "/ 年",
+        "desc": "無限資產與負債數量。亦可月訂 $0.99/月（台灣/香港等地區以 App Store 當地幣別定價為準）。"
+      },
+      {
+        "tag": "Pro 永久買斷",
+        "price": "$12.99",
+        "unit": "一次買斷",
+        "featured": true,
+        "desc": "一次付費永久解鎖無限資產數量，告別長期訂閱負擔。Apple 依 175 個國家/地區自動換算價格。"
+      }
+    ],
+    "explore_h2": "探索更多",
+    "explore_items": [
+      {"page": "faq", "title": "常見問題與產品資訊（FAQ）", "desc": "資產覆蓋、資料來源、隱私架構與定價說明。"},
+      {"page": "vs", "title": "WorthTrail vs Portfolio Performance、Parqet、Finary、Monarch 與試算表", "desc": "客觀比較銀行直連型與本機隱私型工具。"},
+      {"page": "mcp", "title": "Mac 本機 MCP 服務指南", "desc": "安全串接 Claude Code、Claude Desktop 或 Codex。"},
+      {"page": "support", "title": "支援與疑難排解", "desc": "聯絡主題、加密診斷檔案與快速排解指南。"},
+      {"href": "/llms.txt", "title": "llms.txt", "desc": "供 AI 工具與搜尋引擎讀取的結構化產品摘要。"}
+    ]
+  },
+  "faq": {
+    "title": "WorthTrail 常見問題與產品資訊 — 無需連結銀行的淨資產工具",
+    "meta_description": "關於 WorthTrail 的常見問題：無需連結銀行的隱私架構、多幣別資產、買斷定價、股利、FIRE、資料來源與 Mac MCP 服務。",
+    "eyebrow": "事實與解答",
+    "h1": "常見問題（FAQ）",
+    "lead": "關於隱私架構、支援的資產類別、收費方式與 Mac 本機 MCP 服務的直接解答。",
+    "items": [
+      {
+        "q": "WorthTrail 需要連結銀行或券商帳號嗎？",
+        "a_plain": "不需要。WorthTrail 從不索取銀行或券商登入憑證，也不串接 Plaid 或第三方聚合服務。你直接記錄持倉與餘額，公開市場報價與匯率會自動更新。",
+        "a_html": "<strong>不需要。</strong>WorthTrail 專為不願交出銀行或券商憑證的使用者設計。你直接記錄持倉、現金、定存與負債，公開市場報價與匯率會自動刷新。"
+      },
+      {
+        "q": "我的投資組合資料儲存在哪裡？",
+        "a_plain": "所有資料預設透過 Apple SwiftData 儲存在你的裝置本機。開啟 iCloud 同步後，資料僅存在你個人的 Apple CloudKit 私有資料庫。開發者不營運儲存你資料的伺服器。",
+        "a_html": "所有資料預設使用 Apple SwiftData 儲存在你的裝置本機。選用的跨裝置同步僅透過你個人的 Apple iCloud（CloudKit）私有資料庫進行。開發者不營運接收你資產的伺服器，App 內也無廣告或第三方分析 SDK。"
+      },
+      {
+        "q": "定價如何計算？支援一次性永久買斷嗎？",
+        "a_plain": "支援。免費版開放全部功能，上限 10 項（資產、現金與負債合計）。WorthTrail Pro 僅解除上限：US$0.99/月、US$5.99/年或 US$12.99 一次性永久買斷。",
+        "a_html": "<strong>支援。</strong>免費版開放<strong>全部功能</strong>，最多可記錄 <strong>10 項</strong>（資產、現金帳戶與負債合計）。WorthTrail Pro 僅移除 10 項上限：US$0.99/月、US$5.99/年或 <strong>US$12.99 一次性永久買斷</strong>（實際當地幣別價格以 App Store 為準）。"
+      },
+      {
+        "q": "支援哪些資產類型、市場與幣別？",
+        "a_plain": "支援美股、台股、港股、A股及全球股票、ETF、共同基金、加密貨幣、期權、定期存款、現金、房產/黃金/債券等自訂資產與房貸等負債，支援多幣別自動換算。",
+        "a_html": "支援全球股票（美股、台股、港股、A股及國際市場）、ETF、基金、加密貨幣、期權、定期存款、現金、手動估值的自訂資產（房產、黃金、債券），以及房貸、貸款與信用卡等負債。所有外幣會自動換算為你的主幣別。"
+      },
+      {
+        "q": "WorthTrail 使用哪些市場資料來源？",
+        "a_plain": "你可在設定 > 資料來源與狀態中自由啟用、停用與排序資料來源，包括 Yahoo Finance、Webull、Binance、OKX、新浪財經、TWSE 與 ExchangeRate-API。",
+        "a_html": "你可在 <strong>設定 &gt; 資料來源與狀態</strong> 中自由啟用、停用與排序資料來源，包括 Yahoo Finance、Webull、Binance、OKX、新浪財經、TWSE（台灣證交所）與 ExchangeRate-API。查詢報價時僅會向已啟用的來源傳送必要代碼與幣別。"
+      },
+      {
+        "q": "支援股利、FIRE 規劃與再平衡試算嗎？",
+        "a_plain": "全部支援。包含股利日曆與稅後被動收入、成長與集中度分析、FIRE 儀表板、定投計劃、股票分割調整與目標配置再平衡試算。",
+        "a_html": "<strong>全部支援。</strong>包含股利日曆（除息入帳與稅後被動收入）、成長與集中度分析、可自訂的 FIRE 儀表板（目標、覆蓋率、預計達成日與規劃年齡續航）、定投計劃、股票分割調整與目標配置再平衡試算。"
+      },
+      {
+        "q": "Mac 本機 MCP 服務如何運作？",
+        "a_plain": "Mac 版內建可選的本機 Streamable HTTP MCP 服務（http://127.0.0.1:47821/mcp），以鑰匙圈 Bearer Token 保護，可串接 Claude Code、Claude Desktop 與 Codex。寫入預設關閉且須經兩步驟預覽確認。",
+        "a_html": "Mac 版內建可選的本機 Streamable HTTP MCP 服務（<code>http://127.0.0.1:47821/mcp</code>），以 macOS 鑰匙圈中的 Bearer Token 保護。可串接 Claude Code、Claude Desktop 或 Codex 查詢淨資產、持倉、損益、股利與 FIRE 指標。寫入預設關閉且每次皆須預覽與確認碼。詳見 <a href=\"__MCP_URL__\">Mac MCP 指南</a>。"
+      },
+      {
+        "q": "可以匯出資料或進行本機備份嗎？",
+        "a_plain": "可以。你可匯出密碼加密的本機備份檔案並隨時還原，亦可匯出 Excel（.xlsx）活頁簿與 PDF 報表。",
+        "a_html": "<strong>可以。</strong>你可以匯出受密碼加密保護的本機備份檔案（隨時可還原），也能匯出 Excel（<code>.xlsx</code>）活頁簿與 PDF 報表以便歸檔或進一步分析。"
+      },
+      {
+        "q": "支援哪些平台？",
+        "a_plain": "WorthTrail 支援 iPhone、iPad 與 Mac，可於 Apple App Store 下載，內建 45+ 種語言。目前暫無 Android 或網頁版。",
+        "a_html": "WorthTrail 支援 iPhone、iPad 與 Mac，可於 <a href=\"__APP_STORE_URL__\" rel=\"noopener\">Apple App Store</a> 下載，內建 45+ 種語言。目前暫不提供 Android 或網頁版。"
+      }
+    ]
+  },
+  "vs": {
+    "title": "WorthTrail 產品比較 — vs Portfolio Performance、Parqet、getquin、Finary、Sharesight、Monarch 與 Kubera",
+    "meta_description": "客觀比較 WorthTrail 與歐美主流淨資產及投資組合工具：Portfolio Performance、Parqet、getquin、Finary、Sharesight、Snowball Analytics、Monarch Money、Copilot Money 與 Kubera。",
+    "eyebrow": "客觀產品比較",
+    "h1": "WorthTrail 與主流淨資產及投資組合工具比較",
+    "lead_html": "不同資產管理工具解決不同需求。以下是 <strong>WorthTrail</strong> 與北美淨資產工具（<strong>Monarch Money</strong>、<strong>Copilot Money</strong>、<strong>Kubera</strong>）、歐洲與全球熱門組合工具（<strong>Portfolio Performance</strong>、<strong>Parqet</strong>、<strong>getquin</strong>、<strong>Finary</strong>、<strong>Sharesight</strong>、<strong>Snowball Analytics</strong>）及 <strong>試算表</strong> 的直接比較。",
+    "table_h2": "淨資產與個人理財工具比較",
+    "table_headers": ["比較維度", "WorthTrail", "Monarch Money", "Copilot Money", "Kubera", "試算表"],
+    "table_rows": [
+      ["銀行登入 / Plaid", "<strong>無需連結銀行或券商</strong>", "核心功能（Plaid / MX / Finicity）", "核心功能（Plaid / 聚合商）", "核心功能（多聚合商）", "手動（除非自寫腳本）"],
+      ["資料儲存", "<strong>本機 SwiftData + 選用私人 iCloud</strong>", "廠商雲端", "廠商雲端", "廠商雲端", "本機或雲端硬碟"],
+      ["多幣別與全球市場", "<strong>原生多幣別；美/台/港/A/全球股、加密、定存</strong>", "以美/加為主", "以美國為主", "全球與多幣別較強", "手動 / 自訂公式"],
+      ["日常預算與消費記帳", "非日常記帳 App", "<strong>強</strong>", "<strong>強</strong>", "非日常記帳 App", "手動"],
+      ["股利、FIRE 與再平衡", "<strong>內建支援</strong>", "基礎目標 / 退休", "基礎投資追蹤", "偏淨資產與 IRR", "需自寫公式"],
+      ["本機 AI / MCP 服務", "<strong>內建 Mac 本機 MCP 服務</strong>", "無本機 MCP", "無本機 MCP", "無本機 MCP", "需自行架設"],
+      ["收費模式", "<strong>免費 10 項全功能；$0.99/月、$5.99/年或 $12.99 買斷</strong>", "僅訂閱（約 $99.99/年）", "僅訂閱（約 $95/年）", "僅訂閱（約 $199+/年）", "免費 / 辦公套件"],
+      ["支援平台", "iPhone、iPad、Mac", "網頁、iOS、Android", "iOS、Mac、網頁", "網頁、iOS、Android", "跨平台"]
+    ],
+    "table_note": "註：第三方產品定價與功能為公開參考值，可能隨時調整，請以各廠商官方網站為準。",
+    "eu_table_h2": "WorthTrail vs 歐洲與全球熱門投資組合工具",
+    "eu_table_lead": "比較德國、法國、英國、北歐及全球投資人常用的投資組合追蹤平台。",
+    "eu_table_headers": ["比較維度", "WorthTrail", "Portfolio Performance", "Parqet / getquin", "Finary", "Sharesight / Snowball"],
+    "eu_table_rows": [
+      ["帳號與券商同步", "<strong>免帳號、無需銀行/券商登入</strong>", "手動 / 券商 PDF 與 CSV 匯入（無雲帳號）", "需雲端帳號；PDF / 券商同步", "需雲端帳號；歐洲銀行與券商聚合", "需雲端帳號；券商匯入 / 同步"],
+      ["資料儲存", "<strong>本機 SwiftData + 選用私人 iCloud</strong>", "桌面本機 XML 檔案", "廠商雲端", "廠商雲端", "廠商雲端"],
+      ["資產覆蓋範圍", "<strong>完整淨資產：股票、ETF、加密、定存、現金、房產與負債</strong>", "著重證券持倉與交易記帳", "以證券組合與股利為主", "全資產追蹤 + 費用掃描", "以股票/ETF 與股利分析為主"],
+      ["行動與 Mac 體驗", "<strong>原生 iPhone、iPad、Mac + 本機 Mac MCP</strong>", "桌面優先（Java）；搭配行動版", "網頁 + 行動 App", "網頁 + 行動 App", "網頁優先 + 行動 App"],
+      ["收費模式", "<strong>免費 10 項全功能；$0.99/月、$5.99/年或 $12.99 買斷</strong>", "桌面開源免費（行動同步付費）", "免費增值；付費約 €60–€150+/年", "免費增值；Plus 約 €149+/年", "免費增值；付費約 $150–$300+/年"]
+    ],
+    "sections": [
+      {
+        "id": "monarch",
+        "h2": "WorthTrail vs Monarch Money",
+        "bullets_html": [
+          "<strong>選擇 Monarch Money：</strong>若你居住在美國或加拿大，需要自動同步銀行與信用卡消費明細、家庭預算及網頁/Android 存取。",
+          "<strong>選擇 WorthTrail：</strong>若你不願授權銀行登入、投資跨幣別或美/台/港/歐等市場、偏好本機與私人 iCloud，並希望以 $12.99 一次買斷取代近百美元年費。"
+        ]
+      },
+      {
+        "id": "copilot",
+        "h2": "WorthTrail vs Copilot Money",
+        "bullets_html": [
+          "<strong>選擇 Copilot Money：</strong>若你需要 Apple 生態下的日常消費分類與預算工具，並依賴美國銀行自動同步。",
+          "<strong>選擇 WorthTrail：</strong>若你的核心需求是<strong>淨資產、投資損益、股利、定期存款、再平衡與 FIRE</strong>，且重視零銀行登入、多幣別支援與 Mac MCP。"
+        ]
+      },
+      {
+        "id": "kubera",
+        "h2": "WorthTrail vs Kubera",
+        "bullets_html": [
+          "<strong>選擇 Kubera：</strong>若你需要網頁端全球聚合追蹤與遺產受益人功能，並可接受高價年度雲端訂閱。",
+          "<strong>選擇 WorthTrail：</strong>若你偏好原生 iPhone/iPad/Mac 體驗、資料完全不經廠商伺服器，同時享有自動報價、損益日曆、股利日曆與 FIRE 試算，且成本僅為零頭。"
+        ]
+      },
+      {
+        "id": "spreadsheets",
+        "h2": "WorthTrail vs 試算表（Excel / Google Sheets）",
+        "bullets_html": [
+          "<strong>選擇試算表：</strong>若你在 Windows/Linux/網頁上需要高度客製化的財務模型與公式。",
+          "<strong>選擇 WorthTrail：</strong>若你厭倦了報價公式失效、手動維護匯率與歷史淨值快照，同時仍希望能隨時匯出乾淨的 Excel（<code>.xlsx</code>）活頁簿。"
+        ]
+      },
+      {
+        "id": "portfolio-performance",
+        "h2": "WorthTrail vs Portfolio Performance",
+        "bullets_html": [
+          "<strong>選擇 Portfolio Performance：</strong>若你需要免費開源的桌面端專業記帳軟體（Windows/macOS/Linux），並高度依賴歐洲券商 PDF 對帳單解析。",
+          "<strong>選擇 WorthTrail：</strong>若你偏好流暢的原生 <strong>iPhone、iPad 與 Mac</strong> 體驗、私人 iCloud 同步、本機截圖/CSV 匯入、定存與負債、FIRE 與 Mac MCP，而不想管理桌面 XML 檔案。"
+        ]
+      },
+      {
+        "id": "parqet-getquin",
+        "h2": "WorthTrail vs Parqet 與 getquin",
+        "bullets_html": [
+          "<strong>選擇 Parqet 或 getquin：</strong>若你偏好歐洲網頁儀表板、券商 PDF 解析、Open Banking 同步或投資社群動態（getquin）。",
+          "<strong>選擇 WorthTrail：</strong>若你重視<strong>零廠商雲端與免註冊帳號</strong>，想在股票之外一併追蹤定存、現金、房產與房貸，並以 $12.99 買斷取代 €60–€150/年訂閱。"
+        ]
+      },
+      {
+        "id": "finary",
+        "h2": "WorthTrail vs Finary",
+        "bullets_html": [
+          "<strong>選擇 Finary：</strong>若你在法國或歐洲需要自動銀行/券商聚合、費用掃描與網頁理財入口。",
+          "<strong>選擇 WorthTrail：</strong>若你拒絕交出銀行密碼、偏好本機 SwiftData 與私人 iCloud、原生 Apple 速度與 Mac MCP，並選擇 $5.99/年或 $12.99 買斷而非 €149+/年。"
+        ]
+      },
+      {
+        "id": "sharesight-snowball",
+        "h2": "WorthTrail vs Sharesight 與 Snowball Analytics",
+        "bullets_html": [
+          "<strong>選擇 Sharesight 或 Snowball Analytics：</strong>若你需要針對特定國家的網頁報稅報表或純網頁深度股利回測。",
+          "<strong>選擇 WorthTrail：</strong>若你想要一款私密原生 Apple 應用，整合<strong>投資持倉、股利日曆、定期存款、現金、房產與負債</strong>以及 FIRE 與再平衡試算，且價格遠低於訂閱平台。"
+        ]
+      }
+    ],
+    "cta_h2": "準備好體驗 WorthTrail 了嗎？",
+    "cta_lead": "免費版開放全部功能（最多 10 項），無需註冊帳號，無需連結銀行。",
+    "cta_primary": "前往 App Store 下載",
+    "cta_secondary": "查看常見問題"
+  },
+  "mcp": {
+    "title": "WorthTrail Mac 本機 MCP 服務 — 讓 Claude 與 AI 代理安全讀取本機資產",
+    "meta_description": "Mac 版 WorthTrail 內建本機 Streamable HTTP MCP 服務，支援 Claude Code、Claude Desktop 與 Codex 本機查詢淨資產、持倉、損益、股利與 FIRE，寫入須預覽確認。",
+    "ld_headline": "WorthTrail Mac 本機 MCP 服務指南",
+    "eyebrow": "Model Context Protocol · macOS · 僅限本機迴路",
+    "h1": "讓 AI 回答你的淨資產問題，而無需將帳本上傳至雲端。",
+    "lead_html": "<strong>Mac 版 WorthTrail</strong> 內建基於 Streamable HTTP 的本機 <strong>MCP（Model Context Protocol）</strong> 服務。連線 <strong>Claude Code</strong>、<strong>Claude Desktop</strong>、<strong>Codex</strong> 或其他相容用戶端，即可自然語言查詢資產，並可於明確預覽確認後記錄變更。",
+    "cta_primary": "取得 Mac 版 WorthTrail",
+    "cta_secondary": "查看常見問題",
+    "img_alt": "WorthTrail Mac 本機 Agent 存取設定畫面",
+    "specs_h2": "連線規格",
+    "specs_col_prop": "屬性",
+    "specs_col_val": "說明",
+    "spec_rows": [
+      ["傳輸協定", "Streamable HTTP（僅監聽本機迴路位址）"],
+      ["預設端點", "<code>http://127.0.0.1:47821/mcp</code>（可於設定修改連接埠，1024–65535）"],
+      ["驗證方式", "<code>Authorization: Bearer &lt;token&gt;</code>（儲存於 macOS 鑰匙圈，隨時可重設）"],
+      ["運作條件", "僅於 Mac 版 WorthTrail 開啟且已啟用「Agent 存取」時運行"],
+      ["收費說明", "免費版完整包含（MCP 無付費牆；新增資產仍適用免費版 10 項上限）"]
+    ],
+    "connect_h2": "如何連線",
+    "connect_intro_html": "開啟 <strong>Mac 版 WorthTrail &rarr; 設定 &rarr; Agent 存取</strong>，啟用本機代理存取，並複製個人設定提示詞或 Bearer Token。",
+    "tools_h2": "AI 代理可以查詢與執行什麼",
+    "read_h3": "唯讀工具（開啟 Agent 存取即啟用）",
+    "read_items_html": [
+      "目前淨資產、總資產、負債、持倉成本與今日變動（<code>get_net_worth</code>）",
+      "依分類或幣別列出全部持倉，含股票、ETF、加密貨幣、期權、定存與自訂資產（<code>list_positions</code>、<code>list_liabilities</code>）",
+      "歷史快照與單日持倉明細（<code>get_snapshots</code>、<code>get_snapshot_detail</code>）",
+      "期間損益表現、資金加權報酬曲線與依標的拆分的每日盈虧（<code>get_performance</code>、<code>get_daily_earnings</code>）",
+      "股利、定投計劃、交易紀錄與 FIRE 預估"
+    ],
+    "write_h3": "寫入工具（獨立手動開關）",
+    "write_items_html": [
+      "預設關閉——開啟唯讀存取絕不會自動開放寫入權限。",
+      "<strong>兩步驟確認：</strong>首次工具呼叫僅回傳可讀預覽與短時效確認碼；唯有你同意並由 AI 攜帶該確認碼發起第二次呼叫才會真正寫入。",
+      "支援記錄交易、持倉調整、新增資產/負債、定投計劃與復原操作，並於設定保留變更紀錄。"
+    ],
+    "examples_h2": "試著這樣提問",
+    "example_questions": [
+      "「我目前的淨資產換算台幣是多少？這個月整體變化了多少？」",
+      "「過去 90 天裡，哪幾檔持倉對我的損益貢獻最大？」",
+      "「今年預計可領取多少稅後股利與定存利息？能覆蓋多少比例的 FIRE 年支出？」",
+      "「先幫我預覽今天以 225 美元買入 10 股 AAPL 的紀錄，等我確認後再寫入。」"
+    ],
+    "security_h2": "安全模型",
+    "security_items_html": [
+      "<strong>僅綁定本機迴路：</strong>僅監聽 <code>127.0.0.1</code>，不暴露於區網或網際網路。",
+      "<strong>遵循應用程式鎖：</strong>當 WorthTrail 上鎖時，所有請求一律阻擋。",
+      "<strong>提示詞注入防護：</strong>工具說明明確指示代理將名稱、代碼、標籤與備註嚴格視為純資料，絕非指令。",
+      "<strong>即時撤銷連線：</strong>關閉開關、更換連接埠或重設鑰匙圈 Token，即可立即中斷所有用戶端。"
+    ]
+  },
+  "support": {
+    "title": "WorthTrail 支援與說明 — 聯絡我們、疑難排解與診斷指南",
+    "meta_description": "取得 WorthTrail 使用協助、回報問題、申請補充標的或資料來源、匯出加密診斷檔案，或寄信至 support@worthtrail.app。",
+    "eyebrow": "說明與聯絡",
+    "h1": "我們能為您提供什麼協助？",
+    "lead_html": "遇到使用問題、報價異常、缺少標的或隱私疑問，請寄信至 <a href=\"mailto:support@worthtrail.app\">support@worthtrail.app</a>，或直接選擇下方主題。",
+    "default_subject": "WorthTrail Feedback",
+    "cta_email": "寄信至 support@worthtrail.app",
+    "cta_faq": "查看常見問題",
+    "contact_h2": "選擇聯絡主題",
+    "contact_lead": "點選主題會自動填入信件主旨，幫助我們更快分類並回覆您。",
+    "topics": [
+      {
+        "tag": "問題回報",
+        "title": "回報問題",
+        "desc": "數值異常、同步延遲、介面顯示或閃退問題。建議附上 App 版本、iOS/macOS 版本與重現步驟。",
+        "action": "傳送問題回報",
+        "subject": "[Problem] WorthTrail"
+      },
+      {
+        "tag": "市場覆蓋",
+        "title": "缺少標的或資料來源",
+        "desc": "找不到某檔股票、ETF 或基金？請提供代碼、交易所/ISIN 與幣別。",
+        "action": "申請標的或來源",
+        "subject": "[Missing Asset / Data Source] WorthTrail"
+      },
+      {
+        "tag": "產品建議",
+        "title": "功能建議",
+        "desc": "對股利、FIRE、再平衡、報表匯出或 Mac MCP 有想法？歡迎分享你的使用流程。",
+        "action": "提交功能建議",
+        "subject": "[Feature Request] WorthTrail"
+      },
+      {
+        "tag": "隱私與購買",
+        "title": "隱私或 Pro 購買協助",
+        "desc": "關於 iCloud 儲存、本機加密備份，或回復 WorthTrail Pro 訂閱與永久買斷的疑問。",
+        "action": "聯絡支援團隊",
+        "subject": "[Support] WorthTrail"
+      }
+    ],
+    "diagnostics_h2": "App 內支援與加密診斷檔案",
+    "diagnostics_p1_html": "在 WorthTrail 內前往 <strong>設定 &gt; 聯絡與支援</strong>，即可一鍵寄信或於排查複雜報價與計算問題時匯出<strong>加密診斷檔案</strong>（<code>.wtdiag</code>）。",
+    "privacy_callout_html": "<strong>隱私提醒：</strong>一般信件中請勿附上銀行帳號、密碼、API 金鑰或敏感財務對帳單。診斷檔案僅於需要協助排查具體問題時再主動提供。",
+    "help_h2": "常見問題快速排解",
+    "help_lead": "多數常見問題都能直接在 App 的「設定」中快速解決。",
+    "help_groups": [
+      {
+        "title": "市場資料、報價與自訂資產",
+        "items_html": [
+          "於 <strong>設定 &gt; 資料來源與狀態</strong> 可測試各來源連線，測試呼叫的是與即時刷新相同的取價端點。",
+          "部分資料來源（如 Yahoo Finance）在特定網路下可能受限，你可隨時調整順序或切換來源。",
+          "針對不動產、黃金或未上市資產，可新增<strong>自訂資產</strong>並依需求更新估值。"
+        ]
+      },
+      {
+        "title": "持倉、持倉成本、股票分割與批次匯入",
+        "items_html": [
+          "記錄買入、賣出或部位調整時可填寫成交價與日期，以維持歷史股數與持倉成本準確。",
+          "透過<strong>批次匯入</strong>可由 CSV 檔案或券商截圖快速匯入持倉（截圖 OCR 完全在裝置本機執行）。",
+          "遇到股票分割或反分割時，使用資產詳情中的<strong>股票分割</strong>功能即可自動修正歷史股數與成本。",
+          "歷史快照會建立淨資產曲線與損益日曆，並隨 iCloud 同步與本機加密備份一併保存。"
+        ]
+      },
+      {
+        "title": "iCloud 同步、加密備份與回復 Pro",
+        "items_html": [
+          "選用的多裝置同步僅透過個人 Apple iCloud（CloudKit 私有資料庫）進行，請確認各裝置登入相同 Apple 帳號。",
+          "隨時可於<strong>設定</strong>匯出受密碼保護的本機加密備份，並於需要時還原。",
+          "換機後若要回復 Pro 訂閱或永久買斷，請前往設定中的 <strong>Pro</strong> 畫面點選<strong>回復購買</strong>。",
+          "WorthTrail 無使用者帳號：刪除 App 即移除本機資料；iCloud 同步資料可於系統 iCloud 設定管理。"
+        ]
+      },
+      {
+        "title": "隱私鎖、小工具與 Mac MCP 排解",
+        "items_html": [
+          "點選概覽頁「淨資產」旁的眼睛圖示即可隱藏畫面金額。",
+          "由 iOS 主畫面小工具庫新增 WorthTrail，其中隱私小工具僅顯示漲跌幅百分比與趨勢線。",
+          "若 Mac MCP 無法連線，請確認 Mac 版 WorthTrail 已開啟且未上鎖、<strong>設定 &gt; Agent 存取</strong>已開啟，且用戶端使用 <code>http://127.0.0.1:47821/mcp</code> 與最新 Bearer Token。"
+        ]
+      }
+    ],
+    "more_h2": "實用資源",
+    "more_faq": "常見問題與產品資訊（FAQ）",
+    "more_mcp": "Mac 本機 MCP 服務設定指南",
+    "more_privacy": "隱私權政策"
+  },
+  "privacy": {
+    "title": "WorthTrail 隱私權政策 — 本機優先、零銀行登入",
+    "meta_description": "WorthTrail 隱私權政策：本機 SwiftData 儲存、選用個人 iCloud 私有同步、裝置端 OCR、本機 Mac MCP、零銀行登入、零廣告與零第三方分析 SDK。",
+    "eyebrow": "隱私架構",
+    "h1": "隱私權政策",
+    "lead": "WorthTrail 的設計宗旨是讓你的完整淨資產始終留存在你的裝置與個人 iCloud 中，絕不經過開發者伺服器。",
+    "effective_date": "生效日期：2026 年 11 月 27 日",
+    "applies_to": "適用於 WorthTrail iPhone、iPad 與 Mac 版",
+    "glance": [
+      {"val": "零銀行登入", "lbl": "不串接 Plaid 或券商帳號"},
+      {"val": "本機優先", "lbl": "僅存本機 SwiftData 與私人 iCloud"},
+      {"val": "零追蹤廣告", "lbl": "無廣告、無第三方分析 SDK"},
+      {"val": "完全掌控", "lbl": "加密本機備份，隨時徹底刪除"}
+    ],
+    "flow_h2": "資料流向一覽",
+    "flow_lead": "清楚說明各類資料的儲存位置，以及是否會離開你的裝置。",
+    "flow_headers": ["資料類型", "儲存與處理位置", "傳送給開發者？", "傳送給第三方？"],
+    "flow_rows": [
+      ["<strong>持倉與帳本資料</strong><br>資產、數量、持倉成本、負債、交易、標籤、備註、快照", "你的裝置（SwiftData）與選用個人 iCloud（CloudKit 私有庫）", "<strong>從不</strong>", "僅於開啟同步時存於你的 Apple iCloud"],
+      ["<strong>報價與匯率查詢</strong><br>搜尋關鍵字、代碼、來源識別碼、幣別代碼", "即時網路請求", "<strong>從不</strong>", "僅傳送給你啟用的市場資料來源"],
+      ["<strong>截圖批次匯入（OCR）</strong><br>你選取的券商或基金截圖", "完全於裝置本機透過 Apple Vision 辨識", "<strong>從不</strong>", "<strong>從不</strong>"],
+      ["<strong>小工具與應用程式鎖</strong><br>顯示摘要、Face ID、密碼鎖", "私有 App Group 與鑰匙圈（僅存加鹽雜湊）", "<strong>從不</strong>", "<strong>從不</strong>"],
+      ["<strong>Mac 本機 MCP 服務</strong><br>本機 AI 用戶端查詢（預設關閉）", "僅綁定 Mac 本機迴路 <code>127.0.0.1</code>", "<strong>從不</strong>", "僅傳送給你主動連線的 AI 用戶端"],
+      ["<strong>加密診斷檔案</strong><br><code>.wtdiag</code> 檔案（僅於主動匯出時產生）", "儲存於本機，直至你自行寄信提交", "僅於你主動寄給支援信箱時", "<strong>從不</strong>"]
+    ],
+    "sections": [
+      {
+        "title": "儲存在你裝置上的資料",
+        "paragraphs_html": [
+          "WorthTrail 使用 Apple SwiftData 於你的裝置本機儲存資產、數量、持倉成本、負債、部位調整紀錄、股利、定投計劃、標籤、備註、設定與歷史快照。",
+          "開發者不營運任何接收、儲存或檢視你投資組合的後端伺服器，使用 WorthTrail 亦無需建立使用者帳號。"
+        ]
+      },
+      {
+        "title": "選用的個人 iCloud 私有同步",
+        "paragraphs_html": [
+          "若你啟用 iCloud 同步，資料僅透過與你 Apple 帳號綁定的個人 Apple CloudKit 私有資料庫進行同步。",
+          "開發者無法存取你的 CloudKit 私有資料庫。同步資料之安全性遵循 Apple iCloud 的安全與隱私架構。"
+        ]
+      },
+      {
+        "title": "市場資料與匯率服務商",
+        "paragraphs_html": [
+          "當你搜尋標的或刷新報價與匯率時，WorthTrail 僅會傳送必要的搜尋詞、代碼、來源識別碼與目標幣別給你於 <strong>設定 &gt; 資料來源與狀態</strong> 中啟用的來源。",
+          "這些服務商（可能包括 Yahoo Finance、Webull、新浪財經、Binance、OKX、CoinGecko、CoinMarketCap、TWSE 與 ExchangeRate-API）可能接收你的 IP 位址與一般網路中繼資料，並依各自隱私權政策處理。WorthTrail 絕不傳送你的持股數量、持倉成本或帳戶餘額。"
+        ]
+      },
+      {
+        "title": "裝置端 OCR、小工具、備份與診斷檔案",
+        "paragraphs_html": [
+          "<strong>截圖批次匯入（OCR）：</strong>你選取的截圖完全透過 Apple 裝置端 Vision 框架本機辨識，不會上傳至 WorthTrail 伺服器。",
+          "<strong>主畫面小工具：</strong>僅透過 App 私有 App Group 容器讀取顯示所需摘要；隱私小工具不包含任何金額。",
+          "<strong>本機備份與診斷檔案：</strong>受密碼保護的本機備份在匯出前即於裝置本機加密。選用的 <code>.wtdiag</code> 診斷檔案僅於你主動發起匯出時產生，並於離開 App 前加密。"
+        ]
+      },
+      {
+        "title": "Mac 本機 MCP 服務",
+        "paragraphs_html": [
+          "Mac 版 WorthTrail 提供可選的本機 Streamable HTTP MCP 服務，嚴格綁定 <code>127.0.0.1</code> 並以 macOS 鑰匙圈 Bearer Token 驗證。此服務預設關閉、預設唯讀，寫入須另行開啟並經預覽與確認碼兩步驟驗證。",
+          "若你主動將本機 MCP 服務連線至外部 AI 用戶端（如 Claude Code、Claude Desktop 或 Codex），你指示該用戶端查詢的資料將遵循該用戶端與模型供應商自身的隱私權政策。"
+        ]
+      },
+      {
+        "title": "無廣告、無追蹤、購買與應用程式鎖",
+        "paragraphs_html": [
+          "WorthTrail 不包含任何廣告、跨 App 追蹤或第三方分析 SDK。",
+          "App 內購買與訂閱全數由 Apple StoreKit 處理。Face ID 與 Touch ID 由 iOS/macOS 處理，WorthTrail 無法存取生物辨識資訊。密碼鎖僅於裝置本機儲存加鹽加密雜湊值。"
+        ]
+      },
+      {
+        "title": "資料刪除、政策更新與聯絡方式",
+        "paragraphs_html": [
+          "刪除 WorthTrail 即可移除裝置本機所有資料；iCloud 同步資料可於 Apple iCloud 設定中管理或刪除；匯出的備份、Excel、PDF 或診斷檔案可於其儲存位置刪除。",
+          "當 App 行為有所變更時，本政策可能隨之更新。如有任何隱私疑問，請透過<a href=\"__SUPPORT_URL__\">支援頁面</a>聯絡我們，或寄信至 <a href=\"mailto:support@worthtrail.app\">support@worthtrail.app</a>。"
+        ]
+      }
+    ]
+  }
+}

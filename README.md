@@ -2,14 +2,14 @@
 
 Static website and public support repository for **WorthTrail** (`https://worthtrail.app`).
 
-## Languages (13)
+## Languages (14)
 
 - **Default (root `/`)**: English (`en`)
-- **Simplified Chinese (`/zh/`)**: `zh-Hans`
+- **Chinese**: Simplified Chinese (`/zh/`, `zh-Hans`) & Traditional Chinese (`/zh-hant/`, `zh-Hant`)
 - **Key European & Russian markets**:
   - German (`/de/`), French (`/fr/`), Spanish (`/es/`), Italian (`/it/`), European Portuguese (`/pt-pt/`), Dutch (`/nl/`), Swedish (`/sv/`), Danish (`/da/`), Norwegian (`/no/`), Finnish (`/fi/`), Russian (`/ru/`)
 
-## Pages per Language (6 × 13 = 78 pages)
+## Pages per Language (6 × 14 = 84 pages)
 
 - `/` (or `/<lang>/`) — Landing / Overview (`SoftwareApplication` & `Organization` JSON-LD)
 - `/faq/` — FAQ & Product Facts (`FAQPage` JSON-LD)

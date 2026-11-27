@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorthTrail Mac 本機 MCP 服務 — 讓 Claude 與 AI 代理安全讀取本機資產</title>
+  <meta name="description" content="Mac 版 WorthTrail 內建本機 Streamable HTTP MCP 服務，支援 Claude Code、Claude Desktop 與 Codex 本機查詢淨資產、持倉、損益、股利與 FIRE，寫入須預覽確認。">
+  <link rel="canonical" href="https://worthtrail.app/zh-hant/mcp/">
+  <link rel="alternate" hreflang="en" href="https://worthtrail.app/mcp/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/mcp/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://worthtrail.app/zh-hant/mcp/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/mcp/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/mcp/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/mcp/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/mcp/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/mcp/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/mcp/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/mcp/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/mcp/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/mcp/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/mcp/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/mcp/">
+  <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/mcp/">
+  <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "inLanguage": "zh-Hant",
+    "headline": "WorthTrail Mac 本機 MCP 服務指南",
+    "description": "Mac 版 WorthTrail 內建本機 Streamable HTTP MCP 服務，支援 Claude Code、Claude Desktop 與 Codex 本機查詢淨資產、持倉、損益、股利與 FIRE，寫入須預覽確認。",
+    "url": "https://worthtrail.app/zh-hant/mcp/",
+    "author": {
+      "@type": "Organization",
+      "name": "WorthTrail",
+      "url": "https://worthtrail.app/"
+    },
+    "about": {
+      "@type": "SoftwareApplication",
+      "name": "WorthTrail",
+      "operatingSystem": "macOS"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/zh-hant/">
+        <img src="/assets/icon-192.png" alt="WorthTrail 圖示" width="28" height="28">
+        <span>WorthTrail</span>
+      </a>
+      <nav class="nav-links" aria-label="主導覽">
+        <a href="/zh-hant/">概覽</a>
+        <a href="/zh-hant/faq/">常見問題</a>
+        <a href="/zh-hant/vs/">產品比較</a>
+        <a href="/zh-hant/mcp/" aria-current="page">Mac MCP</a>
+        <a href="/zh-hant/support/">支援</a>
+        <a href="/zh-hant/privacy/">隱私權</a>
+        <details class="lang-menu">
+          <summary aria-label="語言">繁中 &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/mcp/"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/mcp/"><span>简体中文</span><span class="lang-code">简中</span></a>
+            <a href="/zh-hant/mcp/" aria-current="true"><span>繁體中文</span><span class="lang-code">繁中</span></a>
+            <a href="/de/mcp/"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/mcp/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/mcp/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/mcp/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/mcp/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/mcp/"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/mcp/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/mcp/"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/mcp/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/mcp/"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/mcp/"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary>選單</summary>
+        <div class="mobile-menu-panel">
+          <a href="/zh-hant/">概覽</a>
+          <a href="/zh-hant/faq/">常見問題</a>
+          <a href="/zh-hant/vs/">比較替代方案</a>
+          <a href="/zh-hant/mcp/" aria-current="page">Mac MCP 服務</a>
+          <a href="/zh-hant/support/">支援</a>
+          <a href="/zh-hant/privacy/">隱私權政策</a>
+          <details class="mobile-lang">
+            <summary>語言 · 繁體中文</summary>
+            <div class="mobile-lang-grid">
+              <a href="/mcp/">English</a>
+              <a href="/zh/mcp/">简体中文</a>
+              <a href="/zh-hant/mcp/" aria-current="true">繁體中文</a>
+              <a href="/de/mcp/">Deutsch</a>
+              <a href="/fr/mcp/">Français</a>
+              <a href="/es/mcp/">Español</a>
+              <a href="/it/mcp/">Italiano</a>
+              <a href="/pt-pt/mcp/">Português</a>
+              <a href="/nl/mcp/">Nederlands</a>
+              <a href="/sv/mcp/">Svenska</a>
+              <a href="/da/mcp/">Dansk</a>
+              <a href="/no/mcp/">Norsk</a>
+              <a href="/fi/mcp/">Suomi</a>
+              <a href="/ru/mcp/">Русский</a>
+            </div>
+          </details>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">前往 App Store 下載</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Model Context Protocol · macOS · 僅限本機迴路</p>
+        <h1>讓 AI 回答你的淨資產問題，而無需將帳本上傳至雲端。</h1>
+        <p class="lead"><strong>Mac 版 WorthTrail</strong> 內建基於 Streamable HTTP 的本機 <strong>MCP（Model Context Protocol）</strong> 服務。連線 <strong>Claude Code</strong>、<strong>Claude Desktop</strong>、<strong>Codex</strong> 或其他相容用戶端，即可自然語言查詢資產，並可於明確預覽確認後記錄變更。</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">取得 Mac 版 WorthTrail</a>
+          <a class="btn btn-secondary" href="/zh-hant/faq/">查看常見問題</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="device-frame" style="max-width: 268px;">
+          <img src="/assets/screens/zh-hant-ai.webp" alt="WorthTrail Mac 本機 Agent 存取設定畫面" width="900" height="1957" loading="eager">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container-narrow">
+    <section class="section-compact">
+      <h2>連線規格</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>屬性</th>
+              <th>說明</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>傳輸協定</strong></td>
+              <td>Streamable HTTP（僅監聽本機迴路位址）</td>
+            </tr>
+            <tr>
+              <td><strong>預設端點</strong></td>
+              <td><code>http://127.0.0.1:47821/mcp</code>（可於設定修改連接埠，1024–65535）</td>
+            </tr>
+            <tr>
+              <td><strong>驗證方式</strong></td>
+              <td><code>Authorization: Bearer &lt;token&gt;</code>（儲存於 macOS 鑰匙圈，隨時可重設）</td>
+            </tr>
+            <tr>
+              <td><strong>運作條件</strong></td>
+              <td>僅於 Mac 版 WorthTrail 開啟且已啟用「Agent 存取」時運行</td>
+            </tr>
+            <tr>
+              <td><strong>收費說明</strong></td>
+              <td>免費版完整包含（MCP 無付費牆；新增資產仍適用免費版 10 項上限）</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>如何連線</h2>
+      <p>開啟 <strong>Mac 版 WorthTrail &rarr; 設定 &rarr; Agent 存取</strong>，啟用本機代理存取，並複製個人設定提示詞或 Bearer Token。</p>
+
+      <h3>Claude Code</h3>
+      <pre><code>claude mcp add --transport http --scope user worthtrail http://127.0.0.1:47821/mcp \
+  --header "Authorization: Bearer YOUR_TOKEN"</code></pre>
+
+      <h3>Claude Desktop (<code>~/.claude.json</code>)</h3>
+      <pre><code>{
+  "mcpServers": {
+    "worthtrail": {
+      "type": "http",
+      "url": "http://127.0.0.1:47821/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN"
+      }
+    }
+  }
+}</code></pre>
+
+      <h3>Codex (<code>~/.codex/config.toml</code>)</h3>
+      <pre><code>[mcp_servers.worthtrail]
+url = "http://127.0.0.1:47821/mcp"
+http_headers = { "Authorization" = "Bearer YOUR_TOKEN" }</code></pre>
+    </section>
+
+    <section>
+      <h2>AI 代理可以查詢與執行什麼</h2>
+      <div class="grid-2">
+        <div class="fact-block">
+          <h3>唯讀工具（開啟 Agent 存取即啟用）</h3>
+          <ul>
+            <li>目前淨資產、總資產、負債、持倉成本與今日變動（<code>get_net_worth</code>）</li>
+            <li>依分類或幣別列出全部持倉，含股票、ETF、加密貨幣、期權、定存與自訂資產（<code>list_positions</code>、<code>list_liabilities</code>）</li>
+            <li>歷史快照與單日持倉明細（<code>get_snapshots</code>、<code>get_snapshot_detail</code>）</li>
+            <li>期間損益表現、資金加權報酬曲線與依標的拆分的每日盈虧（<code>get_performance</code>、<code>get_daily_earnings</code>）</li>
+            <li>股利、定投計劃、交易紀錄與 FIRE 預估</li>
+          </ul>
+        </div>
+        <div class="fact-block">
+          <h3>寫入工具（獨立手動開關）</h3>
+          <ul>
+            <li>預設關閉——開啟唯讀存取絕不會自動開放寫入權限。</li>
+            <li><strong>兩步驟確認：</strong>首次工具呼叫僅回傳可讀預覽與短時效確認碼；唯有你同意並由 AI 攜帶該確認碼發起第二次呼叫才會真正寫入。</li>
+            <li>支援記錄交易、持倉調整、新增資產/負債、定投計劃與復原操作，並於設定保留變更紀錄。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>試著這樣提問</h2>
+      <ul>
+        <li><em>「我目前的淨資產換算台幣是多少？這個月整體變化了多少？」</em></li>
+        <li><em>「過去 90 天裡，哪幾檔持倉對我的損益貢獻最大？」</em></li>
+        <li><em>「今年預計可領取多少稅後股利與定存利息？能覆蓋多少比例的 FIRE 年支出？」</em></li>
+        <li><em>「先幫我預覽今天以 225 美元買入 10 股 AAPL 的紀錄，等我確認後再寫入。」</em></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>安全模型</h2>
+      <ul>
+        <li><strong>僅綁定本機迴路：</strong>僅監聽 <code>127.0.0.1</code>，不暴露於區網或網際網路。</li>
+        <li><strong>遵循應用程式鎖：</strong>當 WorthTrail 上鎖時，所有請求一律阻擋。</li>
+        <li><strong>提示詞注入防護：</strong>工具說明明確指示代理將名稱、代碼、標籤與備註嚴格視為純資料，絕非指令。</li>
+        <li><strong>即時撤銷連線：</strong>關閉開關、更換連接埠或重設鑰匙圈 Token，即可立即中斷所有用戶端。</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+        <a href="/zh-hant/">概覽</a>
+        <a href="/zh-hant/faq/">常見問題</a>
+        <a href="/zh-hant/vs/">產品比較</a>
+        <a href="/zh-hant/privacy/">隱私權政策</a>
+        <a href="/zh-hant/support/">支援</a>
+        <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>
+      </div>
+      <p class="disclaimer">WorthTrail 僅供個人資產記錄與分析使用，不提供任何投資建議。市場資料可能存在延遲、不完整或不準確之情形，請以您的實際帳戶及官方對帳單為準。</p>
+    </div>
+  </footer>
+</body>
+</html>

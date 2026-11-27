@@ -24,18 +24,19 @@ LASTMOD = "2026-11-27"
 
 LANGUAGES = [
     {"id": "en", "prefix": "", "hreflang": "en", "html_lang": "en", "name": "English", "short": "EN", "screen": "en"},
-    {"id": "zh-Hans", "prefix": "/zh", "hreflang": "zh-Hans", "html_lang": "zh-Hans", "name": "简体中文", "short": "中文", "screen": "zh"},
-    {"id": "de", "prefix": "/de", "hreflang": "de", "html_lang": "de", "name": "Deutsch", "short": "DE", "screen": "en"},
-    {"id": "fr", "prefix": "/fr", "hreflang": "fr", "html_lang": "fr", "name": "Français", "short": "FR", "screen": "en"},
-    {"id": "es", "prefix": "/es", "hreflang": "es", "html_lang": "es", "name": "Español", "short": "ES", "screen": "en"},
-    {"id": "it", "prefix": "/it", "hreflang": "it", "html_lang": "it", "name": "Italiano", "short": "IT", "screen": "en"},
-    {"id": "pt-PT", "prefix": "/pt-pt", "hreflang": "pt-PT", "html_lang": "pt-PT", "name": "Português", "short": "PT", "screen": "en"},
-    {"id": "nl", "prefix": "/nl", "hreflang": "nl", "html_lang": "nl", "name": "Nederlands", "short": "NL", "screen": "en"},
-    {"id": "sv", "prefix": "/sv", "hreflang": "sv", "html_lang": "sv", "name": "Svenska", "short": "SV", "screen": "en"},
-    {"id": "da", "prefix": "/da", "hreflang": "da", "html_lang": "da", "name": "Dansk", "short": "DA", "screen": "en"},
-    {"id": "no", "prefix": "/no", "hreflang": "no", "html_lang": "no", "name": "Norsk", "short": "NO", "screen": "en"},
-    {"id": "fi", "prefix": "/fi", "hreflang": "fi", "html_lang": "fi", "name": "Suomi", "short": "FI", "screen": "en"},
-    {"id": "ru", "prefix": "/ru", "hreflang": "ru", "html_lang": "ru", "name": "Русский", "short": "RU", "screen": "en"},
+    {"id": "zh-Hans", "prefix": "/zh", "hreflang": "zh-Hans", "html_lang": "zh-Hans", "name": "简体中文", "short": "简中", "screen": "zh"},
+    {"id": "zh-Hant", "prefix": "/zh-hant", "hreflang": "zh-Hant", "html_lang": "zh-Hant", "name": "繁體中文", "short": "繁中", "screen": "zh-hant"},
+    {"id": "de", "prefix": "/de", "hreflang": "de", "html_lang": "de", "name": "Deutsch", "short": "DE", "screen": "de"},
+    {"id": "fr", "prefix": "/fr", "hreflang": "fr", "html_lang": "fr", "name": "Français", "short": "FR", "screen": "fr"},
+    {"id": "es", "prefix": "/es", "hreflang": "es", "html_lang": "es", "name": "Español", "short": "ES", "screen": "es"},
+    {"id": "it", "prefix": "/it", "hreflang": "it", "html_lang": "it", "name": "Italiano", "short": "IT", "screen": "it"},
+    {"id": "pt-PT", "prefix": "/pt-pt", "hreflang": "pt-PT", "html_lang": "pt-PT", "name": "Português", "short": "PT", "screen": "pt-pt"},
+    {"id": "nl", "prefix": "/nl", "hreflang": "nl", "html_lang": "nl", "name": "Nederlands", "short": "NL", "screen": "nl"},
+    {"id": "sv", "prefix": "/sv", "hreflang": "sv", "html_lang": "sv", "name": "Svenska", "short": "SV", "screen": "sv"},
+    {"id": "da", "prefix": "/da", "hreflang": "da", "html_lang": "da", "name": "Dansk", "short": "DA", "screen": "da"},
+    {"id": "no", "prefix": "/no", "hreflang": "no", "html_lang": "no", "name": "Norsk", "short": "NO", "screen": "no"},
+    {"id": "fi", "prefix": "/fi", "hreflang": "fi", "html_lang": "fi", "name": "Suomi", "short": "FI", "screen": "fi"},
+    {"id": "ru", "prefix": "/ru", "hreflang": "ru", "html_lang": "ru", "name": "Русский", "short": "RU", "screen": "ru"},
 ]
 
 PAGES = ["home", "faq", "vs", "mcp", "support", "privacy"]
@@ -205,7 +206,7 @@ def render_head(
 def render_home(lang_cfg: dict, data: dict) -> str:
     h = data["home"]
     sc = lang_cfg["screen"]
-    overview_img = f"{SITE_ORIGIN}/assets/screens/{sc}-overview.jpg"
+    overview_img = f"{SITE_ORIGIN}/assets/screens/{sc}-overview.webp"
 
     json_ld = {
         "@context": "https://schema.org",
@@ -221,11 +222,11 @@ def render_home(lang_cfg: dict, data: dict) -> str:
                 "installUrl": APP_STORE_URL,
                 "image": overview_img,
                 "screenshot": [
-                    f"{SITE_ORIGIN}/assets/screens/{sc}-overview.jpg",
-                    f"{SITE_ORIGIN}/assets/screens/{sc}-returns.jpg",
-                    f"{SITE_ORIGIN}/assets/screens/{sc}-dividends.jpg",
-                    f"{SITE_ORIGIN}/assets/screens/{sc}-composition.jpg",
-                    f"{SITE_ORIGIN}/assets/screens/{sc}-ai.jpg",
+                    f"{SITE_ORIGIN}/assets/screens/{sc}-overview.webp",
+                    f"{SITE_ORIGIN}/assets/screens/{sc}-returns.webp",
+                    f"{SITE_ORIGIN}/assets/screens/{sc}-dividends.webp",
+                    f"{SITE_ORIGIN}/assets/screens/{sc}-composition.webp",
+                    f"{SITE_ORIGIN}/assets/screens/{sc}-ai.webp",
                 ],
                 "description": h["meta_description"],
                 "offers": [
@@ -258,7 +259,7 @@ def render_home(lang_cfg: dict, data: dict) -> str:
     screens_html = "\n          ".join(
         f"""<figure class="screen-card">
             <div class="screen-shot">
-              <img src="/assets/screens/{sc}-{sf}.jpg" alt="{e(item['alt'])}" loading="lazy">
+              <img src="/assets/screens/{sc}-{sf}.webp" alt="{e(item['alt'])}" width="900" height="1957" loading="lazy">
             </div>
             <figcaption>
               <strong>{e(item['title'])}</strong>
@@ -318,7 +319,7 @@ def render_home(lang_cfg: dict, data: dict) -> str:
       </div>
       <div class="hero-visual">
         <div class="device-frame">
-          <img src="/assets/screens/{sc}-overview.jpg" alt="{e(h['hero_img_alt'])}" width="443" height="960" loading="eager">
+          <img src="/assets/screens/{sc}-overview.webp" alt="{e(h['hero_img_alt'])}" width="900" height="1957" loading="eager">
         </div>
       </div>
     </div>
@@ -371,7 +372,7 @@ def render_home(lang_cfg: dict, data: dict) -> str:
           </div>
           <div class="hero-visual">
             <div class="device-frame" style="max-width: 260px;">
-              <img src="/assets/screens/{sc}-ai.jpg" alt="{e(h['mcp_img_alt'])}" loading="lazy">
+              <img src="/assets/screens/{sc}-ai.webp" alt="{e(h['mcp_img_alt'])}" width="900" height="1957" loading="lazy">
             </div>
           </div>
         </div>
@@ -579,7 +580,7 @@ def render_mcp(lang_cfg: dict, data: dict) -> str:
       </div>
       <div class="hero-visual">
         <div class="device-frame" style="max-width: 268px;">
-          <img src="/assets/screens/{sc}-ai.jpg" alt="{e(m['img_alt'])}" loading="eager">
+          <img src="/assets/screens/{sc}-ai.webp" alt="{e(m['img_alt'])}" width="900" height="1957" loading="eager">
         </div>
       </div>
     </div>
