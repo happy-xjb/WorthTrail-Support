@@ -25,7 +25,11 @@
     "og_title": "WorthTrail — 无需绑定银行的净资产与持仓记录工具",
     "og_description": "统一管理股票、ETF、基金、加密货币、定期存款、银行理财、房产与负债；本地存储与私人 iCloud 同步，支持 ¥88 一次性买断与 Mac 本地 MCP 服务。",
     "offer_currency": "CNY",
-    "offer_prices": ["8", "38", "88"],
+    "offer_prices": [
+      "8",
+      "38",
+      "88"
+    ],
     "offers": [
       "免费版（10 项资产/现金/负债，全功能开放）",
       "WorthTrail Pro 月度（无限资产）",
@@ -44,10 +48,26 @@
     ],
     "hero_img_alt": "WorthTrail 简体中文总览界面，展示净资产、总资产、负债与今日变化",
     "kpis": [
-      {"val": "零银行登录", "lbl": "数据仅存本机与私人 iCloud", "nums": false},
-      {"val": "多币种跨市场", "lbl": "美股、港股、A股、台股与定存", "nums": true},
-      {"val": "¥88 永久买断", "lbl": "免费 10 项全功能，不设功能锁", "nums": true},
-      {"val": "Mac MCP", "lbl": "本地接入 Claude / Codex AI 助手", "nums": false}
+      {
+        "val": "零银行登录",
+        "lbl": "数据仅存本机与私人 iCloud",
+        "nums": false
+      },
+      {
+        "val": "多币种跨市场",
+        "lbl": "美股、港股、A股、台股与定存",
+        "nums": true
+      },
+      {
+        "val": "¥88 永久买断",
+        "lbl": "免费 10 项全功能，不设功能锁",
+        "nums": true
+      },
+      {
+        "val": "Mac MCP",
+        "lbl": "本地接入 Claude / Codex AI 助手",
+        "nums": false
+      }
     ],
     "screens_eyebrow": "真实界面一览",
     "screens_h2": "克制清晰的排版，让每一笔资产和收益一目了然。",
@@ -126,11 +146,31 @@
     ],
     "explore_h2": "继续了解",
     "explore_items": [
-      {"page": "faq", "title": "常见问题与产品说明", "desc": "资产覆盖、数据源、隐私架构与定价明细。"},
-      {"page": "vs", "title": "WorthTrail vs Monarch Money、Copilot Money、Kubera 与电子表格", "desc": "客观对比银行直连型与本地隐私型工具的取舍。"},
-      {"page": "mcp", "title": "Mac 本地 MCP 服务接入指南", "desc": "安全连接 Claude Code、Claude Desktop 与 Codex。"},
-      {"page": "support", "title": "支持与故障排查", "desc": "反馈入口、加密诊断文件说明与常见问题排查。"},
-      {"href": "/llms.txt", "title": "llms.txt", "desc": "面向 AI 工具与搜索引擎的结构化产品摘要。"}
+      {
+        "page": "faq",
+        "title": "常见问题与产品说明",
+        "desc": "资产覆盖、数据源、隐私架构与定价明细。"
+      },
+      {
+        "page": "vs",
+        "title": "WorthTrail vs Monarch Money、Copilot Money、Kubera 与电子表格",
+        "desc": "客观对比银行直连型与本地隐私型工具的取舍。"
+      },
+      {
+        "page": "mcp",
+        "title": "Mac 本地 MCP 服务接入指南",
+        "desc": "安全连接 Claude Code、Claude Desktop 与 Codex。"
+      },
+      {
+        "page": "support",
+        "title": "支持与故障排查",
+        "desc": "反馈入口、加密诊断文件说明与常见问题排查。"
+      },
+      {
+        "href": "/llms.txt",
+        "title": "llms.txt",
+        "desc": "面向 AI 工具与搜索引擎的结构化产品摘要。"
+      }
     ]
   },
   "faq": {
@@ -188,22 +228,85 @@
     ]
   },
   "vs": {
-    "title": "WorthTrail 对比评测 — vs Monarch Money、Copilot Money、Kubera 与电子表格",
-    "meta_description": "客观对比 WorthTrail 与 Monarch Money、Copilot Money、Kubera 及 Excel 电子表格：银行登录要求、隐私架构、多币种资产、买断定价与 Mac 本地 MCP 服务。",
+    "title": "WorthTrail 对比评测 — vs Portfolio Performance、Parqet、getquin、Finary、Sharesight、Monarch 与 Kubera",
+    "meta_description": "客观对比 WorthTrail 与欧美主流净资产及投资组合工具：Portfolio Performance、Parqet、getquin、Finary、Sharesight、Snowball Analytics、Monarch Money、Copilot Money 与 Kubera。",
     "eyebrow": "客观产品对比",
     "h1": "WorthTrail 与主流净资产工具对比",
-    "lead_html": "不同资产管理工具解决的是不同的问题。下面是 <strong>WorthTrail</strong> 与 <strong>Monarch Money</strong>、<strong>Copilot Money</strong>、<strong>Kubera</strong> 及 <strong>电子表格</strong> 的直接对比——也写明了哪些场景下你应该选择其他工具。",
+    "lead_html": "不同资产管理工具解决的是不同的问题。下面是 <strong>WorthTrail</strong> 与北美净资产应用（<strong>Monarch Money</strong>、<strong>Copilot Money</strong>、<strong>Kubera</strong>）、欧洲与全球热门投资组合工具（<strong>Portfolio Performance</strong>、<strong>Parqet</strong>、<strong>getquin</strong>、<strong>Finary</strong>、<strong>Sharesight</strong>、<strong>Snowball Analytics</strong>）及 <strong>电子表格</strong> 的直接对比。",
     "table_h2": "核心维度对比",
-    "table_headers": ["对比维度", "WorthTrail", "Monarch Money", "Copilot Money", "Kubera", "电子表格"],
+    "table_headers": [
+      "对比维度",
+      "WorthTrail",
+      "Monarch Money",
+      "Copilot Money",
+      "Kubera",
+      "电子表格"
+    ],
     "table_rows": [
-      ["银行登录 / Plaid", "<strong>无需绑定银行或券商</strong>", "核心能力（Plaid / MX / Finicity）", "核心能力（Plaid / 聚合商）", "核心能力（多聚合商）", "手动（除非自写脚本）"],
-      ["数据存储", "<strong>本机 SwiftData + 可选私人 iCloud</strong>", "厂商云端", "厂商云端", "厂商云端", "本地或网盘"],
-      ["多币种与跨市场", "<strong>原生多币种；美/港/A/台/全球股、加密、定存</strong>", "以美/加为主", "以美国为主", "全球与多币种较强", "手动 / 自定义公式"],
-      ["日常消费记账与预算", "非消费预算类 App", "<strong>强</strong>", "<strong>强</strong>", "非消费预算类 App", "手动"],
-      ["分红、FIRE 与再平衡", "<strong>内置支持</strong>", "基础目标 / 退休", "基础投资追踪", "偏净资产与 IRR", "需自写公式"],
-      ["本地 AI / MCP 服务", "<strong>内置 Mac 本地 MCP 服务</strong>", "无本地 MCP", "无本地 MCP", "无本地 MCP", "需自行搭建"],
-      ["收费方式", "<strong>免费 10 项全功能；¥8/月、¥38/年或 ¥88 永久买断</strong>", "仅订阅（约 $99.99/年）", "仅订阅（约 $95/年）", "仅订阅（约 $199+/年）", "免费 / 办公套件"],
-      ["支持平台", "iPhone、iPad、Mac", "Web、iOS、Android", "iOS、Mac、Web", "Web、iOS、Android", "跨平台"]
+      [
+        "银行登录 / Plaid",
+        "<strong>无需绑定银行或券商</strong>",
+        "核心能力（Plaid / MX / Finicity）",
+        "核心能力（Plaid / 聚合商）",
+        "核心能力（多聚合商）",
+        "手动（除非自写脚本）"
+      ],
+      [
+        "数据存储",
+        "<strong>本机 SwiftData + 可选私人 iCloud</strong>",
+        "厂商云端",
+        "厂商云端",
+        "厂商云端",
+        "本地或网盘"
+      ],
+      [
+        "多币种与跨市场",
+        "<strong>原生多币种；美/港/A/台/全球股、加密、定存</strong>",
+        "以美/加为主",
+        "以美国为主",
+        "全球与多币种较强",
+        "手动 / 自定义公式"
+      ],
+      [
+        "日常消费记账与预算",
+        "非消费预算类 App",
+        "<strong>强</strong>",
+        "<strong>强</strong>",
+        "非消费预算类 App",
+        "手动"
+      ],
+      [
+        "分红、FIRE 与再平衡",
+        "<strong>内置支持</strong>",
+        "基础目标 / 退休",
+        "基础投资追踪",
+        "偏净资产与 IRR",
+        "需自写公式"
+      ],
+      [
+        "本地 AI / MCP 服务",
+        "<strong>内置 Mac 本地 MCP 服务</strong>",
+        "无本地 MCP",
+        "无本地 MCP",
+        "无本地 MCP",
+        "需自行搭建"
+      ],
+      [
+        "收费方式",
+        "<strong>免费 10 项全功能；¥8/月、¥38/年或 ¥88 永久买断</strong>",
+        "仅订阅（约 $99.99/年）",
+        "仅订阅（约 $95/年）",
+        "仅订阅（约 $199+/年）",
+        "免费 / 办公套件"
+      ],
+      [
+        "支持平台",
+        "iPhone、iPad、Mac",
+        "Web、iOS、Android",
+        "iOS、Mac、Web",
+        "Web、iOS、Android",
+        "跨平台"
+      ]
     ],
     "table_note": "说明：第三方产品价格与功能为公开参考值，可能随时调整，请以各厂商官网最新信息为准。",
     "sections": [
@@ -238,12 +341,96 @@
           "<strong>选择电子表格：</strong>如果你在 Windows/Linux/网页端需要高度定制的复杂财务模型或专有公式。",
           "<strong>选择 WorthTrail：</strong>如果你厌倦了行情公式频繁失效、手动维护汇率与历史净资产快照——同时又想随时导出干净的 Excel（<code>.xlsx</code>）工作簿留档。"
         ]
+      },
+      {
+        "id": "portfolio-performance",
+        "h2": "WorthTrail vs Portfolio Performance",
+        "bullets_html": [
+          "<strong>选择 Portfolio Performance：</strong>如果你需要免费开源的桌面端专业记账软件（Windows/macOS/Linux），且重度依赖德国/欧洲券商 PDF 对账单自动解析。",
+          "<strong>选择 WorthTrail：</strong>如果你更看重原生 <strong>iPhone、iPad 与 Mac</strong> 体验、开箱即用的私人 iCloud 同步、本地截图/CSV 批量导入、定期存款与负债管理、FIRE 测算及 Mac MCP，而不想手动维护桌面 XML 文件。"
+        ]
+      },
+      {
+        "id": "parqet-getquin",
+        "h2": "WorthTrail vs Parqet 与 getquin",
+        "bullets_html": [
+          "<strong>选择 Parqet 或 getquin：</strong>如果你习惯网页端看板、德国/欧洲券商 PDF 解析、Open Banking 直连，或喜欢 getquin 的投资社区动态。",
+          "<strong>选择 WorthTrail：</strong>如果你希望<strong>零厂商云端、免注册账号</strong>，在股票之外统一记录定存、现金、房产与房贷，并希望用 ¥88（$12.99）永久买断替代每年 €60–€150 的订阅。"
+        ]
+      },
+      {
+        "id": "finary",
+        "h2": "WorthTrail vs Finary",
+        "bullets_html": [
+          "<strong>选择 Finary：</strong>如果你常驻法国或欧洲，希望通过 Powens/Flanks 自动聚合银行与券商账户、扫描基金隐藏费率并使用网页端门户。",
+          "<strong>选择 WorthTrail：</strong>如果你不愿交出银行登录凭证，偏好本机 SwiftData 与私人 iCloud 存储，看重原生 Apple 流畅度与 Mac MCP，且只需 ¥38/年或 ¥88 买断而非 €149+/年订阅。"
+        ]
+      },
+      {
+        "id": "sharesight-snowball",
+        "h2": "WorthTrail vs Sharesight 与 Snowball Analytics",
+        "bullets_html": [
+          "<strong>选择 Sharesight 或 Snowball Analytics：</strong>如果你需要面向特定国家税务口径的网页报税报表（如 Sharesight 的澳/新/英/加税务报表）或重度网页端股息回测。",
+          "<strong>选择 WorthTrail：</strong>如果你想要一款私密原生 Apple 应用，把<strong>投资持仓、分红日历、定期存款、现金、房产与负债</strong>装在一起，内置 FIRE 与再平衡测算，且价格仅为其零头。"
+        ]
       }
     ],
     "cta_h2": "准备好试试 WorthTrail 了吗？",
     "cta_lead": "免费版开放全部功能（最多 10 项），无需注册账号，无需绑定银行卡。",
     "cta_primary": "前往 App Store 下载",
-    "cta_secondary": "查看常见问题"
+    "cta_secondary": "查看常见问题",
+    "eu_table_h2": "WorthTrail vs 欧洲与全球主流投资组合工具",
+    "eu_table_lead": "对比德国、法国、英国、北欧及全球投资者常用的投资组合追踪工具。",
+    "eu_table_headers": [
+      "对比维度",
+      "WorthTrail",
+      "Portfolio Performance",
+      "Parqet / getquin",
+      "Finary",
+      "Sharesight / Snowball"
+    ],
+    "eu_table_rows": [
+      [
+        "账号与券商同步",
+        "<strong>无需账号、无需银行/券商登录</strong>",
+        "手动 / 券商 PDF 与 CSV 导入（无云账号）",
+        "需注册云端账号；支持 PDF / 券商同步",
+        "需云端账号；欧洲银行与券商聚合",
+        "需云端账号；券商导入 / 同步"
+      ],
+      [
+        "数据存储",
+        "<strong>本机 SwiftData + 可选私人 iCloud</strong>",
+        "桌面本地 XML 文件",
+        "厂商云端",
+        "厂商云端",
+        "厂商云端"
+      ],
+      [
+        "资产覆盖范围",
+        "<strong>完整净资产：股票、ETF、加密、定存、现金、房产与负债</strong>",
+        "偏重证券持仓与交易明细核算",
+        "以证券组合与分红为主",
+        "全资产追踪 + 费率扫描",
+        "以股票/ETF 与分红分析为主"
+      ],
+      [
+        "移动端与 Mac 体验",
+        "<strong>原生 iPhone、iPad、Mac + 本地 Mac MCP</strong>",
+        "桌面优先（Java）；配套移动端",
+        "网页 + 移动 App",
+        "网页 + 移动 App",
+        "网页优先 + 移动 App"
+      ],
+      [
+        "收费方式",
+        "<strong>免费 10 项全功能；¥8/月、¥38/年或 ¥88 永久买断</strong>",
+        "桌面端开源免费（移动端同步付费）",
+        "免费增值；付费约 €60–€150+/年",
+        "免费增值；Plus 约 €149+/年",
+        "免费增值；付费约 $150–$300+/年"
+      ]
+    ]
   },
   "mcp": {
     "title": "WorthTrail Mac 本地 MCP 服务 — 让 Claude 与 AI 助手安全读取本地资产",
@@ -259,11 +446,26 @@
     "specs_col_prop": "属性",
     "specs_col_val": "说明",
     "spec_rows": [
-      ["传输协议", "Streamable HTTP（仅监听本机回环地址）"],
-      ["默认地址", "<code>http://127.0.0.1:47821/mcp</code>（可在设置中修改端口，1024–65535）"],
-      ["鉴权方式", "<code>Authorization: Bearer &lt;token&gt;</code>（存于 macOS 钥匙串，随时可重置）"],
-      ["运行条件", "仅在 Mac 版 WorthTrail 处于打开状态且开启「Agent 访问」时运行"],
-      ["收费说明", "免费版即完整包含（MCP 无付费墙；新增资产仍沿用免费版 10 项上限）"]
+      [
+        "传输协议",
+        "Streamable HTTP（仅监听本机回环地址）"
+      ],
+      [
+        "默认地址",
+        "<code>http://127.0.0.1:47821/mcp</code>（可在设置中修改端口，1024–65535）"
+      ],
+      [
+        "鉴权方式",
+        "<code>Authorization: Bearer &lt;token&gt;</code>（存于 macOS 钥匙串，随时可重置）"
+      ],
+      [
+        "运行条件",
+        "仅在 Mac 版 WorthTrail 处于打开状态且开启「Agent 访问」时运行"
+      ],
+      [
+        "收费说明",
+        "免费版即完整包含（MCP 无付费墙；新增资产仍沿用免费版 10 项上限）"
+      ]
     ],
     "connect_h2": "如何连接",
     "connect_intro_html": "打开 <strong>Mac 版 WorthTrail &rarr; 设置 &rarr; Agent 访问</strong>，开启本地 Agent 访问，然后复制专属配置提示词或 Bearer Token。",
@@ -393,21 +595,68 @@
     "effective_date": "生效日期：2026 年 11 月 27 日",
     "applies_to": "适用于 WorthTrail iPhone、iPad 与 Mac 版",
     "glance": [
-      {"val": "零银行登录", "lbl": "不接入 Plaid 或券商账号"},
-      {"val": "本地优先", "lbl": "仅存本机 SwiftData 与私人 iCloud"},
-      {"val": "零追踪广告", "lbl": "无广告、无第三方分析 SDK"},
-      {"val": "完全掌控", "lbl": "加密本地备份，随时彻底删除"}
+      {
+        "val": "零银行登录",
+        "lbl": "不接入 Plaid 或券商账号"
+      },
+      {
+        "val": "本地优先",
+        "lbl": "仅存本机 SwiftData 与私人 iCloud"
+      },
+      {
+        "val": "零追踪广告",
+        "lbl": "无广告、无第三方分析 SDK"
+      },
+      {
+        "val": "完全掌控",
+        "lbl": "加密本地备份，随时彻底删除"
+      }
     ],
     "flow_h2": "数据流向一览",
     "flow_lead": "清晰列出每一类数据的存储位置，以及它是否会离开你的设备。",
-    "flow_headers": ["数据类型", "存储与处理位置", "发送给开发者？", "发送给第三方？"],
+    "flow_headers": [
+      "数据类型",
+      "存储与处理位置",
+      "发送给开发者？",
+      "发送给第三方？"
+    ],
     "flow_rows": [
-      ["<strong>持仓与账本数据</strong><br>资产、数量、持仓成本、负债、流水、标签、备注、快照", "你的设备（SwiftData）与可选个人 iCloud（CloudKit 私有库）", "<strong>从不</strong>", "仅在开启同步时存于你的 Apple iCloud"],
-      ["<strong>行情与汇率查询</strong><br>搜索词、标的代码、数据源标识、币种代码", "即时网络请求", "<strong>从不</strong>", "仅发送给你启用的行情服务商"],
-      ["<strong>截图批量导入（OCR）</strong><br>你选择的券商或基金持仓截图", "完全在设备本地通过 Apple Vision 识别", "<strong>从不</strong>", "<strong>从不</strong>"],
-      ["<strong>小组件与应用锁</strong><br>展示摘要、Face ID、密码锁", "私有 App Group 与钥匙串（仅存加盐哈希）", "<strong>从不</strong>", "<strong>从不</strong>"],
-      ["<strong>Mac 本地 MCP 服务</strong><br>本地 AI 客户端查询（默认关闭）", "仅绑定 Mac 本机回环 <code>127.0.0.1</code>", "<strong>从不</strong>", "仅发送给你主动连接的 AI 客户端"],
-      ["<strong>加密诊断文件</strong><br><code>.wtdiag</code> 文件（仅在你主动导出时生成）", "存于本地，直至你自行发邮件提交", "仅在你主动发送给支持邮箱时", "<strong>从不</strong>"]
+      [
+        "<strong>持仓与账本数据</strong><br>资产、数量、持仓成本、负债、流水、标签、备注、快照",
+        "你的设备（SwiftData）与可选个人 iCloud（CloudKit 私有库）",
+        "<strong>从不</strong>",
+        "仅在开启同步时存于你的 Apple iCloud"
+      ],
+      [
+        "<strong>行情与汇率查询</strong><br>搜索词、标的代码、数据源标识、币种代码",
+        "即时网络请求",
+        "<strong>从不</strong>",
+        "仅发送给你启用的行情服务商"
+      ],
+      [
+        "<strong>截图批量导入（OCR）</strong><br>你选择的券商或基金持仓截图",
+        "完全在设备本地通过 Apple Vision 识别",
+        "<strong>从不</strong>",
+        "<strong>从不</strong>"
+      ],
+      [
+        "<strong>小组件与应用锁</strong><br>展示摘要、Face ID、密码锁",
+        "私有 App Group 与钥匙串（仅存加盐哈希）",
+        "<strong>从不</strong>",
+        "<strong>从不</strong>"
+      ],
+      [
+        "<strong>Mac 本地 MCP 服务</strong><br>本地 AI 客户端查询（默认关闭）",
+        "仅绑定 Mac 本机回环 <code>127.0.0.1</code>",
+        "<strong>从不</strong>",
+        "仅发送给你主动连接的 AI 客户端"
+      ],
+      [
+        "<strong>加密诊断文件</strong><br><code>.wtdiag</code> 文件（仅在你主动导出时生成）",
+        "存于本地，直至你自行发邮件提交",
+        "仅在你主动发送给支持邮箱时",
+        "<strong>从不</strong>"
+      ]
     ],
     "sections": [
       {

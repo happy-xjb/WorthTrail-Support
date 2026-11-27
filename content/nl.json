@@ -25,7 +25,11 @@
     "og_title": "WorthTrail — Privé nettovermogen- en portefeuilletracker (zonder bankkoppeling)",
     "og_description": "Een rustig, privé vermogensoverzicht voor aandelen, ETF's, fondsen, crypto, spaardeposito's, vastgoed en schulden op iPhone, iPad en Mac. Geen banklogin, privé iCloud-sync, eenmalige aankoop en Mac MCP-server.",
     "offer_currency": "USD",
-    "offer_prices": ["0.99", "5.99", "12.99"],
+    "offer_prices": [
+      "0.99",
+      "5.99",
+      "12.99"
+    ],
     "offers": [
       "Gratis (Alle functies, tot 10 posities)",
       "WorthTrail Pro Maandelijks (Onbeperkte bezittingen)",
@@ -44,10 +48,26 @@
     ],
     "hero_img_alt": "WorthTrail iOS-overzicht met nettovermogen, totale bezittingen, schulden en dagverandering",
     "kpis": [
-      {"val": "Geen Plaid", "lbl": "Nooit bank- of brokerinloggegevens nodig", "nums": false},
-      {"val": "45+ talen", "lbl": "Automatische omrekening in meerdere valuta's", "nums": true},
-      {"val": "$12,99 eenmalig", "lbl": "Optionele levenslange aankoop", "nums": true},
-      {"val": "Mac MCP", "lbl": "Ingebouwd lokaal AI-agentprotocol", "nums": false}
+      {
+        "val": "Geen Plaid",
+        "lbl": "Nooit bank- of brokerinloggegevens nodig",
+        "nums": false
+      },
+      {
+        "val": "45+ talen",
+        "lbl": "Automatische omrekening in meerdere valuta's",
+        "nums": true
+      },
+      {
+        "val": "$12,99 eenmalig",
+        "lbl": "Optionele levenslange aankoop",
+        "nums": true
+      },
+      {
+        "val": "Mac MCP",
+        "lbl": "Ingebouwd lokaal AI-agentprotocol",
+        "nums": false
+      }
     ],
     "screens_eyebrow": "Binnenin WorthTrail",
     "screens_h2": "Ontworpen voor overzicht over elke beleggingscategorie.",
@@ -126,11 +146,31 @@
     ],
     "explore_h2": "Meer ontdekken",
     "explore_items": [
-      {"page": "faq", "title": "Veelgestelde vragen & productfeiten", "desc": "ondersteunde beleggingen, gegevensbronnen, privacy en prijzen."},
-      {"page": "vs", "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & spreadsheets", "desc": "eerlijke vergelijking naast elkaar."},
-      {"page": "mcp", "title": "Handleiding lokale Mac MCP-server", "desc": "koppel Claude Code, Claude Desktop of Codex veilig."},
-      {"page": "support", "title": "Ondersteuning & probleemoplossing", "desc": "contactopties, versleuteld diagnosebestand en snelle hulp."},
-      {"href": "/llms.txt", "title": "llms.txt", "desc": "beknopte gestructureerde samenvatting voor AI-tools en zoekmachines."}
+      {
+        "page": "faq",
+        "title": "Veelgestelde vragen & productfeiten",
+        "desc": "ondersteunde beleggingen, gegevensbronnen, privacy en prijzen."
+      },
+      {
+        "page": "vs",
+        "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & spreadsheets",
+        "desc": "eerlijke vergelijking naast elkaar."
+      },
+      {
+        "page": "mcp",
+        "title": "Handleiding lokale Mac MCP-server",
+        "desc": "koppel Claude Code, Claude Desktop of Codex veilig."
+      },
+      {
+        "page": "support",
+        "title": "Ondersteuning & probleemoplossing",
+        "desc": "contactopties, versleuteld diagnosebestand en snelle hulp."
+      },
+      {
+        "href": "/llms.txt",
+        "title": "llms.txt",
+        "desc": "beknopte gestructureerde samenvatting voor AI-tools en zoekmachines."
+      }
     ]
   },
   "faq": {
@@ -188,22 +228,85 @@
     ]
   },
   "vs": {
-    "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & spreadsheets",
-    "meta_description": "Objectieve vergelijking van WorthTrail met Monarch Money, Copilot Money, Kubera en spreadsheets: bankkoppeling, privacy, meerdere valuta's, prijzen en Mac MCP.",
+    "title": "WorthTrail vs Portfolio Performance, Parqet, getquin, Finary, Sharesight & Monarch",
+    "meta_description": "Objectieve vergelijking van WorthTrail met Portfolio Performance, Parqet, getquin, Finary, Sharesight, Snowball Analytics, Monarch Money, Copilot Money en Kubera.",
     "eyebrow": "Eerlijke vergelijking",
     "h1": "WorthTrail vergeleken met populaire vermogenstrackers",
-    "lead_html": "Elke tool lost een ander probleem op. Hieronder vindt u een nuchtere vergelijking van <strong>WorthTrail</strong> met <strong>Monarch Money</strong>, <strong>Copilot Money</strong>, <strong>Kubera</strong> en <strong>spreadsheets</strong> — inclusief wanneer een ander hulpmiddel beter past.",
+    "lead_html": "Elke tool lost een ander probleem op. Hieronder vindt u een nuchtere vergelijking van <strong>WorthTrail</strong> met Amerikaanse apps (<strong>Monarch Money</strong>, <strong>Copilot Money</strong>, <strong>Kubera</strong>), Europese en wereldwijde portefeuilletrackers (<strong>Portfolio Performance</strong>, <strong>Parqet</strong>, <strong>getquin</strong>, <strong>Finary</strong>, <strong>Sharesight</strong>, <strong>Snowball Analytics</strong>) en <strong>spreadsheets</strong>.",
     "table_h2": "Vergelijking naast elkaar",
-    "table_headers": ["Onderdeel", "WorthTrail", "Monarch Money", "Copilot Money", "Kubera", "Spreadsheets"],
+    "table_headers": [
+      "Onderdeel",
+      "WorthTrail",
+      "Monarch Money",
+      "Copilot Money",
+      "Kubera",
+      "Spreadsheets"
+    ],
     "table_rows": [
-      ["Bankkoppeling / Plaid", "<strong>Geen (zonder banklogin)</strong>", "Kernfunctie (Plaid / MX / Finicity)", "Kernfunctie (Plaid / aggregators)", "Kernfunctie (meerdere aggregators)", "Handmatig (tenzij scripts)"],
-      ["Gegevensopslag", "<strong>Lokaal SwiftData + optioneel privé iCloud</strong>", "Cloud van aanbieder", "Cloud van aanbieder", "Cloud van aanbieder", "Lokaal of cloudopslag"],
-      ["Meerdere valuta's & beurzen", "<strong>Ingebouwd multivaluta; wereldwijde aandelen, ETF's, crypto, deposito's</strong>", "Vooral VS / Canada", "Vooral VS", "Sterk globaal &amp; multivaluta", "Handmatig / eigen formules"],
-      ["Budgetteren & bankuitgaven", "Geen huishoudboekje", "<strong>Sterk</strong>", "<strong>Sterk</strong>", "Geen huishoudboekje", "Handmatig"],
-      ["Dividenden, FIRE & herbalanceren", "<strong>Ingebouwd</strong>", "Basisdoelen", "Basisbeleggingen", "Focus vermogen &amp; IRR", "Eigen formules"],
-      ["Lokale AI / MCP-server", "<strong>Ingebouwde Mac MCP-server</strong>", "Geen lokale MCP", "Geen lokale MCP", "Geen lokale MCP", "Zelf opzetten"],
-      ["Prijsmodel", "<strong>Gratis (10 items, alles); $0,99/m, $5,99/j of $12,99 eenmalig</strong>", "Alleen abonnement (~$99,99/jr)", "Alleen abonnement (~$95/jr)", "Alleen abonnement (~$199+/jr)", "Gratis / Office-pakket"],
-      ["Platformen", "iPhone, iPad, Mac", "Web, iOS, Android", "iOS, Mac, Web", "Web, iOS, Android", "Platformonafhankelijk"]
+      [
+        "Bankkoppeling / Plaid",
+        "<strong>Geen (zonder banklogin)</strong>",
+        "Kernfunctie (Plaid / MX / Finicity)",
+        "Kernfunctie (Plaid / aggregators)",
+        "Kernfunctie (meerdere aggregators)",
+        "Handmatig (tenzij scripts)"
+      ],
+      [
+        "Gegevensopslag",
+        "<strong>Lokaal SwiftData + optioneel privé iCloud</strong>",
+        "Cloud van aanbieder",
+        "Cloud van aanbieder",
+        "Cloud van aanbieder",
+        "Lokaal of cloudopslag"
+      ],
+      [
+        "Meerdere valuta's & beurzen",
+        "<strong>Ingebouwd multivaluta; wereldwijde aandelen, ETF's, crypto, deposito's</strong>",
+        "Vooral VS / Canada",
+        "Vooral VS",
+        "Sterk globaal &amp; multivaluta",
+        "Handmatig / eigen formules"
+      ],
+      [
+        "Budgetteren & bankuitgaven",
+        "Geen huishoudboekje",
+        "<strong>Sterk</strong>",
+        "<strong>Sterk</strong>",
+        "Geen huishoudboekje",
+        "Handmatig"
+      ],
+      [
+        "Dividenden, FIRE & herbalanceren",
+        "<strong>Ingebouwd</strong>",
+        "Basisdoelen",
+        "Basisbeleggingen",
+        "Focus vermogen &amp; IRR",
+        "Eigen formules"
+      ],
+      [
+        "Lokale AI / MCP-server",
+        "<strong>Ingebouwde Mac MCP-server</strong>",
+        "Geen lokale MCP",
+        "Geen lokale MCP",
+        "Geen lokale MCP",
+        "Zelf opzetten"
+      ],
+      [
+        "Prijsmodel",
+        "<strong>Gratis (10 items, alles); $0,99/m, $5,99/j of $12,99 eenmalig</strong>",
+        "Alleen abonnement (~$99,99/jr)",
+        "Alleen abonnement (~$95/jr)",
+        "Alleen abonnement (~$199+/jr)",
+        "Gratis / Office-pakket"
+      ],
+      [
+        "Platformen",
+        "iPhone, iPad, Mac",
+        "Web, iOS, Android",
+        "iOS, Mac, Web",
+        "Web, iOS, Android",
+        "Platformonafhankelijk"
+      ]
     ],
     "table_note": "Opmerking: prijzen en functies van derden zijn richtwaarden en kunnen wijzigen; controleer altijd de officiële website.",
     "sections": [
@@ -238,12 +341,96 @@
           "<strong>Kies spreadsheets</strong> als u volledig eigen financiële modellen nodig hebt op Windows, Linux of het web.",
           "<strong>Kies WorthTrail</strong> als u genoeg hebt van kapotte koersformules, handmatige wisselkoersen en losse vermogenssnapshots — terwijl u altijd schone Excel-bestanden (<code>.xlsx</code>) kunt exporteren."
         ]
+      },
+      {
+        "id": "portfolio-performance",
+        "h2": "WorthTrail vs Portfolio Performance",
+        "bullets_html": [
+          "<strong>Kies Portfolio Performance</strong> als u een gratis open-source desktopprogramma (Windows/macOS/Linux) zoekt met uitgebreide PDF-import voor Europese brokers.",
+          "<strong>Kies WorthTrail</strong> als u een snelle, native <strong>iPhone-, iPad- en Mac-app</strong> wilt met privé iCloud-sync, lokale screenshot-/CSV-import, spaardeposito's, schulden, FIRE en Mac MCP zonder losse XML-bestanden."
+        ]
+      },
+      {
+        "id": "parqet-getquin",
+        "h2": "WorthTrail vs Parqet & getquin",
+        "bullets_html": [
+          "<strong>Kies Parqet of getquin</strong> als u een Europees webdashboard zoekt met broker-PDF-import, Open Banking of een beleggingscommunity (getquin).",
+          "<strong>Kies WorthTrail</strong> als u <strong>geen externe cloud en geen account</strong> wilt, naast beleggingen ook spaardeposito's, contanten, vastgoed en hypotheken volgt en liever eenmalig $12,99 betaalt."
+        ]
+      },
+      {
+        "id": "finary",
+        "h2": "WorthTrail vs Finary",
+        "bullets_html": [
+          "<strong>Kies Finary</strong> als u automatische Europese bank- en brokeraggregatie, kostenscans en een webportaal wilt.",
+          "<strong>Kies WorthTrail</strong> als u geen bankinloggegevens wilt delen, lokale SwiftData + privé iCloud verkiest, native Apple-snelheid met Mac MCP wilt en $5,99/jaar of $12,99 eenmalig verkiest boven €149+/jaar."
+        ]
+      },
+      {
+        "id": "sharesight-snowball",
+        "h2": "WorthTrail vs Sharesight & Snowball Analytics",
+        "bullets_html": [
+          "<strong>Kies Sharesight of Snowball Analytics</strong> als u landspecifieke belastingrapporten in de browser of diepgaande web-dividendanalyses nodig hebt.",
+          "<strong>Kies WorthTrail</strong> als u één private Apple-app wilt voor <strong>beleggingen, dividendkalender, spaardeposito's, contanten, vastgoed en schulden</strong> met FIRE en herbalanceren voor een fractie van de prijs."
+        ]
       }
     ],
     "cta_h2": "Klaar om WorthTrail te proberen?",
     "cta_lead": "Begin gratis met alle functies tot 10 items — zonder account en zonder bankkoppeling.",
     "cta_primary": "Download in de App Store",
-    "cta_secondary": "Lees de FAQ"
+    "cta_secondary": "Lees de FAQ",
+    "eu_table_h2": "WorthTrail vs Europese & wereldwijde portefeuilletrackers",
+    "eu_table_lead": "Hoe WorthTrail zich verhoudt tot populaire Europese en internationale beleggingstrackers.",
+    "eu_table_headers": [
+      "Onderdeel",
+      "WorthTrail",
+      "Portfolio Performance",
+      "Parqet / getquin",
+      "Finary",
+      "Sharesight / Snowball"
+    ],
+    "eu_table_rows": [
+      [
+        "Account &amp; brokersync",
+        "<strong>Geen account, geen banklogin</strong>",
+        "Handmatig / PDF- &amp; CSV-import (geen cloud)",
+        "Cloudaccount; PDF-import / brokersync",
+        "Cloudaccount; EU-bank- &amp; brokerkoppeling",
+        "Cloudaccount; brokerimport / sync"
+      ],
+      [
+        "Gegevensopslag",
+        "<strong>Lokaal SwiftData + optioneel privé iCloud</strong>",
+        "Lokaal XML-bestand op desktop",
+        "Cloud van aanbieder",
+        "Cloud van aanbieder",
+        "Cloud van aanbieder"
+      ],
+      [
+        "Vermogensbereik",
+        "<strong>Volledig nettovermogen: aandelen, ETF's, crypto, spaardeposito's, contanten, vastgoed &amp; schulden</strong>",
+        "Diepgaande beleggingsboekhouding",
+        "Vooral aandelenportefeuilles &amp; dividend",
+        "Volledig vermogen + kostenscanner",
+        "Vooral aandelen, ETF's &amp; dividend"
+      ],
+      [
+        "Mobiel &amp; Mac-ervaring",
+        "<strong>Native iPhone, iPad, Mac + lokale Mac MCP</strong>",
+        "Desktop-first (Java); bijbehorende mobiele app",
+        "Web + mobiele apps",
+        "Web + mobiele apps",
+        "Web-first + mobiele apps"
+      ],
+      [
+        "Prijsmodel",
+        "<strong>Gratis (10 items, alles); $0,99/m, $5,99/j of $12,99 eenmalig</strong>",
+        "Gratis open-source desktop (betaalde sync mobiel)",
+        "Freemium; abonnementen (~€60–€150+/jr)",
+        "Freemium; Finary Plus (~€149+/jr)",
+        "Freemium; abonnementen (~$150–$300+/jr)"
+      ]
+    ]
   },
   "mcp": {
     "title": "WorthTrail Mac MCP-server — Koppel Claude & AI-agents lokaal aan uw portefeuille",
@@ -259,11 +446,26 @@
     "specs_col_prop": "Eigenschap",
     "specs_col_val": "Waarde",
     "spec_rows": [
-      ["Transport", "Streamable HTTP (alleen lokale loopback)"],
-      ["Standaard eindpunt", "<code>http://127.0.0.1:47821/mcp</code> (poort instelbaar in Instellingen, 1024–65535)"],
-      ["Authenticatie", "<code>Authorization: Bearer &lt;token&gt;</code> (opgeslagen in macOS-sleutelhanger; altijd te vernieuwen)"],
-      ["Beschikbaarheid", "Actief zolang WorthTrail open is op de Mac en Agenttoegang is ingeschakeld"],
-      ["Prijs", "Inbegrepen in de gratis versie (geen betaalmuur op MCP; de limiet van 10 items geldt voor nieuwe bezittingen)"]
+      [
+        "Transport",
+        "Streamable HTTP (alleen lokale loopback)"
+      ],
+      [
+        "Standaard eindpunt",
+        "<code>http://127.0.0.1:47821/mcp</code> (poort instelbaar in Instellingen, 1024–65535)"
+      ],
+      [
+        "Authenticatie",
+        "<code>Authorization: Bearer &lt;token&gt;</code> (opgeslagen in macOS-sleutelhanger; altijd te vernieuwen)"
+      ],
+      [
+        "Beschikbaarheid",
+        "Actief zolang WorthTrail open is op de Mac en Agenttoegang is ingeschakeld"
+      ],
+      [
+        "Prijs",
+        "Inbegrepen in de gratis versie (geen betaalmuur op MCP; de limiet van 10 items geldt voor nieuwe bezittingen)"
+      ]
     ],
     "connect_h2": "Verbinding maken",
     "connect_intro_html": "Open <strong>WorthTrail op Mac &rarr; Instellingen &rarr; Agenttoegang</strong>, zet lokale agenttoegang aan en kopieer uw installatieprompt of Bearer-token.",
@@ -393,21 +595,68 @@
     "effective_date": "Ingangsdatum: 27 november 2026",
     "applies_to": "Van toepassing op WorthTrail voor iPhone, iPad en Mac",
     "glance": [
-      {"val": "Geen banklogin", "lbl": "Geen Plaid of bankinloggegevens"},
-      {"val": "Local-first", "lbl": "Alleen SwiftData & privé iCloud"},
-      {"val": "Geen tracking", "lbl": "Geen advertenties of analyse-SDK's"},
-      {"val": "Eigen regie", "lbl": "Versleutelde back-ups & verwijdering"}
+      {
+        "val": "Geen banklogin",
+        "lbl": "Geen Plaid of bankinloggegevens"
+      },
+      {
+        "val": "Local-first",
+        "lbl": "Alleen SwiftData & privé iCloud"
+      },
+      {
+        "val": "Geen tracking",
+        "lbl": "Geen advertenties of analyse-SDK's"
+      },
+      {
+        "val": "Eigen regie",
+        "lbl": "Versleutelde back-ups & verwijdering"
+      }
     ],
     "flow_h2": "Gegevensstroom in één oogopslag",
     "flow_lead": "Waar elke categorie gegevens staat en of deze ooit uw apparaat verlaat.",
-    "flow_headers": ["Gegevenscategorie", "Waar opgeslagen", "Naar ontwikkelaar?", "Naar derden?"],
+    "flow_headers": [
+      "Gegevenscategorie",
+      "Waar opgeslagen",
+      "Naar ontwikkelaar?",
+      "Naar derden?"
+    ],
     "flow_rows": [
-      ["<strong>Portefeuille &amp; overzicht</strong><br>Bezittingen, aantallen, aankoopwaarde, schulden, transacties, labels, notities, snapshots", "Uw apparaat (SwiftData) &amp; optioneel privé iCloud (CloudKit)", "<strong>Nooit</strong>", "Alleen Apple iCloud als u sync aanzet"],
-      ["<strong>Koersen &amp; wisselkoersen</strong><br>Zoektermen, symbolen, bron-ID's, valutacodes", "Tijdelijk netwerkverzoek", "<strong>Nooit</strong>", "Alleen naar door u ingeschakelde bronnen"],
-      ["<strong>Schermafbeelding-import (OCR)</strong><br>Door u gekozen brokerschermafbeeldingen", "Volledig lokaal via Apple Vision", "<strong>Nooit</strong>", "<strong>Nooit</strong>"],
-      ["<strong>Widgets &amp; vergrendeling</strong><br>Weergavesamenvatting, Face ID, wachtwoord", "Privé App Group &amp; Sleutelhanger (alleen gezouten hash)", "<strong>Nooit</strong>", "<strong>Nooit</strong>"],
-      ["<strong>Lokale Mac MCP-server</strong><br>Vragen van lokale AI-clients (standaard uit)", "Alleen loopback <code>127.0.0.1</code> op uw Mac", "<strong>Nooit</strong>", "Alleen naar de door u gekoppelde AI-client"],
-      ["<strong>Versleutelde diagnose</strong><br><code>.wtdiag</code>-bestand (alleen bij eigen export)", "Lokaal tot u het zelf mailt", "Alleen als u het naar support stuurt", "<strong>Nooit</strong>"]
+      [
+        "<strong>Portefeuille &amp; overzicht</strong><br>Bezittingen, aantallen, aankoopwaarde, schulden, transacties, labels, notities, snapshots",
+        "Uw apparaat (SwiftData) &amp; optioneel privé iCloud (CloudKit)",
+        "<strong>Nooit</strong>",
+        "Alleen Apple iCloud als u sync aanzet"
+      ],
+      [
+        "<strong>Koersen &amp; wisselkoersen</strong><br>Zoektermen, symbolen, bron-ID's, valutacodes",
+        "Tijdelijk netwerkverzoek",
+        "<strong>Nooit</strong>",
+        "Alleen naar door u ingeschakelde bronnen"
+      ],
+      [
+        "<strong>Schermafbeelding-import (OCR)</strong><br>Door u gekozen brokerschermafbeeldingen",
+        "Volledig lokaal via Apple Vision",
+        "<strong>Nooit</strong>",
+        "<strong>Nooit</strong>"
+      ],
+      [
+        "<strong>Widgets &amp; vergrendeling</strong><br>Weergavesamenvatting, Face ID, wachtwoord",
+        "Privé App Group &amp; Sleutelhanger (alleen gezouten hash)",
+        "<strong>Nooit</strong>",
+        "<strong>Nooit</strong>"
+      ],
+      [
+        "<strong>Lokale Mac MCP-server</strong><br>Vragen van lokale AI-clients (standaard uit)",
+        "Alleen loopback <code>127.0.0.1</code> op uw Mac",
+        "<strong>Nooit</strong>",
+        "Alleen naar de door u gekoppelde AI-client"
+      ],
+      [
+        "<strong>Versleutelde diagnose</strong><br><code>.wtdiag</code>-bestand (alleen bij eigen export)",
+        "Lokaal tot u het zelf mailt",
+        "Alleen als u het naar support stuurt",
+        "<strong>Nooit</strong>"
+      ]
     ],
     "sections": [
       {

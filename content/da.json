@@ -25,7 +25,11 @@
     "og_title": "WorthTrail — Privat formue- og porteføljetracker (uden banklogin)",
     "og_description": "En rolig, privat oversigt til aktier, ETF'er, fonde, krypto, tidsindskud, ejendom og forpligtelser på iPhone, iPad og Mac. Intet banklogin, privat iCloud-synk, engangskøb og Mac MCP-server.",
     "offer_currency": "USD",
-    "offer_prices": ["0.99", "5.99", "12.99"],
+    "offer_prices": [
+      "0.99",
+      "5.99",
+      "12.99"
+    ],
     "offers": [
       "Gratis (Alle funktioner, op til 10 poster)",
       "WorthTrail Pro Månedlig (Ubegrænsede aktiver)",
@@ -44,10 +48,26 @@
     ],
     "hero_img_alt": "WorthTrail iOS-overblik med samlet formue, aktiver, forpligtelser og dagens ændring",
     "kpis": [
-      {"val": "Intet Plaid", "lbl": "Aldrig bank- eller mæglerlogin", "nums": false},
-      {"val": "45+ sprog", "lbl": "Automatisk valutaomregning", "nums": true},
-      {"val": "$12,99 én gang", "lbl": "Valgfrit livstidskøb", "nums": true},
-      {"val": "Mac MCP", "lbl": "Indbygget lokal AI-agentprotokol", "nums": false}
+      {
+        "val": "Intet Plaid",
+        "lbl": "Aldrig bank- eller mæglerlogin",
+        "nums": false
+      },
+      {
+        "val": "45+ sprog",
+        "lbl": "Automatisk valutaomregning",
+        "nums": true
+      },
+      {
+        "val": "$12,99 én gang",
+        "lbl": "Valgfrit livstidskøb",
+        "nums": true
+      },
+      {
+        "val": "Mac MCP",
+        "lbl": "Indbygget lokal AI-agentprotokol",
+        "nums": false
+      }
     ],
     "screens_eyebrow": "Inde i WorthTrail",
     "screens_h2": "Skabt til klarhed på tværs af alle aktivklasser.",
@@ -126,11 +146,31 @@
     ],
     "explore_h2": "Udforsk mere",
     "explore_items": [
-      {"page": "faq", "title": "Ofte stillede spørgsmål & produktfakta", "desc": "aktivdækning, datakilder, privatliv og priser."},
-      {"page": "vs", "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & regneark", "desc": "ærlig sammenligning side om side."},
-      {"page": "mcp", "title": "Guide til lokal Mac MCP-server", "desc": "forbind Claude Code, Claude Desktop eller Codex sikkert."},
-      {"page": "support", "title": "Support & fejlfinding", "desc": "kontaktmuligheder, krypteret diagnostikfil og hurtige guides."},
-      {"href": "/llms.txt", "title": "llms.txt", "desc": "struktureret oversigt til AI-værktøjer og søgemaskiner."}
+      {
+        "page": "faq",
+        "title": "Ofte stillede spørgsmål & produktfakta",
+        "desc": "aktivdækning, datakilder, privatliv og priser."
+      },
+      {
+        "page": "vs",
+        "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & regneark",
+        "desc": "ærlig sammenligning side om side."
+      },
+      {
+        "page": "mcp",
+        "title": "Guide til lokal Mac MCP-server",
+        "desc": "forbind Claude Code, Claude Desktop eller Codex sikkert."
+      },
+      {
+        "page": "support",
+        "title": "Support & fejlfinding",
+        "desc": "kontaktmuligheder, krypteret diagnostikfil og hurtige guides."
+      },
+      {
+        "href": "/llms.txt",
+        "title": "llms.txt",
+        "desc": "struktureret oversigt til AI-værktøjer og søgemaskiner."
+      }
     ]
   },
   "faq": {
@@ -188,22 +228,85 @@
     ]
   },
   "vs": {
-    "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & regneark",
-    "meta_description": "Objektiv sammenligning af WorthTrail med Monarch Money, Copilot Money, Kubera og regneark – banklogin, privatliv, flere valutaer, priser og Mac MCP.",
+    "title": "WorthTrail vs Portfolio Performance, Parqet, getquin, Finary, Sharesight & Monarch",
+    "meta_description": "Objektiv sammenligning af WorthTrail med Portfolio Performance, Parqet, getquin, Finary, Sharesight, Snowball Analytics, Monarch Money, Copilot Money og Kubera.",
     "eyebrow": "Ærlig sammenligning",
     "h1": "WorthTrail sammenlignet med populære formuetrackere",
-    "lead_html": "Forskellige værktøjer løser forskellige behov. Her er en ligefrem sammenligning af <strong>WorthTrail</strong> med <strong>Monarch Money</strong>, <strong>Copilot Money</strong>, <strong>Kubera</strong> og <strong>regneark</strong> — inklusive hvornår et andet værktøj passer bedre.",
+    "lead_html": "Forskellige værktøjer løser forskellige behov. Her er en ligefrem sammenligning af <strong>WorthTrail</strong> med amerikanske apps (<strong>Monarch Money</strong>, <strong>Copilot Money</strong>, <strong>Kubera</strong>), europæiske og globale porteføljetrackere (<strong>Portfolio Performance</strong>, <strong>Parqet</strong>, <strong>getquin</strong>, <strong>Finary</strong>, <strong>Sharesight</strong>, <strong>Snowball Analytics</strong>) og <strong>regneark</strong>.",
     "table_h2": "Sammenligning side om side",
-    "table_headers": ["Dimension", "WorthTrail", "Monarch Money", "Copilot Money", "Kubera", "Regneark"],
+    "table_headers": [
+      "Dimension",
+      "WorthTrail",
+      "Monarch Money",
+      "Copilot Money",
+      "Kubera",
+      "Regneark"
+    ],
     "table_rows": [
-      ["Banklogin / Plaid", "<strong>Intet (uden banklogin)</strong>", "Kernefunktion (Plaid / MX / Finicity)", "Kernefunktion (Plaid / aggregatorer)", "Kernefunktion (flere aggregatorer)", "Manuelt (medmindre scripts)"],
-      ["Datalagring", "<strong>Lokal SwiftData + valgfri privat iCloud</strong>", "Udbyderens sky", "Udbyderens sky", "Udbyderens sky", "Lokalt eller cloud-drev"],
-      ["Flere valutaer & globale markeder", "<strong>Indbygget multivaluta; globale aktier, ETF'er, krypto, indskud</strong>", "Primært USA / Canada", "Primært USA", "Stærk globalt &amp; multivaluta", "Manuelt / egne formler"],
-      ["Budget & bankudgifter", "Ikke en budgetapp", "<strong>Stærk</strong>", "<strong>Stærk</strong>", "Ikke en budgetapp", "Manuelt"],
-      ["Udbytte, FIRE & rebalancering", "<strong>Indbygget</strong>", "Enkle mål", "Enkle investeringer", "Fokus formue &amp; IRR", "Egne formler"],
-      ["Lokal AI / MCP-server", "<strong>Indbygget Mac MCP-server</strong>", "Ingen lokal MCP", "Ingen lokal MCP", "Ingen lokal MCP", "Kræver egen opsætning"],
-      ["Prismodel", "<strong>Gratis (10 poster, alt); $0,99/md., $5,99/år eller $12,99 livstid</strong>", "Kun abonnement (~$99,99/år)", "Kun abonnement (~$95/år)", "Kun abonnement (~$199+/år)", "Gratis / kontorpakke"],
-      ["Platforme", "iPhone, iPad, Mac", "Web, iOS, Android", "iOS, Mac, Web", "Web, iOS, Android", "Tværplatform"]
+      [
+        "Banklogin / Plaid",
+        "<strong>Intet (uden banklogin)</strong>",
+        "Kernefunktion (Plaid / MX / Finicity)",
+        "Kernefunktion (Plaid / aggregatorer)",
+        "Kernefunktion (flere aggregatorer)",
+        "Manuelt (medmindre scripts)"
+      ],
+      [
+        "Datalagring",
+        "<strong>Lokal SwiftData + valgfri privat iCloud</strong>",
+        "Udbyderens sky",
+        "Udbyderens sky",
+        "Udbyderens sky",
+        "Lokalt eller cloud-drev"
+      ],
+      [
+        "Flere valutaer & globale markeder",
+        "<strong>Indbygget multivaluta; globale aktier, ETF'er, krypto, indskud</strong>",
+        "Primært USA / Canada",
+        "Primært USA",
+        "Stærk globalt &amp; multivaluta",
+        "Manuelt / egne formler"
+      ],
+      [
+        "Budget & bankudgifter",
+        "Ikke en budgetapp",
+        "<strong>Stærk</strong>",
+        "<strong>Stærk</strong>",
+        "Ikke en budgetapp",
+        "Manuelt"
+      ],
+      [
+        "Udbytte, FIRE & rebalancering",
+        "<strong>Indbygget</strong>",
+        "Enkle mål",
+        "Enkle investeringer",
+        "Fokus formue &amp; IRR",
+        "Egne formler"
+      ],
+      [
+        "Lokal AI / MCP-server",
+        "<strong>Indbygget Mac MCP-server</strong>",
+        "Ingen lokal MCP",
+        "Ingen lokal MCP",
+        "Ingen lokal MCP",
+        "Kræver egen opsætning"
+      ],
+      [
+        "Prismodel",
+        "<strong>Gratis (10 poster, alt); $0,99/md., $5,99/år eller $12,99 livstid</strong>",
+        "Kun abonnement (~$99,99/år)",
+        "Kun abonnement (~$95/år)",
+        "Kun abonnement (~$199+/år)",
+        "Gratis / kontorpakke"
+      ],
+      [
+        "Platforme",
+        "iPhone, iPad, Mac",
+        "Web, iOS, Android",
+        "iOS, Mac, Web",
+        "Web, iOS, Android",
+        "Tværplatform"
+      ]
     ],
     "table_note": "Bemærk: Tredjepartspriser og -funktioner er vejledende og kan ændres; tjek altid den enkelte udbyders officielle hjemmeside.",
     "sections": [
@@ -238,12 +341,96 @@
           "<strong>Vælg regneark</strong> hvis du har brug for helt skræddersyede finansmodeller på Windows, Linux eller web.",
           "<strong>Vælg WorthTrail</strong> hvis du er træt af ødelagte kursformler, manuelle valutakurser og håndholdte historik-snapshots — samtidig med at du altid kan eksportere rene Excel-filer (<code>.xlsx</code>)."
         ]
+      },
+      {
+        "id": "portfolio-performance",
+        "h2": "WorthTrail vs Portfolio Performance",
+        "bullets_html": [
+          "<strong>Vælg Portfolio Performance</strong> hvis du vil have et gratis open-source desktopprogram (Windows/macOS/Linux) med avanceret PDF-import til europæiske mæglere.",
+          "<strong>Vælg WorthTrail</strong> hvis du foretrækker en hurtig, native <strong>iPhone-, iPad- og Mac-app</strong> med privat iCloud-synk, lokal skærmbillede-/CSV-import, tidsindskud, forpligtelser, FIRE og lokal Mac MCP uden XML-filer."
+        ]
+      },
+      {
+        "id": "parqet-getquin",
+        "h2": "WorthTrail vs Parqet & getquin",
+        "bullets_html": [
+          "<strong>Vælg Parqet eller getquin</strong> hvis du ønsker et europæisk webdashboard med PDF-import, Open Banking eller investeringscommunity (getquin).",
+          "<strong>Vælg WorthTrail</strong> hvis du ønsker <strong>ingen ekstern sky og ingen kontooprettelse</strong>, samlet formue ud over aktier (tidsindskud, kontanter, ejendom, lån) og engangskøb til $12,99."
+        ]
+      },
+      {
+        "id": "finary",
+        "h2": "WorthTrail vs Finary",
+        "bullets_html": [
+          "<strong>Vælg Finary</strong> hvis du vil have automatisk europæisk bank- og mægleraggregering, gebyrscanning og webportal.",
+          "<strong>Vælg WorthTrail</strong> hvis du ikke vil dele banklogin, foretrækker lokal SwiftData + privat iCloud, native Apple-hastighed med Mac MCP og $5,99/år eller $12,99 livstid frem for 149+ €/år."
+        ]
+      },
+      {
+        "id": "sharesight-snowball",
+        "h2": "WorthTrail vs Sharesight & Snowball Analytics",
+        "bullets_html": [
+          "<strong>Vælg Sharesight eller Snowball Analytics</strong> hvis du har brug for landespecifikke skatterapporter i browseren eller dyb webbaseret udbytteanalyse.",
+          "<strong>Vælg WorthTrail</strong> hvis du vil have én privat Apple-app, der samler <strong>investeringer, udbyttekalender, tidsindskud, kontanter, ejendom og forpligtelser</strong> med FIRE og rebalancering til en brøkdel af prisen."
+        ]
       }
     ],
     "cta_h2": "Klar til at prøve WorthTrail?",
     "cta_lead": "Start gratis med alle funktioner op til 10 poster — uden kontooprettelse og uden banklogin.",
     "cta_primary": "Hent i App Store",
-    "cta_secondary": "Læs FAQ"
+    "cta_secondary": "Læs FAQ",
+    "eu_table_h2": "WorthTrail vs europæiske & globale porteføljetrackere",
+    "eu_table_lead": "Sådan klarer WorthTrail sig mod populære europæiske og internationale investeringsplatforme.",
+    "eu_table_headers": [
+      "Dimension",
+      "WorthTrail",
+      "Portfolio Performance",
+      "Parqet / getquin",
+      "Finary",
+      "Sharesight / Snowball"
+    ],
+    "eu_table_rows": [
+      [
+        "Konto &amp; mæglersynk",
+        "<strong>Ingen konto, intet banklogin</strong>",
+        "Manuelt / PDF- &amp; CSV-import (ingen sky)",
+        "Skykonto; PDF-import / mæglersynk",
+        "Skykonto; EU-bank- &amp; mægleraggregering",
+        "Skykonto; mæglerimport / synk"
+      ],
+      [
+        "Datalagring",
+        "<strong>Lokal SwiftData + valgfri privat iCloud</strong>",
+        "Lokal XML-fil på computer",
+        "Udbyderens sky",
+        "Udbyderens sky",
+        "Udbyderens sky"
+      ],
+      [
+        "Formueomfang",
+        "<strong>Fuld formue: aktier, ETF'er, krypto, tidsindskud, kontanter, ejendom &amp; forpligtelser</strong>",
+        "Dybgående investeringsbogføring",
+        "Primært aktieporteføljer &amp; udbytte",
+        "Fuld formue + gebyrscanner",
+        "Primært aktier, ETF'er &amp; udbytte"
+      ],
+      [
+        "Mobil- &amp; Mac-oplevelse",
+        "<strong>Native iPhone, iPad, Mac + lokal Mac MCP</strong>",
+        "Desktop-først (Java); ledsager-app på mobil",
+        "Web + mobilapps",
+        "Web + mobilapps",
+        "Web-først + mobilapps"
+      ],
+      [
+        "Prismodel",
+        "<strong>Gratis (10 poster, alt); $0,99/md., $5,99/år eller $12,99 livstid</strong>",
+        "Gratis open-source desktop (betalt mobilsynk)",
+        "Freemium; abonnement (~60–150+ €/år)",
+        "Freemium; Finary Plus (~149+ €/år)",
+        "Freemium; abonnement (~150–300+ $/år)"
+      ]
+    ]
   },
   "mcp": {
     "title": "WorthTrail Mac MCP-server — Forbind Claude & AI-agenter til din lokale portefølje",
@@ -259,11 +446,26 @@
     "specs_col_prop": "Egenskab",
     "specs_col_val": "Værdi",
     "spec_rows": [
-      ["Transport", "Streamable HTTP (kun lokal loopback)"],
-      ["Standard-endpoint", "<code>http://127.0.0.1:47821/mcp</code> (port kan indstilles i Indstillinger, 1024–65535)"],
-      ["Godkendelse", "<code>Authorization: Bearer &lt;token&gt;</code> (gemt i macOS Nøglering; kan nulstilles når som helst)"],
-      ["Tilgængelighed", "Kører kun mens WorthTrail er åben på Mac og Agentadgang er slået til"],
-      ["Pris", "Inkluderet i gratisplanen (ingen betalingsmur på MCP; 10-postersgrænsen gælder nye aktiver)"]
+      [
+        "Transport",
+        "Streamable HTTP (kun lokal loopback)"
+      ],
+      [
+        "Standard-endpoint",
+        "<code>http://127.0.0.1:47821/mcp</code> (port kan indstilles i Indstillinger, 1024–65535)"
+      ],
+      [
+        "Godkendelse",
+        "<code>Authorization: Bearer &lt;token&gt;</code> (gemt i macOS Nøglering; kan nulstilles når som helst)"
+      ],
+      [
+        "Tilgængelighed",
+        "Kører kun mens WorthTrail er åben på Mac og Agentadgang er slået til"
+      ],
+      [
+        "Pris",
+        "Inkluderet i gratisplanen (ingen betalingsmur på MCP; 10-postersgrænsen gælder nye aktiver)"
+      ]
     ],
     "connect_h2": "Sådan forbinder du",
     "connect_intro_html": "Åbn <strong>WorthTrail på Mac &rarr; Indstillinger &rarr; Agentadgang</strong>, slå lokal agentadgang til, og kopiér din opsætningsprompt eller Bearer-token.",
@@ -393,21 +595,68 @@
     "effective_date": "Ikrafttrædelsesdato: 27. november 2026",
     "applies_to": "Gælder for WorthTrail til iPhone, iPad og Mac",
     "glance": [
-      {"val": "Intet banklogin", "lbl": "Intet Plaid eller bankoplysninger"},
-      {"val": "Lokal-først", "lbl": "Kun SwiftData & privat iCloud"},
-      {"val": "Ingen sporing", "lbl": "Ingen reklamer eller analyse-SDK'er"},
-      {"val": "Din kontrol", "lbl": "Krypterede kopier & nem sletning"}
+      {
+        "val": "Intet banklogin",
+        "lbl": "Intet Plaid eller bankoplysninger"
+      },
+      {
+        "val": "Lokal-først",
+        "lbl": "Kun SwiftData & privat iCloud"
+      },
+      {
+        "val": "Ingen sporing",
+        "lbl": "Ingen reklamer eller analyse-SDK'er"
+      },
+      {
+        "val": "Din kontrol",
+        "lbl": "Krypterede kopier & nem sletning"
+      }
     ],
     "flow_h2": "Dataflow i overblik",
     "flow_lead": "Hvor hver datakategori ligger, og om den nogensinde forlader din enhed.",
-    "flow_headers": ["Datakategori", "Hvor den bor", "Sendes til udvikler?", "Sendes til tredjepart?"],
+    "flow_headers": [
+      "Datakategori",
+      "Hvor den bor",
+      "Sendes til udvikler?",
+      "Sendes til tredjepart?"
+    ],
     "flow_rows": [
-      ["<strong>Portefølje &amp; bogføring</strong><br>Aktiver, antal, kostpris, forpligtelser, handler, tags, noter, snapshots", "Din enhed (SwiftData) &amp; valgfri privat iCloud (CloudKit)", "<strong>Aldrig</strong>", "Kun Apple iCloud hvis du slår synk til"],
-      ["<strong>Kurser &amp; valutakurser</strong><br>Søgeord, symboler, kilde-ID, valutakoder", "Midlertidig netværksforespørgsel", "<strong>Aldrig</strong>", "Kun til de markedsdatakilder du aktiverer"],
-      ["<strong>Skærmbilledeimport (OCR)</strong><br>Mæglerskærmbilleder du vælger at scanne", "Behandles lokalt via Apple Vision", "<strong>Aldrig</strong>", "<strong>Aldrig</strong>"],
-      ["<strong>Widgets &amp; applås</strong><br>Visningsoversigt, Face ID, adgangskode", "Privat App Group &amp; Nøglering (kun saltet hash)", "<strong>Aldrig</strong>", "<strong>Aldrig</strong>"],
-      ["<strong>Lokal Mac MCP-server</strong><br>Forespørgsler fra lokale AI-klienter (slået fra som standard)", "Kun loopback <code>127.0.0.1</code> på din Mac", "<strong>Aldrig</strong>", "Kun til den AI-klient du selv forbinder"],
-      ["<strong>Krypteret diagnostik</strong><br><code>.wtdiag</code>-fil (kun ved egen eksport)", "Gemt lokalt indtil du selv mailer den", "Kun hvis du sender den til support", "<strong>Aldrig</strong>"]
+      [
+        "<strong>Portefølje &amp; bogføring</strong><br>Aktiver, antal, kostpris, forpligtelser, handler, tags, noter, snapshots",
+        "Din enhed (SwiftData) &amp; valgfri privat iCloud (CloudKit)",
+        "<strong>Aldrig</strong>",
+        "Kun Apple iCloud hvis du slår synk til"
+      ],
+      [
+        "<strong>Kurser &amp; valutakurser</strong><br>Søgeord, symboler, kilde-ID, valutakoder",
+        "Midlertidig netværksforespørgsel",
+        "<strong>Aldrig</strong>",
+        "Kun til de markedsdatakilder du aktiverer"
+      ],
+      [
+        "<strong>Skærmbilledeimport (OCR)</strong><br>Mæglerskærmbilleder du vælger at scanne",
+        "Behandles lokalt via Apple Vision",
+        "<strong>Aldrig</strong>",
+        "<strong>Aldrig</strong>"
+      ],
+      [
+        "<strong>Widgets &amp; applås</strong><br>Visningsoversigt, Face ID, adgangskode",
+        "Privat App Group &amp; Nøglering (kun saltet hash)",
+        "<strong>Aldrig</strong>",
+        "<strong>Aldrig</strong>"
+      ],
+      [
+        "<strong>Lokal Mac MCP-server</strong><br>Forespørgsler fra lokale AI-klienter (slået fra som standard)",
+        "Kun loopback <code>127.0.0.1</code> på din Mac",
+        "<strong>Aldrig</strong>",
+        "Kun til den AI-klient du selv forbinder"
+      ],
+      [
+        "<strong>Krypteret diagnostik</strong><br><code>.wtdiag</code>-fil (kun ved egen eksport)",
+        "Gemt lokalt indtil du selv mailer den",
+        "Kun hvis du sender den til support",
+        "<strong>Aldrig</strong>"
+      ]
     ],
     "sections": [
       {

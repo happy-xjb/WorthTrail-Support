@@ -25,7 +25,11 @@
     "og_title": "WorthTrail — Controlo privado de património líquido e carteira (sem login bancário)",
     "og_description": "Um registo sereno e privado para ações, ETFs, fundos, cripto, depósitos a prazo, imóveis e passivos no iPhone, iPad e Mac. Sem acesso bancário, sincronização privada iCloud, compra vitalícia e servidor MCP Mac.",
     "offer_currency": "USD",
-    "offer_prices": ["0.99", "5.99", "12.99"],
+    "offer_prices": [
+      "0.99",
+      "5.99",
+      "12.99"
+    ],
     "offers": [
       "Grátis (Todas as funcionalidades, até 10 itens)",
       "WorthTrail Pro Mensal (Ativos ilimitados)",
@@ -44,10 +48,26 @@
     ],
     "hero_img_alt": "Visão geral do WorthTrail em iOS com património líquido, ativos totais, passivos e variação diária",
     "kpis": [
-      {"val": "Zero Plaid", "lbl": "Nunca pede credenciais bancárias ou de corretora", "nums": false},
-      {"val": "45+ idiomas", "lbl": "Conversão automática multimoeda", "nums": true},
-      {"val": "$12,99 único", "lbl": "Desbloqueio vitalício opcional", "nums": true},
-      {"val": "Mac MCP", "lbl": "Protocolo local integrado para agentes IA", "nums": false}
+      {
+        "val": "Zero Plaid",
+        "lbl": "Nunca pede credenciais bancárias ou de corretora",
+        "nums": false
+      },
+      {
+        "val": "45+ idiomas",
+        "lbl": "Conversão automática multimoeda",
+        "nums": true
+      },
+      {
+        "val": "$12,99 único",
+        "lbl": "Desbloqueio vitalício opcional",
+        "nums": true
+      },
+      {
+        "val": "Mac MCP",
+        "lbl": "Protocolo local integrado para agentes IA",
+        "nums": false
+      }
     ],
     "screens_eyebrow": "Por dentro",
     "screens_h2": "Concebido para oferecer clareza em cada classe de ativos.",
@@ -126,11 +146,31 @@
     ],
     "explore_h2": "Explorar mais",
     "explore_items": [
-      {"page": "faq", "title": "Perguntas frequentes e dados do produto", "desc": "cobertura de ativos, fontes de dados, privacidade e preços."},
-      {"page": "vs", "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera e folhas de cálculo", "desc": "comparação honesta lado a lado."},
-      {"page": "mcp", "title": "Guia do servidor MCP local no Mac", "desc": "ligue o Claude Code, Claude Desktop ou Codex em segurança."},
-      {"page": "support", "title": "Suporte e resolução de problemas", "desc": "contacto rápido, diagnóstico encriptado e guias práticos."},
-      {"href": "/llms.txt", "title": "llms.txt", "desc": "resumo estruturado para ferramentas de IA e motores de busca."}
+      {
+        "page": "faq",
+        "title": "Perguntas frequentes e dados do produto",
+        "desc": "cobertura de ativos, fontes de dados, privacidade e preços."
+      },
+      {
+        "page": "vs",
+        "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera e folhas de cálculo",
+        "desc": "comparação honesta lado a lado."
+      },
+      {
+        "page": "mcp",
+        "title": "Guia do servidor MCP local no Mac",
+        "desc": "ligue o Claude Code, Claude Desktop ou Codex em segurança."
+      },
+      {
+        "page": "support",
+        "title": "Suporte e resolução de problemas",
+        "desc": "contacto rápido, diagnóstico encriptado e guias práticos."
+      },
+      {
+        "href": "/llms.txt",
+        "title": "llms.txt",
+        "desc": "resumo estruturado para ferramentas de IA e motores de busca."
+      }
     ]
   },
   "faq": {
@@ -188,22 +228,85 @@
     ]
   },
   "vs": {
-    "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera e folhas de cálculo",
-    "meta_description": "Comparação objetiva entre o WorthTrail e Monarch Money, Copilot Money, Kubera e folhas de cálculo: login bancário, privacidade, multimoeda, preços e Mac MCP.",
+    "title": "WorthTrail vs Portfolio Performance, Parqet, getquin, Finary, Sharesight e Monarch",
+    "meta_description": "Comparação objetiva entre o WorthTrail e Portfolio Performance, Parqet, getquin, Finary, Sharesight, Snowball Analytics, Monarch Money, Copilot Money e Kubera.",
     "eyebrow": "Comparação honesta",
     "h1": "WorthTrail face aos principais gestores de património líquido",
-    "lead_html": "Ferramentas diferentes resolvem problemas diferentes. Abaixo encontra uma comparação direta entre o <strong>WorthTrail</strong> e o <strong>Monarch Money</strong>, <strong>Copilot Money</strong>, <strong>Kubera</strong> e <strong>folhas de cálculo</strong> — incluindo quando faz sentido escolher outra solução.",
+    "lead_html": "Ferramentas diferentes resolvem problemas diferentes. Abaixo encontra uma comparação direta entre o <strong>WorthTrail</strong>, apps norte-americanas (<strong>Monarch Money</strong>, <strong>Copilot Money</strong>, <strong>Kubera</strong>), plataformas europeias e globais (<strong>Portfolio Performance</strong>, <strong>Parqet</strong>, <strong>getquin</strong>, <strong>Finary</strong>, <strong>Sharesight</strong>, <strong>Snowball Analytics</strong>) e <strong>folhas de cálculo</strong>.",
     "table_h2": "Comparação lado a lado",
-    "table_headers": ["Dimensão", "WorthTrail", "Monarch Money", "Copilot Money", "Kubera", "Folhas de cálculo"],
+    "table_headers": [
+      "Dimensão",
+      "WorthTrail",
+      "Monarch Money",
+      "Copilot Money",
+      "Kubera",
+      "Folhas de cálculo"
+    ],
     "table_rows": [
-      ["Login bancário / Plaid", "<strong>Nenhum (sem login bancário)</strong>", "Função central (Plaid / MX / Finicity)", "Função central (Plaid / agregadores)", "Função central (vários agregadores)", "Manual (salvo scripts)"],
-      ["Armazenamento", "<strong>Local SwiftData + iCloud privado opcional</strong>", "Nuvem do fornecedor", "Nuvem do fornecedor", "Nuvem do fornecedor", "Local ou cloud drive"],
-      ["Multimoeda e mercados globais", "<strong>Multimoeda nativo; ações globais, ETFs, cripto, depósitos</strong>", "Sobretudo EUA / Canadá", "Sobretudo EUA", "Forte em global e multimoeda", "Manual / fórmulas próprias"],
-      ["Orçamento e despesas bancárias", "Não é app de orçamento", "<strong>Forte</strong>", "<strong>Forte</strong>", "Não é app de orçamento", "Manual"],
-      ["Dividendos, FIRE e reequilíbrio", "<strong>Integrados</strong>", "Objetivos básicos", "Investimentos básicos", "Foco património e TIR", "Fórmulas personalizadas"],
-      ["IA local / Servidor MCP", "<strong>Servidor MCP Mac integrado</strong>", "Sem MCP local", "Sem MCP local", "Sem MCP local", "Configuração manual"],
-      ["Modelo de preços", "<strong>Grátis (10 itens, tudo); $0,99/m, $5,99/a ou $12,99 vitalício</strong>", "Só subscrição (~$99,99/ano)", "Só subscrição (~$95/ano)", "Só subscrição (~$199+/ano)", "Grátis / suite Office"],
-      ["Plataformas", "iPhone, iPad, Mac", "Web, iOS, Android", "iOS, Mac, Web", "Web, iOS, Android", "Multiplataforma"]
+      [
+        "Login bancário / Plaid",
+        "<strong>Nenhum (sem login bancário)</strong>",
+        "Função central (Plaid / MX / Finicity)",
+        "Função central (Plaid / agregadores)",
+        "Função central (vários agregadores)",
+        "Manual (salvo scripts)"
+      ],
+      [
+        "Armazenamento",
+        "<strong>Local SwiftData + iCloud privado opcional</strong>",
+        "Nuvem do fornecedor",
+        "Nuvem do fornecedor",
+        "Nuvem do fornecedor",
+        "Local ou cloud drive"
+      ],
+      [
+        "Multimoeda e mercados globais",
+        "<strong>Multimoeda nativo; ações globais, ETFs, cripto, depósitos</strong>",
+        "Sobretudo EUA / Canadá",
+        "Sobretudo EUA",
+        "Forte em global e multimoeda",
+        "Manual / fórmulas próprias"
+      ],
+      [
+        "Orçamento e despesas bancárias",
+        "Não é app de orçamento",
+        "<strong>Forte</strong>",
+        "<strong>Forte</strong>",
+        "Não é app de orçamento",
+        "Manual"
+      ],
+      [
+        "Dividendos, FIRE e reequilíbrio",
+        "<strong>Integrados</strong>",
+        "Objetivos básicos",
+        "Investimentos básicos",
+        "Foco património e TIR",
+        "Fórmulas personalizadas"
+      ],
+      [
+        "IA local / Servidor MCP",
+        "<strong>Servidor MCP Mac integrado</strong>",
+        "Sem MCP local",
+        "Sem MCP local",
+        "Sem MCP local",
+        "Configuração manual"
+      ],
+      [
+        "Modelo de preços",
+        "<strong>Grátis (10 itens, tudo); $0,99/m, $5,99/a ou $12,99 vitalício</strong>",
+        "Só subscrição (~$99,99/ano)",
+        "Só subscrição (~$95/ano)",
+        "Só subscrição (~$199+/ano)",
+        "Grátis / suite Office"
+      ],
+      [
+        "Plataformas",
+        "iPhone, iPad, Mac",
+        "Web, iOS, Android",
+        "iOS, Mac, Web",
+        "Web, iOS, Android",
+        "Multiplataforma"
+      ]
     ],
     "table_note": "Nota: preços e funcionalidades de terceiros são aproximados e podem mudar; confirme sempre nos sites oficiais.",
     "sections": [
@@ -238,12 +341,96 @@
           "<strong>Escolha folhas de cálculo</strong> se precisa de modelos financeiros totalmente personalizados em Windows, Linux ou web.",
           "<strong>Escolha o WorthTrail</strong> se está cansado de fórmulas de cotações avariadas, câmbios manuais e instantâneos históricos à mão — mantendo a exportação limpa em Excel (<code>.xlsx</code>) sempre que precisar."
         ]
+      },
+      {
+        "id": "portfolio-performance",
+        "h2": "WorthTrail vs Portfolio Performance",
+        "bullets_html": [
+          "<strong>Escolha o Portfolio Performance</strong> se procura um programa desktop open-source (Windows/macOS/Linux) com importadores PDF detalhados para corretoras europeias.",
+          "<strong>Escolha o WorthTrail</strong> se prefere uma app nativa para <strong>iPhone, iPad e Mac</strong> com sincronização iCloud privada, importação OCR/CSV no dispositivo, depósitos a prazo, passivos, FIRE e Mac MCP sem gerir ficheiros XML."
+        ]
+      },
+      {
+        "id": "parqet-getquin",
+        "h2": "WorthTrail vs Parqet e getquin",
+        "bullets_html": [
+          "<strong>Escolha o Parqet ou getquin</strong> se pretende um painel web europeu com importação PDF de corretora, Open Banking ou comunidade social de investidores (getquin).",
+          "<strong>Escolha o WorthTrail</strong> se quer <strong>zero nuvem externa e sem registo de conta</strong>, património completo além da bolsa (depósitos a prazo, numerário, imóveis, créditos) e compra única de $12,99."
+        ]
+      },
+      {
+        "id": "finary",
+        "h2": "WorthTrail vs Finary",
+        "bullets_html": [
+          "<strong>Escolha o Finary</strong> se pretende agregação automática de bancos e corretoras europeias, análise de comissões e portal web.",
+          "<strong>Escolha o WorthTrail</strong> se não quer partilhar credenciais bancárias, prefere SwiftData local + iCloud privado, velocidade nativa Apple com Mac MCP e $5,99/ano ou $12,99 vitalício em vez de 149+ €/ano."
+        ]
+      },
+      {
+        "id": "sharesight-snowball",
+        "h2": "WorthTrail vs Sharesight e Snowball Analytics",
+        "bullets_html": [
+          "<strong>Escolha o Sharesight ou Snowball Analytics</strong> se precisa de relatórios fiscais web por jurisdição ou análise avançada de dividendos exclusivamente no navegador.",
+          "<strong>Escolha o WorthTrail</strong> se procura uma app Apple privada que reúne <strong>investimentos, calendário de dividendos, depósitos a prazo, numerário, imóveis e passivos</strong> com FIRE e reequilíbrio por uma fração do custo."
+        ]
       }
     ],
     "cta_h2": "Pronto para experimentar o WorthTrail?",
     "cta_lead": "Comece gratuitamente com todas as funcionalidades até 10 itens, sem registo de conta e sem login bancário.",
     "cta_primary": "Descarregar na App Store",
-    "cta_secondary": "Ler perguntas frequentes"
+    "cta_secondary": "Ler perguntas frequentes",
+    "eu_table_h2": "WorthTrail vs gestores de carteira europeus e globais",
+    "eu_table_lead": "Como o WorthTrail se compara com as plataformas de acompanhamento de investimentos mais usadas na Europa e no mundo.",
+    "eu_table_headers": [
+      "Dimensão",
+      "WorthTrail",
+      "Portfolio Performance",
+      "Parqet / getquin",
+      "Finary",
+      "Sharesight / Snowball"
+    ],
+    "eu_table_rows": [
+      [
+        "Conta e sincronização",
+        "<strong>Sem conta nem login bancário</strong>",
+        "Manual / importação PDF e CSV (sem nuvem)",
+        "Conta na nuvem; importação PDF / corretora",
+        "Conta na nuvem; agregação bancária UE",
+        "Conta na nuvem; importação / corretora"
+      ],
+      [
+        "Armazenamento",
+        "<strong>Local SwiftData + iCloud privado opcional</strong>",
+        "Ficheiro XML local no computador",
+        "Nuvem do fornecedor",
+        "Nuvem do fornecedor",
+        "Nuvem do fornecedor"
+      ],
+      [
+        "Âmbito patrimonial",
+        "<strong>Património completo: ações, ETFs, cripto, depósitos a prazo, numerário, imóveis e passivos</strong>",
+        "Contabilidade detalhada de investimentos",
+        "Foco em carteira bolsista e dividendos",
+        "Património global + análise de comissões",
+        "Foco em ações, ETFs e dividendos"
+      ],
+      [
+        "Experiência móvel e Mac",
+        "<strong>Nativa iPhone, iPad, Mac + Mac MCP local</strong>",
+        "Desktop primeiro (Java); app móvel auxiliar",
+        "Web + apps móveis",
+        "Web + apps móveis",
+        "Web primeiro + apps móveis"
+      ],
+      [
+        "Modelo de preços",
+        "<strong>Grátis (10 itens, tudo); $0,99/m, $5,99/a ou $12,99 vitalício</strong>",
+        "Open-source grátis desktop (sync móvel pago)",
+        "Freemium; subscrições (~60–150+ €/ano)",
+        "Freemium; Finary Plus (~149+ €/ano)",
+        "Freemium; subscrições (~150–300+ $/ano)"
+      ]
+    ]
   },
   "mcp": {
     "title": "Servidor MCP Mac WorthTrail — Ligue o Claude e agentes IA à sua carteira local",
@@ -259,11 +446,26 @@
     "specs_col_prop": "Propriedade",
     "specs_col_val": "Valor",
     "spec_rows": [
-      ["Transporte", "Streamable HTTP (apenas loopback local)"],
-      ["Endereço predefinido", "<code>http://127.0.0.1:47821/mcp</code> (porta configurável em Definições, 1024–65535)"],
-      ["Autenticação", "<code>Authorization: Bearer &lt;token&gt;</code> (guardado no Porta-chaves macOS; redefinível a qualquer momento)"],
-      ["Disponibilidade", "Ativo apenas enquanto o WorthTrail estiver aberto no Mac e o Acesso de agentes estiver ligado"],
-      ["Preço", "Incluído no plano gratuito (sem paywall no MCP; o limite de 10 itens aplica-se ao adicionar novos ativos)"]
+      [
+        "Transporte",
+        "Streamable HTTP (apenas loopback local)"
+      ],
+      [
+        "Endereço predefinido",
+        "<code>http://127.0.0.1:47821/mcp</code> (porta configurável em Definições, 1024–65535)"
+      ],
+      [
+        "Autenticação",
+        "<code>Authorization: Bearer &lt;token&gt;</code> (guardado no Porta-chaves macOS; redefinível a qualquer momento)"
+      ],
+      [
+        "Disponibilidade",
+        "Ativo apenas enquanto o WorthTrail estiver aberto no Mac e o Acesso de agentes estiver ligado"
+      ],
+      [
+        "Preço",
+        "Incluído no plano gratuito (sem paywall no MCP; o limite de 10 itens aplica-se ao adicionar novos ativos)"
+      ]
     ],
     "connect_h2": "Como ligar",
     "connect_intro_html": "Abra o <strong>WorthTrail no Mac &rarr; Definições &rarr; Acesso de agentes</strong>, ative o acesso local e copie o seu prompt de configuração ou token Bearer.",
@@ -393,21 +595,68 @@
     "effective_date": "Data de entrada em vigor: 27 de novembro de 2026",
     "applies_to": "Aplicável ao WorthTrail para iPhone, iPad e Mac",
     "glance": [
-      {"val": "Zero bancos", "lbl": "Sem Plaid nem credenciais bancárias"},
-      {"val": "Local-first", "lbl": "Apenas SwiftData e iCloud privado"},
-      {"val": "Zero rastreio", "lbl": "Sem anúncios nem SDKs analíticos"},
-      {"val": "Seu controlo", "lbl": "Cópias encriptadas e remoção total"}
+      {
+        "val": "Zero bancos",
+        "lbl": "Sem Plaid nem credenciais bancárias"
+      },
+      {
+        "val": "Local-first",
+        "lbl": "Apenas SwiftData e iCloud privado"
+      },
+      {
+        "val": "Zero rastreio",
+        "lbl": "Sem anúncios nem SDKs analíticos"
+      },
+      {
+        "val": "Seu controlo",
+        "lbl": "Cópias encriptadas e remoção total"
+      }
     ],
     "flow_h2": "Fluxo de dados num relance",
     "flow_lead": "Onde reside cada categoria de informação e se alguma vez sai do seu dispositivo.",
-    "flow_headers": ["Categoria de dados", "Onde reside", "Enviado ao programador?", "Enviado a terceiros?"],
+    "flow_headers": [
+      "Categoria de dados",
+      "Onde reside",
+      "Enviado ao programador?",
+      "Enviado a terceiros?"
+    ],
     "flow_rows": [
-      ["<strong>Carteira e registo</strong><br>Ativos, quantidades, custo de aquisição, passivos, transações, etiquetas, notas, instantâneos", "O seu dispositivo (SwiftData) e iCloud privado opcional (CloudKit)", "<strong>Nunca</strong>", "Apenas Apple iCloud se ativar a sincronização"],
-      ["<strong>Cotações e câmbios</strong><br>Termos de pesquisa, símbolos, IDs de fonte, moedas", "Pedido de rede temporário", "<strong>Nunca</strong>", "Apenas aos fornecedores de mercado que ativar"],
-      ["<strong>Importação por captura (OCR)</strong><br>Capturas de corretora/fundo escolhidas por si", "Processado localmente no dispositivo via Apple Vision", "<strong>Nunca</strong>", "<strong>Nunca</strong>"],
-      ["<strong>Widgets e bloqueio</strong><br>Resumo visual, Face ID, palavra-passe", "App Group privado e Porta-chaves (apenas hash com sal)", "<strong>Nunca</strong>", "<strong>Nunca</strong>"],
-      ["<strong>Servidor MCP local Mac</strong><br>Pedidos de clientes IA locais (desligado por predefinição)", "Apenas loopback <code>127.0.0.1</code> no seu Mac", "<strong>Nunca</strong>", "Apenas ao cliente IA que ligar explicitamente"],
-      ["<strong>Diagnóstico encriptado</strong><br>Ficheiro <code>.wtdiag</code> (apenas se optar por exportar)", "Guardado localmente até o enviar por e-mail", "Apenas se o enviar ao suporte", "<strong>Nunca</strong>"]
+      [
+        "<strong>Carteira e registo</strong><br>Ativos, quantidades, custo de aquisição, passivos, transações, etiquetas, notas, instantâneos",
+        "O seu dispositivo (SwiftData) e iCloud privado opcional (CloudKit)",
+        "<strong>Nunca</strong>",
+        "Apenas Apple iCloud se ativar a sincronização"
+      ],
+      [
+        "<strong>Cotações e câmbios</strong><br>Termos de pesquisa, símbolos, IDs de fonte, moedas",
+        "Pedido de rede temporário",
+        "<strong>Nunca</strong>",
+        "Apenas aos fornecedores de mercado que ativar"
+      ],
+      [
+        "<strong>Importação por captura (OCR)</strong><br>Capturas de corretora/fundo escolhidas por si",
+        "Processado localmente no dispositivo via Apple Vision",
+        "<strong>Nunca</strong>",
+        "<strong>Nunca</strong>"
+      ],
+      [
+        "<strong>Widgets e bloqueio</strong><br>Resumo visual, Face ID, palavra-passe",
+        "App Group privado e Porta-chaves (apenas hash com sal)",
+        "<strong>Nunca</strong>",
+        "<strong>Nunca</strong>"
+      ],
+      [
+        "<strong>Servidor MCP local Mac</strong><br>Pedidos de clientes IA locais (desligado por predefinição)",
+        "Apenas loopback <code>127.0.0.1</code> no seu Mac",
+        "<strong>Nunca</strong>",
+        "Apenas ao cliente IA que ligar explicitamente"
+      ],
+      [
+        "<strong>Diagnóstico encriptado</strong><br>Ficheiro <code>.wtdiag</code> (apenas se optar por exportar)",
+        "Guardado localmente até o enviar por e-mail",
+        "Apenas se o enviar ao suporte",
+        "<strong>Nunca</strong>"
+      ]
     ],
     "sections": [
       {

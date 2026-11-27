@@ -25,7 +25,11 @@
     "og_title": "WorthTrail — Yksityinen nettovarallisuuden ja salkun seuranta (ei pankkikirjautumista)",
     "og_description": "Rauhallinen, yksityinen kirjanpito osakkeille, ETF:ille, rahastoille, kryptoille, määräaikaistalletuksille, kiinteistöille ja veloille iPhonessa, iPadissa ja Macissa. Ei pankkitunnuksia, yksityinen iCloud-synkronointi, kertaosto ja Mac MCP-palvelin.",
     "offer_currency": "USD",
-    "offer_prices": ["0.99", "5.99", "12.99"],
+    "offer_prices": [
+      "0.99",
+      "5.99",
+      "12.99"
+    ],
     "offers": [
       "Ilmainen (Kaikki ominaisuudet, enintään 10 kohdetta)",
       "WorthTrail Pro Kuukausi (Rajattomasti omaisuuseriä)",
@@ -44,10 +48,26 @@
     ],
     "hero_img_alt": "WorthTrail iOS -yleiskatsaus, jossa näkyy nettovarallisuus, omaisuuserät, velat ja päivän muutos",
     "kpis": [
-      {"val": "Ei Plaidia", "lbl": "Ei koskaan pankki- tai välittäjätunnuksia", "nums": false},
-      {"val": "45+ kieltä", "lbl": "Automaattinen valuuttamuunnos", "nums": true},
-      {"val": "$12,99 kerran", "lbl": "Valinnainen elinikäinen kertaosto", "nums": true},
-      {"val": "Mac MCP", "lbl": "Sisäänrakennettu paikallinen tekoälyprotokolla", "nums": false}
+      {
+        "val": "Ei Plaidia",
+        "lbl": "Ei koskaan pankki- tai välittäjätunnuksia",
+        "nums": false
+      },
+      {
+        "val": "45+ kieltä",
+        "lbl": "Automaattinen valuuttamuunnos",
+        "nums": true
+      },
+      {
+        "val": "$12,99 kerran",
+        "lbl": "Valinnainen elinikäinen kertaosto",
+        "nums": true
+      },
+      {
+        "val": "Mac MCP",
+        "lbl": "Sisäänrakennettu paikallinen tekoälyprotokolla",
+        "nums": false
+      }
     ],
     "screens_eyebrow": "WorthTrailin sisällä",
     "screens_h2": "Suunniteltu selkeyteen jokaisessa omaisuusluokassa.",
@@ -126,11 +146,31 @@
     ],
     "explore_h2": "Tutustu lisää",
     "explore_items": [
-      {"page": "faq", "title": "Usein kysytyt kysymykset & tuotetiedot", "desc": "omaisuuslajit, tietolähteet, tietosuoja ja hinnoittelu."},
-      {"page": "vs", "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & taulukkolaskenta", "desc": "rehellinen vertailu rinnakkain."},
-      {"page": "mcp", "title": "Paikallisen Mac MCP -palvelimen opas", "desc": "yhdistä Claude Code, Claude Desktop tai Codex turvallisesti."},
-      {"page": "support", "title": "Tuki & vianmääritys", "desc": "yhteydenotto, salattu diagnostiikkatiedosto ja pikaohjeet."},
-      {"href": "/llms.txt", "title": "llms.txt", "desc": "tiivis rakenteinen yhteenveto tekoälytyökaluille ja hakukoneille."}
+      {
+        "page": "faq",
+        "title": "Usein kysytyt kysymykset & tuotetiedot",
+        "desc": "omaisuuslajit, tietolähteet, tietosuoja ja hinnoittelu."
+      },
+      {
+        "page": "vs",
+        "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & taulukkolaskenta",
+        "desc": "rehellinen vertailu rinnakkain."
+      },
+      {
+        "page": "mcp",
+        "title": "Paikallisen Mac MCP -palvelimen opas",
+        "desc": "yhdistä Claude Code, Claude Desktop tai Codex turvallisesti."
+      },
+      {
+        "page": "support",
+        "title": "Tuki & vianmääritys",
+        "desc": "yhteydenotto, salattu diagnostiikkatiedosto ja pikaohjeet."
+      },
+      {
+        "href": "/llms.txt",
+        "title": "llms.txt",
+        "desc": "tiivis rakenteinen yhteenveto tekoälytyökaluille ja hakukoneille."
+      }
     ]
   },
   "faq": {
@@ -188,22 +228,85 @@
     ]
   },
   "vs": {
-    "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & taulukkolaskenta",
-    "meta_description": "Puolueeton vertailu WorthTrailin, Monarch Moneyn, Copilot Moneyn, Kuberan ja taulukkolaskennan välillä – pankkikirjautuminen, tietosuoja, useat valuutat, hinnoittelu ja Mac MCP.",
+    "title": "WorthTrail vs Portfolio Performance, Parqet, getquin, Finary, Sharesight & Monarch",
+    "meta_description": "Puolueeton vertailu WorthTrailin sekä Portfolio Performancen, Parqetin, getquinin, Finaryn, Sharesightin, Snowball Analyticsin, Monarch Moneyn, Copilot Moneyn ja Kuberan välillä.",
     "eyebrow": "Rehellinen vertailu",
     "h1": "WorthTrail verrattuna suosittuihin varallisuussovelluksiin",
-    "lead_html": "Eri työkalut ratkaisevat eri tarpeita. Alla on suora vertailu <strong>WorthTrailin</strong> sekä <strong>Monarch Moneyn</strong>, <strong>Copilot Moneyn</strong>, <strong>Kuberan</strong> ja <strong>taulukkolaskennan</strong> välillä — myös siitä, milloin jokin muu vaihtoehto sopii paremmin.",
+    "lead_html": "Eri työkalut ratkaisevat eri tarpeita. Alla on suora vertailu <strong>WorthTrailin</strong>, yhdysvaltalaisten sovellusten (<strong>Monarch Money</strong>, <strong>Copilot Money</strong>, <strong>Kubera</strong>), eurooppalaisten ja globaalien salkkupalvelujen (<strong>Portfolio Performance</strong>, <strong>Parqet</strong>, <strong>getquin</strong>, <strong>Finary</strong>, <strong>Sharesight</strong>, <strong>Snowball Analytics</strong>) sekä <strong>taulukkolaskennan</strong> välillä.",
     "table_h2": "Vertailu rinnakkain",
-    "table_headers": ["Ominaisuus", "WorthTrail", "Monarch Money", "Copilot Money", "Kubera", "Taulukkolaskenta"],
+    "table_headers": [
+      "Ominaisuus",
+      "WorthTrail",
+      "Monarch Money",
+      "Copilot Money",
+      "Kubera",
+      "Taulukkolaskenta"
+    ],
     "table_rows": [
-      ["Pankkikirjautuminen / Plaid", "<strong>Ei (ilman pankkitunnuksia)</strong>", "Ydinominaisuus (Plaid / MX / Finicity)", "Ydinominaisuus (Plaid / aggregaattorit)", "Ydinominaisuus (useita aggregaattoreita)", "Manuaalinen (ilman skriptejä)"],
-      ["Tietojen tallennus", "<strong>Paikallinen SwiftData + valinnainen yksityinen iCloud</strong>", "Palveluntarjoajan pilvi", "Palveluntarjoajan pilvi", "Palveluntarjoajan pilvi", "Paikallinen tai pilvitallennus"],
-      ["Useat valuutat & markkinat", "<strong>Natiivi monivaluutta; globaalit osakkeet, ETF:t, krypto, talletukset</strong>", "Lähinnä USA / Kanada", "Lähinnä USA", "Vahva globaali &amp; monivaluutta", "Manuaalinen / omat kaavat"],
-      ["Budjetointi & pankkimenot", "Ei budjettisovellus", "<strong>Vahva</strong>", "<strong>Vahva</strong>", "Ei budjettisovellus", "Manuaalinen"],
-      ["Osingot, FIRE & tasapainotus", "<strong>Sisäänrakennettu</strong>", "Perustavoitteet", "Perussijoitukset", "Painopiste varallisuus &amp; IRR", "Omat kaavat"],
-      ["Paikallinen tekoäly / MCP", "<strong>Sisäänrakennettu Mac MCP -palvelin</strong>", "Ei paikallista MCP:tä", "Ei paikallista MCP:tä", "Ei paikallista MCP:tä", "Vaatii oman virityksen"],
-      ["Hinnoittelu", "<strong>Ilmainen (10 kohdetta, kaikki); $0,99/kk, $5,99/v tai $12,99 kertaosto</strong>", "Vain tilaus (~$99,99/v)", "Vain tilaus (~$95/v)", "Vain tilaus (~$199+/v)", "Ilmainen / toimisto-ohjelma"],
-      ["Alustat", "iPhone, iPad, Mac", "Verkko, iOS, Android", "iOS, Mac, Verkko", "Verkko, iOS, Android", "Monialustainen"]
+      [
+        "Pankkikirjautuminen / Plaid",
+        "<strong>Ei (ilman pankkitunnuksia)</strong>",
+        "Ydinominaisuus (Plaid / MX / Finicity)",
+        "Ydinominaisuus (Plaid / aggregaattorit)",
+        "Ydinominaisuus (useita aggregaattoreita)",
+        "Manuaalinen (ilman skriptejä)"
+      ],
+      [
+        "Tietojen tallennus",
+        "<strong>Paikallinen SwiftData + valinnainen yksityinen iCloud</strong>",
+        "Palveluntarjoajan pilvi",
+        "Palveluntarjoajan pilvi",
+        "Palveluntarjoajan pilvi",
+        "Paikallinen tai pilvitallennus"
+      ],
+      [
+        "Useat valuutat & markkinat",
+        "<strong>Natiivi monivaluutta; globaalit osakkeet, ETF:t, krypto, talletukset</strong>",
+        "Lähinnä USA / Kanada",
+        "Lähinnä USA",
+        "Vahva globaali &amp; monivaluutta",
+        "Manuaalinen / omat kaavat"
+      ],
+      [
+        "Budjetointi & pankkimenot",
+        "Ei budjettisovellus",
+        "<strong>Vahva</strong>",
+        "<strong>Vahva</strong>",
+        "Ei budjettisovellus",
+        "Manuaalinen"
+      ],
+      [
+        "Osingot, FIRE & tasapainotus",
+        "<strong>Sisäänrakennettu</strong>",
+        "Perustavoitteet",
+        "Perussijoitukset",
+        "Painopiste varallisuus &amp; IRR",
+        "Omat kaavat"
+      ],
+      [
+        "Paikallinen tekoäly / MCP",
+        "<strong>Sisäänrakennettu Mac MCP -palvelin</strong>",
+        "Ei paikallista MCP:tä",
+        "Ei paikallista MCP:tä",
+        "Ei paikallista MCP:tä",
+        "Vaatii oman virityksen"
+      ],
+      [
+        "Hinnoittelu",
+        "<strong>Ilmainen (10 kohdetta, kaikki); $0,99/kk, $5,99/v tai $12,99 kertaosto</strong>",
+        "Vain tilaus (~$99,99/v)",
+        "Vain tilaus (~$95/v)",
+        "Vain tilaus (~$199+/v)",
+        "Ilmainen / toimisto-ohjelma"
+      ],
+      [
+        "Alustat",
+        "iPhone, iPad, Mac",
+        "Verkko, iOS, Android",
+        "iOS, Mac, Verkko",
+        "Verkko, iOS, Android",
+        "Monialustainen"
+      ]
     ],
     "table_note": "Huom: Kolmansien osapuolten hinnat ja ominaisuudet ovat suuntaa-antavia ja voivat muuttua; tarkista ajantasaiset tiedot kunkin tarjoajan sivuilta.",
     "sections": [
@@ -238,12 +341,96 @@
           "<strong>Valitse taulukkolaskenta</strong>, jos tarvitset täysin räätälöityjä laskentamalleja Windowsissa, Linuxissa tai selaimessa.",
           "<strong>Valitse WorthTrail</strong>, jos olet kyllästynyt hajoaviin kurssikaavoihin, käsin päivitettäviin valuuttakursseihin ja manuaalisiin historiakuviin — säilyttäen silti siistin Excel-viennin (<code>.xlsx</code>)."
         ]
+      },
+      {
+        "id": "portfolio-performance",
+        "h2": "WorthTrail vs Portfolio Performance",
+        "bullets_html": [
+          "<strong>Valitse Portfolio Performance</strong>, jos haluat maksuttoman avoimen lähdekoodin työpöytäohjelman (Windows/macOS/Linux) eurooppalaisten välittäjien PDF-tiliotteiden tuontiin.",
+          "<strong>Valitse WorthTrail</strong>, jos haluat nopean, natiivin <strong>iPhone-, iPad- ja Mac-sovelluksen</strong> yksityisellä iCloud-synkronoinnilla, paikallisella kuvakaappaus-/CSV-tuonnilla, määräaikaistalletuksilla, veloilla, FIRE:llä ja paikallisella Mac MCP:llä ilman XML-tiedostojen ylläpitoa."
+        ]
+      },
+      {
+        "id": "parqet-getquin",
+        "h2": "WorthTrail vs Parqet & getquin",
+        "bullets_html": [
+          "<strong>Valitse Parqet tai getquin</strong>, jos haluat eurooppalaisen verkkonäkymän PDF-tuonnilla, Open Banking -yhteydellä tai sijoittajayhteisöllä (getquin).",
+          "<strong>Valitse WorthTrail</strong>, jos haluat <strong>ei ulkopuolista pilveä eikä tiliä</strong>, koko nettovarallisuuden pörssin ulkopuoleltakin (talletukset, käteinen, kiinteistöt, lainat) ja $12,99 kertaoston."
+        ]
+      },
+      {
+        "id": "finary",
+        "h2": "WorthTrail vs Finary",
+        "bullets_html": [
+          "<strong>Valitse Finary</strong>, jos haluat automaattisen eurooppalaisen pankki- ja välittäjäaggregaation, kuluanalyysin ja verkkoportaalin.",
+          "<strong>Valitse WorthTrail</strong>, jos et halua jakaa pankkitunnuksia, arvostat paikallista SwiftData + yksityistä iCloudia, natiivia Apple-nopeutta Mac MCP:llä ja $5,99/v tai $12,99 kertaostoa 149+ €/v sijaan."
+        ]
+      },
+      {
+        "id": "sharesight-snowball",
+        "h2": "WorthTrail vs Sharesight & Snowball Analytics",
+        "bullets_html": [
+          "<strong>Valitse Sharesight tai Snowball Analytics</strong>, jos tarvitset maakohtaisia veroraportteja selaimessa tai syvällistä verkkopohjaista osinkoanalyysiä.",
+          "<strong>Valitse WorthTrail</strong>, jos haluat yhden yksityisen Apple-sovelluksen, joka yhdistää <strong>sijoitukset, osinkokalenterin, määräaikaistalletukset, käteisen, kiinteistöt ja velat</strong> FIRE:n ja tasapainotuksen kanssa murto-osalla hinnasta."
+        ]
       }
     ],
     "cta_h2": "Valmis kokeilemaan WorthTrailia?",
     "cta_lead": "Aloita ilmaiseksi kaikilla ominaisuuksilla 10 kohteeseen asti — ilman tiliä ja ilman pankkikirjautumista.",
     "cta_primary": "Lataa App Storesta",
-    "cta_secondary": "Lue UKK"
+    "cta_secondary": "Lue UKK",
+    "eu_table_h2": "WorthTrail vs eurooppalaiset & globaalit salkunseurannat",
+    "eu_table_lead": "Näin WorthTrail vertautuu Euroopassa ja kansainvälisesti suosittuihin sijoitussalkkutyökaluihin.",
+    "eu_table_headers": [
+      "Ominaisuus",
+      "WorthTrail",
+      "Portfolio Performance",
+      "Parqet / getquin",
+      "Finary",
+      "Sharesight / Snowball"
+    ],
+    "eu_table_rows": [
+      [
+        "Tili &amp; välittäjäsynkronointi",
+        "<strong>Ei tiliä, ei pankkikirjautumista</strong>",
+        "Manuaalinen / PDF- &amp; CSV-tuonti (ei pilveä)",
+        "Pilvitili; PDF-tuonti / välittäjäsynkronointi",
+        "Pilvitili; EU-pankki- &amp; välittäjäaggregaatio",
+        "Pilvitili; välittäjätuonti / synkronointi"
+      ],
+      [
+        "Tietojen tallennus",
+        "<strong>Paikallinen SwiftData + valinnainen yksityinen iCloud</strong>",
+        "Paikallinen XML-tiedosto tietokoneella",
+        "Palveluntarjoajan pilvi",
+        "Palveluntarjoajan pilvi",
+        "Palveluntarjoajan pilvi"
+      ],
+      [
+        "Varallisuuden laajuus",
+        "<strong>Koko nettovarallisuus: osakkeet, ETF:t, krypto, määräaikaistalletukset, käteinen, kiinteistöt &amp; velat</strong>",
+        "Syvällinen sijoituskirjanpito",
+        "Lähinnä arvopaperisalkut &amp; osingot",
+        "Koko varallisuus + kuluseulonta",
+        "Lähinnä osakkeet, ETF:t &amp; osingot"
+      ],
+      [
+        "Mobiili- &amp; Mac-kokemus",
+        "<strong>Natiivi iPhone, iPad, Mac + paikallinen Mac MCP</strong>",
+        "Työpöytä edellä (Java); mobiilisovellus tukena",
+        "Verkko + mobiilisovellukset",
+        "Verkko + mobiilisovellukset",
+        "Verkko edellä + mobiilisovellukset"
+      ],
+      [
+        "Hinnoittelu",
+        "<strong>Ilmainen (10 kohdetta, kaikki); $0,99/kk, $5,99/v tai $12,99 kertaosto</strong>",
+        "Ilmainen open-source työpöydällä (maksullinen mobiilisynk)",
+        "Freemium; tilaukset (~60–150+ €/v)",
+        "Freemium; Finary Plus (~149+ €/v)",
+        "Freemium; tilaukset (~150–300+ $/v)"
+      ]
+    ]
   },
   "mcp": {
     "title": "WorthTrail Mac MCP -palvelin — Yhdistä Claude & tekoälyagentit paikalliseen salkkuusi",
@@ -259,11 +446,26 @@
     "specs_col_prop": "Ominaisuus",
     "specs_col_val": "Arvo",
     "spec_rows": [
-      ["Siirtotapa", "Streamable HTTP (vain paikallinen loopback)"],
-      ["Oletusosoite", "<code>http://127.0.0.1:47821/mcp</code> (portti muutettavissa Asetuksissa, 1024–65535)"],
-      ["Todennus", "<code>Authorization: Bearer &lt;token&gt;</code> (tallennettu macOS-avainnippuun; nollattavissa milloin tahansa)"],
-      ["Saatavuus", "Käynnissä vain kun WorthTrail on auki Macissa ja Agenttien käyttöoikeus on päällä"],
-      ["Hinnoittelu", "Sisältyy ilmaisversioon (ei maksumuuria MCP:lle; 10 kohteen raja koskee uusien kohteiden lisäämistä)"]
+      [
+        "Siirtotapa",
+        "Streamable HTTP (vain paikallinen loopback)"
+      ],
+      [
+        "Oletusosoite",
+        "<code>http://127.0.0.1:47821/mcp</code> (portti muutettavissa Asetuksissa, 1024–65535)"
+      ],
+      [
+        "Todennus",
+        "<code>Authorization: Bearer &lt;token&gt;</code> (tallennettu macOS-avainnippuun; nollattavissa milloin tahansa)"
+      ],
+      [
+        "Saatavuus",
+        "Käynnissä vain kun WorthTrail on auki Macissa ja Agenttien käyttöoikeus on päällä"
+      ],
+      [
+        "Hinnoittelu",
+        "Sisältyy ilmaisversioon (ei maksumuuria MCP:lle; 10 kohteen raja koskee uusien kohteiden lisäämistä)"
+      ]
     ],
     "connect_h2": "Näin yhdistät",
     "connect_intro_html": "Avaa <strong>WorthTrail Macissa &rarr; Asetukset &rarr; Agenttien käyttöoikeus</strong>, kytke paikallinen käyttöoikeus päälle ja kopioi asennuskehotteesi tai Bearer-tunnisteesi.",
@@ -393,21 +595,68 @@
     "effective_date": "Voimaantulopäivä: 27. marraskuuta 2026",
     "applies_to": "Koskee WorthTrailia iPhonessa, iPadissa ja Macissa",
     "glance": [
-      {"val": "Ei pankkitunnuksia", "lbl": "Ei Plaidia eikä pankkikirjautumista"},
-      {"val": "Paikallinen ensin", "lbl": "Vain SwiftData & yksityinen iCloud"},
-      {"val": "Ei seurantaa", "lbl": "Ei mainoksia eikä analytiikka-SDK:ita"},
-      {"val": "Sinun hallinnassasi", "lbl": "Salatut varmuuskopiot & helppo poisto"}
+      {
+        "val": "Ei pankkitunnuksia",
+        "lbl": "Ei Plaidia eikä pankkikirjautumista"
+      },
+      {
+        "val": "Paikallinen ensin",
+        "lbl": "Vain SwiftData & yksityinen iCloud"
+      },
+      {
+        "val": "Ei seurantaa",
+        "lbl": "Ei mainoksia eikä analytiikka-SDK:ita"
+      },
+      {
+        "val": "Sinun hallinnassasi",
+        "lbl": "Salatut varmuuskopiot & helppo poisto"
+      }
     ],
     "flow_h2": "Tietovirta yhdellä silmäyksellä",
     "flow_lead": "Missä kukin tietoluokka sijaitsee ja poistuuko se koskaan laitteeltasi.",
-    "flow_headers": ["Tietoluokka", "Sijainti", "Lähetetään kehittäjälle?", "Lähetetään kolmansille?"],
+    "flow_headers": [
+      "Tietoluokka",
+      "Sijainti",
+      "Lähetetään kehittäjälle?",
+      "Lähetetään kolmansille?"
+    ],
     "flow_rows": [
-      ["<strong>Salkku &amp; kirjanpito</strong><br>Omaisuuserät, määrät, hankintameno, velat, tapahtumat, tunnisteet, muistiinpanot, tilannekuvat", "Laitteesi (SwiftData) &amp; valinnainen yksityinen iCloud (CloudKit)", "<strong>Ei koskaan</strong>", "Vain Apple iCloud jos otat synkronoinnin käyttöön"],
-      ["<strong>Kurssit &amp; valuuttakurssit</strong><br>Hakusanat, symbolit, lähdetunnukset, valuuttakoodit", "Tilapäinen verkkopyyntö", "<strong>Ei koskaan</strong>", "Vain käyttöön ottamillesi markkinatietolähteille"],
-      ["<strong>Kuvakaappaustuonti (OCR)</strong><br>Valitsemasi välittäjän kuvakaappaukset", "Käsitellään paikallisesti Apple Visionilla", "<strong>Ei koskaan</strong>", "<strong>Ei koskaan</strong>"],
-      ["<strong>Widgetit &amp; sovelluslukko</strong><br>Näyttöyhteenveto, Face ID, pääsykoodi", "Yksityinen App Group &amp; Avainnippu (vain suolattu tiiviste)", "<strong>Ei koskaan</strong>", "<strong>Ei koskaan</strong>"],
-      ["<strong>Paikallinen Mac MCP -palvelin</strong><br>Paikallisten tekoälyasiakkaiden kyselyt (oletuksena pois)", "Vain loopback <code>127.0.0.1</code> Macissasi", "<strong>Ei koskaan</strong>", "Vain itse yhdistämällesi tekoälyasiakkaalle"],
-      ["<strong>Salattu diagnostiikka</strong><br><code>.wtdiag</code>-tiedosto (vain omasta viennistäsi)", "Paikallisesti kunnes lähetät sen itse", "Vain jos lähetät sen tukeen", "<strong>Ei koskaan</strong>"]
+      [
+        "<strong>Salkku &amp; kirjanpito</strong><br>Omaisuuserät, määrät, hankintameno, velat, tapahtumat, tunnisteet, muistiinpanot, tilannekuvat",
+        "Laitteesi (SwiftData) &amp; valinnainen yksityinen iCloud (CloudKit)",
+        "<strong>Ei koskaan</strong>",
+        "Vain Apple iCloud jos otat synkronoinnin käyttöön"
+      ],
+      [
+        "<strong>Kurssit &amp; valuuttakurssit</strong><br>Hakusanat, symbolit, lähdetunnukset, valuuttakoodit",
+        "Tilapäinen verkkopyyntö",
+        "<strong>Ei koskaan</strong>",
+        "Vain käyttöön ottamillesi markkinatietolähteille"
+      ],
+      [
+        "<strong>Kuvakaappaustuonti (OCR)</strong><br>Valitsemasi välittäjän kuvakaappaukset",
+        "Käsitellään paikallisesti Apple Visionilla",
+        "<strong>Ei koskaan</strong>",
+        "<strong>Ei koskaan</strong>"
+      ],
+      [
+        "<strong>Widgetit &amp; sovelluslukko</strong><br>Näyttöyhteenveto, Face ID, pääsykoodi",
+        "Yksityinen App Group &amp; Avainnippu (vain suolattu tiiviste)",
+        "<strong>Ei koskaan</strong>",
+        "<strong>Ei koskaan</strong>"
+      ],
+      [
+        "<strong>Paikallinen Mac MCP -palvelin</strong><br>Paikallisten tekoälyasiakkaiden kyselyt (oletuksena pois)",
+        "Vain loopback <code>127.0.0.1</code> Macissasi",
+        "<strong>Ei koskaan</strong>",
+        "Vain itse yhdistämällesi tekoälyasiakkaalle"
+      ],
+      [
+        "<strong>Salattu diagnostiikka</strong><br><code>.wtdiag</code>-tiedosto (vain omasta viennistäsi)",
+        "Paikallisesti kunnes lähetät sen itse",
+        "Vain jos lähetät sen tukeen",
+        "<strong>Ei koskaan</strong>"
+      ]
     ],
     "sections": [
       {

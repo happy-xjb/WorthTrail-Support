@@ -456,13 +456,34 @@ def render_faq(lang_cfg: dict, data: dict) -> str:
 
 def render_vs(lang_cfg: dict, data: dict) -> str:
     v = data["vs"]
-    headers = "".join(f"<th>{e(col)}</th>" for col in v["table_headers"])
-    rows_html = []
-    for row in v["table_rows"]:
-        cells = [f"<td><strong>{e(row[0])}</strong></td>"]
-        for idx, cell in enumerate(row[1:], start=1):
-            cells.append(f"<td>{cell}</td>")
-        rows_html.append(f"            <tr>\n              {''.join(cells)}\n            </tr>")
+
+    def render_table(headers_list: list[str], rows_list: list[list[str]]) -> str:
+        headers = "".join(f"<th>{e(col)}</th>" for col in headers_list)
+        rows_html = []
+        for row in rows_list:
+            cells = [f"<td><strong>{e(row[0])}</strong></td>"]
+            for cell in row[1:]:
+                cells.append(f"<td>{cell}</td>")
+            rows_html.append(f"            <tr>\n              {''.join(cells)}\n            </tr>")
+        return f"""      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>{headers}</tr>
+          </thead>
+          <tbody>
+{chr(10).join(rows_html)}
+          </tbody>
+        </table>
+      </div>"""
+
+    eu_section_html = ""
+    if v.get("eu_table_rows"):
+        eu_section_html = f"""
+    <section class="section-compact" id="european-trackers">
+      <h2>{e(v['eu_table_h2'])}</h2>
+      <p>{e(v['eu_table_lead'])}</p>
+{render_table(v['eu_table_headers'], v['eu_table_rows'])}
+    </section>"""
 
     sections_html = []
     for sec in v["sections"]:
@@ -492,18 +513,10 @@ def render_vs(lang_cfg: dict, data: dict) -> str:
   <main class="container">
     <section class="section-compact">
       <h2>{e(v['table_h2'])}</h2>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>{headers}</tr>
-          </thead>
-          <tbody>
-{chr(10).join(rows_html)}
-          </tbody>
-        </table>
-      </div>
+{render_table(v['table_headers'], v['table_rows'])}
       <p><em>{e(v['table_note'])}</em></p>
     </section>
+{eu_section_html}
 
 {chr(10).join(sections_html)}
 
