@@ -6,14 +6,30 @@
   <title>WorthTrail Mac MCP Server — Connect Claude &amp; AI Agents to Your Local Portfolio</title>
   <meta name="description" content="WorthTrail on Mac includes a local Streamable HTTP MCP server for Claude Code, Claude Desktop, and Codex. Query net worth, holdings, returns, dividends, and FIRE locally with two-step write confirmation.">
   <link rel="canonical" href="https://worthtrail.app/mcp/">
+  <link rel="alternate" hreflang="en" href="https://worthtrail.app/mcp/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/mcp/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/mcp/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/mcp/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/mcp/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/mcp/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/mcp/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/mcp/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/mcp/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/mcp/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/mcp/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/mcp/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/mcp/">
+  <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/mcp/">
   <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="stylesheet" href="/assets/style.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "TechArticle",
+    "inLanguage": "en",
     "headline": "WorthTrail Mac Local MCP Server for AI Agents",
-    "description": "Connect Claude Code, Claude Desktop, Codex, or other Streamable HTTP MCP clients to your local WorthTrail portfolio on Mac without cloud servers or bank logins.",
+    "description": "WorthTrail on Mac includes a local Streamable HTTP MCP server for Claude Code, Claude Desktop, and Codex. Query net worth, holdings, returns, dividends, and FIRE locally with two-step write confirmation.",
     "url": "https://worthtrail.app/mcp/",
     "author": {
       "@type": "Organization",
@@ -42,7 +58,24 @@
         <a href="/mcp/" aria-current="page">Mac MCP</a>
         <a href="/support/">Support</a>
         <a href="/privacy/">Privacy</a>
-        <a class="lang-switch" href="/zh/">简体中文</a>
+        <details class="lang-menu">
+          <summary aria-label="Language">EN &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/mcp/" aria-current="true"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/mcp/"><span>简体中文</span><span class="lang-code">中文</span></a>
+            <a href="/de/mcp/"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/mcp/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/mcp/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/mcp/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/mcp/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/mcp/"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/mcp/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/mcp/"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/mcp/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/mcp/"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/mcp/"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
         <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
       </nav>
       <details class="mobile-nav">
@@ -54,7 +87,24 @@
           <a href="/mcp/" aria-current="page">Mac MCP Server</a>
           <a href="/support/">Support</a>
           <a href="/privacy/">Privacy Policy</a>
-          <a href="/zh/">切换至简体中文</a>
+          <details class="mobile-lang">
+            <summary>Language · English</summary>
+            <div class="mobile-lang-grid">
+              <a href="/mcp/" aria-current="true">English</a>
+              <a href="/zh/mcp/">简体中文</a>
+              <a href="/de/mcp/">Deutsch</a>
+              <a href="/fr/mcp/">Français</a>
+              <a href="/es/mcp/">Español</a>
+              <a href="/it/mcp/">Italiano</a>
+              <a href="/pt-pt/mcp/">Português</a>
+              <a href="/nl/mcp/">Nederlands</a>
+              <a href="/sv/mcp/">Svenska</a>
+              <a href="/da/mcp/">Dansk</a>
+              <a href="/no/mcp/">Norsk</a>
+              <a href="/fi/mcp/">Suomi</a>
+              <a href="/ru/mcp/">Русский</a>
+            </div>
+          </details>
           <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Download on the App Store</a>
         </div>
       </details>
@@ -66,10 +116,7 @@
       <div>
         <p class="eyebrow">Model Context Protocol · macOS · Localhost Only</p>
         <h1>Ask AI about your net worth—without uploading it to a cloud server.</h1>
-        <p class="lead">
-          <strong>WorthTrail for Mac</strong> includes a built-in local <strong>MCP (Model Context Protocol)</strong> server over Streamable HTTP.
-          Connect <strong>Claude Code</strong>, <strong>Claude Desktop</strong>, <strong>Codex</strong>, or any compatible MCP client to query your portfolio and optionally log changes with explicit preview approval.
-        </p>
+        <p class="lead"><strong>WorthTrail for Mac</strong> includes a built-in local <strong>MCP (Model Context Protocol)</strong> server over Streamable HTTP. Connect <strong>Claude Code</strong>, <strong>Claude Desktop</strong>, <strong>Codex</strong>, or any compatible MCP client to query your portfolio and optionally log changes with explicit preview approval.</p>
         <div class="cta-row">
           <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Get WorthTrail on Mac</a>
           <a class="btn btn-secondary" href="/faq/">Read FAQ</a>
@@ -195,14 +242,15 @@ http_headers = { "Authorization" = "Bearer YOUR_TOKEN" }</code></pre>
   <footer class="site-footer">
     <div class="container">
       <div class="footer-links">
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
         <a href="/">Overview</a>
         <a href="/faq/">FAQ</a>
         <a href="/vs/">Compare</a>
         <a href="/privacy/">Privacy Policy</a>
         <a href="/support/">Support</a>
-        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+        <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>
       </div>
-      <p class="disclaimer">WorthTrail is for personal asset recording and analysis only and does not provide investment advice.</p>
+      <p class="disclaimer">WorthTrail is for personal asset recording and analysis only and does not provide investment advice. Market data may be delayed, incomplete, or inaccurate. Please refer to your actual accounts and official statements.</p>
     </div>
   </footer>
 </body>

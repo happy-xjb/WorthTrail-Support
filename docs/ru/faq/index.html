@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorthTrail FAQ — Учёт чистого капитала без входа в банк</title>
+  <meta name="description" content="Ответы на частые вопросы о WorthTrail: приватность без подключения банков, мультивалютные активы, разовая покупка, дивиденды, FIRE, источники данных и Mac MCP.">
+  <link rel="canonical" href="https://worthtrail.app/ru/faq/">
+  <link rel="alternate" hreflang="en" href="https://worthtrail.app/faq/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/faq/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/faq/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/faq/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/faq/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/faq/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/faq/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/faq/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/faq/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/faq/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/faq/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/faq/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/faq/">
+  <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/faq/">
+  <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "inLanguage": "ru",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Нужно ли подключать банковский или брокерский счёт к WorthTrail?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Нет. WorthTrail никогда не запрашивает логины и пароли от банков или брокеров и не использует Plaid. Вы вносите позиции сами, а публичные котировки и курсы валют обновляются автоматически."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Где хранятся данные моего портфеля?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Все данные хранятся локально на вашем устройстве через Apple SwiftData. Опциональная синхронизация использует только вашу личную приватную базу Apple CloudKit. У разработчика нет сервера с вашими данными."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Как устроены цены? Есть ли разовая покупка?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Да. Бесплатная версия включает все функции до 10 позиций. WorthTrail Pro снимает только этот лимит: $0,99/мес, $5,99/год или $12,99 разово навсегда."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Какие типы активов и рынки поддерживаются?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Мировые акции, ETF, паевые фонды, криптовалюты, опционы, срочные вклады, наличные, произвольные активы (недвижимость, золото, облигации) и долги (ипотека, кредиты) с автоматической конвертацией валют."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Какие источники рыночных данных использует WorthTrail?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Вы можете включать, отключать и сортировать источники в разделе Настройки > Источники и состояние: Yahoo Finance, Webull, Binance, OKX, Sina Finance, TWSE и ExchangeRate-API."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Поддерживаются ли дивиденды, FIRE и ребалансировка?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Да. Встроены календарь дивидендов с датами отсечки и доходом после налогов, планировщик FIRE, регулярные планы, сплиты акций и калькулятор ребалансировки."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Как работает локальный MCP-сервер на Mac?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "На Mac встроен опциональный локальный Streamable HTTP MCP-сервер по адресу http://127.0.0.1:47821/mcp с Bearer-токеном в Связке ключей для Claude Code, Claude Desktop и Codex. Запись выключена по умолчанию и требует двухэтапного подтверждения."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Можно ли экспортировать данные или делать локальные резервные копии?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Да. Доступен экспорт и восстановление зашифрованных паролем локальных резервных копий, а также книг Excel (.xlsx) и отчётов PDF."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Какие платформы поддерживаются?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "WorthTrail доступен для iPhone, iPad и Mac в Apple App Store на 45+ языках. Версий для Android и веб сейчас нет."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/ru/">
+        <img src="/assets/icon-192.png" alt="Иконка WorthTrail" width="28" height="28">
+        <span>WorthTrail</span>
+      </a>
+      <nav class="nav-links" aria-label="Основная навигация">
+        <a href="/ru/">Обзор</a>
+        <a href="/ru/faq/" aria-current="page">FAQ</a>
+        <a href="/ru/vs/">Сравнение</a>
+        <a href="/ru/mcp/">Mac MCP</a>
+        <a href="/ru/support/">Поддержка</a>
+        <a href="/ru/privacy/">Конфиденциальность</a>
+        <details class="lang-menu">
+          <summary aria-label="Язык">RU &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/faq/"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/faq/"><span>简体中文</span><span class="lang-code">中文</span></a>
+            <a href="/de/faq/"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/faq/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/faq/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/faq/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/faq/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/faq/"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/faq/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/faq/"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/faq/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/faq/"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/faq/" aria-current="true"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary>Меню</summary>
+        <div class="mobile-menu-panel">
+          <a href="/ru/">Обзор</a>
+          <a href="/ru/faq/" aria-current="page">Частые вопросы</a>
+          <a href="/ru/vs/">Сравнить аналоги</a>
+          <a href="/ru/mcp/">Локальный MCP на Mac</a>
+          <a href="/ru/support/">Поддержка</a>
+          <a href="/ru/privacy/">Политика конфиденциальности</a>
+          <details class="mobile-lang">
+            <summary>Язык · Русский</summary>
+            <div class="mobile-lang-grid">
+              <a href="/faq/">English</a>
+              <a href="/zh/faq/">简体中文</a>
+              <a href="/de/faq/">Deutsch</a>
+              <a href="/fr/faq/">Français</a>
+              <a href="/es/faq/">Español</a>
+              <a href="/it/faq/">Italiano</a>
+              <a href="/pt-pt/faq/">Português</a>
+              <a href="/nl/faq/">Nederlands</a>
+              <a href="/sv/faq/">Svenska</a>
+              <a href="/da/faq/">Dansk</a>
+              <a href="/no/faq/">Norsk</a>
+              <a href="/fi/faq/">Suomi</a>
+              <a href="/ru/faq/" aria-current="true">Русский</a>
+            </div>
+          </details>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Скачать в App Store</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-compact">
+      <p class="eyebrow">Факты и ответы</p>
+      <h1>Частые вопросы</h1>
+      <p class="lead">Прямые ответы о приватности, поддерживаемых активах, ценах и локальном MCP-сервере на Mac.</p>
+    </div>
+  </div>
+
+  <main class="container-narrow">
+    <section class="section-compact">
+      <div class="faq-item">
+        <h3>Нужно ли подключать банковский или брокерский счёт к WorthTrail?</h3>
+        <p><strong>Нет.</strong> WorthTrail намеренно создан без входа в банк и без Plaid. Вы фиксируете позиции, наличные, вклады и долги напрямую, а рыночные котировки и курсы валют обновляются автоматически.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Где хранятся данные моего портфеля?</h3>
+        <p>Данные хранятся локально на вашем устройстве в Apple SwiftData. Опциональная синхронизация между устройствами идёт исключительно через вашу приватную базу Apple iCloud (CloudKit). Разработчик не содержит серверов, собирающих портфель, а в приложении нет рекламы и сторонних SDK аналитики.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Как устроены цены? Есть ли разовая покупка?</h3>
+        <p><strong>Да.</strong> Бесплатный тариф открывает <strong>все функции</strong> для <strong>10 позиций</strong> (активы, денежные счета и долги суммарно). WorthTrail Pro убирает только ограничение по количеству: US$0,99/мес, US$5,99/год или <strong>US$12,99 разово навсегда</strong> (региональные цены в App Store).</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Какие типы активов и рынки поддерживаются?</h3>
+        <p>WorthTrail учитывает мировые акции (США, Европа, Гонконг, Китай, Тайвань и др.), ETF, фонды, криптовалюты, опционы, срочные вклады, наличные, произвольные активы с ручной оценкой (недвижимость, золото, облигации) и долги (ипотека, кредиты, карты). Все валюты пересчитываются в выбранную базовую валюту.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Какие источники рыночных данных использует WorthTrail?</h3>
+        <p>Вы можете включать, отключать и менять порядок источников в разделе <strong>Настройки &gt; Источники и состояние</strong>, включая Yahoo Finance, Webull, Binance, OKX, Sina Finance, TWSE и ExchangeRate-API. Включённым источникам передаются только необходимые тикеры и коды валют.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Поддерживаются ли дивиденды, FIRE и ребалансировка?</h3>
+        <p><strong>Да.</strong> В приложении есть календарь дивидендов с отсечками и чистым доходом после налогов, анализ роста и концентрации выплат, настраиваемый раздел FIRE, регулярные планы, учёт сплитов и калькулятор ребалансировки.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Как работает локальный MCP-сервер на Mac?</h3>
+        <p>В версии для Mac встроен опциональный локальный Streamable HTTP MCP-сервер (<code>http://127.0.0.1:47821/mcp</code>) с Bearer-токеном в Связке ключей macOS. Подключите Claude Code, Claude Desktop или Codex для запросов о капитале, позициях, доходности, дивидендах и FIRE. Инструменты записи отключены по умолчанию и всегда требуют предпросмотр и код подтверждения. См. <a href="/ru/mcp/">руководство по Mac MCP</a>.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Можно ли экспортировать данные или делать локальные резервные копии?</h3>
+        <p><strong>Да.</strong> Вы можете экспортировать локальные резервные копии с шифрованием паролем (и восстанавливать их в любой момент), а также выгружать книги Excel (<code>.xlsx</code>) и отчёты PDF.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Какие платформы поддерживаются?</h3>
+        <p>WorthTrail доступен для iPhone, iPad и Mac в <a href="https://apps.apple.com/app/id6777620163" rel="noopener">Apple App Store</a> и локализован на 45+ языках. Версии для Android и веб сейчас не выпускаются.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+        <a href="/ru/">Обзор</a>
+        <a href="/ru/vs/">Сравнение</a>
+        <a href="/ru/mcp/">Mac MCP</a>
+        <a href="/ru/privacy/">Политика конфиденциальности</a>
+        <a href="/ru/support/">Поддержка</a>
+        <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>
+      </div>
+      <p class="disclaimer">WorthTrail предназначен исключительно для личного учёта и анализа активов и не является инвестиционной рекомендацией. Рыночные данные могут поступать с задержкой, быть неполными или неточными. Всегда сверяйтесь со своими реальными счетами и официальными выписками.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -2,21 +2,37 @@
 
 Static website and public support repository for **WorthTrail** (`https://worthtrail.app`).
 
-## Structure (`docs/`)
+## Languages (13)
 
-- `docs/index.html` — English landing page (`SoftwareApplication` & `Organization` JSON-LD)
-- `docs/zh/index.html` — Simplified Chinese landing page
-- `docs/faq/index.html` & `docs/zh/faq/index.html` — Bilingual FAQ pages (`FAQPage` JSON-LD)
-- `docs/mcp/index.html` — Mac local MCP server guide (`TechArticle` JSON-LD)
-- `docs/vs/index.html` — Objective comparisons vs Monarch Money, Copilot Money, Kubera, and spreadsheets
-- `docs/privacy/index.html` — Privacy Policy (10 languages)
-- `docs/support/index.html` — Support & troubleshooting
-- `docs/llms.txt` & `docs/llms-full.txt` — Structured context for LLMs and AI search engines
-- `docs/robots.txt` & `docs/sitemap.xml` — Crawler permissions and sitemap
+- **Default (root `/`)**: English (`en`)
+- **Simplified Chinese (`/zh/`)**: `zh-Hans`
+- **Key European & Russian markets**:
+  - German (`/de/`), French (`/fr/`), Spanish (`/es/`), Italian (`/it/`), European Portuguese (`/pt-pt/`), Dutch (`/nl/`), Swedish (`/sv/`), Danish (`/da/`), Norwegian (`/no/`), Finnish (`/fi/`), Russian (`/ru/`)
 
-## Deployment (Cloudflare Pages)
+## Pages per Language (6 × 13 = 78 pages)
 
-- Framework preset: `None`
-- Build command: *(empty)*
-- Build output directory: `docs`
+- `/` (or `/<lang>/`) — Landing / Overview (`SoftwareApplication` & `Organization` JSON-LD)
+- `/faq/` — FAQ & Product Facts (`FAQPage` JSON-LD)
+- `/vs/` — Objective comparison vs Monarch Money, Copilot Money, Kubera, and spreadsheets
+- `/mcp/` — Mac local MCP server guide (`TechArticle` JSON-LD)
+- `/support/` — Support hub, topic mailto cards, encrypted diagnostics (`.wtdiag`), and troubleshooting
+- `/privacy/` — Privacy Policy with data-flow overview and structured legal sections
+
+## Editing & Building
+
+Do not hand-edit generated HTML files under `docs/`. Instead:
+
+1. Edit `content/<lang>.json` (or `scripts/build_site.py` / `docs/assets/style.css`).
+2. Run:
+
+```sh
+python3 scripts/build_site.py
+```
+
+This regenerates all 78 HTML pages and `docs/sitemap.xml` with full `hreflang` alternates.
+
+## Deployment (Cloudflare Workers Static Assets / Pages)
+
+- Build command: *(empty — static files in `docs/` are committed directly)*
+- Output directory: `docs` (`wrangler.jsonc`)
 - Custom domain: `worthtrail.app`

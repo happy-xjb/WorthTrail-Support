@@ -8,6 +8,17 @@
   <link rel="canonical" href="https://worthtrail.app/">
   <link rel="alternate" hreflang="en" href="https://worthtrail.app/">
   <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/">
   <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/">
   <link rel="icon" type="image/png" href="/assets/icon-192.png">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -26,6 +37,7 @@
       {
         "@type": "SoftwareApplication",
         "name": "WorthTrail",
+        "inLanguage": "en",
         "applicationCategory": "FinanceApplication",
         "operatingSystem": "iOS, iPadOS, macOS",
         "url": "https://worthtrail.app/",
@@ -39,16 +51,7 @@
           "https://worthtrail.app/assets/screens/en-composition.jpg",
           "https://worthtrail.app/assets/screens/en-ai.jpg"
         ],
-        "description": "WorthTrail is a private, local-first net worth and portfolio tracker for iPhone, iPad, and Mac. Track stocks, ETFs, funds, crypto, options, fixed-term deposits, cash, real estate, and debts across multiple currencies without linking a bank account.",
-        "featureList": [
-          "No bank login or Plaid required; local-first SwiftData storage with optional private iCloud sync",
-          "Multi-currency net worth tracking for stocks, ETFs, funds, crypto, options, fixed-term deposits, cash, property, and liabilities",
-          "Daily, weekly, monthly, and yearly P&L calendar with cost basis, realized/unrealized gains, and drawdowns",
-          "Dividend calendar, tax-adjusted passive income, recurring investment (DCA) plans, and stock split adjustments",
-          "FIRE progress, passive income coverage, and target allocation rebalancing calculator",
-          "Built-in local Streamable HTTP MCP server on Mac for Claude Code, Claude Desktop, and Codex",
-          "Excel and PDF report exports, encrypted local backups, Face ID lock, and privacy Home Screen widgets"
-        ],
+        "description": "WorthTrail is a private, local-first net worth and portfolio tracker for iPhone, iPad, and Mac. Track stocks, ETFs, crypto, term deposits, real estate, and debts across currencies—no bank login, one-time lifetime option, and a local Mac MCP server.",
         "offers": [
           {
             "@type": "Offer",
@@ -105,7 +108,24 @@
         <a href="/mcp/">Mac MCP</a>
         <a href="/support/">Support</a>
         <a href="/privacy/">Privacy</a>
-        <a class="lang-switch" href="/zh/">简体中文</a>
+        <details class="lang-menu">
+          <summary aria-label="Language">EN &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/" aria-current="true"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/"><span>简体中文</span><span class="lang-code">中文</span></a>
+            <a href="/de/"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
         <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
       </nav>
       <details class="mobile-nav">
@@ -117,7 +137,24 @@
           <a href="/mcp/">Mac MCP Server</a>
           <a href="/support/">Support</a>
           <a href="/privacy/">Privacy Policy</a>
-          <a href="/zh/">切换至简体中文</a>
+          <details class="mobile-lang">
+            <summary>Language · English</summary>
+            <div class="mobile-lang-grid">
+              <a href="/" aria-current="true">English</a>
+              <a href="/zh/">简体中文</a>
+              <a href="/de/">Deutsch</a>
+              <a href="/fr/">Français</a>
+              <a href="/es/">Español</a>
+              <a href="/it/">Italiano</a>
+              <a href="/pt-pt/">Português</a>
+              <a href="/nl/">Nederlands</a>
+              <a href="/sv/">Svenska</a>
+              <a href="/da/">Dansk</a>
+              <a href="/no/">Norsk</a>
+              <a href="/fi/">Suomi</a>
+              <a href="/ru/">Русский</a>
+            </div>
+          </details>
           <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Download on the App Store</a>
         </div>
       </details>
@@ -129,10 +166,7 @@
       <div>
         <p class="eyebrow">Private Wealth Ledger · iPhone · iPad · Mac</p>
         <h1>A quiet, private ledger for your complete net worth.</h1>
-        <p class="lead">
-          <strong>WorthTrail</strong> is a local-first net worth and investment portfolio tracker for Apple devices.
-          Track global stocks, ETFs, funds, crypto, options, fixed-term deposits, real estate, and liabilities across currencies—stored strictly on your device and private iCloud, with <strong>zero bank logins</strong>.
-        </p>
+        <p class="lead"><strong>WorthTrail</strong> is a local-first net worth and investment portfolio tracker for Apple devices. Track global stocks, ETFs, funds, crypto, options, fixed-term deposits, real estate, and liabilities across currencies—stored strictly on your device and private iCloud, with <strong>zero bank logins</strong>.</p>
         <div class="cta-row">
           <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Download on the App Store</a>
           <a class="btn btn-secondary" href="/vs/">Compare Alternatives</a>
@@ -143,10 +177,9 @@
           <span>$12.99 lifetime option</span>
         </div>
       </div>
-
       <div class="hero-visual">
         <div class="device-frame">
-          <img src="/assets/screens/en-overview.jpg" alt="WorthTrail iOS Overview showing consolidated net worth, total assets, liabilities, and today's change" width="443" height="960" loading="eager">
+          <img src="/assets/screens/en-overview.jpg" alt="WorthTrail iOS Overview showing consolidated net worth, total assets, liabilities, and today&#x27;s change" width="443" height="960" loading="eager">
         </div>
       </div>
     </div>
@@ -184,7 +217,7 @@
         <div class="screen-gallery">
           <figure class="screen-card">
             <div class="screen-shot">
-              <img src="/assets/screens/en-returns.jpg" alt="WorthTrail P&L calendar showing daily, monthly, and yearly investment returns" loading="lazy">
+              <img src="/assets/screens/en-returns.jpg" alt="WorthTrail P&amp;L calendar showing daily, monthly, and yearly investment returns" loading="lazy">
             </div>
             <figcaption>
               <strong>Returns &amp; P&amp;L Calendar</strong>
@@ -255,9 +288,7 @@
           <div>
             <p class="eyebrow">Model Context Protocol · macOS</p>
             <h2>Built-in local MCP server for Claude &amp; Codex.</h2>
-            <p>
-              WorthTrail for Mac runs an optional local <strong>Streamable HTTP MCP server</strong> (<code>http://127.0.0.1:47821/mcp</code>) authenticated via a Keychain Bearer token. Ask AI assistants plain-language questions about your net worth, holdings, returns, dividends, and FIRE progress without uploading your portfolio to a third-party cloud.
-            </p>
+            <p>WorthTrail for Mac runs an optional local <strong>Streamable HTTP MCP server</strong> (<code>http://127.0.0.1:47821/mcp</code>) authenticated via a Keychain Bearer token. Ask AI assistants plain-language questions about your net worth, holdings, returns, dividends, and FIRE progress without uploading your portfolio to a third-party cloud.</p>
             <div class="callout">
               <p><strong>Safety by design:</strong> Off by default, localhost-only, read-only unless you explicitly enable writes, and every write requires a two-step preview and confirmation code.</p>
             </div>
@@ -306,6 +337,7 @@
           <li><a href="/faq/">Frequently Asked Questions &amp; Product Facts</a> — asset coverage, data sources, privacy, and pricing.</li>
           <li><a href="/vs/">WorthTrail vs Monarch Money, Copilot Money, Kubera &amp; Spreadsheets</a> — honest side-by-side comparison.</li>
           <li><a href="/mcp/">Mac Local MCP Server Guide</a> — connect Claude Code, Claude Desktop, or Codex safely.</li>
+          <li><a href="/support/">Support &amp; Troubleshooting</a> — contact options, encrypted diagnostics, and quick guides.</li>
           <li><a href="/llms.txt">llms.txt</a> — concise structured summary for AI tools and search engines.</li>
         </ul>
       </div>

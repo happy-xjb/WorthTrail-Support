@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorthTrail Privacybeleid — Local-first, zonder bankkoppeling</title>
+  <meta name="description" content="WorthTrail Privacybeleid: lokale SwiftData-opslag, optionele privé iCloud-sync, lokale OCR, lokale Mac MCP, geen banklogin, geen advertenties en geen analyse-SDK&#x27;s.">
+  <link rel="canonical" href="https://worthtrail.app/nl/privacy/">
+  <link rel="alternate" hreflang="en" href="https://worthtrail.app/privacy/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/privacy/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/privacy/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/privacy/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/privacy/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/privacy/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/privacy/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/privacy/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/privacy/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/privacy/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/privacy/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/privacy/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/privacy/">
+  <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/nl/">
+        <img src="/assets/icon-192.png" alt="WorthTrail-icoon" width="28" height="28">
+        <span>WorthTrail</span>
+      </a>
+      <nav class="nav-links" aria-label="Hoofdnavigatie">
+        <a href="/nl/">Overzicht</a>
+        <a href="/nl/faq/">FAQ</a>
+        <a href="/nl/vs/">Vergelijk</a>
+        <a href="/nl/mcp/">Mac MCP</a>
+        <a href="/nl/support/">Ondersteuning</a>
+        <a href="/nl/privacy/" aria-current="page">Privacy</a>
+        <details class="lang-menu">
+          <summary aria-label="Taal">NL &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/privacy/"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/privacy/"><span>简体中文</span><span class="lang-code">中文</span></a>
+            <a href="/de/privacy/"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/privacy/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/privacy/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/privacy/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/privacy/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/privacy/" aria-current="true"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/privacy/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/privacy/"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/privacy/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/privacy/"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/privacy/"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary>Menu</summary>
+        <div class="mobile-menu-panel">
+          <a href="/nl/">Overzicht</a>
+          <a href="/nl/faq/">Veelgestelde vragen</a>
+          <a href="/nl/vs/">Alternatieven vergelijken</a>
+          <a href="/nl/mcp/">Mac MCP-server</a>
+          <a href="/nl/support/">Ondersteuning</a>
+          <a href="/nl/privacy/" aria-current="page">Privacybeleid</a>
+          <details class="mobile-lang">
+            <summary>Taal · Nederlands</summary>
+            <div class="mobile-lang-grid">
+              <a href="/privacy/">English</a>
+              <a href="/zh/privacy/">简体中文</a>
+              <a href="/de/privacy/">Deutsch</a>
+              <a href="/fr/privacy/">Français</a>
+              <a href="/es/privacy/">Español</a>
+              <a href="/it/privacy/">Italiano</a>
+              <a href="/pt-pt/privacy/">Português</a>
+              <a href="/nl/privacy/" aria-current="true">Nederlands</a>
+              <a href="/sv/privacy/">Svenska</a>
+              <a href="/da/privacy/">Dansk</a>
+              <a href="/no/privacy/">Norsk</a>
+              <a href="/fi/privacy/">Suomi</a>
+              <a href="/ru/privacy/">Русский</a>
+            </div>
+          </details>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Download in de App Store</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-compact">
+      <p class="eyebrow">Privacyarchitectuur</p>
+      <h1>Privacybeleid</h1>
+      <p class="lead">WorthTrail is zo ontworpen dat uw volledige nettovermogen op uw eigen apparaten en persoonlijke iCloud blijft — nooit op een server van de ontwikkelaar.</p>
+      <div class="policy-meta">
+        <span>Ingangsdatum: 27 november 2026</span>
+        <span>Van toepassing op WorthTrail voor iPhone, iPad en Mac</span>
+      </div>
+      <div class="lang-pills" aria-label="Taal">
+        <a href="/privacy/">English</a>
+        <a href="/zh/privacy/">简体中文</a>
+        <a href="/de/privacy/">Deutsch</a>
+        <a href="/fr/privacy/">Français</a>
+        <a href="/es/privacy/">Español</a>
+        <a href="/it/privacy/">Italiano</a>
+        <a href="/pt-pt/privacy/">Português</a>
+        <a href="/nl/privacy/" aria-current="true">Nederlands</a>
+        <a href="/sv/privacy/">Svenska</a>
+        <a href="/da/privacy/">Dansk</a>
+        <a href="/no/privacy/">Norsk</a>
+        <a href="/fi/privacy/">Suomi</a>
+        <a href="/ru/privacy/">Русский</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="kpi-strip">
+    <div class="kpi-inner">
+      <div class="kpi-item">
+        <div class="kpi-val">Geen banklogin</div>
+        <div class="kpi-lbl">Geen Plaid of bankinloggegevens</div>
+      </div>
+      <div class="kpi-item">
+        <div class="kpi-val">Local-first</div>
+        <div class="kpi-lbl">Alleen SwiftData &amp; privé iCloud</div>
+      </div>
+      <div class="kpi-item">
+        <div class="kpi-val">Geen tracking</div>
+        <div class="kpi-lbl">Geen advertenties of analyse-SDK&#x27;s</div>
+      </div>
+      <div class="kpi-item">
+        <div class="kpi-val">Eigen regie</div>
+        <div class="kpi-lbl">Versleutelde back-ups &amp; verwijdering</div>
+      </div>
+    </div>
+  </div>
+
+  <main class="container-narrow">
+    <section class="section-compact">
+      <h2>Gegevensstroom in één oogopslag</h2>
+      <p>Waar elke categorie gegevens staat en of deze ooit uw apparaat verlaat.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Gegevenscategorie</th><th>Waar opgeslagen</th><th>Naar ontwikkelaar?</th><th>Naar derden?</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Portefeuille &amp; overzicht</strong><br>Bezittingen, aantallen, aankoopwaarde, schulden, transacties, labels, notities, snapshots</td><td>Uw apparaat (SwiftData) &amp; optioneel privé iCloud (CloudKit)</td><td><strong>Nooit</strong></td><td>Alleen Apple iCloud als u sync aanzet</td></tr>
+            <tr><td><strong>Koersen &amp; wisselkoersen</strong><br>Zoektermen, symbolen, bron-ID's, valutacodes</td><td>Tijdelijk netwerkverzoek</td><td><strong>Nooit</strong></td><td>Alleen naar door u ingeschakelde bronnen</td></tr>
+            <tr><td><strong>Schermafbeelding-import (OCR)</strong><br>Door u gekozen brokerschermafbeeldingen</td><td>Volledig lokaal via Apple Vision</td><td><strong>Nooit</strong></td><td><strong>Nooit</strong></td></tr>
+            <tr><td><strong>Widgets &amp; vergrendeling</strong><br>Weergavesamenvatting, Face ID, wachtwoord</td><td>Privé App Group &amp; Sleutelhanger (alleen gezouten hash)</td><td><strong>Nooit</strong></td><td><strong>Nooit</strong></td></tr>
+            <tr><td><strong>Lokale Mac MCP-server</strong><br>Vragen van lokale AI-clients (standaard uit)</td><td>Alleen loopback <code>127.0.0.1</code> op uw Mac</td><td><strong>Nooit</strong></td><td>Alleen naar de door u gekoppelde AI-client</td></tr>
+            <tr><td><strong>Versleutelde diagnose</strong><br><code>.wtdiag</code>-bestand (alleen bij eigen export)</td><td>Lokaal tot u het zelf mailt</td><td>Alleen als u het naar support stuurt</td><td><strong>Nooit</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="policy-section">
+      <div class="policy-num">01</div>
+      <h2>Gegevens opgeslagen op uw apparaat</h2>
+      <p>WorthTrail slaat uw bezittingen, aantallen, aankoopwaarde, schulden, positiewijzigingen, dividenden, beleggingsplannen, labels, notities, instellingen en historische snapshots lokaal op via Apple SwiftData.</p>
+      <p>De ontwikkelaar exploiteert geen server die uw portefeuille ontvangt, opslaat of inziet, en WorthTrail vereist geen gebruikersaccount.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">02</div>
+      <h2>Optionele privé iCloud-synchronisatie</h2>
+      <p>Als u iCloud-synchronisatie inschakelt, worden gegevens uitsluitend gesynchroniseerd via uw persoonlijke privé Apple CloudKit-database gekoppeld aan uw Apple Account.</p>
+      <p>De ontwikkelaar heeft geen toegang tot uw privé CloudKit-database. Gesynchroniseerde gegevens vallen onder de beveiligings- en privacyarchitectuur van Apple iCloud.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">03</div>
+      <h2>Aanbieders van marktgegevens en wisselkoersen</h2>
+      <p>Wanneer u een belegging zoekt of koersen en wisselkoersen ververst, stuurt WorthTrail uitsluitend de benodigde zoekterm, het symbool, de bron-ID en de gevraagde valuta naar de aanbieders die u hebt ingeschakeld onder <strong>Instellingen &gt; Gegevensbronnen</strong>.</p>
+      <p>Deze aanbieders (zoals Yahoo Finance, Webull, Sina Finance, Binance, OKX, CoinGecko, CoinMarketCap, TWSE en ExchangeRate-API) kunnen uw IP-adres en standaard netwerkgegevens ontvangen volgens hun eigen privacybeleid. WorthTrail stuurt nooit uw aantallen, aankoopwaarde of saldi.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">04</div>
+      <h2>Lokale OCR, widgets, back-ups en diagnose</h2>
+      <p><strong>Bulkimport via schermafbeelding (OCR):</strong> geselecteerde afbeeldingen worden lokaal op uw apparaat herkend met Apple Vision en nooit geüpload naar WorthTrail-servers.</p>
+      <p><strong>Widgets:</strong> lezen alleen de benodigde samenvatting via de privé App Group-container. De privacywidget bevat geen bedragen.</p>
+      <p><strong>Lokale back-ups &amp; diagnose:</strong> wachtwoordbeveiligde back-ups worden voor export lokaal versleuteld. Optionele <code>.wtdiag</code>-bestanden worden alleen op uw verzoek aangemaakt en voor verzending versleuteld.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">05</div>
+      <h2>Lokale Mac MCP-server</h2>
+      <p>WorthTrail voor Mac biedt een optionele lokale Streamable HTTP MCP-server die strikt gebonden is aan <code>127.0.0.1</code> en beveiligd is met een Bearer-token in de macOS-sleutelhanger. Deze staat standaard uit, is alleen-lezen totdat u schrijven inschakelt en vereist een voorbeeld en bevestigingscode voor elke schrijfactie.</p>
+      <p>Als u deze lokale server koppelt aan een AI-client (zoals Claude Code, Claude Desktop of Codex), vallen de gegevens die u door die client laat opvragen onder het privacybeleid van die client en modelaanbieder.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">06</div>
+      <h2>Geen advertenties, geen tracking, aankopen en app-vergrendeling</h2>
+      <p>WorthTrail bevat geen advertenties, geen cross-app tracking en geen analyse-SDK's van derden.</p>
+      <p>In-app aankopen en abonnementen worden uitsluitend verwerkt door Apple StoreKit. Face ID en Touch ID worden afgehandeld door iOS/macOS zonder toegang tot biometrische gegevens. De wachtwoordvergrendeling slaat uitsluitend een gezouten cryptografische hash op.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">07</div>
+      <h2>Gegevens verwijderen, wijzigingen en contact</h2>
+      <p>U verwijdert alle lokale gegevens door WorthTrail van uw apparaat te verwijderen. Gesynchroniseerde gegevens beheert of verwijdert u via de Apple iCloud-instellingen, en geëxporteerde back-ups, Excel-, PDF- of diagnosebestanden waar u ze hebt opgeslagen.</p>
+      <p>Dit beleid kan worden bijgewerkt bij functiewijzigingen. Voor privacyvragen kunt u terecht op de <a href="/nl/support/">Ondersteuningspagina</a> of mailen naar <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+        <a href="/nl/">Overzicht</a>
+        <a href="/nl/faq/">FAQ</a>
+        <a href="/nl/vs/">Vergelijk</a>
+        <a href="/nl/mcp/">Mac MCP</a>
+        <a href="/nl/support/">Ondersteuning</a>
+        <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>
+      </div>
+      <p class="disclaimer">WorthTrail is uitsluitend bedoeld voor persoonlijke vermogensregistratie en -analyse en geeft geen beleggingsadvies. Koersgegevens kunnen vertraagd, onvolledig of onnauwkeurig zijn. Raadpleeg altijd uw eigen rekeningen en officiële afschriften.</p>
+    </div>
+  </footer>
+</body>
+</html>

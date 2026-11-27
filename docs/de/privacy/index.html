@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorthTrail Datenschutzrichtlinie — Lokal zuerst, ohne Bank-Login</title>
+  <meta name="description" content="WorthTrail Datenschutzrichtlinie: lokale SwiftData-Speicherung, optionaler privater iCloud-Sync, lokales OCR, lokaler Mac MCP, kein Bank-Login, keine Werbung und keine Analyse-SDKs.">
+  <link rel="canonical" href="https://worthtrail.app/de/privacy/">
+  <link rel="alternate" hreflang="en" href="https://worthtrail.app/privacy/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/privacy/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/privacy/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/privacy/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/privacy/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/privacy/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/privacy/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/privacy/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/privacy/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/privacy/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/privacy/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/privacy/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/privacy/">
+  <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/de/">
+        <img src="/assets/icon-192.png" alt="WorthTrail-Symbol" width="28" height="28">
+        <span>WorthTrail</span>
+      </a>
+      <nav class="nav-links" aria-label="Hauptnavigation">
+        <a href="/de/">Übersicht</a>
+        <a href="/de/faq/">FAQ</a>
+        <a href="/de/vs/">Vergleich</a>
+        <a href="/de/mcp/">Mac MCP</a>
+        <a href="/de/support/">Support</a>
+        <a href="/de/privacy/" aria-current="page">Datenschutz</a>
+        <details class="lang-menu">
+          <summary aria-label="Sprache">DE &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/privacy/"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/privacy/"><span>简体中文</span><span class="lang-code">中文</span></a>
+            <a href="/de/privacy/" aria-current="true"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/privacy/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/privacy/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/privacy/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/privacy/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/privacy/"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/privacy/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/privacy/"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/privacy/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/privacy/"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/privacy/"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary>Menü</summary>
+        <div class="mobile-menu-panel">
+          <a href="/de/">Übersicht</a>
+          <a href="/de/faq/">FAQ &amp; Fakten</a>
+          <a href="/de/vs/">Alternativen im Vergleich</a>
+          <a href="/de/mcp/">Mac MCP-Server</a>
+          <a href="/de/support/">Support</a>
+          <a href="/de/privacy/" aria-current="page">Datenschutzrichtlinie</a>
+          <details class="mobile-lang">
+            <summary>Sprache · Deutsch</summary>
+            <div class="mobile-lang-grid">
+              <a href="/privacy/">English</a>
+              <a href="/zh/privacy/">简体中文</a>
+              <a href="/de/privacy/" aria-current="true">Deutsch</a>
+              <a href="/fr/privacy/">Français</a>
+              <a href="/es/privacy/">Español</a>
+              <a href="/it/privacy/">Italiano</a>
+              <a href="/pt-pt/privacy/">Português</a>
+              <a href="/nl/privacy/">Nederlands</a>
+              <a href="/sv/privacy/">Svenska</a>
+              <a href="/da/privacy/">Dansk</a>
+              <a href="/no/privacy/">Norsk</a>
+              <a href="/fi/privacy/">Suomi</a>
+              <a href="/ru/privacy/">Русский</a>
+            </div>
+          </details>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Im App Store laden</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-compact">
+      <p class="eyebrow">Datenschutzarchitektur</p>
+      <h1>Datenschutzrichtlinie</h1>
+      <p class="lead">WorthTrail ist so konzipiert, dass Ihr gesamtes Nettovermögen auf Ihren Geräten und in Ihrer persönlichen iCloud bleibt – niemals auf einem Entwickler-Server.</p>
+      <div class="policy-meta">
+        <span>Stand: 27. November 2026</span>
+        <span>Gilt für WorthTrail auf iPhone, iPad und Mac</span>
+      </div>
+      <div class="lang-pills" aria-label="Sprache">
+        <a href="/privacy/">English</a>
+        <a href="/zh/privacy/">简体中文</a>
+        <a href="/de/privacy/" aria-current="true">Deutsch</a>
+        <a href="/fr/privacy/">Français</a>
+        <a href="/es/privacy/">Español</a>
+        <a href="/it/privacy/">Italiano</a>
+        <a href="/pt-pt/privacy/">Português</a>
+        <a href="/nl/privacy/">Nederlands</a>
+        <a href="/sv/privacy/">Svenska</a>
+        <a href="/da/privacy/">Dansk</a>
+        <a href="/no/privacy/">Norsk</a>
+        <a href="/fi/privacy/">Suomi</a>
+        <a href="/ru/privacy/">Русский</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="kpi-strip">
+    <div class="kpi-inner">
+      <div class="kpi-item">
+        <div class="kpi-val">Kein Bank-Login</div>
+        <div class="kpi-lbl">Kein Plaid, keine Zugangsdaten</div>
+      </div>
+      <div class="kpi-item">
+        <div class="kpi-val">Lokal zuerst</div>
+        <div class="kpi-lbl">Nur SwiftData &amp; private iCloud</div>
+      </div>
+      <div class="kpi-item">
+        <div class="kpi-val">Kein Tracking</div>
+        <div class="kpi-lbl">Keine Werbung, keine Analyse-SDKs</div>
+      </div>
+      <div class="kpi-item">
+        <div class="kpi-val">Volle Kontrolle</div>
+        <div class="kpi-lbl">Verschlüsselte Backups &amp; Löschung</div>
+      </div>
+    </div>
+  </div>
+
+  <main class="container-narrow">
+    <section class="section-compact">
+      <h2>Datenfluss auf einen Blick</h2>
+      <p>Wo jede Datenkategorie gespeichert wird und ob sie jemals Ihr Gerät verlässt.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Datenkategorie</th><th>Speicherort</th><th>An Entwickler?</th><th>An Dritte?</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Portfolio &amp; Vermögensbuch</strong><br>Positionen, Stückzahlen, Einstand, Verbindlichkeiten, Etiketten, Notizen, Snapshots</td><td>Ihr Gerät (SwiftData) &amp; optionale private iCloud (CloudKit)</td><td><strong>Niemals</strong></td><td>Nur Apple iCloud bei aktiviertem Sync</td></tr>
+            <tr><td><strong>Marktdaten &amp; Wechselkurse</strong><br>Suchbegriffe, Symbole, Anbieter-IDs, Währungscodes</td><td>Temporäre Netzwerkanfrage</td><td><strong>Niemals</strong></td><td>Nur an von Ihnen aktivierte Kursanbieter</td></tr>
+            <tr><td><strong>Screenshot-Import (OCR)</strong><br>Gewählte Depot-Screenshots</td><td>Vollständig lokal per Apple Vision</td><td><strong>Niemals</strong></td><td><strong>Niemals</strong></td></tr>
+            <tr><td><strong>Widgets &amp; App-Sperre</strong><br>Anzeige-Zusammenfassung, Face ID, Passwort</td><td>Private App Group &amp; Schlüsselbund (nur gesalzener Hash)</td><td><strong>Niemals</strong></td><td><strong>Niemals</strong></td></tr>
+            <tr><td><strong>Mac Lokaler MCP-Server</strong><br>Abfragen lokaler KI-Clients (standardmäßig aus)</td><td>Nur Loopback <code>127.0.0.1</code> auf Ihrem Mac</td><td><strong>Niemals</strong></td><td>Nur an den von Ihnen verbundenen KI-Client</td></tr>
+            <tr><td><strong>Verschlüsselte Diagnosedatei</strong><br><code>.wtdiag</code> (nur auf Ihren Exportwunsch)</td><td>Lokal bis zum eigenen E-Mail-Versand</td><td>Nur wenn Sie sie an den Support senden</td><td><strong>Niemals</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="policy-section">
+      <div class="policy-num">01</div>
+      <h2>Auf Ihrem Gerät gespeicherte Daten</h2>
+      <p>WorthTrail speichert Vermögenswerte, Stückzahlen, Anschaffungskosten, Verbindlichkeiten, Positionsanpassungen, Dividenden, Sparpläne, Etiketten, Notizen, Einstellungen und historische Snapshots lokal mittels Apple SwiftData auf Ihrem Gerät.</p>
+      <p>Der Entwickler betreibt keinen Backend-Server, der Ihre Portfoliodaten empfängt, speichert oder einsieht. Für WorthTrail ist kein Benutzerkonto erforderlich.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">02</div>
+      <h2>Optionaler privater iCloud-Sync</h2>
+      <p>Wenn Sie den iCloud-Sync aktivieren, werden Ihre Daten ausschließlich über Ihre persönliche private Apple CloudKit-Datenbank synchronisiert.</p>
+      <p>Der Entwickler hat keinen Zugriff auf Ihre private CloudKit-Datenbank. Synchronisierte Daten unterliegen der Sicherheits- und Datenschutzarchitektur von Apple iCloud.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">03</div>
+      <h2>Marktdaten- und Wechselkursanbieter</h2>
+      <p>Wenn Sie nach einem Wertpapier suchen oder Kurse aktualisieren, sendet WorthTrail nur den notwendigen Suchbegriff, das Symbol, die Anbieterkennung und die gewünschte Währung an die von Ihnen unter <strong>Einstellungen &gt; Datenquellen</strong> aktivierten Anbieter.</p>
+      <p>Diese Anbieter (z. B. Yahoo Finance, Webull, Sina Finance, Binance, OKX, CoinGecko, CoinMarketCap, TWSE und ExchangeRate-API) erhalten ggf. Ihre IP-Adresse und übliche Netzwerk-Metadaten gemäß ihren eigenen Datenschutzrichtlinien. WorthTrail übermittelt niemals Ihre Stückzahlen, Einstandskurse oder Kontostände.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">04</div>
+      <h2>Lokales OCR, Widgets, Backups &amp; Diagnose</h2>
+      <p><strong>Screenshot-Massenimport (OCR):</strong> Ausgewählte Bilder werden lokal über Apples Vision-Framework auf dem Gerät ausgewertet und nicht auf WorthTrail-Server hochgeladen.</p>
+      <p><strong>Widgets:</strong> Home-Screen-Widgets lesen nur die erforderliche Zusammenfassung über die private App Group. Das Datenschutz-Widget enthält keine Geldbeträge.</p>
+      <p><strong>Lokale Backups &amp; Diagnose:</strong> Passwortgeschützte Backups werden vor dem Export lokal verschlüsselt. Optionale <code>.wtdiag</code>-Diagnosedateien entstehen nur auf Ihren ausdrücklichen Export hin und werden vor dem Verlassen der App verschlüsselt.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">05</div>
+      <h2>Lokaler Mac MCP-Server</h2>
+      <p>WorthTrail für Mac enthält einen optionalen lokalen Streamable-HTTP-MCP-Server, der strikt an <code>127.0.0.1</code> gebunden und über ein Bearer-Token im macOS-Schlüsselbund geschützt ist. Er ist standardmäßig aus, standardmäßig schreibgeschützt und verlangt für jeden Schreibvorgang Vorschau und Bestätigungscode.</p>
+      <p>Wenn Sie den lokalen MCP-Server mit einem KI-Client (z. B. Claude Code, Claude Desktop oder Codex) verbinden, unterliegen die von Ihnen abgefragten Daten den Datenschutzrichtlinien des jeweiligen KI-Clients und Modellanbieters.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">06</div>
+      <h2>Keine Werbung, kein Tracking, Käufe &amp; App-Sperre</h2>
+      <p>WorthTrail enthält keine Werbung, kein App-übergreifendes Tracking und keine Analyse-SDKs Dritter.</p>
+      <p>In-App-Käufe und Abonnements werden ausschließlich über Apple StoreKit abgewickelt. Face ID und Touch ID werden von iOS/macOS verarbeitet; biometrische Daten sind für WorthTrail unzugänglich. Die Passwortsperre speichert lediglich einen gesalzenen kryptografischen Hash.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">07</div>
+      <h2>Datenlöschung, Änderungen &amp; Kontakt</h2>
+      <p>Lokale Daten entfernen Sie jederzeit durch Löschen der App. Synchronisierte Daten können in den Apple iCloud-Einstellungen gelöscht werden, exportierte Backup-, Excel-, PDF- oder Diagnosedateien direkt an ihrem Speicherort.</p>
+      <p>Diese Richtlinie kann bei Funktionsänderungen aktualisiert werden. Bei Fragen erreichen Sie uns über die <a href="/de/support/">Support-Seite</a> oder per E-Mail an <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+        <a href="/de/">Übersicht</a>
+        <a href="/de/faq/">FAQ</a>
+        <a href="/de/vs/">Vergleich</a>
+        <a href="/de/mcp/">Mac MCP</a>
+        <a href="/de/support/">Support</a>
+        <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>
+      </div>
+      <p class="disclaimer">WorthTrail dient ausschließlich der persönlichen Vermögensaufzeichnung und -analyse und stellt keine Anlageberatung dar. Marktdaten können verzögert, unvollständig oder ungenau sein. Maßgeblich sind stets Ihre tatsächlichen Konten und offiziellen Abrechnungen.</p>
+    </div>
+  </footer>
+</body>
+</html>

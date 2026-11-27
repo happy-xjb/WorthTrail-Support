@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorthTrail Mac MCP -palvelin — Yhdistä Claude &amp; tekoälyagentit paikalliseen salkkuusi</title>
+  <meta name="description" content="WorthTrail Macille sisältää paikallisen Streamable HTTP MCP -palvelimen Claude Codelle, Claude Desktopille ja Codexille. Kysy nettovarallisuudesta, omistuksista, tuotoista, osingoista ja FIRE:stä paikallisesti.">
+  <link rel="canonical" href="https://worthtrail.app/fi/mcp/">
+  <link rel="alternate" hreflang="en" href="https://worthtrail.app/mcp/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/mcp/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/mcp/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/mcp/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/mcp/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/mcp/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/mcp/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/mcp/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/mcp/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/mcp/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/mcp/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/mcp/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/mcp/">
+  <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/mcp/">
+  <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "inLanguage": "fi",
+    "headline": "WorthTrail Mac paikallinen MCP-palvelin tekoälyagenteille",
+    "description": "WorthTrail Macille sisältää paikallisen Streamable HTTP MCP -palvelimen Claude Codelle, Claude Desktopille ja Codexille. Kysy nettovarallisuudesta, omistuksista, tuotoista, osingoista ja FIRE:stä paikallisesti.",
+    "url": "https://worthtrail.app/fi/mcp/",
+    "author": {
+      "@type": "Organization",
+      "name": "WorthTrail",
+      "url": "https://worthtrail.app/"
+    },
+    "about": {
+      "@type": "SoftwareApplication",
+      "name": "WorthTrail",
+      "operatingSystem": "macOS"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/fi/">
+        <img src="/assets/icon-192.png" alt="WorthTrail-kuvake" width="28" height="28">
+        <span>WorthTrail</span>
+      </a>
+      <nav class="nav-links" aria-label="Päävalikko">
+        <a href="/fi/">Yleiskatsaus</a>
+        <a href="/fi/faq/">UKK</a>
+        <a href="/fi/vs/">Vertailu</a>
+        <a href="/fi/mcp/" aria-current="page">Mac MCP</a>
+        <a href="/fi/support/">Tuki</a>
+        <a href="/fi/privacy/">Tietosuoja</a>
+        <details class="lang-menu">
+          <summary aria-label="Kieli">FI &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/mcp/"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/mcp/"><span>简体中文</span><span class="lang-code">中文</span></a>
+            <a href="/de/mcp/"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/mcp/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/mcp/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/mcp/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/mcp/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/mcp/"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/mcp/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/mcp/"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/mcp/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/mcp/" aria-current="true"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/mcp/"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary>Valikko</summary>
+        <div class="mobile-menu-panel">
+          <a href="/fi/">Yleiskatsaus</a>
+          <a href="/fi/faq/">Usein kysytyt kysymykset</a>
+          <a href="/fi/vs/">Vertaa vaihtoehtoja</a>
+          <a href="/fi/mcp/" aria-current="page">Mac MCP-palvelin</a>
+          <a href="/fi/support/">Tuki</a>
+          <a href="/fi/privacy/">Tietosuojakäytäntö</a>
+          <details class="mobile-lang">
+            <summary>Kieli · Suomi</summary>
+            <div class="mobile-lang-grid">
+              <a href="/mcp/">English</a>
+              <a href="/zh/mcp/">简体中文</a>
+              <a href="/de/mcp/">Deutsch</a>
+              <a href="/fr/mcp/">Français</a>
+              <a href="/es/mcp/">Español</a>
+              <a href="/it/mcp/">Italiano</a>
+              <a href="/pt-pt/mcp/">Português</a>
+              <a href="/nl/mcp/">Nederlands</a>
+              <a href="/sv/mcp/">Svenska</a>
+              <a href="/da/mcp/">Dansk</a>
+              <a href="/no/mcp/">Norsk</a>
+              <a href="/fi/mcp/" aria-current="true">Suomi</a>
+              <a href="/ru/mcp/">Русский</a>
+            </div>
+          </details>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Lataa App Storesta</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Model Context Protocol · macOS · Vain localhost</p>
+        <h1>Kysy tekoälyltä nettovarallisuudestasi — lataamatta sitä pilveen.</h1>
+        <p class="lead"><strong>WorthTrail Macille</strong> sisältää sisäänrakennetun paikallisen <strong>MCP (Model Context Protocol)</strong> -palvelimen Streamable HTTP:n yli. Yhdistä <strong>Claude Code</strong>, <strong>Claude Desktop</strong>, <strong>Codex</strong> tai muu yhteensopiva asiakas kysyäksesi salkustasi ja kirjataksesi muutoksia vasta hyväksyttyäsi esikatselun.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Hanki WorthTrail Macille</a>
+          <a class="btn btn-secondary" href="/fi/faq/">Lue UKK</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="device-frame" style="max-width: 268px;">
+          <img src="/assets/screens/en-ai.jpg" alt="WorthTrail Agenttien käyttöoikeus MCP -asetusnäkymä" loading="eager">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container-narrow">
+    <section class="section-compact">
+      <h2>Yhteystiedot ja tekniset tiedot</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Ominaisuus</th>
+              <th>Arvo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Siirtotapa</strong></td>
+              <td>Streamable HTTP (vain paikallinen loopback)</td>
+            </tr>
+            <tr>
+              <td><strong>Oletusosoite</strong></td>
+              <td><code>http://127.0.0.1:47821/mcp</code> (portti muutettavissa Asetuksissa, 1024–65535)</td>
+            </tr>
+            <tr>
+              <td><strong>Todennus</strong></td>
+              <td><code>Authorization: Bearer &lt;token&gt;</code> (tallennettu macOS-avainnippuun; nollattavissa milloin tahansa)</td>
+            </tr>
+            <tr>
+              <td><strong>Saatavuus</strong></td>
+              <td>Käynnissä vain kun WorthTrail on auki Macissa ja Agenttien käyttöoikeus on päällä</td>
+            </tr>
+            <tr>
+              <td><strong>Hinnoittelu</strong></td>
+              <td>Sisältyy ilmaisversioon (ei maksumuuria MCP:lle; 10 kohteen raja koskee uusien kohteiden lisäämistä)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Näin yhdistät</h2>
+      <p>Avaa <strong>WorthTrail Macissa &rarr; Asetukset &rarr; Agenttien käyttöoikeus</strong>, kytke paikallinen käyttöoikeus päälle ja kopioi asennuskehotteesi tai Bearer-tunnisteesi.</p>
+
+      <h3>Claude Code</h3>
+      <pre><code>claude mcp add --transport http --scope user worthtrail http://127.0.0.1:47821/mcp \
+  --header "Authorization: Bearer YOUR_TOKEN"</code></pre>
+
+      <h3>Claude Desktop (<code>~/.claude.json</code>)</h3>
+      <pre><code>{
+  "mcpServers": {
+    "worthtrail": {
+      "type": "http",
+      "url": "http://127.0.0.1:47821/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN"
+      }
+    }
+  }
+}</code></pre>
+
+      <h3>Codex (<code>~/.codex/config.toml</code>)</h3>
+      <pre><code>[mcp_servers.worthtrail]
+url = "http://127.0.0.1:47821/mcp"
+http_headers = { "Authorization" = "Bearer YOUR_TOKEN" }</code></pre>
+    </section>
+
+    <section>
+      <h2>Mitä tekoälyagentit voivat kysyä ja tehdä</h2>
+      <div class="grid-2">
+        <div class="fact-block">
+          <h3>Lukutyökalut (käytössä kun Agenttien käyttöoikeus on päällä)</h3>
+          <ul>
+            <li>Nykyinen nettovarallisuus, kokonaisvarat, velat, hankintameno ja päivämuutos (<code>get_net_worth</code>)</li>
+            <li>Avoimet positiot luokittain tai valuutoittain: osakkeet, ETF:t, krypto, optiot, talletukset ja manuaaliset kohteet (<code>list_positions</code>, <code>list_liabilities</code>)</li>
+            <li>Historiatilannekuvat ja päiväkohtaiset omistuserittelyt (<code>get_snapshots</code>, <code>get_snapshot_detail</code>)</li>
+            <li>Ajanjakson suorituskyky, rahapainotetut tuottokäyrät ja päivätuotot kohteittain (<code>get_performance</code>, <code>get_daily_earnings</code>)</li>
+            <li>Osingot, toistuvat suunnitelmat, tapahtumahistoria ja FIRE-ennusteet</li>
+          </ul>
+        </div>
+        <div class="fact-block">
+          <h3>Kirjoitustyökalut (erillinen kytkin)</h3>
+          <ul>
+            <li>Pois päältä oletuksena — lukuoikeus ei koskaan avaa kirjoitusoikeutta automaattisesti.</li>
+            <li><strong>Kaksivaiheinen vahvistus:</strong> ensimmäinen kutsu palauttaa luettavan esikatselun ja lyhytaikaisen vahvistuskoodin. Muutos tallentuu vasta hyväksyntäsi ja toisen kutsun jälkeen.</li>
+            <li>Tukee kauppoja, omistuskorjauksia, omaisuuseriä, velkoja, suunnitelmia ja kumoamista — sisäänrakennetulla muutoslokilla.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Esimerkkikysymyksiä</h2>
+      <ul>
+        <li><em>”Mikä on nykyinen nettovarallisuuteni euroissa ja paljonko salkkuni on muuttunut tässä kuussa?”</em></li>
+        <li><em>”Mitkä omistukset ovat vaikuttaneet eniten tulokseeni viimeisen 90 päivän aikana?”</em></li>
+        <li><em>”Kuinka paljon vuotuisia osinkoja ja talletuskorkoja arviolta saan, ja kuinka suuren osan FIRE-menoistani ne kattavat?”</em></li>
+        <li><em>”Näytä esikatselu 10 AAPL-osakkeen lisäämisestä hintaan $225 tänään ja odota vahvistustani ennen tallentamista.”</em></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tietoturvamalli</h2>
+      <ul>
+        <li><strong>Vain localhost:</strong> kuuntelee ainoastaan osoitetta <code>127.0.0.1</code> — ei näy lähiverkkoon tai internetiin.</li>
+        <li><strong>Noudattaa sovelluslukkoa:</strong> kaikki pyynnöt estetään, kun WorthTrail on lukittuna.</li>
+        <li><strong>Suoja prompt-injektiolta:</strong> työkalujen ohjeet käskevät agentteja käsittelemään nimiä, symboleja, tunnisteita ja muistiinpanoja pelkkänä datana, ei koskaan käskyinä.</li>
+        <li><strong>Välitön katkaisu:</strong> kytke asetus pois, vaihda portti tai nollaa avainnipun tunniste katkaistaksesi kaikki yhteydet heti.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+        <a href="/fi/">Yleiskatsaus</a>
+        <a href="/fi/faq/">UKK</a>
+        <a href="/fi/vs/">Vertailu</a>
+        <a href="/fi/privacy/">Tietosuojakäytäntö</a>
+        <a href="/fi/support/">Tuki</a>
+        <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>
+      </div>
+      <p class="disclaimer">WorthTrail on tarkoitettu vain henkilökohtaiseen varallisuuden seurantaan ja analyysiin eikä tarjoa sijoitusneuvontaa. Markkinatiedot voivat olla viivästyneitä, puutteellisia tai epätarkkoja. Tarkista tiedot aina omilta tileiltäsi ja virallisista tiliotteista.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -4,12 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WorthTrail 常见问题与产品说明 — 无需绑定银行的净资产记录工具</title>
-  <meta name="description" content="关于 WorthTrail 的常见问题：无需绑定银行卡如何记录资产、本地与 iCloud 隐私安全、免费版与 ¥88 永久买断定价、支持哪些股票基金和定存、股息与 FIRE 计算以及 Mac MCP 服务。">
+  <meta name="description" content="关于 WorthTrail 的常见问题：无需绑定银行卡如何记录资产、本地与 iCloud 隐私安全、免费版与 ¥88 永久买断定价、支持哪些股票基金和定存、分红与 FIRE 计算以及 Mac MCP 服务。">
   <link rel="canonical" href="https://worthtrail.app/zh/faq/">
   <link rel="alternate" hreflang="en" href="https://worthtrail.app/faq/">
   <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/faq/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/faq/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/faq/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/faq/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/faq/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/faq/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/faq/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/faq/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/faq/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/faq/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/faq/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/faq/">
   <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/faq/">
   <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="stylesheet" href="/assets/style.css">
   <script type="application/ld+json">
   {
@@ -35,7 +47,7 @@
       },
       {
         "@type": "Question",
-        "name": "WorthTrail 怎么收费？支持买断吗？",
+        "name": "怎么收费？支持一次性买断吗？",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "支持永久买断。免费版即可使用全部功能，上限为 10 项（资产、现金与负债合计）。WorthTrail Pro 仅解除数量限制，中国大陆参考价为 ¥8/月、¥38/年、¥88 永久买断（美区 $0.99/月、$5.99/年、$12.99 永久买断）。"
@@ -51,10 +63,18 @@
       },
       {
         "@type": "Question",
-        "name": "支持股息分红、定投、再平衡和 FIRE 测算吗？",
+        "name": "行情数据来自哪里？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "全部支持。包含股息日历与税后被动收入统计、定投计划、目标配置与再平衡测算、股票拆合自动调整，以及可自定义年支出、提取率与规划年龄的 FIRE 进度与资产可持续年限估算。"
+          "text": "你可以在 App 的设置 > 数据源与状态中自由开启、关闭和排序数据源，包括 Yahoo Finance、新浪财经、微牛、Binance、OKX、TWSE、ExchangeRate-API 及支持的部分银行理财数据源。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "支持分红、定投、再平衡和 FIRE 测算吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "全部支持。包含分红日历与税后被动收入统计、定投计划、目标配置与再平衡测算、拆股自动调整，以及可自定义年支出、提取率与规划年龄的 FIRE 进度与资产可持续年限估算。"
         }
       },
       {
@@ -62,7 +82,23 @@
         "name": "Mac 版的本地 MCP 服务有什么用？安全吗？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mac 版内置本地 Streamable HTTP MCP 服务（http://127.0.0.1:47821/mcp），可接入 Claude Code、Claude Desktop、Codex 等 AI 助手查询净资产、持仓、收益、分红与 FIRE 进度。该功能默认关闭，通过 Keychain 中的 Bearer Token 鉴权，读写权限分离，写入需经过预览与确认码两步校验。"
+          "text": "Mac 版内置本地 Streamable HTTP MCP 服务（http://127.0.0.1:47821/mcp），可接入 Claude Code、Claude Desktop、Codex 等 AI 助手查询净资产、持仓、收益、分红与 FIRE 进度。该功能默认关闭，采用 Keychain Bearer Token 鉴权，写入需预览确认。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "支持导出和备份吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "支持。你可以导出带密码加密的本地备份文件并随时恢复，也可以导出 Excel（.xlsx）工作簿和 PDF 报告。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "支持哪些设备和系统？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "支持 iPhone、iPad 与 Mac，可在 Apple App Store 下载，内置 45+ 种语言。目前暂不提供 Android 或网页版。"
         }
       }
     ]
@@ -79,11 +115,28 @@
       <nav class="nav-links" aria-label="主导航">
         <a href="/zh/">概览</a>
         <a href="/zh/faq/" aria-current="page">常见问题</a>
-        <a href="/vs/">对比评测</a>
-        <a href="/mcp/">Mac MCP</a>
-        <a href="/support/">支持</a>
-        <a href="/privacy/">隐私政策</a>
-        <a class="lang-switch" href="/faq/">English</a>
+        <a href="/zh/vs/">对比评测</a>
+        <a href="/zh/mcp/">Mac MCP</a>
+        <a href="/zh/support/">支持</a>
+        <a href="/zh/privacy/">隐私政策</a>
+        <details class="lang-menu">
+          <summary aria-label="语言">中文 &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/faq/"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/faq/" aria-current="true"><span>简体中文</span><span class="lang-code">中文</span></a>
+            <a href="/de/faq/"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/faq/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/faq/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/faq/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/faq/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/faq/"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/faq/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/faq/"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/faq/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/faq/"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/faq/"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
         <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
       </nav>
       <details class="mobile-nav">
@@ -91,11 +144,28 @@
         <div class="mobile-menu-panel">
           <a href="/zh/">概览</a>
           <a href="/zh/faq/" aria-current="page">常见问题</a>
-          <a href="/vs/">产品对比</a>
-          <a href="/mcp/">Mac MCP 服务</a>
-          <a href="/support/">支持与反馈</a>
-          <a href="/privacy/">隐私政策</a>
-          <a href="/faq/">Switch to English</a>
+          <a href="/zh/vs/">产品对比</a>
+          <a href="/zh/mcp/">Mac MCP 服务</a>
+          <a href="/zh/support/">支持</a>
+          <a href="/zh/privacy/">隐私政策</a>
+          <details class="mobile-lang">
+            <summary>语言 · 简体中文</summary>
+            <div class="mobile-lang-grid">
+              <a href="/faq/">English</a>
+              <a href="/zh/faq/" aria-current="true">简体中文</a>
+              <a href="/de/faq/">Deutsch</a>
+              <a href="/fr/faq/">Français</a>
+              <a href="/es/faq/">Español</a>
+              <a href="/it/faq/">Italiano</a>
+              <a href="/pt-pt/faq/">Português</a>
+              <a href="/nl/faq/">Nederlands</a>
+              <a href="/sv/faq/">Svenska</a>
+              <a href="/da/faq/">Dansk</a>
+              <a href="/no/faq/">Norsk</a>
+              <a href="/fi/faq/">Suomi</a>
+              <a href="/ru/faq/">Русский</a>
+            </div>
+          </details>
           <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">前往 App Store 下载</a>
         </div>
       </details>
@@ -106,7 +176,7 @@
     <div class="hero-compact">
       <p class="eyebrow">产品说明与答疑</p>
       <h1>常见问题（FAQ）</h1>
-      <p class="lead">关于隐私架构、资产覆盖、收费方式、股息与 FIRE 计算以及 Mac MCP 服务的直接解答。</p>
+      <p class="lead">关于隐私架构、资产覆盖、收费方式、分红与 FIRE 计算以及 Mac MCP 服务的直接解答。</p>
     </div>
   </div>
 
@@ -129,7 +199,7 @@
 
       <div class="faq-item">
         <h3>支持哪些资产类型、市场和币种？</h3>
-        <p>支持美股、港股、A股、台股及全球股票、ETF、基金、加密货币、期权、定期存款与大额存单、支持的部分银行理财产品、现金、房产/黄金/债券等自定义资产，以及房贷、消费贷、信用卡等负债。所有外币资产会自动按汇率折算为你设定的主币种。</p>
+        <p>支持美股、港股、A股、台股及全球股票、ETF、基金、加密货币、期权、定期存款与大额存单、支持的部分银行理财产品、现金、房产/黄金/债券等自定义资产，以及房贷、消费贷和信用卡等负债。所有外币资产会自动按汇率折算为你设定的主币种。</p>
       </div>
 
       <div class="faq-item">
@@ -138,13 +208,13 @@
       </div>
 
       <div class="faq-item">
-        <h3>支持股息分红、定投、再平衡和 FIRE 测算吗？</h3>
-        <p><strong>全部支持。</strong>包括股息分红日历、税后被动收入与集中度分析、定投计划、目标配置与再平衡测算、股票拆合自动调整，以及可自定义年支出、提取率和规划年龄的 FIRE 进度与资产够用多久估算。</p>
+        <h3>支持分红、定投、再平衡和 FIRE 测算吗？</h3>
+        <p><strong>全部支持。</strong>包括分红日历、税后被动收入与集中度分析、定投计划、目标配置与再平衡测算、拆股自动调整，以及可自定义年支出、提取率和规划年龄的 FIRE 进度与资产够用多久估算。</p>
       </div>
 
       <div class="faq-item">
         <h3>Mac 版的本地 MCP 服务有什么用？安全吗？</h3>
-        <p>Mac 版内置本地 Streamable HTTP MCP 服务（<code>http://127.0.0.1:47821/mcp</code>），支持 Claude Code、Claude Desktop、Codex 等客户端用自然语言查询净资产、持仓、阶段收益、分红与 FIRE 进度。该服务默认关闭，采用 Keychain 存储的 Bearer Token 鉴权，读写权限分离，任何写入都必须先返回预览与确认码、经你同意后才会执行。详情见 <a href="/mcp/">Mac MCP 技术指南</a>。</p>
+        <p>Mac 版内置本地 Streamable HTTP MCP 服务（<code>http://127.0.0.1:47821/mcp</code>），支持 Claude Code、Claude Desktop、Codex 等客户端用自然语言查询净资产、持仓、阶段收益、分红与 FIRE 进度。该服务默认关闭，采用 Keychain 存储的 Bearer Token 鉴权，读写权限分离，任何写入都必须先返回预览与确认码、经你同意后才会执行。详情见 <a href="/zh/mcp/">Mac MCP 接入指南</a>。</p>
       </div>
 
       <div class="faq-item">
@@ -162,14 +232,15 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-links">
-        <a href="/zh/">概览</a>
-        <a href="/vs/">产品对比</a>
-        <a href="/mcp/">Mac MCP</a>
-        <a href="/privacy/">隐私政策</a>
-        <a href="/support/">支持与反馈</a>
         <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+        <a href="/zh/">概览</a>
+        <a href="/zh/vs/">对比评测</a>
+        <a href="/zh/mcp/">Mac MCP</a>
+        <a href="/zh/privacy/">隐私政策</a>
+        <a href="/zh/support/">支持</a>
+        <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>
       </div>
-      <p class="disclaimer">WorthTrail 仅用于个人资产记录与分析，不提供投资建议。</p>
+      <p class="disclaimer">WorthTrail 仅用于个人资产记录与分析，不提供任何投资建议。市场数据可能存在延迟、不完整或不准确，请以您的实际账户及官方账单为准。</p>
     </div>
   </footer>
 </body>

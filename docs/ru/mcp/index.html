@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorthTrail Mac MCP-сервер — Подключите Claude и ИИ-агентов к локальному портфелю</title>
+  <meta name="description" content="WorthTrail для Mac включает локальный Streamable HTTP MCP-сервер для Claude Code, Claude Desktop и Codex. Запрашивайте чистый капитал, позиции, доходность, дивиденды и FIRE локально.">
+  <link rel="canonical" href="https://worthtrail.app/ru/mcp/">
+  <link rel="alternate" hreflang="en" href="https://worthtrail.app/mcp/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/mcp/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/mcp/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/mcp/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/mcp/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/mcp/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/mcp/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/mcp/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/mcp/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/mcp/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/mcp/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/mcp/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/mcp/">
+  <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/mcp/">
+  <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "inLanguage": "ru",
+    "headline": "Локальный Mac MCP-сервер WorthTrail для ИИ-агентов",
+    "description": "WorthTrail для Mac включает локальный Streamable HTTP MCP-сервер для Claude Code, Claude Desktop и Codex. Запрашивайте чистый капитал, позиции, доходность, дивиденды и FIRE локально.",
+    "url": "https://worthtrail.app/ru/mcp/",
+    "author": {
+      "@type": "Organization",
+      "name": "WorthTrail",
+      "url": "https://worthtrail.app/"
+    },
+    "about": {
+      "@type": "SoftwareApplication",
+      "name": "WorthTrail",
+      "operatingSystem": "macOS"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/ru/">
+        <img src="/assets/icon-192.png" alt="Иконка WorthTrail" width="28" height="28">
+        <span>WorthTrail</span>
+      </a>
+      <nav class="nav-links" aria-label="Основная навигация">
+        <a href="/ru/">Обзор</a>
+        <a href="/ru/faq/">FAQ</a>
+        <a href="/ru/vs/">Сравнение</a>
+        <a href="/ru/mcp/" aria-current="page">Mac MCP</a>
+        <a href="/ru/support/">Поддержка</a>
+        <a href="/ru/privacy/">Конфиденциальность</a>
+        <details class="lang-menu">
+          <summary aria-label="Язык">RU &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/mcp/"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/mcp/"><span>简体中文</span><span class="lang-code">中文</span></a>
+            <a href="/de/mcp/"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/mcp/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/mcp/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/mcp/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/mcp/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/mcp/"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/mcp/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/mcp/"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/mcp/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/mcp/"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/mcp/" aria-current="true"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary>Меню</summary>
+        <div class="mobile-menu-panel">
+          <a href="/ru/">Обзор</a>
+          <a href="/ru/faq/">Частые вопросы</a>
+          <a href="/ru/vs/">Сравнить аналоги</a>
+          <a href="/ru/mcp/" aria-current="page">Локальный MCP на Mac</a>
+          <a href="/ru/support/">Поддержка</a>
+          <a href="/ru/privacy/">Политика конфиденциальности</a>
+          <details class="mobile-lang">
+            <summary>Язык · Русский</summary>
+            <div class="mobile-lang-grid">
+              <a href="/mcp/">English</a>
+              <a href="/zh/mcp/">简体中文</a>
+              <a href="/de/mcp/">Deutsch</a>
+              <a href="/fr/mcp/">Français</a>
+              <a href="/es/mcp/">Español</a>
+              <a href="/it/mcp/">Italiano</a>
+              <a href="/pt-pt/mcp/">Português</a>
+              <a href="/nl/mcp/">Nederlands</a>
+              <a href="/sv/mcp/">Svenska</a>
+              <a href="/da/mcp/">Dansk</a>
+              <a href="/no/mcp/">Norsk</a>
+              <a href="/fi/mcp/">Suomi</a>
+              <a href="/ru/mcp/" aria-current="true">Русский</a>
+            </div>
+          </details>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Скачать в App Store</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Model Context Protocol · macOS · Только localhost</p>
+        <h1>Спрашивайте ИИ о своём капитале — не загружая его в облако.</h1>
+        <p class="lead"><strong>WorthTrail для Mac</strong> содержит встроенный локальный <strong>MCP-сервер (Model Context Protocol)</strong> поверх Streamable HTTP. Подключите <strong>Claude Code</strong>, <strong>Claude Desktop</strong>, <strong>Codex</strong> или любой совместимый клиент, чтобы анализировать портфель и вносить записи только после явного подтверждения предпросмотра.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Скачать WorthTrail для Mac</a>
+          <a class="btn btn-secondary" href="/ru/faq/">Читать FAQ</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="device-frame" style="max-width: 268px;">
+          <img src="/assets/screens/en-ai.jpg" alt="Экран настроек Доступа агентов MCP в WorthTrail" loading="eager">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container-narrow">
+    <section class="section-compact">
+      <h2>Параметры подключения</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Параметр</th>
+              <th>Значение</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Транспорт</strong></td>
+              <td>Streamable HTTP (только локальный loopback)</td>
+            </tr>
+            <tr>
+              <td><strong>Адрес по умолчанию</strong></td>
+              <td><code>http://127.0.0.1:47821/mcp</code> (порт настраивается в Настройках, 1024–65535)</td>
+            </tr>
+            <tr>
+              <td><strong>Аутентификация</strong></td>
+              <td><code>Authorization: Bearer &lt;token&gt;</code> (хранится в Связке ключей macOS; можно сбросить в любой момент)</td>
+            </tr>
+            <tr>
+              <td><strong>Доступность</strong></td>
+              <td>Работает только пока WorthTrail открыт на Mac и включён Доступ агентов</td>
+            </tr>
+            <tr>
+              <td><strong>Стоимость</strong></td>
+              <td>Включено в бесплатный тариф (без пейволла на MCP; лимит 10 позиций действует на добавление новых активов)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Как подключиться</h2>
+      <p>Откройте <strong>WorthTrail на Mac &rarr; Настройки &rarr; Доступ агентов</strong>, включите локальный доступ и скопируйте готовый промпт настройки или Bearer-токен.</p>
+
+      <h3>Claude Code</h3>
+      <pre><code>claude mcp add --transport http --scope user worthtrail http://127.0.0.1:47821/mcp \
+  --header "Authorization: Bearer YOUR_TOKEN"</code></pre>
+
+      <h3>Claude Desktop (<code>~/.claude.json</code>)</h3>
+      <pre><code>{
+  "mcpServers": {
+    "worthtrail": {
+      "type": "http",
+      "url": "http://127.0.0.1:47821/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN"
+      }
+    }
+  }
+}</code></pre>
+
+      <h3>Codex (<code>~/.codex/config.toml</code>)</h3>
+      <pre><code>[mcp_servers.worthtrail]
+url = "http://127.0.0.1:47821/mcp"
+http_headers = { "Authorization" = "Bearer YOUR_TOKEN" }</code></pre>
+    </section>
+
+    <section>
+      <h2>Что умеют ИИ-агенты</h2>
+      <div class="grid-2">
+        <div class="fact-block">
+          <h3>Инструменты чтения (доступны при включении Доступа агентов)</h3>
+          <ul>
+            <li>Текущая чистая стоимость, общие активы, долги, стоимость приобретения и изменение за день (<code>get_net_worth</code>)</li>
+            <li>Открытые позиции по категориям и валютам: акции, ETF, крипто, опционы, вклады и произвольные активы (<code>list_positions</code>, <code>list_liabilities</code>)</li>
+            <li>Исторические снимки и ежедневная разбивка по активам (<code>get_snapshots</code>, <code>get_snapshot_detail</code>)</li>
+            <li>Доходность за период, взвешенные по деньгам кривые и дневная прибыль по позициям (<code>get_performance</code>, <code>get_daily_earnings</code>)</li>
+            <li>Дивиденды, регулярные планы, история операций и прогнозы FIRE</li>
+          </ul>
+        </div>
+        <div class="fact-block">
+          <h3>Инструменты записи (отдельный переключатель)</h3>
+          <ul>
+            <li>Выключены по умолчанию — включение чтения никогда не открывает запись автоматически.</li>
+            <li><strong>Двухэтапное подтверждение:</strong> первый вызов возвращает читаемый предпросмотр и временный код. Изменение применяется только после вашего согласия и повторного вызова с этим кодом.</li>
+            <li>Поддержка сделок, корректировки позиций, активов, долгов, планов и отмены действий — с журналом изменений в Настройках.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Примеры вопросов</h2>
+      <ul>
+        <li><em>«Какова моя текущая чистая стоимость в USD и насколько изменился портфель за этот месяц?»</em></li>
+        <li><em>«Какие позиции внесли наибольший вклад в прибыль или убыток за последние 90 дней?»</em></li>
+        <li><em>«Какой годовой доход от дивидендов и процентов по вкладам ожидается и какую долю расходов FIRE он покрывает?»</em></li>
+        <li><em>«Покажи предпросмотр покупки 10 акций AAPL по $225 сегодня и дождись моего подтверждения перед записью.»</em></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Модель безопасности</h2>
+      <ul>
+        <li><strong>Только localhost:</strong> привязан строго к <code>127.0.0.1</code> — недоступен из локальной сети и интернета.</li>
+        <li><strong>Учёт блокировки приложения:</strong> при заблокированном WorthTrail все запросы отклоняются.</li>
+        <li><strong>Защита от prompt-инъекций:</strong> инструкции прямо предписывают агентам считать названия, тикеры, теги и заметки исключительно данными, а не командами.</li>
+        <li><strong>Мгновенный отзыв доступа:</strong> выключите тумблер, смените порт или сбросьте токен в Связке ключей, чтобы сразу отключить всех клиентов.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+        <a href="/ru/">Обзор</a>
+        <a href="/ru/faq/">FAQ</a>
+        <a href="/ru/vs/">Сравнение</a>
+        <a href="/ru/privacy/">Политика конфиденциальности</a>
+        <a href="/ru/support/">Поддержка</a>
+        <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>
+      </div>
+      <p class="disclaimer">WorthTrail предназначен исключительно для личного учёта и анализа активов и не является инвестиционной рекомендацией. Рыночные данные могут поступать с задержкой, быть неполными или неточными. Всегда сверяйтесь со своими реальными счетами и официальными выписками.</p>
+    </div>
+  </footer>
+</body>
+</html>

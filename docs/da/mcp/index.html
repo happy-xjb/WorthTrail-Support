@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorthTrail Mac MCP-server — Forbind Claude &amp; AI-agenter til din lokale portefølje</title>
+  <meta name="description" content="WorthTrail på Mac har en lokal Streamable HTTP MCP-server til Claude Code, Claude Desktop og Codex. Forespørg formue, beholdninger, ydeevne, udbytte og FIRE lokalt.">
+  <link rel="canonical" href="https://worthtrail.app/da/mcp/">
+  <link rel="alternate" hreflang="en" href="https://worthtrail.app/mcp/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/mcp/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/mcp/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/mcp/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/mcp/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/mcp/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/mcp/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/mcp/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/mcp/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/mcp/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/mcp/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/mcp/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/mcp/">
+  <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/mcp/">
+  <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "inLanguage": "da",
+    "headline": "WorthTrail Mac lokal MCP-server til AI-agenter",
+    "description": "WorthTrail på Mac har en lokal Streamable HTTP MCP-server til Claude Code, Claude Desktop og Codex. Forespørg formue, beholdninger, ydeevne, udbytte og FIRE lokalt.",
+    "url": "https://worthtrail.app/da/mcp/",
+    "author": {
+      "@type": "Organization",
+      "name": "WorthTrail",
+      "url": "https://worthtrail.app/"
+    },
+    "about": {
+      "@type": "SoftwareApplication",
+      "name": "WorthTrail",
+      "operatingSystem": "macOS"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/da/">
+        <img src="/assets/icon-192.png" alt="WorthTrail-ikon" width="28" height="28">
+        <span>WorthTrail</span>
+      </a>
+      <nav class="nav-links" aria-label="Hovednavigation">
+        <a href="/da/">Overblik</a>
+        <a href="/da/faq/">FAQ</a>
+        <a href="/da/vs/">Sammenlign</a>
+        <a href="/da/mcp/" aria-current="page">Mac MCP</a>
+        <a href="/da/support/">Support</a>
+        <a href="/da/privacy/">Privatliv</a>
+        <details class="lang-menu">
+          <summary aria-label="Sprog">DA &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/mcp/"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/mcp/"><span>简体中文</span><span class="lang-code">中文</span></a>
+            <a href="/de/mcp/"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/mcp/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/mcp/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/mcp/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/mcp/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/mcp/"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/mcp/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/mcp/" aria-current="true"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/mcp/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/mcp/"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/mcp/"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary>Menu</summary>
+        <div class="mobile-menu-panel">
+          <a href="/da/">Overblik</a>
+          <a href="/da/faq/">Ofte stillede spørgsmål</a>
+          <a href="/da/vs/">Sammenlign alternativer</a>
+          <a href="/da/mcp/" aria-current="page">Mac MCP-server</a>
+          <a href="/da/support/">Support</a>
+          <a href="/da/privacy/">Privatlivspolitik</a>
+          <details class="mobile-lang">
+            <summary>Sprog · Dansk</summary>
+            <div class="mobile-lang-grid">
+              <a href="/mcp/">English</a>
+              <a href="/zh/mcp/">简体中文</a>
+              <a href="/de/mcp/">Deutsch</a>
+              <a href="/fr/mcp/">Français</a>
+              <a href="/es/mcp/">Español</a>
+              <a href="/it/mcp/">Italiano</a>
+              <a href="/pt-pt/mcp/">Português</a>
+              <a href="/nl/mcp/">Nederlands</a>
+              <a href="/sv/mcp/">Svenska</a>
+              <a href="/da/mcp/" aria-current="true">Dansk</a>
+              <a href="/no/mcp/">Norsk</a>
+              <a href="/fi/mcp/">Suomi</a>
+              <a href="/ru/mcp/">Русский</a>
+            </div>
+          </details>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Hent i App Store</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Model Context Protocol · macOS · Kun localhost</p>
+        <h1>Spørg AI om din formue — uden at uploade den til skyen.</h1>
+        <p class="lead"><strong>WorthTrail til Mac</strong> indeholder en indbygget lokal <strong>MCP-server (Model Context Protocol)</strong> via Streamable HTTP. Forbind <strong>Claude Code</strong>, <strong>Claude Desktop</strong>, <strong>Codex</strong> eller en anden kompatibel klient for at forespørge din portefølje og kun registrere ændringer efter godkendt forhåndsvisning.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Hent WorthTrail til Mac</a>
+          <a class="btn btn-secondary" href="/da/faq/">Læs FAQ</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="device-frame" style="max-width: 268px;">
+          <img src="/assets/screens/en-ai.jpg" alt="WorthTrail indstillingsskærm til Agentadgang MCP" loading="eager">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container-narrow">
+    <section class="section-compact">
+      <h2>Forbindelsesspecifikationer</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Egenskab</th>
+              <th>Værdi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Transport</strong></td>
+              <td>Streamable HTTP (kun lokal loopback)</td>
+            </tr>
+            <tr>
+              <td><strong>Standard-endpoint</strong></td>
+              <td><code>http://127.0.0.1:47821/mcp</code> (port kan indstilles i Indstillinger, 1024–65535)</td>
+            </tr>
+            <tr>
+              <td><strong>Godkendelse</strong></td>
+              <td><code>Authorization: Bearer &lt;token&gt;</code> (gemt i macOS Nøglering; kan nulstilles når som helst)</td>
+            </tr>
+            <tr>
+              <td><strong>Tilgængelighed</strong></td>
+              <td>Kører kun mens WorthTrail er åben på Mac og Agentadgang er slået til</td>
+            </tr>
+            <tr>
+              <td><strong>Pris</strong></td>
+              <td>Inkluderet i gratisplanen (ingen betalingsmur på MCP; 10-postersgrænsen gælder nye aktiver)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Sådan forbinder du</h2>
+      <p>Åbn <strong>WorthTrail på Mac &rarr; Indstillinger &rarr; Agentadgang</strong>, slå lokal agentadgang til, og kopiér din opsætningsprompt eller Bearer-token.</p>
+
+      <h3>Claude Code</h3>
+      <pre><code>claude mcp add --transport http --scope user worthtrail http://127.0.0.1:47821/mcp \
+  --header "Authorization: Bearer YOUR_TOKEN"</code></pre>
+
+      <h3>Claude Desktop (<code>~/.claude.json</code>)</h3>
+      <pre><code>{
+  "mcpServers": {
+    "worthtrail": {
+      "type": "http",
+      "url": "http://127.0.0.1:47821/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_TOKEN"
+      }
+    }
+  }
+}</code></pre>
+
+      <h3>Codex (<code>~/.codex/config.toml</code>)</h3>
+      <pre><code>[mcp_servers.worthtrail]
+url = "http://127.0.0.1:47821/mcp"
+http_headers = { "Authorization" = "Bearer YOUR_TOKEN" }</code></pre>
+    </section>
+
+    <section>
+      <h2>Hvad AI-agenter kan forespørge og udføre</h2>
+      <div class="grid-2">
+        <div class="fact-block">
+          <h3>Læseværktøjer (aktive når Agentadgang er slået til)</h3>
+          <ul>
+            <li>Aktuel formue, samlede aktiver, forpligtelser, kostpris og dagens ændring (<code>get_net_worth</code>)</li>
+            <li>Åbne positioner efter kategori eller valuta: aktier, ETF'er, krypto, optioner, tidsindskud og manuelle aktiver (<code>list_positions</code>, <code>list_liabilities</code>)</li>
+            <li>Historiske snapshots og daglig fordeling af beholdninger (<code>get_snapshots</code>, <code>get_snapshot_detail</code>)</li>
+            <li>Periodeafkast, pengevægtede afkastkurver og daglig indtjening pr. beholdning (<code>get_performance</code>, <code>get_daily_earnings</code>)</li>
+            <li>Udbytte, gentagne planer, transaktionshistorik og FIRE-fremskrivninger</li>
+          </ul>
+        </div>
+        <div class="fact-block">
+          <h3>Skriveværktøjer (separat tilvalg)</h3>
+          <ul>
+            <li>Deaktiveret som standard — læseadgang aktiverer aldrig skrivning automatisk.</li>
+            <li><strong>Totrinsbekræftelse:</strong> første kald returnerer en læsbar forhåndsvisning og en kortlivet kode. Ændringen gemmes først, når du godkender og agenten sender andet kald med koden.</li>
+            <li>Understøtter handler, beholdningsjusteringer, aktiver, forpligtelser, planer og fortryd — med indbygget ændringslog i Indstillinger.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Eksempler på spørgsmål</h2>
+      <ul>
+        <li><em>”Hvad er min nuværende formue i DKK, og hvor meget har porteføljen ændret sig denne måned?”</em></li>
+        <li><em>”Hvilke beholdninger har bidraget mest til mit resultat de seneste 90 dage?”</em></li>
+        <li><em>”Hvor meget årligt udbytte og rente forventes jeg at modtage, og hvor stor en del af mine FIRE-udgifter dækker det?”</em></li>
+        <li><em>”Vis en forhåndsvisning for tilføjelse af 10 AAPL-aktier til $225 i dag og afvent min godkendelse.”</em></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Sikkerhedsmodel</h2>
+      <ul>
+        <li><strong>Kun localhost:</strong> lytter udelukkende på <code>127.0.0.1</code> — aldrig eksponeret på LAN eller internettet.</li>
+        <li><strong>Respekterer applås:</strong> forespørgsler blokeres, når WorthTrail er låst.</li>
+        <li><strong>Beskyttelse mod prompt-injektion:</strong> værktøjsinstruktioner beder agenter om udelukkende at behandle navne, symboler, tags og noter som data, aldrig som kommandoer.</li>
+        <li><strong>Øjeblikkelig tilbagekaldelse:</strong> slå kontakten fra, skift port eller nulstil nøgleringstoken for straks at afbryde alle klienter.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+        <a href="/da/">Overblik</a>
+        <a href="/da/faq/">FAQ</a>
+        <a href="/da/vs/">Sammenlign</a>
+        <a href="/da/privacy/">Privatlivspolitik</a>
+        <a href="/da/support/">Support</a>
+        <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>
+      </div>
+      <p class="disclaimer">WorthTrail er udelukkende beregnet til personlig formueoversigt og analyse og udgør ikke investeringsrådgivning. Markedsdata kan være forsinkede, ufuldstændige eller unøjagtige. Henvis altid til dine faktiske konti og officielle opgørelser.</p>
+    </div>
+  </footer>
+</body>
+</html>

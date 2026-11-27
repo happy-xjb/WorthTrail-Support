@@ -1,0 +1,465 @@
+{
+  "nav": {
+    "brand_alt": "WorthTrail-icoon",
+    "aria_label": "Hoofdnavigatie",
+    "overview": "Overzicht",
+    "faq": "FAQ",
+    "faq_long": "Veelgestelde vragen",
+    "compare": "Vergelijk",
+    "compare_long": "Alternatieven vergelijken",
+    "mcp": "Mac MCP",
+    "mcp_long": "Mac MCP-server",
+    "support": "Ondersteuning",
+    "privacy": "Privacy",
+    "privacy_long": "Privacybeleid",
+    "language_label": "Taal",
+    "menu": "Menu",
+    "download_cta": "Download in de App Store"
+  },
+  "footer": {
+    "disclaimer": "WorthTrail is uitsluitend bedoeld voor persoonlijke vermogensregistratie en -analyse en geeft geen beleggingsadvies. Koersgegevens kunnen vertraagd, onvolledig of onnauwkeurig zijn. Raadpleeg altijd uw eigen rekeningen en officiële afschriften."
+  },
+  "home": {
+    "title": "WorthTrail — Privé nettovermogen- en portefeuilletracker voor iOS & Mac (zonder bankkoppeling)",
+    "meta_description": "WorthTrail is een private, local-first nettovermogen- en portefeuilletracker voor iPhone, iPad en Mac. Volg aandelen, ETF's, fondsen, crypto, spaardeposito's, vastgoed en schulden in meerdere valuta's zonder bankkoppeling, met eenmalige aankoop en lokale Mac MCP-server.",
+    "og_title": "WorthTrail — Privé nettovermogen- en portefeuilletracker (zonder bankkoppeling)",
+    "og_description": "Een rustig, privé vermogensoverzicht voor aandelen, ETF's, fondsen, crypto, spaardeposito's, vastgoed en schulden op iPhone, iPad en Mac. Geen banklogin, privé iCloud-sync, eenmalige aankoop en Mac MCP-server.",
+    "offer_currency": "USD",
+    "offer_prices": ["0.99", "5.99", "12.99"],
+    "offers": [
+      "Gratis (Alle functies, tot 10 posities)",
+      "WorthTrail Pro Maandelijks (Onbeperkte bezittingen)",
+      "WorthTrail Pro Jaarlijks (Onbeperkte bezittingen)",
+      "WorthTrail Pro Levenslang (Eenmalige aankoop, onbeperkt)"
+    ],
+    "hero_eyebrow": "Privé vermogensoverzicht · iPhone · iPad · Mac",
+    "hero_h1": "Een rustig, privé overzicht van uw volledige nettovermogen.",
+    "hero_lead_html": "<strong>WorthTrail</strong> is een local-first nettovermogen- en portefeuilletracker voor Apple-apparaten. Volg wereldwijde aandelen, ETF's, fondsen, crypto, opties, spaardeposito's, vastgoed en schulden in meerdere valuta's — uitsluitend opgeslagen op uw apparaat en privé iCloud, <strong>zonder bankkoppeling</strong>.",
+    "cta_primary": "Download in de App Store",
+    "cta_secondary": "Alternatieven vergelijken",
+    "hero_trust": [
+      "Geen bankkoppeling / geen Plaid",
+      "Alle functies gratis (tot 10 items)",
+      "Eenmalige aankoop mogelijk ($12,99)"
+    ],
+    "hero_img_alt": "WorthTrail iOS-overzicht met nettovermogen, totale bezittingen, schulden en dagverandering",
+    "kpis": [
+      {"val": "Geen Plaid", "lbl": "Nooit bank- of brokerinloggegevens nodig", "nums": false},
+      {"val": "45+ talen", "lbl": "Automatische omrekening in meerdere valuta's", "nums": true},
+      {"val": "$12,99 eenmalig", "lbl": "Optionele levenslange aankoop", "nums": true},
+      {"val": "Mac MCP", "lbl": "Ingebouwd lokaal AI-agentprotocol", "nums": false}
+    ],
+    "screens_eyebrow": "Binnenin WorthTrail",
+    "screens_h2": "Ontworpen voor overzicht over elke beleggingscategorie.",
+    "screens_lead": "Echte iOS-schermen van WorthTrail — rustige typografie, heldere cijfers en nul reclame.",
+    "screens": [
+      {
+        "alt": "WorthTrail winst/verlies-kalender met dagelijkse, maandelijkse en jaarlijkse prestaties",
+        "title": "Prestaties & Winst/verlies-kalender",
+        "desc": "Dagelijkse, wekelijkse, maandelijkse en jaarlijkse resultaten, aankoopwaarde en drawdowns op één tijdlijn."
+      },
+      {
+        "alt": "WorthTrail dividendkalender en passief inkomen",
+        "title": "Dividenden & Passief inkomen",
+        "desc": "Ex-data, netto passief inkomen na belasting, concentratie en FIRE-dekking."
+      },
+      {
+        "alt": "WorthTrail vermogensverdeling op labels en herbalanceren",
+        "title": "Verdeling & Herbalanceren",
+        "desc": "Groepeer op rekening, gezinslid, sector of regio en bereken doelwegingen."
+      },
+      {
+        "alt": "WorthTrail lokale Mac MCP-server voor AI-agents",
+        "title": "Lokale AI-agents (Mac MCP)",
+        "desc": "Bevraag nettovermogen en posities vanuit Claude of Codex met tweestapsbevestiging."
+      }
+    ],
+    "pillars_eyebrow": "Architectuur van rust",
+    "pillars_h2": "Gemaakt voor langetermijnvermogen, niet voor drukke uitgavenfeeds.",
+    "pillars_lead": "Elke positie, valuta, dividend en schuld komt samen in één verifieerbaar overzicht dat volledig onder uw controle staat.",
+    "pillars": [
+      {
+        "num": "01 / PRIVACY",
+        "title": "Local-first & Privé iCloud",
+        "desc": "Lokaal opgeslagen met Apple SwiftData en uitsluitend gesynchroniseerd via uw persoonlijke CloudKit-database. Geen ontwikkelaarsserver, geen bankkoppeling, geen advertenties of analyse-SDK's."
+      },
+      {
+        "num": "02 / MULTI-ASSET",
+        "title": "Wereldwijde markten & Spaardeposito's",
+        "desc": "Volg aandelen (VS, Europa, HK, CN, TW, wereldwijd), ETF's, fondsen, crypto, opties, spaardeposito's, contanten, vastgoed en leningen met zelf te kiezen gegevensbronnen."
+      },
+      {
+        "num": "03 / PLANNING",
+        "title": "FIRE, Dividenden & Herbalanceren",
+        "desc": "Bereken uw FIRE-datum en vermogensduur, volg netto dividenden en depositorente, beleggingsplannen, aandelensplitsingen en exporteer Excel- of PDF-rapporten."
+      }
+    ],
+    "mcp_eyebrow": "Model Context Protocol · macOS",
+    "mcp_h2": "Ingebouwde lokale MCP-server voor Claude & Codex.",
+    "mcp_lead_html": "WorthTrail voor Mac bevat een optionele lokale <strong>Streamable HTTP MCP-server</strong> (<code>http://127.0.0.1:47821/mcp</code>) beveiligd met een Bearer-token in de macOS-sleutelhanger. Stel AI-assistenten vragen over uw nettovermogen, posities, prestaties, dividenden en FIRE zonder uw portefeuille naar een externe cloud te uploaden.",
+    "mcp_callout_html": "<strong>Veiligheid standaard:</strong> staat standaard uit, alleen bereikbaar op localhost, alleen-lezen totdat u schrijven inschakelt, en elke schrijfactie vereist een voorbeeld en bevestigingscode.",
+    "mcp_link": "Lees de Mac MCP-handleiding",
+    "mcp_img_alt": "WorthTrail Agenttoegang MCP-instellingen",
+    "pricing_eyebrow": "Transparante prijzen",
+    "pricing_h2": "Elke functie is gratis. Betaal alleen bij meer dan 10 items.",
+    "pricing_lead": "iCloud-sync, dividenden, FIRE, herbalanceren, rapporten, widgets en Mac MCP zitten allemaal in de gratis versie. WorthTrail Pro heft alleen de limiet van 10 items op.",
+    "plans": [
+      {
+        "tag": "Gratis",
+        "price": "$0",
+        "unit": "",
+        "desc": "Tot 10 items (bezittingen, geldrekeningen en schulden samen). Alle functies vrij, zonder proefval."
+      },
+      {
+        "tag": "Pro-abonnement",
+        "price": "$5,99",
+        "unit": "/ jaar",
+        "desc": "Onbeperkte bezittingen en schulden. Ook maandelijks voor $0,99/mnd (europrijzen in de App Store)."
+      },
+      {
+        "tag": "Pro Levenslang",
+        "price": "$12,99",
+        "unit": "eenmalig",
+        "featured": true,
+        "desc": "Eenmalig betalen voor altijd onbeperkte bezittingen. Regionale prijzen door Apple afgestemd in 175 winkels."
+      }
+    ],
+    "explore_h2": "Meer ontdekken",
+    "explore_items": [
+      {"page": "faq", "title": "Veelgestelde vragen & productfeiten", "desc": "ondersteunde beleggingen, gegevensbronnen, privacy en prijzen."},
+      {"page": "vs", "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & spreadsheets", "desc": "eerlijke vergelijking naast elkaar."},
+      {"page": "mcp", "title": "Handleiding lokale Mac MCP-server", "desc": "koppel Claude Code, Claude Desktop of Codex veilig."},
+      {"page": "support", "title": "Ondersteuning & probleemoplossing", "desc": "contactopties, versleuteld diagnosebestand en snelle hulp."},
+      {"href": "/llms.txt", "title": "llms.txt", "desc": "beknopte gestructureerde samenvatting voor AI-tools en zoekmachines."}
+    ]
+  },
+  "faq": {
+    "title": "WorthTrail FAQ — Nettovermogen bijhouden zonder bankkoppeling",
+    "meta_description": "Antwoorden op veelgestelde vragen over WorthTrail: privacy zonder banklogin, meerdere valuta's, eenmalige aankoop, dividenden, FIRE, gegevensbronnen en Mac MCP.",
+    "eyebrow": "Feiten & antwoorden",
+    "h1": "Veelgestelde vragen",
+    "lead": "Heldere antwoorden over privacy, ondersteunde bezittingen, prijzen en de lokale Mac MCP-server.",
+    "items": [
+      {
+        "q": "Moet ik een bank- of beleggingsrekening koppelen aan WorthTrail?",
+        "a_plain": "Nee. WorthTrail vraagt nooit om bank- of brokerinloggegevens en gebruikt geen Plaid of aggregators. U voert posities direct in terwijl beurskoersen en wisselkoersen automatisch worden bijgewerkt.",
+        "a_html": "<strong>Nee.</strong> WorthTrail is bewust gebouwd zonder bankkoppeling of Plaid. U registreert posities, contanten, spaardeposito's en schulden zelf, terwijl openbare koersen en wisselkoersen automatisch verversen."
+      },
+      {
+        "q": "Waar worden mijn portefeuillegegevens opgeslagen?",
+        "a_plain": "Alle gegevens staan lokaal op uw apparaat via Apple SwiftData. Optionele synchronisatie loopt uitsluitend via uw eigen privé Apple CloudKit-database. De ontwikkelaar beheert geen server met uw gegevens.",
+        "a_html": "Uw gegevens staan lokaal op uw apparaat met Apple SwiftData. Optionele synchronisatie tussen apparaten verloopt uitsluitend via uw persoonlijke Apple iCloud-privédatabase (CloudKit). De ontwikkelaar beheert geen server die uw portefeuille ontvangt en de app bevat geen advertenties of analyse-SDK's."
+      },
+      {
+        "q": "Hoe werken de prijzen? Is er een eenmalige aankoop?",
+        "a_plain": "Ja. Alle functies zijn gratis tot 10 items. WorthTrail Pro verwijdert alleen de limiet: $0,99/maand, $5,99/jaar of $12,99 eenmalig levenslang.",
+        "a_html": "<strong>Ja.</strong> De gratis versie bevat <strong>alle functies</strong> tot <strong>10 items</strong> (bezittingen, contanten en schulden samen). WorthTrail Pro heft alleen die limiet op: US$0,99/maand, US$5,99/jaar of <strong>US$12,99 eenmalig levenslang</strong> (lokale europrijzen in de App Store)."
+      },
+      {
+        "q": "Welke soorten bezittingen en markten worden ondersteund?",
+        "a_plain": "Wereldwijde aandelen, ETF's, beleggingsfondsen, cryptovaluta, opties, spaardeposito's, contanten, handmatige bezittingen zoals vastgoed of goud, en schulden zoals hypotheken en leningen, met automatische valutaomrekening.",
+        "a_html": "WorthTrail volgt wereldwijde aandelen (VS, Europa, HK, CN, TW en internationale beurzen), ETF's, fondsen, cryptovaluta, opties, spaardeposito's, contanten, handmatig gewaardeerde bezittingen (vastgoed, goud, obligaties) en schulden (hypotheken, leningen). Alle valuta's worden omgerekend naar uw hoofdvaluta."
+      },
+      {
+        "q": "Welke koersbronnen gebruikt WorthTrail?",
+        "a_plain": "In Instellingen > Gegevensbronnen kunt u bronnen aan- en uitzetten of sorteren, zoals Yahoo Finance, Webull, Binance, OKX, Sina Finance, TWSE en ExchangeRate-API.",
+        "a_html": "In <strong>Instellingen &gt; Gegevensbronnen</strong> schakelt u bronnen vrij in, uit en op volgorde, waaronder Yahoo Finance, Webull, Binance, OKX, Sina Finance, TWSE en ExchangeRate-API. Alleen benodigde symbolen en valuta's worden naar ingeschakelde bronnen gestuurd."
+      },
+      {
+        "q": "Ondersteunt WorthTrail dividenden, FIRE en herbalanceren?",
+        "a_plain": "Ja. Inclusief dividendkalender met ex-data en netto passief inkomen, FIRE-planner, beleggingsplannen, aandelensplitsingen en herbalanceringsberekening.",
+        "a_html": "<strong>Ja.</strong> WorthTrail biedt een dividendkalender met ex-data en netto passief inkomen, groei- en concentratieanalyses, een aanpasbaar FIRE-dashboard, periodieke beleggingsplannen, aandelensplitsingen en een rekenhulp voor herbalanceren."
+      },
+      {
+        "q": "Hoe werkt de lokale Mac MCP-server?",
+        "a_plain": "Op de Mac bevat WorthTrail een optionele lokale Streamable HTTP MCP-server op http://127.0.0.1:47821/mcp met een Bearer-token in de sleutelhanger voor Claude Code, Claude Desktop en Codex. Schrijven staat standaard uit en vereist tweestapsbevestiging.",
+        "a_html": "Op de Mac bevat WorthTrail een optionele lokale Streamable HTTP MCP-server (<code>http://127.0.0.1:47821/mcp</code>) met een Bearer-token in de macOS-sleutelhanger. Koppel Claude Code, Claude Desktop of Codex om nettovermogen, posities, prestaties, dividenden en FIRE op te vragen. Schrijfacties staan standaard uit en vereisen altijd een voorbeeld en bevestigingscode. Zie de <a href=\"__MCP_URL__\">Mac MCP-handleiding</a>."
+      },
+      {
+        "q": "Kan ik mijn gegevens exporteren of lokaal back-uppen?",
+        "a_plain": "Ja. U kunt met wachtwoord versleutelde lokale back-ups exporteren en herstellen, naast Excel-werkmappen (.xlsx) en PDF-rapporten.",
+        "a_html": "<strong>Ja.</strong> U kunt met een wachtwoord versleutelde lokale back-ups exporteren (en altijd herstellen), evenals Excel-werkmappen (<code>.xlsx</code>) en PDF-rapporten."
+      },
+      {
+        "q": "Welke platformen worden ondersteund?",
+        "a_plain": "WorthTrail is beschikbaar voor iPhone, iPad en Mac via de Apple App Store in meer dan 45 talen. Er is momenteel geen Android- of webversie.",
+        "a_html": "WorthTrail is beschikbaar op iPhone, iPad en Mac via de <a href=\"__APP_STORE_URL__\" rel=\"noopener\">Apple App Store</a> in meer dan 45 talen. Een Android- of webversie is momenteel niet beschikbaar."
+      }
+    ]
+  },
+  "vs": {
+    "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & spreadsheets",
+    "meta_description": "Objectieve vergelijking van WorthTrail met Monarch Money, Copilot Money, Kubera en spreadsheets: bankkoppeling, privacy, meerdere valuta's, prijzen en Mac MCP.",
+    "eyebrow": "Eerlijke vergelijking",
+    "h1": "WorthTrail vergeleken met populaire vermogenstrackers",
+    "lead_html": "Elke tool lost een ander probleem op. Hieronder vindt u een nuchtere vergelijking van <strong>WorthTrail</strong> met <strong>Monarch Money</strong>, <strong>Copilot Money</strong>, <strong>Kubera</strong> en <strong>spreadsheets</strong> — inclusief wanneer een ander hulpmiddel beter past.",
+    "table_h2": "Vergelijking naast elkaar",
+    "table_headers": ["Onderdeel", "WorthTrail", "Monarch Money", "Copilot Money", "Kubera", "Spreadsheets"],
+    "table_rows": [
+      ["Bankkoppeling / Plaid", "<strong>Geen (zonder banklogin)</strong>", "Kernfunctie (Plaid / MX / Finicity)", "Kernfunctie (Plaid / aggregators)", "Kernfunctie (meerdere aggregators)", "Handmatig (tenzij scripts)"],
+      ["Gegevensopslag", "<strong>Lokaal SwiftData + optioneel privé iCloud</strong>", "Cloud van aanbieder", "Cloud van aanbieder", "Cloud van aanbieder", "Lokaal of cloudopslag"],
+      ["Meerdere valuta's & beurzen", "<strong>Ingebouwd multivaluta; wereldwijde aandelen, ETF's, crypto, deposito's</strong>", "Vooral VS / Canada", "Vooral VS", "Sterk globaal &amp; multivaluta", "Handmatig / eigen formules"],
+      ["Budgetteren & bankuitgaven", "Geen huishoudboekje", "<strong>Sterk</strong>", "<strong>Sterk</strong>", "Geen huishoudboekje", "Handmatig"],
+      ["Dividenden, FIRE & herbalanceren", "<strong>Ingebouwd</strong>", "Basisdoelen", "Basisbeleggingen", "Focus vermogen &amp; IRR", "Eigen formules"],
+      ["Lokale AI / MCP-server", "<strong>Ingebouwde Mac MCP-server</strong>", "Geen lokale MCP", "Geen lokale MCP", "Geen lokale MCP", "Zelf opzetten"],
+      ["Prijsmodel", "<strong>Gratis (10 items, alles); $0,99/m, $5,99/j of $12,99 eenmalig</strong>", "Alleen abonnement (~$99,99/jr)", "Alleen abonnement (~$95/jr)", "Alleen abonnement (~$199+/jr)", "Gratis / Office-pakket"],
+      ["Platformen", "iPhone, iPad, Mac", "Web, iOS, Android", "iOS, Mac, Web", "Web, iOS, Android", "Platformonafhankelijk"]
+    ],
+    "table_note": "Opmerking: prijzen en functies van derden zijn richtwaarden en kunnen wijzigen; controleer altijd de officiële website.",
+    "sections": [
+      {
+        "id": "monarch",
+        "h2": "WorthTrail vs Monarch Money",
+        "bullets_html": [
+          "<strong>Kies Monarch Money</strong> als u in de VS of Canada woont en automatische banktransacties, huishoudbudgetten en web/Android-toegang wilt.",
+          "<strong>Kies WorthTrail</strong> als u geen bankinlog wilt delen, in meerdere valuta's of Europese/wereldwijde markten belegt, lokale iCloud-opslag verkiest en een eenmalige aankoop ($12,99) prefereert."
+        ]
+      },
+      {
+        "id": "copilot",
+        "h2": "WorthTrail vs Copilot Money",
+        "bullets_html": [
+          "<strong>Kies Copilot Money</strong> als u een Apple-app zoekt voor dagelijks budgetteren met automatische Amerikaanse bankfeeds.",
+          "<strong>Kies WorthTrail</strong> als uw focus ligt op <strong>nettovermogen, prestaties, dividenden, spaardeposito's, herbalanceren en FIRE</strong> — zonder bankkoppeling, multivaluta en met Mac MCP-server."
+        ]
+      },
+      {
+        "id": "kubera",
+        "h2": "WorthTrail vs Kubera",
+        "bullets_html": [
+          "<strong>Kies Kubera</strong> als u een webplatform met automatische wereldwijde bankaggregatie en nalatenschapsfuncties zoekt en een hoog jaarabonnement prima vindt.",
+          "<strong>Kies WorthTrail</strong> als u een native iPhone/iPad/Mac-app verkiest waarbij uw portefeuille nooit op een externe server staat, met automatische koersen, winst/verlies-kalender, dividenden, FIRE en een fractie van de kosten."
+        ]
+      },
+      {
+        "id": "spreadsheets",
+        "h2": "WorthTrail vs Spreadsheets (Excel / Google Sheets)",
+        "bullets_html": [
+          "<strong>Kies spreadsheets</strong> als u volledig eigen financiële modellen nodig hebt op Windows, Linux of het web.",
+          "<strong>Kies WorthTrail</strong> als u genoeg hebt van kapotte koersformules, handmatige wisselkoersen en losse vermogenssnapshots — terwijl u altijd schone Excel-bestanden (<code>.xlsx</code>) kunt exporteren."
+        ]
+      }
+    ],
+    "cta_h2": "Klaar om WorthTrail te proberen?",
+    "cta_lead": "Begin gratis met alle functies tot 10 items — zonder account en zonder bankkoppeling.",
+    "cta_primary": "Download in de App Store",
+    "cta_secondary": "Lees de FAQ"
+  },
+  "mcp": {
+    "title": "WorthTrail Mac MCP-server — Koppel Claude & AI-agents lokaal aan uw portefeuille",
+    "meta_description": "WorthTrail voor Mac bevat een lokale Streamable HTTP MCP-server voor Claude Code, Claude Desktop en Codex. Bevraag nettovermogen, posities, prestaties, dividenden en FIRE lokaal.",
+    "ld_headline": "WorthTrail Mac lokale MCP-server voor AI-agents",
+    "eyebrow": "Model Context Protocol · macOS · Alleen localhost",
+    "h1": "Stel AI vragen over uw nettovermogen — zonder het naar een cloud te uploaden.",
+    "lead_html": "<strong>WorthTrail voor Mac</strong> bevat een ingebouwde lokale <strong>MCP-server (Model Context Protocol)</strong> via Streamable HTTP. Koppel <strong>Claude Code</strong>, <strong>Claude Desktop</strong>, <strong>Codex</strong> of elke compatibele client om uw portefeuille op te vragen en wijzigingen pas na goedkeuring vast te leggen.",
+    "cta_primary": "Haal WorthTrail voor Mac",
+    "cta_secondary": "Lees de FAQ",
+    "img_alt": "WorthTrail instellingenscherm voor Agenttoegang MCP",
+    "specs_h2": "Verbindingsspecificaties",
+    "specs_col_prop": "Eigenschap",
+    "specs_col_val": "Waarde",
+    "spec_rows": [
+      ["Transport", "Streamable HTTP (alleen lokale loopback)"],
+      ["Standaard eindpunt", "<code>http://127.0.0.1:47821/mcp</code> (poort instelbaar in Instellingen, 1024–65535)"],
+      ["Authenticatie", "<code>Authorization: Bearer &lt;token&gt;</code> (opgeslagen in macOS-sleutelhanger; altijd te vernieuwen)"],
+      ["Beschikbaarheid", "Actief zolang WorthTrail open is op de Mac en Agenttoegang is ingeschakeld"],
+      ["Prijs", "Inbegrepen in de gratis versie (geen betaalmuur op MCP; de limiet van 10 items geldt voor nieuwe bezittingen)"]
+    ],
+    "connect_h2": "Verbinding maken",
+    "connect_intro_html": "Open <strong>WorthTrail op Mac &rarr; Instellingen &rarr; Agenttoegang</strong>, zet lokale agenttoegang aan en kopieer uw installatieprompt of Bearer-token.",
+    "tools_h2": "Wat AI-agents kunnen opvragen en doen",
+    "read_h3": "Leestools (actief zodra Agenttoegang aan staat)",
+    "read_items_html": [
+      "Huidig nettovermogen, totale bezittingen, schulden, aankoopwaarde en dagverandering (<code>get_net_worth</code>)",
+      "Open posities per categorie of valuta: aandelen, ETF's, crypto, opties, deposito's en handmatige bezittingen (<code>list_positions</code>, <code>list_liabilities</code>)",
+      "Historische snapshots en dagelijkse uitsplitsing per positie (<code>get_snapshots</code>, <code>get_snapshot_detail</code>)",
+      "Periodeprestaties, geldgewogen rendementscurves en dagresultaten per belegging (<code>get_performance</code>, <code>get_daily_earnings</code>)",
+      "Dividenden, beleggingsplannen, transactiegeschiedenis en FIRE-prognoses"
+    ],
+    "write_h3": "Schrijftools (aparte schakelaar)",
+    "write_items_html": [
+      "Standaard uitgeschakeld — leestoegang aanzetten schakelt schrijven nooit automatisch in.",
+      "<strong>Tweestapsbevestiging:</strong> de eerste aanroep geeft een leesbaar voorbeeld en een tijdelijke bevestigingscode terug. De wijziging wordt pas doorgevoerd na uw akkoord via de tweede aanroep met die code.",
+      "Ondersteunt transacties, positiewijzigingen, bezittingen, schulden, plannen en ongedaan maken — met ingebouwd wijzigingslogboek."
+    ],
+    "examples_h2": "Voorbeeldvragen",
+    "example_questions": [
+      "“Wat is mijn huidige nettovermogen in EUR en hoeveel is mijn portefeuille deze maand veranderd?”",
+      "“Welke posities droegen de afgelopen 90 dagen het meest bij aan mijn winst of verlies?”",
+      "“Hoeveel jaarlijkse dividenden en depositorente verwacht ik en welk deel van mijn FIRE-uitgaven dekt dit?”",
+      "“Maak een voorbeeld voor het toevoegen van 10 aandelen AAPL tegen $225 vandaag en wacht op mijn akkoord.”"
+    ],
+    "security_h2": "Beveiligingsmodel",
+    "security_items_html": [
+      "<strong>Alleen localhost:</strong> luistert uitsluitend op <code>127.0.0.1</code> — nooit bereikbaar vanaf uw netwerk of internet.",
+      "<strong>Respecteert app-vergrendeling:</strong> verzoeken worden geblokkeerd wanneer WorthTrail vergrendeld is.",
+      "<strong>Bescherming tegen prompt-injectie:</strong> toolinstructies verplichten agents om namen, symbolen, labels en notities strikt als gegevens te behandelen, nooit als opdrachten.",
+      "<strong>Direct intrekken:</strong> zet de schakelaar uit, wijzig de poort of reset het sleutelhangertoken om alle clients direct te verbreken."
+    ]
+  },
+  "support": {
+    "title": "WorthTrail Ondersteuning — Hulp, probleemoplossing & contact",
+    "meta_description": "Krijg hulp met WorthTrail, meld een probleem, vraag een ontbrekende belegging of gegevensbron aan, exporteer versleutelde diagnose of mail support@worthtrail.app.",
+    "eyebrow": "Hulp & contact",
+    "h1": "Waarmee kunnen we helpen?",
+    "lead_html": "Voor hulp, foutmeldingen, ontbrekende fondsen of privacyvragen kunt u mailen naar <a href=\"mailto:support@worthtrail.app\">support@worthtrail.app</a> of hieronder een onderwerp kiezen.",
+    "default_subject": "WorthTrail Feedback",
+    "cta_email": "Mail support@worthtrail.app",
+    "cta_faq": "Lees de FAQ",
+    "contact_h2": "Kies een onderwerp",
+    "contact_lead": "Een onderwerp kiezen vult automatisch het e-mailonderwerp in zodat we sneller kunnen antwoorden.",
+    "topics": [
+      {
+        "tag": "Foutmelding",
+        "title": "Probleem melden",
+        "desc": "Onverwachte cijfers, sync-vertraging, weergavefouten of crashes. Vermeld app-versie, iOS/macOS-versie en stappen.",
+        "action": "Probleem melden",
+        "subject": "[Problem] WorthTrail"
+      },
+      {
+        "tag": "Marktdekking",
+        "title": "Ontbrekende belegging of gegevensbron",
+        "desc": "Kunt u een aandeel, ETF of fonds niet vinden? Geef symbool, beurs/ISIN en valuta door.",
+        "action": "Belegging aanvragen",
+        "subject": "[Missing Asset / Data Source] WorthTrail"
+      },
+      {
+        "tag": "Product",
+        "title": "Functieverzoek",
+        "desc": "Ideeën voor dividenden, FIRE, herbalanceren, rapporten of Mac MCP? Vertel ons hoe u werkt.",
+        "action": "Suggestie sturen",
+        "subject": "[Feature Request] WorthTrail"
+      },
+      {
+        "tag": "Privacy & Pro",
+        "title": "Hulp bij privacy of Pro-aankoop",
+        "desc": "Vragen over iCloud-opslag, lokale back-ups of het herstellen van een Pro-abonnement of levenslange aankoop.",
+        "action": "Contact opnemen",
+        "subject": "[Support] WorthTrail"
+      }
+    ],
+    "diagnostics_h2": "Hulp in de app & versleuteld diagnosebestand",
+    "diagnostics_p1_html": "Open in WorthTrail <strong>Instellingen &gt; Contact en ondersteuning</strong> om direct te mailen of een <strong>Versleuteld diagnosebestand</strong> (<code>.wtdiag</code>) te exporteren bij lastige koers- of rekenproblemen.",
+    "privacy_callout_html": "<strong>Privacyherinnering:</strong> stuur geen rekeningnummers, wachtwoorden, API-sleutels of gevoelige afschriften in gewone e-mails. Deel een diagnosebestand alleen wanneer dat nodig is voor een lopend probleem.",
+    "help_h2": "Snelle probleemoplossing",
+    "help_lead": "De meeste veelvoorkomende vragen lost u direct op in Instellingen.",
+    "help_groups": [
+      {
+        "title": "Marktgegevens, koersen & handmatige bezittingen",
+        "items_html": [
+          "Controleer de verbinding onder <strong>Instellingen &gt; Gegevensbronnen</strong>. De test gebruikt hetzelfde eindpunt als live verversen.",
+          "Sommige bronnen (zoals Yahoo Finance) kunnen op bepaalde netwerken beperkt zijn; u kunt bronnen altijd anders rangschikken of wisselen.",
+          "Voor vastgoed, goud of niet-beursgenoteerde bezittingen voegt u een <strong>Handmatig bezit</strong> toe."
+        ]
+      },
+      {
+        "title": "Posities, aankoopwaarde, splitsingen & bulkimport",
+        "items_html": [
+          "Leg aan- en verkopen of aanpassingen vast met uitvoeringskoers en datum zodat historische aantallen en aankoopwaarde kloppen.",
+          "Importeer meerdere posities via <strong>CSV</strong> of schermafbeeldingen van uw broker (OCR draait volledig op uw apparaat).",
+          "Gebruik <strong>Aandelensplitsing</strong> op een bezitting om historische aantallen en aankoopkoersen zuiver aan te passen.",
+          "Historische snapshots voeden uw nettovermogengrafiek en Winst/verlies-kalender en worden meegenomen in iCloud en lokale back-ups."
+        ]
+      },
+      {
+        "title": "iCloud-sync, versleutelde back-ups & Pro herstellen",
+        "items_html": [
+          "Optionele synchronisatie gebruikt uw privé Apple CloudKit-database — controleer of alle apparaten dezelfde Apple Account gebruiken.",
+          "Exporteer en herstel met wachtwoord versleutelde lokale back-ups op elk moment via <strong>Instellingen</strong>.",
+          "Om WorthTrail Pro op een nieuw apparaat te herstellen, opent u <strong>Pro</strong> in Instellingen en tikt u op <strong>Aankopen herstellen</strong>.",
+          "WorthTrail heeft geen gebruikersaccount: de app verwijderen wist lokale gegevens; iCloud-gegevens beheert u in de iCloud-instellingen."
+        ]
+      },
+      {
+        "title": "Privacyvergrendeling, widgets & Mac MCP",
+        "items_html": [
+          "Tik op het oogicoon naast <strong>Nettovermogen</strong> om bedragen op het scherm te verbergen.",
+          "Voeg WorthTrail toe via de iOS-widgetgalerij; de privacywidget toont alleen het percentage en de trendlijn.",
+          "Controleer bij Mac MCP-problemen of WorthTrail open en ontgrendeld is op Mac, <strong>Instellingen &gt; Agenttoegang</strong> aan staat en uw client <code>http://127.0.0.1:47821/mcp</code> met het actuele token gebruikt."
+        ]
+      }
+    ],
+    "more_h2": "Handige bronnen",
+    "more_faq": "Veelgestelde vragen & productfeiten",
+    "more_mcp": "Handleiding lokale Mac MCP-server",
+    "more_privacy": "Privacybeleid"
+  },
+  "privacy": {
+    "title": "WorthTrail Privacybeleid — Local-first, zonder bankkoppeling",
+    "meta_description": "WorthTrail Privacybeleid: lokale SwiftData-opslag, optionele privé iCloud-sync, lokale OCR, lokale Mac MCP, geen banklogin, geen advertenties en geen analyse-SDK's.",
+    "eyebrow": "Privacyarchitectuur",
+    "h1": "Privacybeleid",
+    "lead": "WorthTrail is zo ontworpen dat uw volledige nettovermogen op uw eigen apparaten en persoonlijke iCloud blijft — nooit op een server van de ontwikkelaar.",
+    "effective_date": "Ingangsdatum: 27 november 2026",
+    "applies_to": "Van toepassing op WorthTrail voor iPhone, iPad en Mac",
+    "glance": [
+      {"val": "Geen banklogin", "lbl": "Geen Plaid of bankinloggegevens"},
+      {"val": "Local-first", "lbl": "Alleen SwiftData & privé iCloud"},
+      {"val": "Geen tracking", "lbl": "Geen advertenties of analyse-SDK's"},
+      {"val": "Eigen regie", "lbl": "Versleutelde back-ups & verwijdering"}
+    ],
+    "flow_h2": "Gegevensstroom in één oogopslag",
+    "flow_lead": "Waar elke categorie gegevens staat en of deze ooit uw apparaat verlaat.",
+    "flow_headers": ["Gegevenscategorie", "Waar opgeslagen", "Naar ontwikkelaar?", "Naar derden?"],
+    "flow_rows": [
+      ["<strong>Portefeuille &amp; overzicht</strong><br>Bezittingen, aantallen, aankoopwaarde, schulden, transacties, labels, notities, snapshots", "Uw apparaat (SwiftData) &amp; optioneel privé iCloud (CloudKit)", "<strong>Nooit</strong>", "Alleen Apple iCloud als u sync aanzet"],
+      ["<strong>Koersen &amp; wisselkoersen</strong><br>Zoektermen, symbolen, bron-ID's, valutacodes", "Tijdelijk netwerkverzoek", "<strong>Nooit</strong>", "Alleen naar door u ingeschakelde bronnen"],
+      ["<strong>Schermafbeelding-import (OCR)</strong><br>Door u gekozen brokerschermafbeeldingen", "Volledig lokaal via Apple Vision", "<strong>Nooit</strong>", "<strong>Nooit</strong>"],
+      ["<strong>Widgets &amp; vergrendeling</strong><br>Weergavesamenvatting, Face ID, wachtwoord", "Privé App Group &amp; Sleutelhanger (alleen gezouten hash)", "<strong>Nooit</strong>", "<strong>Nooit</strong>"],
+      ["<strong>Lokale Mac MCP-server</strong><br>Vragen van lokale AI-clients (standaard uit)", "Alleen loopback <code>127.0.0.1</code> op uw Mac", "<strong>Nooit</strong>", "Alleen naar de door u gekoppelde AI-client"],
+      ["<strong>Versleutelde diagnose</strong><br><code>.wtdiag</code>-bestand (alleen bij eigen export)", "Lokaal tot u het zelf mailt", "Alleen als u het naar support stuurt", "<strong>Nooit</strong>"]
+    ],
+    "sections": [
+      {
+        "title": "Gegevens opgeslagen op uw apparaat",
+        "paragraphs_html": [
+          "WorthTrail slaat uw bezittingen, aantallen, aankoopwaarde, schulden, positiewijzigingen, dividenden, beleggingsplannen, labels, notities, instellingen en historische snapshots lokaal op via Apple SwiftData.",
+          "De ontwikkelaar exploiteert geen server die uw portefeuille ontvangt, opslaat of inziet, en WorthTrail vereist geen gebruikersaccount."
+        ]
+      },
+      {
+        "title": "Optionele privé iCloud-synchronisatie",
+        "paragraphs_html": [
+          "Als u iCloud-synchronisatie inschakelt, worden gegevens uitsluitend gesynchroniseerd via uw persoonlijke privé Apple CloudKit-database gekoppeld aan uw Apple Account.",
+          "De ontwikkelaar heeft geen toegang tot uw privé CloudKit-database. Gesynchroniseerde gegevens vallen onder de beveiligings- en privacyarchitectuur van Apple iCloud."
+        ]
+      },
+      {
+        "title": "Aanbieders van marktgegevens en wisselkoersen",
+        "paragraphs_html": [
+          "Wanneer u een belegging zoekt of koersen en wisselkoersen ververst, stuurt WorthTrail uitsluitend de benodigde zoekterm, het symbool, de bron-ID en de gevraagde valuta naar de aanbieders die u hebt ingeschakeld onder <strong>Instellingen &gt; Gegevensbronnen</strong>.",
+          "Deze aanbieders (zoals Yahoo Finance, Webull, Sina Finance, Binance, OKX, CoinGecko, CoinMarketCap, TWSE en ExchangeRate-API) kunnen uw IP-adres en standaard netwerkgegevens ontvangen volgens hun eigen privacybeleid. WorthTrail stuurt nooit uw aantallen, aankoopwaarde of saldi."
+        ]
+      },
+      {
+        "title": "Lokale OCR, widgets, back-ups en diagnose",
+        "paragraphs_html": [
+          "<strong>Bulkimport via schermafbeelding (OCR):</strong> geselecteerde afbeeldingen worden lokaal op uw apparaat herkend met Apple Vision en nooit geüpload naar WorthTrail-servers.",
+          "<strong>Widgets:</strong> lezen alleen de benodigde samenvatting via de privé App Group-container. De privacywidget bevat geen bedragen.",
+          "<strong>Lokale back-ups &amp; diagnose:</strong> wachtwoordbeveiligde back-ups worden voor export lokaal versleuteld. Optionele <code>.wtdiag</code>-bestanden worden alleen op uw verzoek aangemaakt en voor verzending versleuteld."
+        ]
+      },
+      {
+        "title": "Lokale Mac MCP-server",
+        "paragraphs_html": [
+          "WorthTrail voor Mac biedt een optionele lokale Streamable HTTP MCP-server die strikt gebonden is aan <code>127.0.0.1</code> en beveiligd is met een Bearer-token in de macOS-sleutelhanger. Deze staat standaard uit, is alleen-lezen totdat u schrijven inschakelt en vereist een voorbeeld en bevestigingscode voor elke schrijfactie.",
+          "Als u deze lokale server koppelt aan een AI-client (zoals Claude Code, Claude Desktop of Codex), vallen de gegevens die u door die client laat opvragen onder het privacybeleid van die client en modelaanbieder."
+        ]
+      },
+      {
+        "title": "Geen advertenties, geen tracking, aankopen en app-vergrendeling",
+        "paragraphs_html": [
+          "WorthTrail bevat geen advertenties, geen cross-app tracking en geen analyse-SDK's van derden.",
+          "In-app aankopen en abonnementen worden uitsluitend verwerkt door Apple StoreKit. Face ID en Touch ID worden afgehandeld door iOS/macOS zonder toegang tot biometrische gegevens. De wachtwoordvergrendeling slaat uitsluitend een gezouten cryptografische hash op."
+        ]
+      },
+      {
+        "title": "Gegevens verwijderen, wijzigingen en contact",
+        "paragraphs_html": [
+          "U verwijdert alle lokale gegevens door WorthTrail van uw apparaat te verwijderen. Gesynchroniseerde gegevens beheert of verwijdert u via de Apple iCloud-instellingen, en geëxporteerde back-ups, Excel-, PDF- of diagnosebestanden waar u ze hebt opgeslagen.",
+          "Dit beleid kan worden bijgewerkt bij functiewijzigingen. Voor privacyvragen kunt u terecht op de <a href=\"__SUPPORT_URL__\">Ondersteuningspagina</a> of mailen naar <a href=\"mailto:support@worthtrail.app\">support@worthtrail.app</a>."
+        ]
+      }
+    ]
+  }
+}

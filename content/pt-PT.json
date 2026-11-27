@@ -1,0 +1,465 @@
+{
+  "nav": {
+    "brand_alt": "Ícone do WorthTrail",
+    "aria_label": "Navegação principal",
+    "overview": "Visão geral",
+    "faq": "FAQ",
+    "faq_long": "Perguntas frequentes",
+    "compare": "Comparar",
+    "compare_long": "Comparar alternativas",
+    "mcp": "Mac MCP",
+    "mcp_long": "Servidor MCP Mac",
+    "support": "Suporte",
+    "privacy": "Privacidade",
+    "privacy_long": "Política de Privacidade",
+    "language_label": "Idioma",
+    "menu": "Menu",
+    "download_cta": "Descarregar na App Store"
+  },
+  "footer": {
+    "disclaimer": "O WorthTrail destina-se apenas ao registo e análise pessoal do património e não presta aconselhamento financeiro. Os dados de mercado podem estar atrasados, incompletos ou imprecisos. Consulte sempre as suas contas e extratos oficiais."
+  },
+  "home": {
+    "title": "WorthTrail — Controlo privado de património líquido e carteira para iOS e Mac (sem login bancário)",
+    "meta_description": "O WorthTrail é um gestor privado e local-first de património líquido e carteira para iPhone, iPad e Mac. Ações, ETFs, fundos, cripto, depósitos a prazo, imóveis e passivos em várias moedas sem ligar bancos, compra única e servidor MCP local no Mac.",
+    "og_title": "WorthTrail — Controlo privado de património líquido e carteira (sem login bancário)",
+    "og_description": "Um registo sereno e privado para ações, ETFs, fundos, cripto, depósitos a prazo, imóveis e passivos no iPhone, iPad e Mac. Sem acesso bancário, sincronização privada iCloud, compra vitalícia e servidor MCP Mac.",
+    "offer_currency": "USD",
+    "offer_prices": ["0.99", "5.99", "12.99"],
+    "offers": [
+      "Grátis (Todas as funcionalidades, até 10 itens)",
+      "WorthTrail Pro Mensal (Ativos ilimitados)",
+      "WorthTrail Pro Anual (Ativos ilimitados)",
+      "WorthTrail Pro Vitalício (Compra única, ativos ilimitados)"
+    ],
+    "hero_eyebrow": "Registo patrimonial privado · iPhone · iPad · Mac",
+    "hero_h1": "Um registo discreto e privado para todo o seu património líquido.",
+    "hero_lead_html": "O <strong>WorthTrail</strong> é um gestor local-first de património líquido e carteira para dispositivos Apple. Acompanhe ações globais, ETFs, fundos, cripto, opções, depósitos a prazo, imóveis e passivos em várias moedas — guardados apenas no seu dispositivo e no seu iCloud privado, <strong>sem qualquer login bancário</strong>.",
+    "cta_primary": "Descarregar na App Store",
+    "cta_secondary": "Comparar alternativas",
+    "hero_trust": [
+      "Sem login bancário nem Plaid",
+      "Todas as funcionalidades grátis (até 10 itens)",
+      "Opção de compra única ($12,99)"
+    ],
+    "hero_img_alt": "Visão geral do WorthTrail em iOS com património líquido, ativos totais, passivos e variação diária",
+    "kpis": [
+      {"val": "Zero Plaid", "lbl": "Nunca pede credenciais bancárias ou de corretora", "nums": false},
+      {"val": "45+ idiomas", "lbl": "Conversão automática multimoeda", "nums": true},
+      {"val": "$12,99 único", "lbl": "Desbloqueio vitalício opcional", "nums": true},
+      {"val": "Mac MCP", "lbl": "Protocolo local integrado para agentes IA", "nums": false}
+    ],
+    "screens_eyebrow": "Por dentro",
+    "screens_h2": "Concebido para oferecer clareza em cada classe de ativos.",
+    "screens_lead": "Ecrãs reais do WorthTrail em iOS — tipografia limpa, números claros e zero anúncios.",
+    "screens": [
+      {
+        "alt": "Calendário de lucros e perdas do WorthTrail por dia, mês e ano",
+        "title": "Desempenho e Calendário de lucros e perdas",
+        "desc": "Ganhos diários, semanais, mensais e anuais, custo de aquisição e quedas numa única linha temporal."
+      },
+      {
+        "alt": "Calendário de dividendos e rendimento passivo no WorthTrail",
+        "title": "Dividendos e rendimento passivo",
+        "desc": "Datas ex-dividendo, rendimentos líquidos após impostos, concentração e cobertura FIRE."
+      },
+      {
+        "alt": "Composição de ativos por etiquetas e reequilíbrio no WorthTrail",
+        "title": "Composição e reequilíbrio",
+        "desc": "Agrupe por conta, familiar, setor ou região e calcule o reequilíbrio para os seus pesos-alvo."
+      },
+      {
+        "alt": "Servidor MCP local do WorthTrail para agentes IA no Mac",
+        "title": "Agentes IA locais (Mac MCP)",
+        "desc": "Consulte património e posições no Claude ou Codex com confirmação em dois passos."
+      }
+    ],
+    "pillars_eyebrow": "Arquitetura de clareza",
+    "pillars_h2": "Pensado para património a longo prazo, não para feeds ruidosos de despesas.",
+    "pillars_lead": "Cada posição, moeda, dividendo e passivo reúne-se num registo verificável sob o seu controlo absoluto.",
+    "pillars": [
+      {
+        "num": "01 / PRIVACIDADE",
+        "title": "Local-first e iCloud privado",
+        "desc": "Guardado no seu dispositivo com Apple SwiftData e sincronizado apenas através da sua base de dados privada CloudKit. Sem servidor do programador, sem login bancário, sem anúncios nem SDKs de analítica."
+      },
+      {
+        "num": "02 / MULTIATIVO",
+        "title": "Mercados globais e depósitos a prazo",
+        "desc": "Acompanhe ações (EUA, Europa, HK, CN, TW e globais), ETFs, fundos, cripto, opções, depósitos a prazo, numerário, imóveis e empréstimos com fontes configuráveis."
+      },
+      {
+        "num": "03 / PLANEAMENTO",
+        "title": "FIRE, dividendos e reequilíbrio",
+        "desc": "Estime a sua data FIRE e a duração do capital, acompanhe dividendos e juros líquidos, planos recorrentes, desdobramentos e exporte relatórios em Excel ou PDF."
+      }
+    ],
+    "mcp_eyebrow": "Model Context Protocol · macOS",
+    "mcp_h2": "Servidor MCP local integrado para Claude e Codex.",
+    "mcp_lead_html": "O WorthTrail para Mac inclui um <strong>servidor MCP Streamable HTTP</strong> local opcional (<code>http://127.0.0.1:47821/mcp</code>) protegido por um token Bearer no Porta-chaves do macOS. Faça perguntas em linguagem natural sobre património líquido, posições, desempenho, dividendos e FIRE sem enviar a sua carteira para a nuvem.",
+    "mcp_callout_html": "<strong>Segurança de raiz:</strong> desativado por predefinição, apenas em localhost, só de leitura salvo ativação expressa da escrita, e cada alteração exige pré-visualização e código de confirmação.",
+    "mcp_link": "Ler o guia Mac MCP",
+    "mcp_img_alt": "Definições de Acesso de agentes MCP no WorthTrail",
+    "pricing_eyebrow": "Condições transparentes",
+    "pricing_h2": "Todas as funcionalidades são gratuitas. Pague apenas acima de 10 itens.",
+    "pricing_lead": "Sincronização iCloud, dividendos, FIRE, reequilíbrio, relatórios, widgets e Mac MCP estão incluídos gratuitamente. O WorthTrail Pro apenas remove o limite de 10 itens.",
+    "plans": [
+      {
+        "tag": "Grátis",
+        "price": "$0",
+        "unit": "",
+        "desc": "Até 10 itens (ativos, contas de numerário e passivos no total). Todas as funcionalidades incluídas, sem armadilhas."
+      },
+      {
+        "tag": "Subscrição Pro",
+        "price": "$5,99",
+        "unit": "/ ano",
+        "desc": "Ativos e passivos ilimitados. Também mensal por $0,99/mês (preços em euros na App Store)."
+      },
+      {
+        "tag": "Pro Vitalício",
+        "price": "$12,99",
+        "unit": "único",
+        "featured": true,
+        "desc": "Pagamento único para ativos ilimitados para sempre. Preços regionais ajustados pela Apple em 175 lojas."
+      }
+    ],
+    "explore_h2": "Explorar mais",
+    "explore_items": [
+      {"page": "faq", "title": "Perguntas frequentes e dados do produto", "desc": "cobertura de ativos, fontes de dados, privacidade e preços."},
+      {"page": "vs", "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera e folhas de cálculo", "desc": "comparação honesta lado a lado."},
+      {"page": "mcp", "title": "Guia do servidor MCP local no Mac", "desc": "ligue o Claude Code, Claude Desktop ou Codex em segurança."},
+      {"page": "support", "title": "Suporte e resolução de problemas", "desc": "contacto rápido, diagnóstico encriptado e guias práticos."},
+      {"href": "/llms.txt", "title": "llms.txt", "desc": "resumo estruturado para ferramentas de IA e motores de busca."}
+    ]
+  },
+  "faq": {
+    "title": "Perguntas frequentes WorthTrail — Património líquido sem login bancário",
+    "meta_description": "Respostas às perguntas mais comuns sobre o WorthTrail: privacidade sem login bancário, ativos multimoeda, compra única, dividendos, FIRE, fontes de dados e Mac MCP.",
+    "eyebrow": "Factos e respostas",
+    "h1": "Perguntas frequentes",
+    "lead": "Respostas diretas sobre privacidade, cobertura de ativos, preços e o servidor MCP local no Mac.",
+    "items": [
+      {
+        "q": "O WorthTrail exige ligar uma conta bancária ou de corretora?",
+        "a_plain": "Não. O WorthTrail nunca pede credenciais bancárias nem integra Plaid ou outros agregadores. Regista as suas posições diretamente enquanto cotações públicas e câmbios atualizam-se automaticamente.",
+        "a_html": "<strong>Não.</strong> O WorthTrail foi criado propositadamente sem login bancário nem Plaid. Regista diretamente posições, numerário, depósitos a prazo e passivos, enquanto as cotações públicas e taxas de câmbio atualizam-se automaticamente."
+      },
+      {
+        "q": "Onde ficam guardados os dados da minha carteira?",
+        "a_plain": "Todos os dados ficam guardados localmente no dispositivo com Apple SwiftData. A sincronização opcional utiliza exclusivamente a sua base privada Apple CloudKit. O programador não opera nenhum servidor com os seus dados.",
+        "a_html": "Os seus dados ficam no seu dispositivo através do Apple SwiftData. A sincronização opcional entre dispositivos usa apenas a sua base de dados privada Apple iCloud (CloudKit). O programador não opera servidores que recebam a sua carteira e a app não tem anúncios nem SDKs de analítica."
+      },
+      {
+        "q": "Como funcionam os preços? Existe compra única?",
+        "a_plain": "Sim. O plano gratuito inclui todas as funcionalidades até 10 itens. O WorthTrail Pro remove apenas esse limite: $0,99/mês, $5,99/ano ou $12,99 numa compra única vitalícia.",
+        "a_html": "<strong>Sim.</strong> O plano gratuito inclui <strong>todas as funcionalidades</strong> até <strong>10 itens</strong> (ativos, numerário e passivos em conjunto). O WorthTrail Pro apenas remove este limite: US$0,99/mês, US$5,99/ano ou <strong>US$12,99 compra única vitalícia</strong> (preços em euros na App Store)."
+      },
+      {
+        "q": "Que tipos de ativos e mercados são suportados?",
+        "a_plain": "Ações globais, ETFs, fundos de investimento, criptomoedas, opções, depósitos a prazo, numerário, ativos personalizados como imóveis ou ouro e passivos como créditos habitação, com conversão automática multimoeda.",
+        "a_html": "O WorthTrail acompanha ações globais (EUA, Europa, HK, CN, TW e bolsas internacionais), ETFs, fundos de investimento, criptomoedas, opções, depósitos a prazo, numerário, ativos personalizados (imóveis, ouro, obrigações) e passivos (crédito habitação, empréstimos, cartões). Todas as moedas convertem-se para a sua moeda principal."
+      },
+      {
+        "q": "Que fornecedores de dados de mercado utiliza o WorthTrail?",
+        "a_plain": "Pode ativar, desativar e ordenar fontes em Definições > Fontes de dados e estado: Yahoo Finance, Webull, Binance, OKX, Sina Finance, TWSE e ExchangeRate-API.",
+        "a_html": "Pode ativar, desativar e ordenar fontes em <strong>Definições &gt; Fontes de dados e estado</strong>, incluindo Yahoo Finance, Webull, Binance, OKX, Sina Finance, TWSE e ExchangeRate-API. Apenas os símbolos e moedas necessários são enviados às fontes ativas."
+      },
+      {
+        "q": "Suporta dividendos, FIRE e reequilíbrio?",
+        "a_plain": "Sim. Inclui calendário de dividendos com datas ex-dividendo e rendimento líquido, painel FIRE, planos recorrentes, desdobramentos e calculadora de reequilíbrio.",
+        "a_html": "<strong>Sim.</strong> Inclui calendário de dividendos com rendimento passivo após impostos, análise de crescimento e concentração, painel FIRE personalizável, planos recorrentes, ajuste de desdobramentos e calculadora de reequilíbrio."
+      },
+      {
+        "q": "Como funciona o servidor MCP local no Mac?",
+        "a_plain": "No Mac, o WorthTrail inclui um servidor MCP Streamable HTTP local em http://127.0.0.1:47821/mcp com token Bearer no Porta-chaves para Claude Code, Claude Desktop e Codex. A escrita está desativada por predefinição e requer confirmação em dois passos.",
+        "a_html": "No Mac, o WorthTrail inclui um servidor MCP Streamable HTTP local (<code>http://127.0.0.1:47821/mcp</code>) protegido por token Bearer no Porta-chaves. Ligue o Claude Code, Claude Desktop ou Codex para consultar património líquido, posições, desempenho, dividendos e FIRE. As escritas estão desativadas por predefinição e exigem sempre pré-visualização e código de confirmação. Veja o <a href=\"__MCP_URL__\">guia Mac MCP</a>."
+      },
+      {
+        "q": "Posso exportar ou fazer cópias de segurança locais?",
+        "a_plain": "Sim. Pode exportar cópias locais encriptadas com palavra-passe, bem como livros Excel (.xlsx) e relatórios PDF.",
+        "a_html": "<strong>Sim.</strong> Pode exportar cópias de segurança locais encriptadas com palavra-passe (e restaurá-las quando quiser), além de livros Excel (<code>.xlsx</code>) e relatórios PDF."
+      },
+      {
+        "q": "Que plataformas são suportadas?",
+        "a_plain": "O WorthTrail está disponível para iPhone, iPad e Mac na Apple App Store em mais de 45 idiomas. De momento não existem versões Android nem web.",
+        "a_html": "O WorthTrail está disponível para iPhone, iPad e Mac na <a href=\"__APP_STORE_URL__\" rel=\"noopener\">Apple App Store</a> em mais de 45 idiomas. De momento não estão disponíveis versões Android nem web."
+      }
+    ]
+  },
+  "vs": {
+    "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera e folhas de cálculo",
+    "meta_description": "Comparação objetiva entre o WorthTrail e Monarch Money, Copilot Money, Kubera e folhas de cálculo: login bancário, privacidade, multimoeda, preços e Mac MCP.",
+    "eyebrow": "Comparação honesta",
+    "h1": "WorthTrail face aos principais gestores de património líquido",
+    "lead_html": "Ferramentas diferentes resolvem problemas diferentes. Abaixo encontra uma comparação direta entre o <strong>WorthTrail</strong> e o <strong>Monarch Money</strong>, <strong>Copilot Money</strong>, <strong>Kubera</strong> e <strong>folhas de cálculo</strong> — incluindo quando faz sentido escolher outra solução.",
+    "table_h2": "Comparação lado a lado",
+    "table_headers": ["Dimensão", "WorthTrail", "Monarch Money", "Copilot Money", "Kubera", "Folhas de cálculo"],
+    "table_rows": [
+      ["Login bancário / Plaid", "<strong>Nenhum (sem login bancário)</strong>", "Função central (Plaid / MX / Finicity)", "Função central (Plaid / agregadores)", "Função central (vários agregadores)", "Manual (salvo scripts)"],
+      ["Armazenamento", "<strong>Local SwiftData + iCloud privado opcional</strong>", "Nuvem do fornecedor", "Nuvem do fornecedor", "Nuvem do fornecedor", "Local ou cloud drive"],
+      ["Multimoeda e mercados globais", "<strong>Multimoeda nativo; ações globais, ETFs, cripto, depósitos</strong>", "Sobretudo EUA / Canadá", "Sobretudo EUA", "Forte em global e multimoeda", "Manual / fórmulas próprias"],
+      ["Orçamento e despesas bancárias", "Não é app de orçamento", "<strong>Forte</strong>", "<strong>Forte</strong>", "Não é app de orçamento", "Manual"],
+      ["Dividendos, FIRE e reequilíbrio", "<strong>Integrados</strong>", "Objetivos básicos", "Investimentos básicos", "Foco património e TIR", "Fórmulas personalizadas"],
+      ["IA local / Servidor MCP", "<strong>Servidor MCP Mac integrado</strong>", "Sem MCP local", "Sem MCP local", "Sem MCP local", "Configuração manual"],
+      ["Modelo de preços", "<strong>Grátis (10 itens, tudo); $0,99/m, $5,99/a ou $12,99 vitalício</strong>", "Só subscrição (~$99,99/ano)", "Só subscrição (~$95/ano)", "Só subscrição (~$199+/ano)", "Grátis / suite Office"],
+      ["Plataformas", "iPhone, iPad, Mac", "Web, iOS, Android", "iOS, Mac, Web", "Web, iOS, Android", "Multiplataforma"]
+    ],
+    "table_note": "Nota: preços e funcionalidades de terceiros são aproximados e podem mudar; confirme sempre nos sites oficiais.",
+    "sections": [
+      {
+        "id": "monarch",
+        "h2": "WorthTrail vs Monarch Money",
+        "bullets_html": [
+          "<strong>Escolha o Monarch Money</strong> se vive nos EUA ou Canadá e quer sincronização bancária automática, orçamento familiar e acesso web ou Android.",
+          "<strong>Escolha o WorthTrail</strong> se não quer partilhar credenciais bancárias, investe em várias moedas ou mercados internacionais, prefere iCloud privado e uma compra única de $12,99."
+        ]
+      },
+      {
+        "id": "copilot",
+        "h2": "WorthTrail vs Copilot Money",
+        "bullets_html": [
+          "<strong>Escolha o Copilot Money</strong> se procura uma app Apple focada em orçamento diário e categorização automática de despesas bancárias nos EUA.",
+          "<strong>Escolha o WorthTrail</strong> se o seu foco é o <strong>património líquido, desempenho, dividendos, depósitos a prazo, reequilíbrio e FIRE</strong> — sem login bancário, com suporte multimoeda e servidor MCP no Mac."
+        ]
+      },
+      {
+        "id": "kubera",
+        "h2": "WorthTrail vs Kubera",
+        "bullets_html": [
+          "<strong>Escolha o Kubera</strong> se pretende uma plataforma web global com agregação bancária automática e planeamento sucessório, aceitando uma subscrição anual elevada.",
+          "<strong>Escolha o WorthTrail</strong> se prefere uma app nativa para iPhone/iPad/Mac cujos dados nunca tocam servidores externos, com cotações automáticas, calendário de lucros e perdas, dividendos, FIRE e uma fração do custo."
+        ]
+      },
+      {
+        "id": "spreadsheets",
+        "h2": "WorthTrail vs Folhas de cálculo (Excel / Google Sheets)",
+        "bullets_html": [
+          "<strong>Escolha folhas de cálculo</strong> se precisa de modelos financeiros totalmente personalizados em Windows, Linux ou web.",
+          "<strong>Escolha o WorthTrail</strong> se está cansado de fórmulas de cotações avariadas, câmbios manuais e instantâneos históricos à mão — mantendo a exportação limpa em Excel (<code>.xlsx</code>) sempre que precisar."
+        ]
+      }
+    ],
+    "cta_h2": "Pronto para experimentar o WorthTrail?",
+    "cta_lead": "Comece gratuitamente com todas as funcionalidades até 10 itens, sem registo de conta e sem login bancário.",
+    "cta_primary": "Descarregar na App Store",
+    "cta_secondary": "Ler perguntas frequentes"
+  },
+  "mcp": {
+    "title": "Servidor MCP Mac WorthTrail — Ligue o Claude e agentes IA à sua carteira local",
+    "meta_description": "O WorthTrail no Mac inclui um servidor MCP Streamable HTTP local para Claude Code, Claude Desktop e Codex. Consulte património líquido, posições, desempenho, dividendos e FIRE localmente.",
+    "ld_headline": "Servidor MCP local do WorthTrail no Mac para agentes IA",
+    "eyebrow": "Model Context Protocol · macOS · Apenas localhost",
+    "h1": "Pergunte à IA sobre o seu património líquido sem o enviar para a nuvem.",
+    "lead_html": "O <strong>WorthTrail para Mac</strong> integra um servidor local <strong>MCP (Model Context Protocol)</strong> via Streamable HTTP. Ligue o <strong>Claude Code</strong>, <strong>Claude Desktop</strong>, <strong>Codex</strong> ou qualquer cliente compatível para consultar a carteira e registar alterações apenas após aprovação explícita.",
+    "cta_primary": "Obter WorthTrail no Mac",
+    "cta_secondary": "Ler perguntas frequentes",
+    "img_alt": "Ecrã de definições Acesso de agentes MCP no WorthTrail",
+    "specs_h2": "Especificações de ligação",
+    "specs_col_prop": "Propriedade",
+    "specs_col_val": "Valor",
+    "spec_rows": [
+      ["Transporte", "Streamable HTTP (apenas loopback local)"],
+      ["Endereço predefinido", "<code>http://127.0.0.1:47821/mcp</code> (porta configurável em Definições, 1024–65535)"],
+      ["Autenticação", "<code>Authorization: Bearer &lt;token&gt;</code> (guardado no Porta-chaves macOS; redefinível a qualquer momento)"],
+      ["Disponibilidade", "Ativo apenas enquanto o WorthTrail estiver aberto no Mac e o Acesso de agentes estiver ligado"],
+      ["Preço", "Incluído no plano gratuito (sem paywall no MCP; o limite de 10 itens aplica-se ao adicionar novos ativos)"]
+    ],
+    "connect_h2": "Como ligar",
+    "connect_intro_html": "Abra o <strong>WorthTrail no Mac &rarr; Definições &rarr; Acesso de agentes</strong>, ative o acesso local e copie o seu prompt de configuração ou token Bearer.",
+    "tools_h2": "O que os agentes IA podem consultar e fazer",
+    "read_h3": "Ferramentas de leitura (ativas ao ligar o Acesso de agentes)",
+    "read_items_html": [
+      "Património líquido atual, ativos totais, passivos, custo de aquisição e variação diária (<code>get_net_worth</code>)",
+      "Posições abertas por categoria ou moeda: ações, ETFs, cripto, opções, depósitos e ativos personalizados (<code>list_positions</code>, <code>list_liabilities</code>)",
+      "Instantâneos históricos e detalhe diário das posições (<code>get_snapshots</code>, <code>get_snapshot_detail</code>)",
+      "Desempenho no período, curvas ponderadas pelo dinheiro e ganhos diários por ativo (<code>get_performance</code>, <code>get_daily_earnings</code>)",
+      "Dividendos, planos recorrentes, histórico de transações e projeções FIRE"
+    ],
+    "write_h3": "Ferramentas de escrita (interruptor separado)",
+    "write_items_html": [
+      "Desativadas por predefinição — ativar a leitura nunca ativa automaticamente a escrita.",
+      "<strong>Confirmação em dois passos:</strong> a primeira chamada devolve uma pré-visualização legível e um código temporário. A alteração só se aplica quando aprova e o agente envia a segunda chamada com esse código.",
+      "Permite registar operações, ajustes de posição, ativos, passivos, planos e anulações, com registo integrado em Definições."
+    ],
+    "examples_h2": "Exemplos de perguntas",
+    "example_questions": [
+      "«Qual é o meu património líquido atual em EUR e quanto variou a minha carteira este mês?»",
+      "«Que posições mais contribuíram para os meus lucros e perdas nos últimos 90 dias?»",
+      "«Quanto rendimento anual em dividendos e juros de depósitos a prazo devo receber e que parte das minhas despesas FIRE cobre?»",
+      "«Mostra-me a pré-visualização para adicionar 10 ações de AAPL a $225 hoje e aguarda a minha confirmação antes de registar.»"
+    ],
+    "security_h2": "Modelo de segurança",
+    "security_items_html": [
+      "<strong>Apenas localhost:</strong> escuta exclusivamente em <code>127.0.0.1</code>, nunca exposto na rede local nem na Internet.",
+      "<strong>Respeita o bloqueio da app:</strong> todos os pedidos são bloqueados enquanto o WorthTrail estiver bloqueado.",
+      "<strong>Proteção contra injeção de prompts:</strong> as instruções indicam aos agentes que tratem nomes, símbolos, etiquetas e notas estritamente como dados e nunca como comandos.",
+      "<strong>Revogação instantânea:</strong> desligue o interruptor, altere a porta ou redefina o token no Porta-chaves para desligar imediatamente todos os clientes."
+    ]
+  },
+  "support": {
+    "title": "Suporte WorthTrail — Ajuda, resolução de problemas e contacto",
+    "meta_description": "Obtenha ajuda com o WorthTrail, comunique um problema, peça um ativo ou fonte de dados, exporte o ficheiro de diagnóstico encriptado ou escreva para support@worthtrail.app.",
+    "eyebrow": "Ajuda e contacto",
+    "h1": "Como podemos ajudar?",
+    "lead_html": "Para apoio técnico, relatórios de erros, ativos em falta ou questões de privacidade, envie e-mail para <a href=\"mailto:support@worthtrail.app\">support@worthtrail.app</a> ou escolha um tema abaixo.",
+    "default_subject": "WorthTrail Feedback",
+    "cta_email": "Enviar e-mail para support@worthtrail.app",
+    "cta_faq": "Ler perguntas frequentes",
+    "contact_h2": "Escolha um tema",
+    "contact_lead": "Escolher um tema preenche automaticamente o assunto do e-mail para acelerarmos a resposta.",
+    "topics": [
+      {
+        "tag": "Erro",
+        "title": "Comunicar um problema",
+        "desc": "Valores inesperados, atrasos na sincronização, erros visuais ou falhas. Indique a versão da app, iOS/macOS e passos.",
+        "action": "Enviar relatório",
+        "subject": "[Problem] WorthTrail"
+      },
+      {
+        "tag": "Mercados",
+        "title": "Ativo ou fonte de dados em falta",
+        "desc": "Não encontra uma ação, ETF ou fundo? Indique o símbolo, bolsa/ISIN e moeda.",
+        "action": "Pedir ativo ou fonte",
+        "subject": "[Missing Asset / Data Source] WorthTrail"
+      },
+      {
+        "tag": "Produto",
+        "title": "Sugerir funcionalidade",
+        "desc": "Ideias para dividendos, FIRE, reequilíbrio, relatórios ou Mac MCP? Partilhe como utiliza a app.",
+        "action": "Enviar sugestão",
+        "subject": "[Feature Request] WorthTrail"
+      },
+      {
+        "tag": "Privacidade e Pro",
+        "title": "Privacidade ou compra Pro",
+        "desc": "Questões sobre armazenamento iCloud, cópias locais ou restauro de uma subscrição Pro ou compra vitalícia.",
+        "action": "Contactar suporte",
+        "subject": "[Support] WorthTrail"
+      }
+    ],
+    "diagnostics_h2": "Suporte na app e ficheiro de diagnóstico encriptado",
+    "diagnostics_p1_html": "No WorthTrail, abra <strong>Definições &gt; Contacto e suporte</strong> para enviar e-mail diretamente ou exportar um <strong>Ficheiro de diagnóstico encriptado</strong> (<code>.wtdiag</code>) ao investigar problemas complexos de fontes ou cálculos.",
+    "privacy_callout_html": "<strong>Lembrete de privacidade:</strong> não inclua números de conta, palavras-passe, chaves API ou documentos financeiros sensíveis em e-mails normais. Partilhe um ficheiro de diagnóstico apenas quando necessário.",
+    "help_h2": "Resolução rápida de problemas",
+    "help_lead": "A maioria das questões comuns resolve-se diretamente em Definições.",
+    "help_groups": [
+      {
+        "title": "Dados de mercado, cotações e ativos personalizados",
+        "items_html": [
+          "Verifique a ligação em <strong>Definições &gt; Fontes de dados e estado</strong>. O teste utiliza o mesmo endpoint das atualizações em tempo real.",
+          "Alguns fornecedores (como o Yahoo Finance) podem estar limitados em certas redes; pode reordená-los ou trocá-los quando quiser.",
+          "Para imóveis, ouro ou ativos não cotados, adicione um <strong>Ativo personalizado</strong> e atualize o valor manualmente."
+        ]
+      },
+      {
+        "title": "Posições, custo de aquisição, desdobramentos e importação em lote",
+        "items_html": [
+          "Registe compras, vendas ou ajustes com preço e data opcionais para manter exatos o histórico e o custo de aquisição.",
+          "Utilize a <strong>importação em lote</strong> via ficheiros CSV ou capturas de ecrã de corretora (o OCR corre inteiramente no dispositivo).",
+          "Use <strong>Desdobramento</strong> no ativo para ajustar quantidades e custos históricos após um split.",
+          "Os instantâneos históricos alimentam a curva de património líquido e o Calendário de lucros e perdas e acompanham o iCloud e as cópias locais."
+        ]
+      },
+      {
+        "title": "Sincronização iCloud, cópias encriptadas e restaurar Pro",
+        "items_html": [
+          "A sincronização opcional usa a sua base privada Apple CloudKit — confirme que a mesma Conta Apple está iniciada em todos os dispositivos.",
+          "Exporte e restaure cópias locais protegidas por palavra-passe a qualquer momento em <strong>Definições</strong>.",
+          "Para restaurar o WorthTrail Pro num novo dispositivo, abra o ecrã <strong>Pro</strong> em Definições e toque em <strong>Restaurar compras</strong>.",
+          "O WorthTrail não tem contas de utilizador: apagar a app remove os dados locais; os dados iCloud gerem-se nas definições do iCloud."
+        ]
+      },
+      {
+        "title": "Bloqueio de privacidade, widgets e Mac MCP",
+        "items_html": [
+          "Toque no ícone do olho junto ao <strong>Património líquido</strong> para ocultar os valores no ecrã.",
+          "Adicione o WorthTrail a partir da galeria de widgets do iOS; o widget de privacidade mostra apenas a variação percentual e a linha de tendência.",
+          "Se o Mac MCP não ligar, confirme que o WorthTrail está aberto e desbloqueado no Mac, <strong>Definições &gt; Acesso de agentes</strong> está ativo e o cliente usa <code>http://127.0.0.1:47821/mcp</code> com o token Bearer atual."
+        ]
+      }
+    ],
+    "more_h2": "Recursos úteis",
+    "more_faq": "Perguntas frequentes e dados do produto",
+    "more_mcp": "Guia do servidor MCP local no Mac",
+    "more_privacy": "Política de Privacidade"
+  },
+  "privacy": {
+    "title": "Política de Privacidade WorthTrail — Local-first, sem login bancário",
+    "meta_description": "Política de Privacidade do WorthTrail: armazenamento local SwiftData, sincronização iCloud privada opcional, OCR no dispositivo, Mac MCP local, sem login bancário, sem anúncios nem analítica.",
+    "eyebrow": "Arquitetura de privacidade",
+    "h1": "Política de Privacidade",
+    "lead": "O WorthTrail foi concebido para que todo o seu património líquido permaneça nos seus dispositivos e no seu iCloud pessoal — nunca num servidor do programador.",
+    "effective_date": "Data de entrada em vigor: 27 de novembro de 2026",
+    "applies_to": "Aplicável ao WorthTrail para iPhone, iPad e Mac",
+    "glance": [
+      {"val": "Zero bancos", "lbl": "Sem Plaid nem credenciais bancárias"},
+      {"val": "Local-first", "lbl": "Apenas SwiftData e iCloud privado"},
+      {"val": "Zero rastreio", "lbl": "Sem anúncios nem SDKs analíticos"},
+      {"val": "Seu controlo", "lbl": "Cópias encriptadas e remoção total"}
+    ],
+    "flow_h2": "Fluxo de dados num relance",
+    "flow_lead": "Onde reside cada categoria de informação e se alguma vez sai do seu dispositivo.",
+    "flow_headers": ["Categoria de dados", "Onde reside", "Enviado ao programador?", "Enviado a terceiros?"],
+    "flow_rows": [
+      ["<strong>Carteira e registo</strong><br>Ativos, quantidades, custo de aquisição, passivos, transações, etiquetas, notas, instantâneos", "O seu dispositivo (SwiftData) e iCloud privado opcional (CloudKit)", "<strong>Nunca</strong>", "Apenas Apple iCloud se ativar a sincronização"],
+      ["<strong>Cotações e câmbios</strong><br>Termos de pesquisa, símbolos, IDs de fonte, moedas", "Pedido de rede temporário", "<strong>Nunca</strong>", "Apenas aos fornecedores de mercado que ativar"],
+      ["<strong>Importação por captura (OCR)</strong><br>Capturas de corretora/fundo escolhidas por si", "Processado localmente no dispositivo via Apple Vision", "<strong>Nunca</strong>", "<strong>Nunca</strong>"],
+      ["<strong>Widgets e bloqueio</strong><br>Resumo visual, Face ID, palavra-passe", "App Group privado e Porta-chaves (apenas hash com sal)", "<strong>Nunca</strong>", "<strong>Nunca</strong>"],
+      ["<strong>Servidor MCP local Mac</strong><br>Pedidos de clientes IA locais (desligado por predefinição)", "Apenas loopback <code>127.0.0.1</code> no seu Mac", "<strong>Nunca</strong>", "Apenas ao cliente IA que ligar explicitamente"],
+      ["<strong>Diagnóstico encriptado</strong><br>Ficheiro <code>.wtdiag</code> (apenas se optar por exportar)", "Guardado localmente até o enviar por e-mail", "Apenas se o enviar ao suporte", "<strong>Nunca</strong>"]
+    ],
+    "sections": [
+      {
+        "title": "Dados guardados no seu dispositivo",
+        "paragraphs_html": [
+          "O WorthTrail guarda localmente no seu dispositivo através do Apple SwiftData os seus ativos, quantidades, custo de aquisição, passivos, ajustes de posição, dividendos, planos recorrentes, etiquetas, notas, definições e instantâneos históricos.",
+          "O programador não opera qualquer servidor backend que receba, armazene ou consulte a sua carteira, e o WorthTrail não exige a criação de conta."
+        ]
+      },
+      {
+        "title": "Sincronização privada opcional no iCloud",
+        "paragraphs_html": [
+          "Se ativar a sincronização iCloud, os dados sincronizam-se exclusivamente através da sua base de dados privada Apple CloudKit associada à sua Conta Apple.",
+          "O programador não tem acesso à sua base privada CloudKit. Os dados sincronizados regem-se pela arquitetura de segurança e privacidade do Apple iCloud."
+        ]
+      },
+      {
+        "title": "Fornecedores de dados de mercado e taxas de câmbio",
+        "paragraphs_html": [
+          "Quando pesquisa um ativo ou atualiza cotações e câmbios, o WorthTrail envia apenas o termo de pesquisa, símbolo, identificador da fonte e moeda pedida aos fornecedores ativados em <strong>Definições &gt; Fontes de dados e estado</strong>.",
+          "Estes fornecedores (como Yahoo Finance, Webull, Sina Finance, Binance, OKX, CoinGecko, CoinMarketCap, TWSE e ExchangeRate-API) podem receber o seu endereço IP e metadados de rede habituais segundo as respetivas políticas. O WorthTrail nunca envia quantidades, custos ou saldos."
+        ]
+      },
+      {
+        "title": "OCR local, widgets, cópias de segurança e diagnóstico",
+        "paragraphs_html": [
+          "<strong>Importação por captura (OCR):</strong> as imagens selecionadas são reconhecidas localmente no dispositivo através do Apple Vision e não são enviadas para servidores do WorthTrail.",
+          "<strong>Widgets:</strong> leem apenas o resumo necessário através do contentor privado App Group. O widget de privacidade omite quaisquer montantes monetários.",
+          "<strong>Cópias locais e diagnóstico:</strong> as cópias protegidas por palavra-passe são encriptadas no dispositivo antes da exportação. Os ficheiros <code>.wtdiag</code> opcionais só são gerados quando inicia uma exportação e são encriptados antes de sair da app."
+        ]
+      },
+      {
+        "title": "Servidor MCP local no Mac",
+        "paragraphs_html": [
+          "O WorthTrail para Mac inclui um servidor MCP Streamable HTTP local vinculado estritamente a <code>127.0.0.1</code> e autenticado com um token Bearer guardado no Porta-chaves do macOS. Está desligado por predefinição, é só de leitura salvo ativação separada da escrita, e requer pré-visualização e código de confirmação para cada escrita.",
+          "Se ligar o servidor MCP local a um cliente de IA (como Claude Code, Claude Desktop ou Codex), os dados que instruir esse cliente a consultar ficam sujeitos à política de privacidade desse cliente e do respetivo fornecedor do modelo."
+        ]
+      },
+      {
+        "title": "Sem anúncios, sem rastreio, compras e bloqueio",
+        "paragraphs_html": [
+          "O WorthTrail não contém publicidade, rastreio entre apps nem SDKs de analítica de terceiros.",
+          "As compras na app e subscrições são processadas exclusivamente pela Apple StoreKit. O Face ID e Touch ID são geridos pelo iOS/macOS sem acesso a dados biométricos. O bloqueio por palavra-passe guarda apenas um hash criptográfico com sal."
+        ]
+      },
+      {
+        "title": "Eliminação de dados, atualizações e contacto",
+        "paragraphs_html": [
+          "Pode remover todos os dados locais apagando o WorthTrail do dispositivo. Pode gerir ou apagar os dados sincronizados nas definições do Apple iCloud e apagar quaisquer cópias de segurança, Excel, PDF ou diagnósticos onde os guardou.",
+          "Esta política pode ser atualizada quando o comportamento da app mudar. Para questões de privacidade, visite a página de <a href=\"__SUPPORT_URL__\">Suporte</a> ou escreva para <a href=\"mailto:support@worthtrail.app\">support@worthtrail.app</a>."
+        ]
+      }
+    ]
+  }
+}

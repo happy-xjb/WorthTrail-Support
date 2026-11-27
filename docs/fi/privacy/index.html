@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorthTrail Tietosuojakäytäntö — Paikallinen ensin, ei pankkikirjautumista</title>
+  <meta name="description" content="WorthTrailin tietosuojakäytäntö: paikallinen SwiftData-tallennus, valinnainen yksityinen iCloud-synkronointi, paikallinen OCR, paikallinen Mac MCP, ei pankkikirjautumista, ei mainoksia eikä analytiikkaa.">
+  <link rel="canonical" href="https://worthtrail.app/fi/privacy/">
+  <link rel="alternate" hreflang="en" href="https://worthtrail.app/privacy/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/privacy/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/privacy/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/privacy/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/privacy/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/privacy/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/privacy/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/privacy/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/privacy/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/privacy/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/privacy/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/privacy/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/privacy/">
+  <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/fi/">
+        <img src="/assets/icon-192.png" alt="WorthTrail-kuvake" width="28" height="28">
+        <span>WorthTrail</span>
+      </a>
+      <nav class="nav-links" aria-label="Päävalikko">
+        <a href="/fi/">Yleiskatsaus</a>
+        <a href="/fi/faq/">UKK</a>
+        <a href="/fi/vs/">Vertailu</a>
+        <a href="/fi/mcp/">Mac MCP</a>
+        <a href="/fi/support/">Tuki</a>
+        <a href="/fi/privacy/" aria-current="page">Tietosuoja</a>
+        <details class="lang-menu">
+          <summary aria-label="Kieli">FI &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/privacy/"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/privacy/"><span>简体中文</span><span class="lang-code">中文</span></a>
+            <a href="/de/privacy/"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/privacy/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/privacy/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/privacy/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/privacy/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/privacy/"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/privacy/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/privacy/"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/privacy/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/privacy/" aria-current="true"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/privacy/"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary>Valikko</summary>
+        <div class="mobile-menu-panel">
+          <a href="/fi/">Yleiskatsaus</a>
+          <a href="/fi/faq/">Usein kysytyt kysymykset</a>
+          <a href="/fi/vs/">Vertaa vaihtoehtoja</a>
+          <a href="/fi/mcp/">Mac MCP-palvelin</a>
+          <a href="/fi/support/">Tuki</a>
+          <a href="/fi/privacy/" aria-current="page">Tietosuojakäytäntö</a>
+          <details class="mobile-lang">
+            <summary>Kieli · Suomi</summary>
+            <div class="mobile-lang-grid">
+              <a href="/privacy/">English</a>
+              <a href="/zh/privacy/">简体中文</a>
+              <a href="/de/privacy/">Deutsch</a>
+              <a href="/fr/privacy/">Français</a>
+              <a href="/es/privacy/">Español</a>
+              <a href="/it/privacy/">Italiano</a>
+              <a href="/pt-pt/privacy/">Português</a>
+              <a href="/nl/privacy/">Nederlands</a>
+              <a href="/sv/privacy/">Svenska</a>
+              <a href="/da/privacy/">Dansk</a>
+              <a href="/no/privacy/">Norsk</a>
+              <a href="/fi/privacy/" aria-current="true">Suomi</a>
+              <a href="/ru/privacy/">Русский</a>
+            </div>
+          </details>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Lataa App Storesta</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-compact">
+      <p class="eyebrow">Tietosuoja-arkkitehtuuri</p>
+      <h1>Tietosuojakäytäntö</h1>
+      <p class="lead">WorthTrail on rakennettu niin, että koko nettovarallisuutesi pysyy omilla laitteillasi ja henkilökohtaisessa iCloudissasi — ei koskaan kehittäjän palvelimella.</p>
+      <div class="policy-meta">
+        <span>Voimaantulopäivä: 27. marraskuuta 2026</span>
+        <span>Koskee WorthTrailia iPhonessa, iPadissa ja Macissa</span>
+      </div>
+      <div class="lang-pills" aria-label="Kieli">
+        <a href="/privacy/">English</a>
+        <a href="/zh/privacy/">简体中文</a>
+        <a href="/de/privacy/">Deutsch</a>
+        <a href="/fr/privacy/">Français</a>
+        <a href="/es/privacy/">Español</a>
+        <a href="/it/privacy/">Italiano</a>
+        <a href="/pt-pt/privacy/">Português</a>
+        <a href="/nl/privacy/">Nederlands</a>
+        <a href="/sv/privacy/">Svenska</a>
+        <a href="/da/privacy/">Dansk</a>
+        <a href="/no/privacy/">Norsk</a>
+        <a href="/fi/privacy/" aria-current="true">Suomi</a>
+        <a href="/ru/privacy/">Русский</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="kpi-strip">
+    <div class="kpi-inner">
+      <div class="kpi-item">
+        <div class="kpi-val">Ei pankkitunnuksia</div>
+        <div class="kpi-lbl">Ei Plaidia eikä pankkikirjautumista</div>
+      </div>
+      <div class="kpi-item">
+        <div class="kpi-val">Paikallinen ensin</div>
+        <div class="kpi-lbl">Vain SwiftData &amp; yksityinen iCloud</div>
+      </div>
+      <div class="kpi-item">
+        <div class="kpi-val">Ei seurantaa</div>
+        <div class="kpi-lbl">Ei mainoksia eikä analytiikka-SDK:ita</div>
+      </div>
+      <div class="kpi-item">
+        <div class="kpi-val">Sinun hallinnassasi</div>
+        <div class="kpi-lbl">Salatut varmuuskopiot &amp; helppo poisto</div>
+      </div>
+    </div>
+  </div>
+
+  <main class="container-narrow">
+    <section class="section-compact">
+      <h2>Tietovirta yhdellä silmäyksellä</h2>
+      <p>Missä kukin tietoluokka sijaitsee ja poistuuko se koskaan laitteeltasi.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Tietoluokka</th><th>Sijainti</th><th>Lähetetään kehittäjälle?</th><th>Lähetetään kolmansille?</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Salkku &amp; kirjanpito</strong><br>Omaisuuserät, määrät, hankintameno, velat, tapahtumat, tunnisteet, muistiinpanot, tilannekuvat</td><td>Laitteesi (SwiftData) &amp; valinnainen yksityinen iCloud (CloudKit)</td><td><strong>Ei koskaan</strong></td><td>Vain Apple iCloud jos otat synkronoinnin käyttöön</td></tr>
+            <tr><td><strong>Kurssit &amp; valuuttakurssit</strong><br>Hakusanat, symbolit, lähdetunnukset, valuuttakoodit</td><td>Tilapäinen verkkopyyntö</td><td><strong>Ei koskaan</strong></td><td>Vain käyttöön ottamillesi markkinatietolähteille</td></tr>
+            <tr><td><strong>Kuvakaappaustuonti (OCR)</strong><br>Valitsemasi välittäjän kuvakaappaukset</td><td>Käsitellään paikallisesti Apple Visionilla</td><td><strong>Ei koskaan</strong></td><td><strong>Ei koskaan</strong></td></tr>
+            <tr><td><strong>Widgetit &amp; sovelluslukko</strong><br>Näyttöyhteenveto, Face ID, pääsykoodi</td><td>Yksityinen App Group &amp; Avainnippu (vain suolattu tiiviste)</td><td><strong>Ei koskaan</strong></td><td><strong>Ei koskaan</strong></td></tr>
+            <tr><td><strong>Paikallinen Mac MCP -palvelin</strong><br>Paikallisten tekoälyasiakkaiden kyselyt (oletuksena pois)</td><td>Vain loopback <code>127.0.0.1</code> Macissasi</td><td><strong>Ei koskaan</strong></td><td>Vain itse yhdistämällesi tekoälyasiakkaalle</td></tr>
+            <tr><td><strong>Salattu diagnostiikka</strong><br><code>.wtdiag</code>-tiedosto (vain omasta viennistäsi)</td><td>Paikallisesti kunnes lähetät sen itse</td><td>Vain jos lähetät sen tukeen</td><td><strong>Ei koskaan</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="policy-section">
+      <div class="policy-num">01</div>
+      <h2>Laitteellesi tallennetut tiedot</h2>
+      <p>WorthTrail tallentaa omaisuuserät, määrät, hankintamenot, velat, omistusmuutokset, osingot, toistuvat suunnitelmat, tunnisteet, muistiinpanot, asetukset ja historiatilannekuvat paikallisesti laitteellesi Apple SwiftDatalla.</p>
+      <p>Kehittäjä ei ylläpidä taustapalvelinta, joka vastaanottaisi, tallentaisi tai tarkastelisi salkkuasi, eikä WorthTrail vaadi käyttäjätiliä.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">02</div>
+      <h2>Valinnainen yksityinen iCloud-synkronointi</h2>
+      <p>Jos otat iCloud-synkronoinnin käyttöön, tietosi synkronoidaan yksinomaan Apple-tiliisi liitetyn henkilökohtaisen yksityisen Apple CloudKit -tietokannan kautta.</p>
+      <p>Kehittäjällä ei ole pääsyä yksityiseen CloudKit-tietokantaasi. Synkronoituja tietoja suojaa Apple iCloudin tietoturva- ja tietosuoja-arkkitehtuuri.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">03</div>
+      <h2>Markkinatietojen ja valuuttakurssien tarjoajat</h2>
+      <p>Kun haet kohdetta tai päivität kursseja ja valuuttakursseja, WorthTrail lähettää vain tarvittavan hakutermin, symbolin, lähdetunnuksen ja valuutan niille palveluntarjoajille, jotka olet ottanut käyttöön kohdassa <strong>Asetukset &gt; Tietolähteet ja tila</strong>.</p>
+      <p>Nämä tarjoajat (esim. Yahoo Finance, Webull, Sina Finance, Binance, OKX, CoinGecko, CoinMarketCap, TWSE ja ExchangeRate-API) voivat saada IP-osoitteesi ja tavanomaiset verkkometatiedot omien tietosuojakäytäntöjensä mukaisesti. WorthTrail ei koskaan lähetä määriäsi, hankintamenoasi tai saldojasi.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">04</div>
+      <h2>Paikallinen OCR, widgetit, varmuuskopiot ja diagnostiikka</h2>
+      <p><strong>Kuvakaappausten massatuonti (OCR):</strong> valitsemasi kuvat tunnistetaan paikallisesti laitteellasi Applen Vision-kehyksellä eikä niitä ladata WorthTrailin palvelimille.</p>
+      <p><strong>Widgetit:</strong> lukevat vain näyttämiseen tarvittavan yhteenvedon yksityisestä App Group -säiliöstä. Tietosuojawidget ei sisällä rahasummia.</p>
+      <p><strong>Paikalliset varmuuskopiot &amp; diagnostiikka:</strong> salasanasuojatut varmuuskopiot salataan laitteella ennen vientiä. Valinnaiset <code>.wtdiag</code>-diagnostiikkatiedostot luodaan vain pyynnöstäsi ja salataan ennen sovelluksesta poistumista.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">05</div>
+      <h2>Paikallinen Mac MCP -palvelin</h2>
+      <p>WorthTrail Macille sisältää valinnaisen paikallisen Streamable HTTP MCP -palvelimen, joka sidotaan vain osoitteeseen <code>127.0.0.1</code> ja todennetaan macOS-avainnipun Bearer-tunnisteella. Se on oletuksena pois päältä, vain luku -tilassa ilman erillistä kirjoituslupaa ja vaatii esikatselun sekä vahvistuskoodin jokaiselle muutokselle.</p>
+      <p>Jos yhdistät paikallisen MCP-palvelimen tekoälyasiakkaaseen (kuten Claude Code, Claude Desktop tai Codex), asiakkaan noutamia tietoja käsitellään kyseisen asiakkaan ja mallintarjoajan oman tietosuojakäytännön mukaisesti.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">06</div>
+      <h2>Ei mainoksia, ei seurantaa, ostot ja sovelluslukko</h2>
+      <p>WorthTrail ei sisällä mainoksia, sovellusten välistä seurantaa eikä kolmannen osapuolen analytiikka-SDK:ita.</p>
+      <p>Sovelluksen sisäiset ostot ja tilaukset käsittelee yksinomaan Apple StoreKit. Face ID:tä ja Touch ID:tä hallinnoi iOS/macOS ilman pääsyä biometrisiin tietoihin. Pääsykoodilukko tallentaa laitteelle vain suolatun kryptografisen tiivisteen.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">07</div>
+      <h2>Tietojen poistaminen, päivitykset ja yhteydenotto</h2>
+      <p>Voit poistaa kaikki paikalliset tiedot poistamalla WorthTrailin laitteeltasi. Synkronoidut tiedot hallitaan tai poistetaan Applen iCloud-asetuksista, ja viedyt varmuuskopiot, Excel-, PDF- tai diagnostiikkatiedostot tallennuspaikastaan.</p>
+      <p>Tätä käytäntöä voidaan päivittää sovelluksen ominaisuuksien muuttuessa. Tietosuojakysymyksissä ota yhteyttä <a href="/fi/support/">Tukisivun</a> kautta tai sähköpostitse osoitteeseen <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+        <a href="/fi/">Yleiskatsaus</a>
+        <a href="/fi/faq/">UKK</a>
+        <a href="/fi/vs/">Vertailu</a>
+        <a href="/fi/mcp/">Mac MCP</a>
+        <a href="/fi/support/">Tuki</a>
+        <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>
+      </div>
+      <p class="disclaimer">WorthTrail on tarkoitettu vain henkilökohtaiseen varallisuuden seurantaan ja analyysiin eikä tarjoa sijoitusneuvontaa. Markkinatiedot voivat olla viivästyneitä, puutteellisia tai epätarkkoja. Tarkista tiedot aina omilta tileiltäsi ja virallisista tiliotteista.</p>
+    </div>
+  </footer>
+</body>
+</html>

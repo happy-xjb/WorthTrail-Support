@@ -8,13 +8,26 @@
   <link rel="canonical" href="https://worthtrail.app/faq/">
   <link rel="alternate" hreflang="en" href="https://worthtrail.app/faq/">
   <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/faq/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/faq/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/faq/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/faq/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/faq/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/faq/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/faq/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/faq/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/faq/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/faq/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/faq/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/faq/">
   <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/faq/">
   <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="stylesheet" href="/assets/style.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    "inLanguage": "en",
     "mainEntity": [
       {
         "@type": "Question",
@@ -34,34 +47,50 @@
       },
       {
         "@type": "Question",
-        "name": "How does WorthTrail pricing work? Is there a one-time lifetime purchase?",
+        "name": "How does pricing work? Is there a one-time purchase?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Every feature in WorthTrail is free for up to 10 items (assets, cash accounts, and liabilities combined). WorthTrail Pro unlocks unlimited assets only and is available as $0.99/month, $5.99/year, or a $12.99 one-time Lifetime purchase in the US (with Apple-equalized pricing across 175 storefronts)."
+          "text": "Yes. Every feature in WorthTrail is free for up to 10 items (assets, cash accounts, and liabilities combined). WorthTrail Pro unlocks unlimited assets only and is available as $0.99/month, $5.99/year, or a $12.99 one-time Lifetime purchase in the US."
         }
       },
       {
         "@type": "Question",
-        "name": "What asset types and currencies does WorthTrail support?",
+        "name": "What asset types and markets are supported?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "WorthTrail tracks stocks, ETFs, mutual funds, cryptocurrencies, options, fixed-term deposits (CDs/GICs/term deposits), bank wealth products, cash, custom assets such as property or gold, and liabilities such as mortgages and loans. Multi-currency holdings convert automatically into your base currency."
+          "text": "WorthTrail tracks stocks, ETFs, mutual funds, cryptocurrencies, options, fixed-term deposits (CDs, GICs, term deposits), bank wealth products, cash, custom assets such as property or gold, and liabilities such as mortgages and loans. Multi-currency holdings convert automatically into your base currency."
         }
       },
       {
         "@type": "Question",
-        "name": "Does WorthTrail track dividends, FIRE progress, and rebalancing?",
+        "name": "Which market data providers does WorthTrail use?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. WorthTrail includes a dividend calendar with tax-adjusted passive income, dividend growth and concentration views, a FIRE planner (target, passive income coverage, projected date, and plan-to-age sustainability), recurring investment (DCA) plans, stock split adjustments, and a target allocation rebalancing calculator."
+          "text": "You can enable, disable, and reorder data sources in Settings > Data Sources & Status, including Yahoo Finance, Webull, Binance, OKX, Sina Finance, TWSE, ExchangeRate-API, and supported bank wealth product feeds."
         }
       },
       {
         "@type": "Question",
-        "name": "How does the Mac MCP server work with AI agents?",
+        "name": "Does WorthTrail support dividends, FIRE, and rebalancing?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "WorthTrail on Mac includes an optional local Streamable HTTP MCP server at http://127.0.0.1:47821/mcp protected by a Keychain Bearer token. Compatible clients like Claude Code, Claude Desktop, and Codex can query net worth, holdings, performance, dividends, and FIRE metrics. Write tools are off by default and require a two-step preview and confirmation code."
+          "text": "Yes. WorthTrail includes a dividend calendar with ex-date booking and tax-adjusted passive income, dividend growth and concentration views, a FIRE planner, recurring investment plans, stock split adjustments, and a target allocation rebalancing calculator."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the Mac local MCP server work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On Mac, WorthTrail includes an optional local Streamable HTTP MCP server at http://127.0.0.1:47821/mcp secured with a Keychain Bearer token for Claude Code, Claude Desktop, and Codex. Write actions are disabled by default and require two-step preview confirmation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I export my data or back it up locally?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. You can export password-encrypted local backups and restore them anytime, as well as Excel (.xlsx) workbooks and PDF reports."
         }
       },
       {
@@ -69,7 +98,7 @@
         "name": "Which platforms are supported?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "WorthTrail is available for iPhone, iPad, and Mac via the Apple App Store. There is currently no Android or web app."
+          "text": "WorthTrail is available on iPhone, iPad, and Mac via the Apple App Store in 45+ languages. Android and web versions are not currently available."
         }
       }
     ]
@@ -90,7 +119,24 @@
         <a href="/mcp/">Mac MCP</a>
         <a href="/support/">Support</a>
         <a href="/privacy/">Privacy</a>
-        <a class="lang-switch" href="/zh/faq/">简体中文</a>
+        <details class="lang-menu">
+          <summary aria-label="Language">EN &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/faq/" aria-current="true"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/faq/"><span>简体中文</span><span class="lang-code">中文</span></a>
+            <a href="/de/faq/"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/faq/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/faq/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/faq/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/faq/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/faq/"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/faq/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/faq/"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/faq/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/faq/"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/faq/"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
         <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
       </nav>
       <details class="mobile-nav">
@@ -102,7 +148,24 @@
           <a href="/mcp/">Mac MCP Server</a>
           <a href="/support/">Support</a>
           <a href="/privacy/">Privacy Policy</a>
-          <a href="/zh/faq/">切换至简体中文</a>
+          <details class="mobile-lang">
+            <summary>Language · English</summary>
+            <div class="mobile-lang-grid">
+              <a href="/faq/" aria-current="true">English</a>
+              <a href="/zh/faq/">简体中文</a>
+              <a href="/de/faq/">Deutsch</a>
+              <a href="/fr/faq/">Français</a>
+              <a href="/es/faq/">Español</a>
+              <a href="/it/faq/">Italiano</a>
+              <a href="/pt-pt/faq/">Português</a>
+              <a href="/nl/faq/">Nederlands</a>
+              <a href="/sv/faq/">Svenska</a>
+              <a href="/da/faq/">Dansk</a>
+              <a href="/no/faq/">Norsk</a>
+              <a href="/fi/faq/">Suomi</a>
+              <a href="/ru/faq/">Русский</a>
+            </div>
+          </details>
           <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Download on the App Store</a>
         </div>
       </details>
@@ -169,14 +232,15 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-links">
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
         <a href="/">Overview</a>
         <a href="/vs/">Compare</a>
         <a href="/mcp/">Mac MCP</a>
         <a href="/privacy/">Privacy Policy</a>
         <a href="/support/">Support</a>
-        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+        <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>
       </div>
-      <p class="disclaimer">WorthTrail is for personal asset recording and analysis only and does not provide investment advice.</p>
+      <p class="disclaimer">WorthTrail is for personal asset recording and analysis only and does not provide investment advice. Market data may be delayed, incomplete, or inaccurate. Please refer to your actual accounts and official statements.</p>
     </div>
   </footer>
 </body>

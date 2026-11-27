@@ -1,0 +1,465 @@
+{
+  "nav": {
+    "brand_alt": "WorthTrail-kuvake",
+    "aria_label": "Päävalikko",
+    "overview": "Yleiskatsaus",
+    "faq": "UKK",
+    "faq_long": "Usein kysytyt kysymykset",
+    "compare": "Vertailu",
+    "compare_long": "Vertaa vaihtoehtoja",
+    "mcp": "Mac MCP",
+    "mcp_long": "Mac MCP-palvelin",
+    "support": "Tuki",
+    "privacy": "Tietosuoja",
+    "privacy_long": "Tietosuojakäytäntö",
+    "language_label": "Kieli",
+    "menu": "Valikko",
+    "download_cta": "Lataa App Storesta"
+  },
+  "footer": {
+    "disclaimer": "WorthTrail on tarkoitettu vain henkilökohtaiseen varallisuuden seurantaan ja analyysiin eikä tarjoa sijoitusneuvontaa. Markkinatiedot voivat olla viivästyneitä, puutteellisia tai epätarkkoja. Tarkista tiedot aina omilta tileiltäsi ja virallisista tiliotteista."
+  },
+  "home": {
+    "title": "WorthTrail — Yksityinen nettovarallisuuden ja salkun seuranta iOS:lle & Macille (ei pankkikirjautumista)",
+    "meta_description": "WorthTrail on yksityinen, paikallisesti toimiva nettovarallisuuden ja salkun seurantasovellus iPhonelle, iPadille ja Macille. Seuraa osakkeita, ETF:iä, rahastoja, kryptoja, määräaikaistalletuksia, kiinteistöjä ja velkoja useissa valuutoissa ilman pankkikirjautumista.",
+    "og_title": "WorthTrail — Yksityinen nettovarallisuuden ja salkun seuranta (ei pankkikirjautumista)",
+    "og_description": "Rauhallinen, yksityinen kirjanpito osakkeille, ETF:ille, rahastoille, kryptoille, määräaikaistalletuksille, kiinteistöille ja veloille iPhonessa, iPadissa ja Macissa. Ei pankkitunnuksia, yksityinen iCloud-synkronointi, kertaosto ja Mac MCP-palvelin.",
+    "offer_currency": "USD",
+    "offer_prices": ["0.99", "5.99", "12.99"],
+    "offers": [
+      "Ilmainen (Kaikki ominaisuudet, enintään 10 kohdetta)",
+      "WorthTrail Pro Kuukausi (Rajattomasti omaisuuseriä)",
+      "WorthTrail Pro Vuosi (Rajattomasti omaisuuseriä)",
+      "WorthTrail Pro Elinikäinen (Kertaosto, rajattomasti)"
+    ],
+    "hero_eyebrow": "Yksityinen varallisuuskirjanpito · iPhone · iPad · Mac",
+    "hero_h1": "Rauhallinen, yksityinen näkymä koko nettovarallisuuteesi.",
+    "hero_lead_html": "<strong>WorthTrail</strong> on paikallisesti toimiva nettovarallisuuden ja salkun seurantasovellus Applen laitteille. Seuraa globaaleja osakkeita, ETF:iä, rahastoja, kryptoja, optioita, määräaikaistalletuksia, kiinteistöjä ja velkoja useissa valuutoissa — tallennettuna vain laitteellesi ja yksityiseen iCloudiisi <strong>ilman pankkikirjautumista</strong>.",
+    "cta_primary": "Lataa App Storesta",
+    "cta_secondary": "Vertaa vaihtoehtoja",
+    "hero_trust": [
+      "Ei pankkikirjautumista / ei Plaidia",
+      "Kaikki ominaisuudet ilmaiseksi (enintään 10 kohdetta)",
+      "Kertaosto saatavilla ($12,99)"
+    ],
+    "hero_img_alt": "WorthTrail iOS -yleiskatsaus, jossa näkyy nettovarallisuus, omaisuuserät, velat ja päivän muutos",
+    "kpis": [
+      {"val": "Ei Plaidia", "lbl": "Ei koskaan pankki- tai välittäjätunnuksia", "nums": false},
+      {"val": "45+ kieltä", "lbl": "Automaattinen valuuttamuunnos", "nums": true},
+      {"val": "$12,99 kerran", "lbl": "Valinnainen elinikäinen kertaosto", "nums": true},
+      {"val": "Mac MCP", "lbl": "Sisäänrakennettu paikallinen tekoälyprotokolla", "nums": false}
+    ],
+    "screens_eyebrow": "WorthTrailin sisällä",
+    "screens_h2": "Suunniteltu selkeyteen jokaisessa omaisuusluokassa.",
+    "screens_lead": "Aitoja iOS-näkymiä WorthTrailista — rauhallinen typografia, selkeät luvut ja nolla mainosta.",
+    "screens": [
+      {
+        "alt": "WorthTrail P&L-kalenteri päivä-, kuukausi- ja vuosituotoilla",
+        "title": "Suorituskyky & P&L-kalenteri",
+        "desc": "Päivä-, viikko-, kuukausi- ja vuosituotot, hankintameno ja laskujaksot samalla aikajanalla."
+      },
+      {
+        "alt": "WorthTrail osinkokalenteri ja passiiviset tulot",
+        "title": "Osingot & Passiivinen tulo",
+        "desc": "Irtoamispäivät, veronjälkeiset osingot, keskittymä ja FIRE-kattavuus."
+      },
+      {
+        "alt": "WorthTrail omaisuuden jakauma ja tasapainotus",
+        "title": "Jakauma & Tasapainotus",
+        "desc": "Ryhmittele tilin, perheenjäsenen, toimialan tai alueen mukaan ja laske tavoitepainot."
+      },
+      {
+        "alt": "WorthTrail paikallinen Mac MCP-palvelin tekoälyagenteille",
+        "title": "Paikalliset tekoälyagentit (Mac MCP)",
+        "desc": "Kysy nettovarallisuudesta ja omistuksista Claudelta tai Codexilta kaksivaiheisella vahvistuksella."
+      }
+    ],
+    "pillars_eyebrow": "Selkeyden arkkitehtuuri",
+    "pillars_h2": "Tehty pitkäjänteiseen varallisuuteen, ei meluisiin kuluvirtoihin.",
+    "pillars_lead": "Jokainen omistus, valuutta, osinko ja velka yhdistyy yhdeksi selkeäksi ja täysin hallitsemaksesi kokonaisuudeksi.",
+    "pillars": [
+      {
+        "num": "01 / TIETOSUOJA",
+        "title": "Paikallinen ensin & Yksityinen iCloud",
+        "desc": "Tallennetaan laitteellesi Apple SwiftDatalla ja synkronoidaan vain yksityisen CloudKit-tietokantasi kautta. Ei kehittäjän palvelinta, ei pankkitunnuksia, ei mainoksia eikä analytiikka-SDK:ita."
+      },
+      {
+        "num": "02 / MONIOMAISUUS",
+        "title": "Globaalit markkinat & Määräaikaistalletukset",
+        "desc": "Seuraa osakkeita (USA, Pohjoismaat, Eurooppa, HK, CN, TW, globaalit), ETF:iä, rahastoja, kryptoja, optioita, määräaikaistalletuksia, käteistä, kiinteistöjä ja lainoja valittavilla tietolähteillä."
+      },
+      {
+        "num": "03 / SUUNNITTELU",
+        "title": "FIRE, Osingot & Tasapainotus",
+        "desc": "Arvioi FIRE-tavoitteesi ja varallisuuden riittävyys, seuraa veronjälkeisiä osinkoja ja korkoja, toistuvia suunnitelmia, osakkeiden splittauksia ja vie Excel- tai PDF-raportteja."
+      }
+    ],
+    "mcp_eyebrow": "Model Context Protocol · macOS",
+    "mcp_h2": "Sisäänrakennettu paikallinen MCP-palvelin Claudelle & Codexille.",
+    "mcp_lead_html": "WorthTrail Macille sisältää valinnaisen paikallisen <strong>Streamable HTTP MCP -palvelimen</strong> (<code>http://127.0.0.1:47821/mcp</code>), joka on suojattu macOS-avainnipun Bearer-tunnisteella. Kysy tekoälyavustajalta nettovarallisuudesta, omistuksista, tuotoista, osingoista ja FIRE-edistymisestä lataamatta salkkuasi kolmannen osapuolen pilveen.",
+    "mcp_callout_html": "<strong>Turvallinen oletuksena:</strong> pois päältä oletuksena, vain localhostissa, vain luku -tilassa ellet erikseen salli kirjoittamista, ja jokainen muutos vaatii esikatselun ja vahvistuskoodin.",
+    "mcp_link": "Lue Mac MCP -käyttöopas",
+    "mcp_img_alt": "WorthTrail Agenttien käyttöoikeus MCP -asetukset",
+    "pricing_eyebrow": "Selkeä hinnoittelu",
+    "pricing_h2": "Kaikki ominaisuudet ovat ilmaisia. Maksa vain yli 10 kohteesta.",
+    "pricing_lead": "iCloud-synkronointi, osingot, FIRE, tasapainotus, raportit, widgetit ja Mac MCP kuuluvat ilmaisversioon. WorthTrail Pro poistaa vain 10 kohteen rajan.",
+    "plans": [
+      {
+        "tag": "Ilmainen",
+        "price": "$0",
+        "unit": "",
+        "desc": "Enintään 10 kohdetta (omaisuuserät, käteistilit ja velat yhteensä). Kaikki ominaisuudet ilman kokeiluansoja."
+      },
+      {
+        "tag": "Pro-tilaus",
+        "price": "$5,99",
+        "unit": "/ vuosi",
+        "desc": "Rajattomasti omaisuuseriä ja velkoja. Saatavilla myös $0,99/kk (eurohinnat App Storessa)."
+      },
+      {
+        "tag": "Pro Elinikäinen",
+        "price": "$12,99",
+        "unit": "kertaosto",
+        "featured": true,
+        "desc": "Yksi maksu, rajattomasti kohteita pysyvästi. Apple mukauttaa alueelliset hinnat 175 kaupassa."
+      }
+    ],
+    "explore_h2": "Tutustu lisää",
+    "explore_items": [
+      {"page": "faq", "title": "Usein kysytyt kysymykset & tuotetiedot", "desc": "omaisuuslajit, tietolähteet, tietosuoja ja hinnoittelu."},
+      {"page": "vs", "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & taulukkolaskenta", "desc": "rehellinen vertailu rinnakkain."},
+      {"page": "mcp", "title": "Paikallisen Mac MCP -palvelimen opas", "desc": "yhdistä Claude Code, Claude Desktop tai Codex turvallisesti."},
+      {"page": "support", "title": "Tuki & vianmääritys", "desc": "yhteydenotto, salattu diagnostiikkatiedosto ja pikaohjeet."},
+      {"href": "/llms.txt", "title": "llms.txt", "desc": "tiivis rakenteinen yhteenveto tekoälytyökaluille ja hakukoneille."}
+    ]
+  },
+  "faq": {
+    "title": "WorthTrail UKK — Nettovarallisuuden seuranta ilman pankkikirjautumista",
+    "meta_description": "Vastauksia yleisiin kysymyksiin WorthTrailista: tietosuoja ilman pankkikirjautumista, useat valuutat, kertaosto, osingot, FIRE, tietolähteet ja Mac MCP.",
+    "eyebrow": "Faktat & vastaukset",
+    "h1": "Usein kysytyt kysymykset",
+    "lead": "Suorat vastaukset WorthTrailin tietosuojasta, omaisuuslajeista, hinnoittelusta ja paikallisesta Mac MCP -palvelimesta.",
+    "items": [
+      {
+        "q": "Vaatiiko WorthTrail pankki- tai välittäjätilin yhdistämistä?",
+        "a_plain": "Ei. WorthTrail ei koskaan kysy pankki- tai välittäjätunnuksia eikä käytä Plaidia tai tiliaggregaattoreita. Kirjaat omistukset itse, kun taas kurssit ja valuuttakurssit päivittyvät automaattisesti.",
+        "a_html": "<strong>Ei.</strong> WorthTrail on rakennettu tarkoituksella ilman pankkikirjautumista ja ilman Plaidia. Kirjaat omistukset, käteisen, määräaikaistalletukset ja velat itse, kun julkiset markkinakurssit ja valuuttakurssit päivittyvät automaattisesti."
+      },
+      {
+        "q": "Missä salkkutietoni säilytetään?",
+        "a_plain": "Kaikki tiedot tallennetaan paikallisesti laitteellesi Apple SwiftDatalla. Valinnainen synkronointi käyttää vain henkilökohtaista yksityistä Apple CloudKit -tietokantaasi. Kehittäjä ei ylläpidä palvelinta tiedoillesi.",
+        "a_html": "Tietosi tallennetaan paikallisesti laitteellesi Apple SwiftDatalla. Valinnainen laitteiden välinen synkronointi käyttää yksinomaan omaa yksityistä Apple iCloud -tietokantaasi (CloudKit). Kehittäjä ei ylläpidä palvelinta, joka keräisi salkkuasi, eikä sovelluksessa ole mainoksia tai analytiikka-SDK:ita."
+      },
+      {
+        "q": "Miten hinnoittelu toimii? Onko kertaosto mahdollinen?",
+        "a_plain": "Kyllä. Ilmaisversio sisältää kaikki ominaisuudet 10 kohteeseen asti. WorthTrail Pro poistaa vain tämän rajan: $0,99/kk, $5,99/vuosi tai $12,99 elinikäisenä kertaostona.",
+        "a_html": "<strong>Kyllä.</strong> Ilmaisversio sisältää <strong>kaikki ominaisuudet</strong> enintään <strong>10 kohteelle</strong> (omaisuuserät, käteinen ja velat yhteensä). WorthTrail Pro poistaa vain 10 kohteen rajan: US$0,99/kk, US$5,99/vuosi tai <strong>US$12,99 elinikäinen kertaosto</strong> (eurohinnat App Storessa)."
+      },
+      {
+        "q": "Mitä omaisuuslajeja ja markkinoita tuetaan?",
+        "a_plain": "Globaalit osakkeet, ETF:t, sijoitusrahastot, kryptovaluutat, optiot, määräaikaistalletukset, käteinen, mukautetut omaisuuserät kuten kiinteistöt tai kulta sekä velat kuten asuntolainat, automaattisella valuuttamuunnoksella.",
+        "a_html": "WorthTrail tukee globaaleja osakkeita (USA, Pohjoismaat, Eurooppa, HK, CN, TW ym.), ETF:iä, rahastoja, kryptovaluuttoja, optioita, määräaikaistalletuksia, käteistä, manuaalisesti arvostettavia omaisuuseriä (kiinteistöt, kulta, joukkovelkakirjat) sekä velkoja (asuntolainat, lainat). Kaikki valuutat muunnetaan päävaluuttaasi."
+      },
+      {
+        "q": "Mitä markkinatietolähteitä WorthTrail käyttää?",
+        "a_plain": "Voit ottaa lähteitä käyttöön, poistaa niitä käytöstä ja järjestää niitä kohdassa Asetukset > Tietolähteet ja tila: Yahoo Finance, Webull, Binance, OKX, Sina Finance, TWSE ja ExchangeRate-API.",
+        "a_html": "Voit hallita ja järjestää lähteitä kohdassa <strong>Asetukset &gt; Tietolähteet ja tila</strong>, mukaan lukien Yahoo Finance, Webull, Binance, OKX, Sina Finance, TWSE ja ExchangeRate-API. Käytössä oleville lähteille lähetetään vain tarvittavat tunnukset ja valuutat."
+      },
+      {
+        "q": "Tukeeko WorthTrail osinkoja, FIRE-suunnittelua ja tasapainotusta?",
+        "a_plain": "Kyllä. Sisältää osinkokalenterin irtoamispäivillä ja veronjälkeisellä tuotolla, FIRE-laskurin, toistuvat suunnitelmat, osakkeiden splittaukset ja tasapainotuslaskurin.",
+        "a_html": "<strong>Kyllä.</strong> WorthTrail sisältää osinkokalenterin irtoamispäivillä ja veronjälkeisellä passiivisella tulolla, osinkokasvun ja keskittymän analyysin, mukautettavan FIRE-näkymän, toistuvat suunnitelmat, osakkeiden splittaukset ja tasapainotuslaskurin."
+      },
+      {
+        "q": "Miten paikallinen Mac MCP -palvelin toimii?",
+        "a_plain": "Macissa WorthTrail sisältää valinnaisen paikallisen Streamable HTTP MCP -palvelimen osoitteessa http://127.0.0.1:47821/mcp avainnipun Bearer-tunnisteella Claude Codelle, Claude Desktopille ja Codexille. Kirjoitus on oletuksena pois päältä ja vaatii kaksivaiheisen vahvistuksen.",
+        "a_html": "Macissa WorthTrail sisältää valinnaisen paikallisen Streamable HTTP MCP -palvelimen (<code>http://127.0.0.1:47821/mcp</code>) macOS-avainnipun Bearer-tunnisteella. Yhdistä Claude Code, Claude Desktop tai Codex kysyäksesi nettovarallisuudesta, omistuksista, tuotoista, osingoista ja FIRE-tavoitteesta. Kirjoittaminen on pois päältä oletuksena ja vaatii aina esikatselun ja vahvistuskoodin. Katso <a href=\"__MCP_URL__\">Mac MCP -opas</a>."
+      },
+      {
+        "q": "Voinko viedä tietoni tai tehdä paikallisia varmuuskopioita?",
+        "a_plain": "Kyllä. Voit viedä salasanalla salattuja paikallisia varmuuskopioita sekä Excel-tiedostoja (.xlsx) ja PDF-raportteja.",
+        "a_html": "<strong>Kyllä.</strong> Voit viedä salasanalla salattuja paikallisia varmuuskopioita (ja palauttaa ne milloin tahansa) sekä Excel-työkirjoja (<code>.xlsx</code>) ja PDF-raportteja."
+      },
+      {
+        "q": "Mitkä alustat ovat tuettuja?",
+        "a_plain": "WorthTrail on saatavilla iPhonelle, iPadille ja Macille Apple App Storesta yli 45 kielellä. Android- tai verkkoversiota ei tällä hetkellä ole.",
+        "a_html": "WorthTrail on saatavilla iPhonelle, iPadille ja Macille <a href=\"__APP_STORE_URL__\" rel=\"noopener\">Apple App Storesta</a> yli 45 kielellä. Android- tai verkkoversiota ei ole tällä hetkellä saatavilla."
+      }
+    ]
+  },
+  "vs": {
+    "title": "WorthTrail vs Monarch Money, Copilot Money, Kubera & taulukkolaskenta",
+    "meta_description": "Puolueeton vertailu WorthTrailin, Monarch Moneyn, Copilot Moneyn, Kuberan ja taulukkolaskennan välillä – pankkikirjautuminen, tietosuoja, useat valuutat, hinnoittelu ja Mac MCP.",
+    "eyebrow": "Rehellinen vertailu",
+    "h1": "WorthTrail verrattuna suosittuihin varallisuussovelluksiin",
+    "lead_html": "Eri työkalut ratkaisevat eri tarpeita. Alla on suora vertailu <strong>WorthTrailin</strong> sekä <strong>Monarch Moneyn</strong>, <strong>Copilot Moneyn</strong>, <strong>Kuberan</strong> ja <strong>taulukkolaskennan</strong> välillä — myös siitä, milloin jokin muu vaihtoehto sopii paremmin.",
+    "table_h2": "Vertailu rinnakkain",
+    "table_headers": ["Ominaisuus", "WorthTrail", "Monarch Money", "Copilot Money", "Kubera", "Taulukkolaskenta"],
+    "table_rows": [
+      ["Pankkikirjautuminen / Plaid", "<strong>Ei (ilman pankkitunnuksia)</strong>", "Ydinominaisuus (Plaid / MX / Finicity)", "Ydinominaisuus (Plaid / aggregaattorit)", "Ydinominaisuus (useita aggregaattoreita)", "Manuaalinen (ilman skriptejä)"],
+      ["Tietojen tallennus", "<strong>Paikallinen SwiftData + valinnainen yksityinen iCloud</strong>", "Palveluntarjoajan pilvi", "Palveluntarjoajan pilvi", "Palveluntarjoajan pilvi", "Paikallinen tai pilvitallennus"],
+      ["Useat valuutat & markkinat", "<strong>Natiivi monivaluutta; globaalit osakkeet, ETF:t, krypto, talletukset</strong>", "Lähinnä USA / Kanada", "Lähinnä USA", "Vahva globaali &amp; monivaluutta", "Manuaalinen / omat kaavat"],
+      ["Budjetointi & pankkimenot", "Ei budjettisovellus", "<strong>Vahva</strong>", "<strong>Vahva</strong>", "Ei budjettisovellus", "Manuaalinen"],
+      ["Osingot, FIRE & tasapainotus", "<strong>Sisäänrakennettu</strong>", "Perustavoitteet", "Perussijoitukset", "Painopiste varallisuus &amp; IRR", "Omat kaavat"],
+      ["Paikallinen tekoäly / MCP", "<strong>Sisäänrakennettu Mac MCP -palvelin</strong>", "Ei paikallista MCP:tä", "Ei paikallista MCP:tä", "Ei paikallista MCP:tä", "Vaatii oman virityksen"],
+      ["Hinnoittelu", "<strong>Ilmainen (10 kohdetta, kaikki); $0,99/kk, $5,99/v tai $12,99 kertaosto</strong>", "Vain tilaus (~$99,99/v)", "Vain tilaus (~$95/v)", "Vain tilaus (~$199+/v)", "Ilmainen / toimisto-ohjelma"],
+      ["Alustat", "iPhone, iPad, Mac", "Verkko, iOS, Android", "iOS, Mac, Verkko", "Verkko, iOS, Android", "Monialustainen"]
+    ],
+    "table_note": "Huom: Kolmansien osapuolten hinnat ja ominaisuudet ovat suuntaa-antavia ja voivat muuttua; tarkista ajantasaiset tiedot kunkin tarjoajan sivuilta.",
+    "sections": [
+      {
+        "id": "monarch",
+        "h2": "WorthTrail vs Monarch Money",
+        "bullets_html": [
+          "<strong>Valitse Monarch Money</strong>, jos asut Yhdysvalloissa tai Kanadassa ja haluat automaattisen pankkitapahtumien synkronoinnin, kotitalousbudjetin sekä verkko-/Android-tuen.",
+          "<strong>Valitse WorthTrail</strong>, jos et halua jakaa pankkitunnuksia, sijoitat useissa valuutoissa tai Euroopan/maailman markkinoilla, arvostat yksityistä iCloudia ja haluat $12,99 kertaoston."
+        ]
+      },
+      {
+        "id": "copilot",
+        "h2": "WorthTrail vs Copilot Money",
+        "bullets_html": [
+          "<strong>Valitse Copilot Money</strong>, jos etsit Apple-sovellusta päivittäiseen budjetointiin automaattisilla yhdysvaltalaisilla pankkiyhteyksillä.",
+          "<strong>Valitse WorthTrail</strong>, jos keskityt <strong>nettovarallisuuteen, suorituskykyyn, osinkoihin, määräaikaistalletuksiin, tasapainotukseen ja FIRE-suunnitteluun</strong> ilman pankkikirjautumista, useilla valuutoilla ja Mac MCP -palvelimella."
+        ]
+      },
+      {
+        "id": "kubera",
+        "h2": "WorthTrail vs Kubera",
+        "bullets_html": [
+          "<strong>Valitse Kubera</strong>, jos haluat verkkopohjaisen globaalin palvelun automaattisella pankkiaggregoinnilla ja perintöominaisuuksilla ja hyväksyt korkean vuositilauksen.",
+          "<strong>Valitse WorthTrail</strong>, jos suosit natiivia iPhone/iPad/Mac-sovellusta, jonka salkkutiedot eivät koskaan kulje ulkopuolisen palvelimen kautta, automaattisilla kursseilla, P&amp;L-kalenterilla, osingoilla, FIRE:llä ja murto-osalla hinnasta."
+        ]
+      },
+      {
+        "id": "spreadsheets",
+        "h2": "WorthTrail vs Taulukkolaskenta (Excel / Google Sheets)",
+        "bullets_html": [
+          "<strong>Valitse taulukkolaskenta</strong>, jos tarvitset täysin räätälöityjä laskentamalleja Windowsissa, Linuxissa tai selaimessa.",
+          "<strong>Valitse WorthTrail</strong>, jos olet kyllästynyt hajoaviin kurssikaavoihin, käsin päivitettäviin valuuttakursseihin ja manuaalisiin historiakuviin — säilyttäen silti siistin Excel-viennin (<code>.xlsx</code>)."
+        ]
+      }
+    ],
+    "cta_h2": "Valmis kokeilemaan WorthTrailia?",
+    "cta_lead": "Aloita ilmaiseksi kaikilla ominaisuuksilla 10 kohteeseen asti — ilman tiliä ja ilman pankkikirjautumista.",
+    "cta_primary": "Lataa App Storesta",
+    "cta_secondary": "Lue UKK"
+  },
+  "mcp": {
+    "title": "WorthTrail Mac MCP -palvelin — Yhdistä Claude & tekoälyagentit paikalliseen salkkuusi",
+    "meta_description": "WorthTrail Macille sisältää paikallisen Streamable HTTP MCP -palvelimen Claude Codelle, Claude Desktopille ja Codexille. Kysy nettovarallisuudesta, omistuksista, tuotoista, osingoista ja FIRE:stä paikallisesti.",
+    "ld_headline": "WorthTrail Mac paikallinen MCP-palvelin tekoälyagenteille",
+    "eyebrow": "Model Context Protocol · macOS · Vain localhost",
+    "h1": "Kysy tekoälyltä nettovarallisuudestasi — lataamatta sitä pilveen.",
+    "lead_html": "<strong>WorthTrail Macille</strong> sisältää sisäänrakennetun paikallisen <strong>MCP (Model Context Protocol)</strong> -palvelimen Streamable HTTP:n yli. Yhdistä <strong>Claude Code</strong>, <strong>Claude Desktop</strong>, <strong>Codex</strong> tai muu yhteensopiva asiakas kysyäksesi salkustasi ja kirjataksesi muutoksia vasta hyväksyttyäsi esikatselun.",
+    "cta_primary": "Hanki WorthTrail Macille",
+    "cta_secondary": "Lue UKK",
+    "img_alt": "WorthTrail Agenttien käyttöoikeus MCP -asetusnäkymä",
+    "specs_h2": "Yhteystiedot ja tekniset tiedot",
+    "specs_col_prop": "Ominaisuus",
+    "specs_col_val": "Arvo",
+    "spec_rows": [
+      ["Siirtotapa", "Streamable HTTP (vain paikallinen loopback)"],
+      ["Oletusosoite", "<code>http://127.0.0.1:47821/mcp</code> (portti muutettavissa Asetuksissa, 1024–65535)"],
+      ["Todennus", "<code>Authorization: Bearer &lt;token&gt;</code> (tallennettu macOS-avainnippuun; nollattavissa milloin tahansa)"],
+      ["Saatavuus", "Käynnissä vain kun WorthTrail on auki Macissa ja Agenttien käyttöoikeus on päällä"],
+      ["Hinnoittelu", "Sisältyy ilmaisversioon (ei maksumuuria MCP:lle; 10 kohteen raja koskee uusien kohteiden lisäämistä)"]
+    ],
+    "connect_h2": "Näin yhdistät",
+    "connect_intro_html": "Avaa <strong>WorthTrail Macissa &rarr; Asetukset &rarr; Agenttien käyttöoikeus</strong>, kytke paikallinen käyttöoikeus päälle ja kopioi asennuskehotteesi tai Bearer-tunnisteesi.",
+    "tools_h2": "Mitä tekoälyagentit voivat kysyä ja tehdä",
+    "read_h3": "Lukutyökalut (käytössä kun Agenttien käyttöoikeus on päällä)",
+    "read_items_html": [
+      "Nykyinen nettovarallisuus, kokonaisvarat, velat, hankintameno ja päivämuutos (<code>get_net_worth</code>)",
+      "Avoimet positiot luokittain tai valuutoittain: osakkeet, ETF:t, krypto, optiot, talletukset ja manuaaliset kohteet (<code>list_positions</code>, <code>list_liabilities</code>)",
+      "Historiatilannekuvat ja päiväkohtaiset omistuserittelyt (<code>get_snapshots</code>, <code>get_snapshot_detail</code>)",
+      "Ajanjakson suorituskyky, rahapainotetut tuottokäyrät ja päivätuotot kohteittain (<code>get_performance</code>, <code>get_daily_earnings</code>)",
+      "Osingot, toistuvat suunnitelmat, tapahtumahistoria ja FIRE-ennusteet"
+    ],
+    "write_h3": "Kirjoitustyökalut (erillinen kytkin)",
+    "write_items_html": [
+      "Pois päältä oletuksena — lukuoikeus ei koskaan avaa kirjoitusoikeutta automaattisesti.",
+      "<strong>Kaksivaiheinen vahvistus:</strong> ensimmäinen kutsu palauttaa luettavan esikatselun ja lyhytaikaisen vahvistuskoodin. Muutos tallentuu vasta hyväksyntäsi ja toisen kutsun jälkeen.",
+      "Tukee kauppoja, omistuskorjauksia, omaisuuseriä, velkoja, suunnitelmia ja kumoamista — sisäänrakennetulla muutoslokilla."
+    ],
+    "examples_h2": "Esimerkkikysymyksiä",
+    "example_questions": [
+      "”Mikä on nykyinen nettovarallisuuteni euroissa ja paljonko salkkuni on muuttunut tässä kuussa?”",
+      "”Mitkä omistukset ovat vaikuttaneet eniten tulokseeni viimeisen 90 päivän aikana?”",
+      "”Kuinka paljon vuotuisia osinkoja ja talletuskorkoja arviolta saan, ja kuinka suuren osan FIRE-menoistani ne kattavat?”",
+      "”Näytä esikatselu 10 AAPL-osakkeen lisäämisestä hintaan $225 tänään ja odota vahvistustani ennen tallentamista.”"
+    ],
+    "security_h2": "Tietoturvamalli",
+    "security_items_html": [
+      "<strong>Vain localhost:</strong> kuuntelee ainoastaan osoitetta <code>127.0.0.1</code> — ei näy lähiverkkoon tai internetiin.",
+      "<strong>Noudattaa sovelluslukkoa:</strong> kaikki pyynnöt estetään, kun WorthTrail on lukittuna.",
+      "<strong>Suoja prompt-injektiolta:</strong> työkalujen ohjeet käskevät agentteja käsittelemään nimiä, symboleja, tunnisteita ja muistiinpanoja pelkkänä datana, ei koskaan käskyinä.",
+      "<strong>Välitön katkaisu:</strong> kytke asetus pois, vaihda portti tai nollaa avainnipun tunniste katkaistaksesi kaikki yhteydet heti."
+    ]
+  },
+  "support": {
+    "title": "WorthTrail Tuki — Ohjeet, vianmääritys & yhteydenotto",
+    "meta_description": "Saa apua WorthTrailin käyttöön, ilmoita ongelmasta, pyydä puuttuvaa kohdetta tai tietolähdettä, vie salattu diagnostiikkatiedosto tai lähetä sähköpostia osoitteeseen support@worthtrail.app.",
+    "eyebrow": "Ohjeet & yhteydenotto",
+    "h1": "Miten voimme auttaa?",
+    "lead_html": "Vianmäärityksessä, virheraporteissa, puuttuvissa kohteissa tai tietosuojakysymyksissä lähetä sähköpostia osoitteeseen <a href=\"mailto:support@worthtrail.app\">support@worthtrail.app</a> tai valitse aihe alta.",
+    "default_subject": "WorthTrail Feedback",
+    "cta_email": "Lähetä sähköpostia support@worthtrail.app",
+    "cta_faq": "Lue UKK",
+    "contact_h2": "Valitse aihe",
+    "contact_lead": "Aiheen valinta täyttää sähköpostin otsikon automaattisesti, jotta voimme vastata nopeammin.",
+    "topics": [
+      {
+        "tag": "Virheraportti",
+        "title": "Ilmoita ongelmasta",
+        "desc": "Odottamattomat luvut, synkronointiviiveet, näyttövirheet tai kaatumiset. Kerro sovellusversio, iOS/macOS-versio ja toistovaiheet.",
+        "action": "Lähetä virheraportti",
+        "subject": "[Problem] WorthTrail"
+      },
+      {
+        "tag": "Markkinakattavuus",
+        "title": "Puuttuva kohde tai tietolähde",
+        "desc": "Eikö osaketta, ETF:ää tai rahastoa löydy? Kerro tunnus, pörssi/ISIN ja valuutta.",
+        "action": "Pyydä kohdetta",
+        "subject": "[Missing Asset / Data Source] WorthTrail"
+      },
+      {
+        "tag": "Tuote",
+        "title": "Ominaisuustoive",
+        "desc": "Ideoita osinkoihin, FIRE-laskuriin, tasapainotukseen, raportteihin tai Mac MCP:hen? Kerro käyttötavastasi.",
+        "action": "Lähetä ehdotus",
+        "subject": "[Feature Request] WorthTrail"
+      },
+      {
+        "tag": "Tietosuoja & Pro",
+        "title": "Apua tietosuojaan tai Pro-ostokseen",
+        "desc": "Kysymyksiä iCloud-tallennuksesta, paikallisista varmuuskopioista tai Pro-tilauksen / elinikäisen ostoksen palauttamisesta.",
+        "action": "Ota yhteyttä tukeen",
+        "subject": "[Support] WorthTrail"
+      }
+    ],
+    "diagnostics_h2": "Sovelluksen sisäinen tuki & salattu diagnostiikkatiedosto",
+    "diagnostics_p1_html": "Avaa WorthTrailissa <strong>Asetukset &gt; Yhteydenotto ja tuki</strong> lähettääksesi sähköpostia suoraan tai viedäksesi <strong>Salatun diagnostiikkatiedoston</strong> (<code>.wtdiag</code>) hankalien tietolähde- tai laskentaongelmien selvittämiseksi.",
+    "privacy_callout_html": "<strong>Tietosuojamuistutus:</strong> älä lähetä tilinumeroita, salasanoja, API-avaimia tai arkaluontoisia tiliotteita tavallisessa sähköpostissa. Jaa diagnostiikkatiedosto vain tarvittaessa aktiivisen ongelman selvittämiseen.",
+    "help_h2": "Nopea vianmääritys",
+    "help_lead": "Useimmat yleiset kysymykset ratkeavat suoraan Asetuksissa.",
+    "help_groups": [
+      {
+        "title": "Markkinatiedot, kurssit & mukautetut kohteet",
+        "items_html": [
+          "Tarkista yhteys kohdasta <strong>Asetukset &gt; Tietolähteet ja tila</strong>. Testi kutsuu samaa rajapintaa kuin reaaliaikainen päivitys.",
+          "Tietyt lähteet (kuten Yahoo Finance) voivat olla rajoitettuja joissakin verkoissa; voit järjestää tai vaihtaa lähteitä milloin tahansa.",
+          "Kiinteistöjä, kultaa tai listaamattomia sijoituksia varten lisää <strong>Mukautettu omaisuuserä</strong> ja päivitä arvo tarvittaessa."
+        ]
+      },
+      {
+        "title": "Omistukset, hankintameno, splittaukset & massatuonti",
+        "items_html": [
+          "Kirjaa ostot, myynnit tai korjaukset kurssin ja päivämäärän kanssa, jotta historiamäärät ja hankintameno pysyvät tarkkoina.",
+          "Käytä <strong>massatuontia</strong> CSV-tiedostoista tai välittäjän kuvakaappauksista (OCR suoritetaan kokonaan laitteella).",
+          "Käytä <strong>Osakkeiden splittaus</strong> -toimintoa säätääksesi historialliset määrät ja hankintahinnat siististi splitin jälkeen.",
+          "Historiatilannekuvat rakentavat nettovarallisuuskäyrän ja P&amp;L-kalenterin ja sisältyvät iCloudiin sekä paikallisiin varmuuskopioihin."
+        ]
+      },
+      {
+        "title": "iCloud-synkronointi, salatut varmuuskopiot & Pro-palautus",
+        "items_html": [
+          "Valinnainen synkronointi käyttää yksityistä Apple CloudKit -tietokantaasi — varmista, että kaikilla laitteilla on sama Apple-tili.",
+          "Vie ja palauta salasanalla salattuja paikallisia varmuuskopioita milloin tahansa <strong>Asetuksista</strong>.",
+          "Palauta WorthTrail Pro uudelle laitteelle avaamalla <strong>Pro</strong>-näkymä Asetuksissa ja napauttamalla <strong>Palauta ostot</strong>.",
+          "WorthTrailissa ei ole käyttäjätiliä: sovelluksen poisto poistaa paikalliset tiedot, ja iCloud-tietoja hallitaan Applen iCloud-asetuksissa."
+        ]
+      },
+      {
+        "title": "Tietosuojalukko, widgetit & Mac MCP",
+        "items_html": [
+          "Napauta silmäkuvaketta <strong>Nettovarallisuus</strong>-otsikon vieressä piilottaaksesi rahasummat näytöltä.",
+          "Lisää WorthTrail iOS-widgetgalleriasta; tietosuojawidget näyttää vain prosenttimuutoksen ja trendiviivan.",
+          "Mac MCP -ongelmissa tarkista, että WorthTrail on auki ja lukitsematon Macissa, <strong>Asetukset &gt; Agenttien käyttöoikeus</strong> on päällä ja asiakas käyttää osoitetta <code>http://127.0.0.1:47821/mcp</code> ajantasaisella Bearer-tunnisteella."
+        ]
+      }
+    ],
+    "more_h2": "Hyödyllisiä resursseja",
+    "more_faq": "Usein kysytyt kysymykset & tuotetiedot",
+    "more_mcp": "Paikallisen Mac MCP -palvelimen opas",
+    "more_privacy": "Tietosuojakäytäntö"
+  },
+  "privacy": {
+    "title": "WorthTrail Tietosuojakäytäntö — Paikallinen ensin, ei pankkikirjautumista",
+    "meta_description": "WorthTrailin tietosuojakäytäntö: paikallinen SwiftData-tallennus, valinnainen yksityinen iCloud-synkronointi, paikallinen OCR, paikallinen Mac MCP, ei pankkikirjautumista, ei mainoksia eikä analytiikkaa.",
+    "eyebrow": "Tietosuoja-arkkitehtuuri",
+    "h1": "Tietosuojakäytäntö",
+    "lead": "WorthTrail on rakennettu niin, että koko nettovarallisuutesi pysyy omilla laitteillasi ja henkilökohtaisessa iCloudissasi — ei koskaan kehittäjän palvelimella.",
+    "effective_date": "Voimaantulopäivä: 27. marraskuuta 2026",
+    "applies_to": "Koskee WorthTrailia iPhonessa, iPadissa ja Macissa",
+    "glance": [
+      {"val": "Ei pankkitunnuksia", "lbl": "Ei Plaidia eikä pankkikirjautumista"},
+      {"val": "Paikallinen ensin", "lbl": "Vain SwiftData & yksityinen iCloud"},
+      {"val": "Ei seurantaa", "lbl": "Ei mainoksia eikä analytiikka-SDK:ita"},
+      {"val": "Sinun hallinnassasi", "lbl": "Salatut varmuuskopiot & helppo poisto"}
+    ],
+    "flow_h2": "Tietovirta yhdellä silmäyksellä",
+    "flow_lead": "Missä kukin tietoluokka sijaitsee ja poistuuko se koskaan laitteeltasi.",
+    "flow_headers": ["Tietoluokka", "Sijainti", "Lähetetään kehittäjälle?", "Lähetetään kolmansille?"],
+    "flow_rows": [
+      ["<strong>Salkku &amp; kirjanpito</strong><br>Omaisuuserät, määrät, hankintameno, velat, tapahtumat, tunnisteet, muistiinpanot, tilannekuvat", "Laitteesi (SwiftData) &amp; valinnainen yksityinen iCloud (CloudKit)", "<strong>Ei koskaan</strong>", "Vain Apple iCloud jos otat synkronoinnin käyttöön"],
+      ["<strong>Kurssit &amp; valuuttakurssit</strong><br>Hakusanat, symbolit, lähdetunnukset, valuuttakoodit", "Tilapäinen verkkopyyntö", "<strong>Ei koskaan</strong>", "Vain käyttöön ottamillesi markkinatietolähteille"],
+      ["<strong>Kuvakaappaustuonti (OCR)</strong><br>Valitsemasi välittäjän kuvakaappaukset", "Käsitellään paikallisesti Apple Visionilla", "<strong>Ei koskaan</strong>", "<strong>Ei koskaan</strong>"],
+      ["<strong>Widgetit &amp; sovelluslukko</strong><br>Näyttöyhteenveto, Face ID, pääsykoodi", "Yksityinen App Group &amp; Avainnippu (vain suolattu tiiviste)", "<strong>Ei koskaan</strong>", "<strong>Ei koskaan</strong>"],
+      ["<strong>Paikallinen Mac MCP -palvelin</strong><br>Paikallisten tekoälyasiakkaiden kyselyt (oletuksena pois)", "Vain loopback <code>127.0.0.1</code> Macissasi", "<strong>Ei koskaan</strong>", "Vain itse yhdistämällesi tekoälyasiakkaalle"],
+      ["<strong>Salattu diagnostiikka</strong><br><code>.wtdiag</code>-tiedosto (vain omasta viennistäsi)", "Paikallisesti kunnes lähetät sen itse", "Vain jos lähetät sen tukeen", "<strong>Ei koskaan</strong>"]
+    ],
+    "sections": [
+      {
+        "title": "Laitteellesi tallennetut tiedot",
+        "paragraphs_html": [
+          "WorthTrail tallentaa omaisuuserät, määrät, hankintamenot, velat, omistusmuutokset, osingot, toistuvat suunnitelmat, tunnisteet, muistiinpanot, asetukset ja historiatilannekuvat paikallisesti laitteellesi Apple SwiftDatalla.",
+          "Kehittäjä ei ylläpidä taustapalvelinta, joka vastaanottaisi, tallentaisi tai tarkastelisi salkkuasi, eikä WorthTrail vaadi käyttäjätiliä."
+        ]
+      },
+      {
+        "title": "Valinnainen yksityinen iCloud-synkronointi",
+        "paragraphs_html": [
+          "Jos otat iCloud-synkronoinnin käyttöön, tietosi synkronoidaan yksinomaan Apple-tiliisi liitetyn henkilökohtaisen yksityisen Apple CloudKit -tietokannan kautta.",
+          "Kehittäjällä ei ole pääsyä yksityiseen CloudKit-tietokantaasi. Synkronoituja tietoja suojaa Apple iCloudin tietoturva- ja tietosuoja-arkkitehtuuri."
+        ]
+      },
+      {
+        "title": "Markkinatietojen ja valuuttakurssien tarjoajat",
+        "paragraphs_html": [
+          "Kun haet kohdetta tai päivität kursseja ja valuuttakursseja, WorthTrail lähettää vain tarvittavan hakutermin, symbolin, lähdetunnuksen ja valuutan niille palveluntarjoajille, jotka olet ottanut käyttöön kohdassa <strong>Asetukset &gt; Tietolähteet ja tila</strong>.",
+          "Nämä tarjoajat (esim. Yahoo Finance, Webull, Sina Finance, Binance, OKX, CoinGecko, CoinMarketCap, TWSE ja ExchangeRate-API) voivat saada IP-osoitteesi ja tavanomaiset verkkometatiedot omien tietosuojakäytäntöjensä mukaisesti. WorthTrail ei koskaan lähetä määriäsi, hankintamenoasi tai saldojasi."
+        ]
+      },
+      {
+        "title": "Paikallinen OCR, widgetit, varmuuskopiot ja diagnostiikka",
+        "paragraphs_html": [
+          "<strong>Kuvakaappausten massatuonti (OCR):</strong> valitsemasi kuvat tunnistetaan paikallisesti laitteellasi Applen Vision-kehyksellä eikä niitä ladata WorthTrailin palvelimille.",
+          "<strong>Widgetit:</strong> lukevat vain näyttämiseen tarvittavan yhteenvedon yksityisestä App Group -säiliöstä. Tietosuojawidget ei sisällä rahasummia.",
+          "<strong>Paikalliset varmuuskopiot &amp; diagnostiikka:</strong> salasanasuojatut varmuuskopiot salataan laitteella ennen vientiä. Valinnaiset <code>.wtdiag</code>-diagnostiikkatiedostot luodaan vain pyynnöstäsi ja salataan ennen sovelluksesta poistumista."
+        ]
+      },
+      {
+        "title": "Paikallinen Mac MCP -palvelin",
+        "paragraphs_html": [
+          "WorthTrail Macille sisältää valinnaisen paikallisen Streamable HTTP MCP -palvelimen, joka sidotaan vain osoitteeseen <code>127.0.0.1</code> ja todennetaan macOS-avainnipun Bearer-tunnisteella. Se on oletuksena pois päältä, vain luku -tilassa ilman erillistä kirjoituslupaa ja vaatii esikatselun sekä vahvistuskoodin jokaiselle muutokselle.",
+          "Jos yhdistät paikallisen MCP-palvelimen tekoälyasiakkaaseen (kuten Claude Code, Claude Desktop tai Codex), asiakkaan noutamia tietoja käsitellään kyseisen asiakkaan ja mallintarjoajan oman tietosuojakäytännön mukaisesti."
+        ]
+      },
+      {
+        "title": "Ei mainoksia, ei seurantaa, ostot ja sovelluslukko",
+        "paragraphs_html": [
+          "WorthTrail ei sisällä mainoksia, sovellusten välistä seurantaa eikä kolmannen osapuolen analytiikka-SDK:ita.",
+          "Sovelluksen sisäiset ostot ja tilaukset käsittelee yksinomaan Apple StoreKit. Face ID:tä ja Touch ID:tä hallinnoi iOS/macOS ilman pääsyä biometrisiin tietoihin. Pääsykoodilukko tallentaa laitteelle vain suolatun kryptografisen tiivisteen."
+        ]
+      },
+      {
+        "title": "Tietojen poistaminen, päivitykset ja yhteydenotto",
+        "paragraphs_html": [
+          "Voit poistaa kaikki paikalliset tiedot poistamalla WorthTrailin laitteeltasi. Synkronoidut tiedot hallitaan tai poistetaan Applen iCloud-asetuksista, ja viedyt varmuuskopiot, Excel-, PDF- tai diagnostiikkatiedostot tallennuspaikastaan.",
+          "Tätä käytäntöä voidaan päivittää sovelluksen ominaisuuksien muuttuessa. Tietosuojakysymyksissä ota yhteyttä <a href=\"__SUPPORT_URL__\">Tukisivun</a> kautta tai sähköpostitse osoitteeseen <a href=\"mailto:support@worthtrail.app\">support@worthtrail.app</a>."
+        ]
+      }
+    ]
+  }
+}

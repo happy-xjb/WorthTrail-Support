@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorthTrail Privatlivspolitik — Lokal-først, uden banklogin</title>
+  <meta name="description" content="WorthTrail privatlivspolitik: lokal SwiftData-lagring, valgfri privat iCloud-synk, lokal OCR, lokal Mac MCP, intet banklogin, ingen reklamer og ingen analyse-SDK&#x27;er.">
+  <link rel="canonical" href="https://worthtrail.app/da/privacy/">
+  <link rel="alternate" hreflang="en" href="https://worthtrail.app/privacy/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://worthtrail.app/zh/privacy/">
+  <link rel="alternate" hreflang="de" href="https://worthtrail.app/de/privacy/">
+  <link rel="alternate" hreflang="fr" href="https://worthtrail.app/fr/privacy/">
+  <link rel="alternate" hreflang="es" href="https://worthtrail.app/es/privacy/">
+  <link rel="alternate" hreflang="it" href="https://worthtrail.app/it/privacy/">
+  <link rel="alternate" hreflang="pt-PT" href="https://worthtrail.app/pt-pt/privacy/">
+  <link rel="alternate" hreflang="nl" href="https://worthtrail.app/nl/privacy/">
+  <link rel="alternate" hreflang="sv" href="https://worthtrail.app/sv/privacy/">
+  <link rel="alternate" hreflang="da" href="https://worthtrail.app/da/privacy/">
+  <link rel="alternate" hreflang="no" href="https://worthtrail.app/no/privacy/">
+  <link rel="alternate" hreflang="fi" href="https://worthtrail.app/fi/privacy/">
+  <link rel="alternate" hreflang="ru" href="https://worthtrail.app/ru/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://worthtrail.app/privacy/">
+  <link rel="icon" type="image/png" href="/assets/icon-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="/da/">
+        <img src="/assets/icon-192.png" alt="WorthTrail-ikon" width="28" height="28">
+        <span>WorthTrail</span>
+      </a>
+      <nav class="nav-links" aria-label="Hovednavigation">
+        <a href="/da/">Overblik</a>
+        <a href="/da/faq/">FAQ</a>
+        <a href="/da/vs/">Sammenlign</a>
+        <a href="/da/mcp/">Mac MCP</a>
+        <a href="/da/support/">Support</a>
+        <a href="/da/privacy/" aria-current="page">Privatliv</a>
+        <details class="lang-menu">
+          <summary aria-label="Sprog">DA &#9662;</summary>
+          <div class="lang-menu-panel">
+            <a href="/privacy/"><span>English</span><span class="lang-code">EN</span></a>
+            <a href="/zh/privacy/"><span>简体中文</span><span class="lang-code">中文</span></a>
+            <a href="/de/privacy/"><span>Deutsch</span><span class="lang-code">DE</span></a>
+            <a href="/fr/privacy/"><span>Français</span><span class="lang-code">FR</span></a>
+            <a href="/es/privacy/"><span>Español</span><span class="lang-code">ES</span></a>
+            <a href="/it/privacy/"><span>Italiano</span><span class="lang-code">IT</span></a>
+            <a href="/pt-pt/privacy/"><span>Português</span><span class="lang-code">PT</span></a>
+            <a href="/nl/privacy/"><span>Nederlands</span><span class="lang-code">NL</span></a>
+            <a href="/sv/privacy/"><span>Svenska</span><span class="lang-code">SV</span></a>
+            <a href="/da/privacy/" aria-current="true"><span>Dansk</span><span class="lang-code">DA</span></a>
+            <a href="/no/privacy/"><span>Norsk</span><span class="lang-code">NO</span></a>
+            <a href="/fi/privacy/"><span>Suomi</span><span class="lang-code">FI</span></a>
+            <a href="/ru/privacy/"><span>Русский</span><span class="lang-code">RU</span></a>
+          </div>
+        </details>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+      </nav>
+      <details class="mobile-nav">
+        <summary>Menu</summary>
+        <div class="mobile-menu-panel">
+          <a href="/da/">Overblik</a>
+          <a href="/da/faq/">Ofte stillede spørgsmål</a>
+          <a href="/da/vs/">Sammenlign alternativer</a>
+          <a href="/da/mcp/">Mac MCP-server</a>
+          <a href="/da/support/">Support</a>
+          <a href="/da/privacy/" aria-current="page">Privatlivspolitik</a>
+          <details class="mobile-lang">
+            <summary>Sprog · Dansk</summary>
+            <div class="mobile-lang-grid">
+              <a href="/privacy/">English</a>
+              <a href="/zh/privacy/">简体中文</a>
+              <a href="/de/privacy/">Deutsch</a>
+              <a href="/fr/privacy/">Français</a>
+              <a href="/es/privacy/">Español</a>
+              <a href="/it/privacy/">Italiano</a>
+              <a href="/pt-pt/privacy/">Português</a>
+              <a href="/nl/privacy/">Nederlands</a>
+              <a href="/sv/privacy/">Svenska</a>
+              <a href="/da/privacy/" aria-current="true">Dansk</a>
+              <a href="/no/privacy/">Norsk</a>
+              <a href="/fi/privacy/">Suomi</a>
+              <a href="/ru/privacy/">Русский</a>
+            </div>
+          </details>
+          <a class="btn btn-primary" href="https://apps.apple.com/app/id6777620163" rel="noopener">Hent i App Store</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-compact">
+      <p class="eyebrow">Privatlivsarkitektur</p>
+      <h1>Privatlivspolitik</h1>
+      <p class="lead">WorthTrail er bygget så hele din formue bliver på dine enheder og i din personlige iCloud — aldrig på en udviklerserver.</p>
+      <div class="policy-meta">
+        <span>Ikrafttrædelsesdato: 27. november 2026</span>
+        <span>Gælder for WorthTrail til iPhone, iPad og Mac</span>
+      </div>
+      <div class="lang-pills" aria-label="Sprog">
+        <a href="/privacy/">English</a>
+        <a href="/zh/privacy/">简体中文</a>
+        <a href="/de/privacy/">Deutsch</a>
+        <a href="/fr/privacy/">Français</a>
+        <a href="/es/privacy/">Español</a>
+        <a href="/it/privacy/">Italiano</a>
+        <a href="/pt-pt/privacy/">Português</a>
+        <a href="/nl/privacy/">Nederlands</a>
+        <a href="/sv/privacy/">Svenska</a>
+        <a href="/da/privacy/" aria-current="true">Dansk</a>
+        <a href="/no/privacy/">Norsk</a>
+        <a href="/fi/privacy/">Suomi</a>
+        <a href="/ru/privacy/">Русский</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="kpi-strip">
+    <div class="kpi-inner">
+      <div class="kpi-item">
+        <div class="kpi-val">Intet banklogin</div>
+        <div class="kpi-lbl">Intet Plaid eller bankoplysninger</div>
+      </div>
+      <div class="kpi-item">
+        <div class="kpi-val">Lokal-først</div>
+        <div class="kpi-lbl">Kun SwiftData &amp; privat iCloud</div>
+      </div>
+      <div class="kpi-item">
+        <div class="kpi-val">Ingen sporing</div>
+        <div class="kpi-lbl">Ingen reklamer eller analyse-SDK&#x27;er</div>
+      </div>
+      <div class="kpi-item">
+        <div class="kpi-val">Din kontrol</div>
+        <div class="kpi-lbl">Krypterede kopier &amp; nem sletning</div>
+      </div>
+    </div>
+  </div>
+
+  <main class="container-narrow">
+    <section class="section-compact">
+      <h2>Dataflow i overblik</h2>
+      <p>Hvor hver datakategori ligger, og om den nogensinde forlader din enhed.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Datakategori</th><th>Hvor den bor</th><th>Sendes til udvikler?</th><th>Sendes til tredjepart?</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Portefølje &amp; bogføring</strong><br>Aktiver, antal, kostpris, forpligtelser, handler, tags, noter, snapshots</td><td>Din enhed (SwiftData) &amp; valgfri privat iCloud (CloudKit)</td><td><strong>Aldrig</strong></td><td>Kun Apple iCloud hvis du slår synk til</td></tr>
+            <tr><td><strong>Kurser &amp; valutakurser</strong><br>Søgeord, symboler, kilde-ID, valutakoder</td><td>Midlertidig netværksforespørgsel</td><td><strong>Aldrig</strong></td><td>Kun til de markedsdatakilder du aktiverer</td></tr>
+            <tr><td><strong>Skærmbilledeimport (OCR)</strong><br>Mæglerskærmbilleder du vælger at scanne</td><td>Behandles lokalt via Apple Vision</td><td><strong>Aldrig</strong></td><td><strong>Aldrig</strong></td></tr>
+            <tr><td><strong>Widgets &amp; applås</strong><br>Visningsoversigt, Face ID, adgangskode</td><td>Privat App Group &amp; Nøglering (kun saltet hash)</td><td><strong>Aldrig</strong></td><td><strong>Aldrig</strong></td></tr>
+            <tr><td><strong>Lokal Mac MCP-server</strong><br>Forespørgsler fra lokale AI-klienter (slået fra som standard)</td><td>Kun loopback <code>127.0.0.1</code> på din Mac</td><td><strong>Aldrig</strong></td><td>Kun til den AI-klient du selv forbinder</td></tr>
+            <tr><td><strong>Krypteret diagnostik</strong><br><code>.wtdiag</code>-fil (kun ved egen eksport)</td><td>Gemt lokalt indtil du selv mailer den</td><td>Kun hvis du sender den til support</td><td><strong>Aldrig</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="policy-section">
+      <div class="policy-num">01</div>
+      <h2>Data gemt på din enhed</h2>
+      <p>WorthTrail gemmer aktiver, antal, kostpris, forpligtelser, beholdningsjusteringer, udbytte, gentagne planer, tags, noter, indstillinger og historiske snapshots lokalt på din enhed via Apple SwiftData.</p>
+      <p>Udvikleren driver ingen backend-server, der modtager, lagrer eller tilgår din portefølje, og WorthTrail kræver ingen brugerkonto.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">02</div>
+      <h2>Valgfri privat iCloud-synkronisering</h2>
+      <p>Hvis du aktiverer iCloud-synkronisering, synkroniseres dine data udelukkende gennem din personlige private Apple CloudKit-database tilknyttet din Apple-konto.</p>
+      <p>Udvikleren har ingen adgang til din private CloudKit-database. Synkroniserede data er underlagt Apples sikkerheds- og privatlivsarkitektur for iCloud.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">03</div>
+      <h2>Udbydere af markedsdata og valutakurser</h2>
+      <p>Når du søger efter et aktiv eller opdaterer kurser og valutakurser, sender WorthTrail kun det nødvendige søgeord, symbol, kilde-ID og den ønskede valuta til de udbydere, du har aktiveret under <strong>Indstillinger &gt; Datakilder &amp; Status</strong>.</p>
+      <p>Disse udbydere (f.eks. Yahoo Finance, Webull, Sina Finance, Binance, OKX, CoinGecko, CoinMarketCap, TWSE og ExchangeRate-API) kan modtage din IP-adresse og almindelige netværksmetadata i henhold til deres egne privatlivspolitikker. WorthTrail sender aldrig dine antal, kostpriser eller saldi.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">04</div>
+      <h2>Lokal OCR, widgets, sikkerhedskopier og diagnostik</h2>
+      <p><strong>Skærmbilledeimport (OCR):</strong> valgte billeder aflæses lokalt på enheden med Apple Vision og uploades aldrig til WorthTrails servere.</p>
+      <p><strong>Widgets:</strong> læser kun den nødvendige oversigt via den private App Group-container. Privatlivswidgetten udelader alle beløb.</p>
+      <p><strong>Lokale sikkerhedskopier &amp; diagnostik:</strong> adgangskodebeskyttede sikkerhedskopier krypteres lokalt før eksport. Valgfrie <code>.wtdiag</code>-filer genereres kun på din anmodning og krypteres, før de forlader appen.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">05</div>
+      <h2>Lokal Mac MCP-server</h2>
+      <p>WorthTrail til Mac inkluderer en valgfri lokal Streamable HTTP MCP-server bundet udelukkende til <code>127.0.0.1</code> og godkendt med Bearer-token i macOS Nøglering. Den er slået fra som standard, skrivebeskyttet medmindre du separat aktiverer skrivning, og kræver forhåndsvisning og bekræftelseskode for hver ændring.</p>
+      <p>Hvis du forbinder den lokale MCP-server til en AI-klient (f.eks. Claude Code, Claude Desktop eller Codex), behandles de data, du beder klienten hente, efter den pågældende klients og modeludbyders egen privatlivspolitik.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">06</div>
+      <h2>Ingen reklamer, ingen sporing, køb og applås</h2>
+      <p>WorthTrail indeholder ingen reklamer, ingen sporing på tværs af apps og ingen tredjeparts analyse-SDK'er.</p>
+      <p>Køb i appen og abonnementer håndteres udelukkende af Apple StoreKit. Face ID og Touch ID håndteres af iOS/macOS uden adgang til biometriske data. Adgangskodelåsen gemmer kun et saltet kryptografisk hash.</p>
+    </section>
+    <section class="policy-section">
+      <div class="policy-num">07</div>
+      <h2>Sletning af data, opdateringer og kontakt</h2>
+      <p>Du fjerner alle lokale data ved at slette WorthTrail fra din enhed. Synkroniserede data administreres eller slettes i Apples iCloud-indstillinger, og eksporterede sikkerhedskopier, Excel-, PDF- eller diagnostikfiler slettes der, hvor du gemte dem.</p>
+      <p>Denne politik kan blive opdateret, når appens funktioner ændres. Ved spørgsmål om privatliv kan du bruge <a href="/da/support/">Supportsiden</a> eller skrive til <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://apps.apple.com/app/id6777620163" rel="noopener">App Store</a>
+        <a href="/da/">Overblik</a>
+        <a href="/da/faq/">FAQ</a>
+        <a href="/da/vs/">Sammenlign</a>
+        <a href="/da/mcp/">Mac MCP</a>
+        <a href="/da/support/">Support</a>
+        <a href="mailto:support@worthtrail.app">support@worthtrail.app</a>
+      </div>
+      <p class="disclaimer">WorthTrail er udelukkende beregnet til personlig formueoversigt og analyse og udgør ikke investeringsrådgivning. Markedsdata kan være forsinkede, ufuldstændige eller unøjagtige. Henvis altid til dine faktiske konti og officielle opgørelser.</p>
+    </div>
+  </footer>
+</body>
+</html>
